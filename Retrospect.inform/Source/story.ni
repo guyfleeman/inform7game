@@ -70,7 +70,7 @@ Child's Bedroom 		is south of 	Upstairs.
 	[Front Yard]
 	The forest is in the Front Yard.
 		The forest is scenery.
-		The description is "The pine forest stands tall and strong with age. [if we have not examined the forest]The trees sway lightly in the breeze, as if they're friends.".
+		The description is "The pine forest stands tall and strong with age. [if we have not examined the forest]The trees sway lightly in the breeze, as if they're friends.[end if]".
 	
 	The house is in the Front Yard.
 		The house is scenery.
@@ -227,6 +227,10 @@ Child's Bedroom 		is south of 	Upstairs.
 		The description is "The nozzle's plastic is sunbaked and brittle. It is unclear if it has been used recently.".
 		The nozzle can be switched on or switched off.
 		The nozzle is switched off.
+		Instead of switching on the nozzle:
+			Say "The hose controls the nozzle.".
+		Instead of switching off the nozzle:
+			Say "The hose controls the nozzle.".
 		
 			
 	The garden hose is a thing.
