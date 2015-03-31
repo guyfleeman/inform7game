@@ -50,7 +50,7 @@ Turning Off is an action applying to one thing.
 [DEF ROOMS]
 Front Yard 			is a room.
 Living Room 			is a room.
-Garage 				is a room.
+Garage is a room.
 Kitchen 				is a room.
 Back Yard				is a room.
 Upstairs 				is a room.
