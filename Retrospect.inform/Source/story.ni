@@ -20,7 +20,7 @@
 									 compiler if they are followed by a blank line or line with only white space (WTF this took me 20mins to fix)
 ]
 
-"Retrospect" by "GroopFore"
+"Retrospect" by "GroopOfFore"
 
 [INCLUDES]
 Include Basic Help Menu by Emily Short.
@@ -45,7 +45,6 @@ Turning On is an action applying to one thing.
 	
 Turning Off is an action applying to one thing.
 	Understand "turning off [thing]" as switching off.
-	
 
 [DEF ROOMS]
 Front Yard 			is a room.
@@ -62,6 +61,7 @@ Living Room 			is north of 	Front Yard.
 Garage 				is east of		Living Room.
 Kitchen 				is north of 	Living Room.
 Upstairs				is above 		Kitchen.
+Upstairs is west of Kitchen.
 Back Yard 				is north of 	Kitchen.
 Master Bedroom 		is east of 		Upstairs.
 Child's Bedroom 		is south of 	Upstairs.
@@ -96,13 +96,13 @@ Child's Bedroom 		is south of 	Upstairs.
 		The lawn is scenery.
 		The description is "The lawn is freshly mown and free of debris and weeds.".
 	
-	The mail box is in the Front Yard.
-		The mail box is scenery.
-		The description is "The mail box is empty. The house number 606 is on the side.".
-	
 	The apple tree is in the Front Yard.
 		The apple tree is scenery.
 		The description is "The tree looks to be a few years old. It bears fruit, but it's not ripe enough to eat.".
+		
+	The police officer is in the Front Yard.
+		The police officer is scenery.
+		The description is "Just your everyday typical police officer."
 	
 	[Living Room]
 	
@@ -248,10 +248,19 @@ Child's Bedroom 		is south of 	Upstairs.
 			Instead of switching off the garden hose:
 				Now the nozzle is switched off;
 				Say "The nozzle is now turned off.".
-						
+				
+	The mail box is a container.		
+		The mail box is in the Front Yard.
+		Understand "mailbox" as mail box.
+		The description is "The house number 606 is on its side.[if the mail box is open] The mail box is empty.[end if]".
+		The mail box is openable.
+		The mail box is closed.
+		
 	[Living Room]
 									
 	[Garage]
+	The car is a thing.
+		The car is in the Garage.
 											
 	[Kitchen]
 													
@@ -266,8 +275,7 @@ Child's Bedroom 		is south of 	Upstairs.
 
 																							
 									
-
-
+	[Understand the command "ls" as "examine surroundings".]
 
 
 
