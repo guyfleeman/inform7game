@@ -263,7 +263,12 @@ Child's Bedroom is south of Upstairs.
 		Instead of switching off the nozzle:
 			Say "The hose controls the nozzle.".
 		
+<<<<<<< HEAD
 	The garden hose is a thing.
+=======
+			
+	The garden hose is a container.
+>>>>>>> ea7afceaf0fe937f4f14be58a3d1f7f72a9db39b
 		The garden hose is in the Front Yard.
 		The description is "The garden hose has a nozzle attached to it for watering plants.".
 		The garden hose is enterable.
