@@ -1,26 +1,26 @@
 [ code style when relevant and possible...
 	start with commented definitions
-		proceed with commented location definitions
-			proceed with commented initializations
+	proceed with commented location definitions
+	proceed with commented initializations
 				
-					do no capitalize names unless they are the first word in a statement
+	do no capitalize names unless they are the first word in a statement
 ]
 
 [helpful links
 	-Action Syntax Guide: 		http://inform7.com/learn/documents/I7_syntax.txt
-		-Implied Object Structure: http://www.ifwiki.org/index.php/Inform_7_for_Programmers/Part_1
+	-Implied Object Structure: http://www.ifwiki.org/index.php/Inform_7_for_Programmers/Part_1
 ]
 
 [tips
 	-Watch plurality when defining objects, check the room description. It seems to be fairly stupid.
 			-Fix by stating 'The indefinite article is "".'
-				-Only the last statement in conditional blocks has punctuation of *any* kind.
+	-Only the last statement in conditional blocks has punctuation of *any* kind.
 					-Bug?
-							-In rules (functions or SR's) Statements ending in a ';' prior to a conditional block generate errors in the 
-									 compiler if they are followed by a blank line or line with only white space (WTF this took me 20mins to fix)
+	-In rules (functions or SR's) Statements ending in a ';' prior to a conditional block generate errors in the 
+			compiler if they are followed by a blank line or line with only white space (WTF this took me 20mins to fix)
 ]
 
-"Retrospect" by "GroopFore"
+"Retrospect" by "GroopOfFore"
 
 [INCLUDES]
 Include Basic Help Menu by Emily Short.
@@ -46,25 +46,46 @@ Turning On is an action applying to one thing.
 Turning Off is an action applying to one thing.
 	Understand "turning off [thing]" as switching off.
 	
+[DEF GLOBAL VARS]
+The Maximum Score is 20. [2x num of clues (whatever the becomes)]
+The Score is 0.
+
+[
+_Flashback is a number that varies.
+_Flashback is 0.
+
+_Staging is a number that varies.
+_Staging is 0. 
+]
+
+[DEF SCENES]
+Investigation is a scene.
+	Investigation begins when the player is in the Front Yard for the first time.
+	
+Murder is a scene.
+	Murder begins when Investigation ends.
+	
+Staging is a scene.
+	Staging begins when Murder ends.
 
 [DEF ROOMS]
-Front Yard 			is a room.
-Living Room 			is a room.
-Garage 				is a room.
-Kitchen 				is a room.
-Back Yard				is a room.
-Upstairs 				is a room.
-Master Bedroom 		is a room.
-Child's Bedroom 		is a room.
+Front Yard is a room.
+Living Room  is a room.
+Garage is a room.
+Kitchen is a room.
+Back Yard is a room.
+Upstairs is a room.
+Master Bedroom is a room.
+Child's Bedroom is a room.
 
 [DEF ROOM LOCATIONS]
-Living Room 			is north of 	Front Yard.
-Garage 				is east of		Living Room.
-Kitchen 				is north of 	Living Room.
-Upstairs				is above 		Kitchen.
-Back Yard 				is north of 	Kitchen.
-Master Bedroom 		is east of 		Upstairs.
-Child's Bedroom 		is south of 	Upstairs.
+Living Room is north of Front Yard.
+Garage is east of Living Room.
+Kitchen is north of Living Room.
+Upstairs is above Kitchen.
+Back Yard is north of	Kitchen.
+Master Bedroom is east of Upstairs.
+Child's Bedroom is south of Upstairs.
 
 [INIT SCENERY]
 	[Front Yard]
@@ -78,7 +99,7 @@ Child's Bedroom 		is south of 	Upstairs.
 	
 	The driveway is in the Front Yard.
 		The driveway is scenery.
-		The description is "The driveway looks new but there are dandelions growing between the section cracks. You've always hated dandelions.[if we have not examined the driveway] *ah Ah ACHOO* You wipe your nose on a napkin and and put it back in your back pocket.[end if]".
+		The description is "The driveway looks new but there are dandelions growing between the section cracks. You've always hated dandelions.[if we have not examined the driveway] *ah Ah ACHOO* You wipe your nose on a napkin and put it back in your back pocket.[end if]".
 		
 	The porch is in the Front Yard.
 		The porch is scenery.
@@ -90,7 +111,7 @@ Child's Bedroom 		is south of 	Upstairs.
 	
 	The front door is in the Front Yard.
 		The front door is scenery.
-		The description is "The front door is black, void of windows, and made of oak. It is unlocked.".
+		The description is "The front door is black, devoid of windows, and made of oak. It is unlocked.".
 		
 	The lawn is in the Front Yard.
 		The lawn is scenery.
@@ -232,7 +253,6 @@ Child's Bedroom 		is south of 	Upstairs.
 		Instead of switching off the nozzle:
 			Say "The hose controls the nozzle.".
 		
-			
 	The garden hose is a thing.
 		The garden hose is in the Front Yard.
 		The description is "The garden hose has a nozzle attached to it for watering plants.".
@@ -258,6 +278,7 @@ Child's Bedroom 		is south of 	Upstairs.
 	[Back Yard]
 															
 	[Upstairs]
+	
 																	
 	[Master Bedroom]
 																			

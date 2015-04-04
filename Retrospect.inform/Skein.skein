@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0xf8c7b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0xf8e720" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x7fad84125aa0"/>
-  <item nodeId="node-0xf8c7b0">
+  <activeNode nodeId="node-0xf8e720"/>
+  <item nodeId="node-0xf8e720">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 Retrospect
-An Interactive Fiction by GroopFore
-Release 1 / Serial number 150330 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+An Interactive Fiction by GroopOfFore
+Release 1 / Serial number 150403 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Front Yard
 You can see some bushes and a garden hose here.
@@ -17,35 +17,36 @@ You can see some bushes and a garden hose here.
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xf8c930"/>
-      <child nodeId="node-0x178e5e0"/>
-      <child nodeId="node-0x17ecd80"/>
-      <child nodeId="node-0x17ecf00"/>
-      <child nodeId="node-0x1818c40"/>
-      <child nodeId="node-0x1818dc0"/>
-      <child nodeId="node-0x1818f40"/>
-      <child nodeId="node-0x183ebe0"/>
-      <child nodeId="node-0x1864180"/>
-      <child nodeId="node-0x1864480"/>
-      <child nodeId="node-0x1864780"/>
-      <child nodeId="node-0x18802a0"/>
-      <child nodeId="node-0x18805a0"/>
-      <child nodeId="node-0x18a8160"/>
-      <child nodeId="node-0x18a8d60"/>
-      <child nodeId="node-0x18c3170"/>
-      <child nodeId="node-0x18c35f0"/>
-      <child nodeId="node-0x18c3bf0"/>
-      <child nodeId="node-0x18c3ef0"/>
-      <child nodeId="node-0x18ea490"/>
-      <child nodeId="node-0x18ea910"/>
-      <child nodeId="node-0x1937460"/>
+      <child nodeId="node-0xf8e8a0"/>
+      <child nodeId="node-0x1976140"/>
+      <child nodeId="node-0x19e98b0"/>
+      <child nodeId="node-0x19e9a30"/>
+      <child nodeId="node-0x1a46890"/>
+      <child nodeId="node-0x1a46a10"/>
+      <child nodeId="node-0x1a46b90"/>
+      <child nodeId="node-0x1a6e8e0"/>
+      <child nodeId="node-0x1a6ed60"/>
+      <child nodeId="node-0x1a891a0"/>
+      <child nodeId="node-0x1a894a0"/>
+      <child nodeId="node-0x1a89f20"/>
+      <child nodeId="node-0x1ab0280"/>
+      <child nodeId="node-0x1ab0d00"/>
+      <child nodeId="node-0x1acba20"/>
+      <child nodeId="node-0x1acbd20"/>
+      <child nodeId="node-0x1af32e0"/>
+      <child nodeId="node-0x1af38e0"/>
+      <child nodeId="node-0x1af3be0"/>
+      <child nodeId="node-0x1b0d170"/>
+      <child nodeId="node-0x1b0d5f0"/>
+      <child nodeId="node-0x1b53180"/>
+      <child nodeId="node-0x1babc40"/>
     </children>
   </item>
-  <item nodeId="node-0xf8c930">
+  <item nodeId="node-0xf8e8a0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see some bushes and a garden hose here.
@@ -53,17 +54,18 @@ You can see some bushes and a garden hose here.
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xf8cab0"/>
-      <child nodeId="node-0x1705ef0"/>
-      <child nodeId="node-0x1721290"/>
-      <child nodeId="node-0x1721590"/>
+      <child nodeId="node-0xf8ea20"/>
+      <child nodeId="node-0x17b9ef0"/>
+      <child nodeId="node-0x17d5320"/>
+      <child nodeId="node-0x17d5620"/>
+      <child nodeId="node-0x18425b0"/>
     </children>
   </item>
-  <item nodeId="node-0xf8cab0">
+  <item nodeId="node-0xf8ea20">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Living Room
@@ -75,10 +77,10 @@ Living Room
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xf8cc30"/>
+      <child nodeId="node-0xf8eba0"/>
     </children>
   </item>
-  <item nodeId="node-0xf8cc30">
+  <item nodeId="node-0xf8eba0">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">
 Garage
@@ -90,10 +92,10 @@ Garage
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xf8cdb0"/>
+      <child nodeId="node-0xf8ed20"/>
     </children>
   </item>
-  <item nodeId="node-0xf8cdb0">
+  <item nodeId="node-0xf8ed20">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Living Room
@@ -105,10 +107,10 @@ Living Room
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xf8cf30"/>
+      <child nodeId="node-0xf8eea0"/>
     </children>
   </item>
-  <item nodeId="node-0xf8cf30">
+  <item nodeId="node-0xf8eea0">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Kitchen
@@ -120,10 +122,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1705170"/>
+      <child nodeId="node-0x17b9170"/>
     </children>
   </item>
-  <item nodeId="node-0x1705170">
+  <item nodeId="node-0x17b9170">
     <command xml:space="preserve">go upstairs</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -134,10 +136,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17052f0"/>
+      <child nodeId="node-0x17b92f0"/>
     </children>
   </item>
-  <item nodeId="node-0x17052f0">
+  <item nodeId="node-0x17b92f0">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -148,10 +150,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1705470"/>
+      <child nodeId="node-0x17b9470"/>
     </children>
   </item>
-  <item nodeId="node-0x1705470">
+  <item nodeId="node-0x17b9470">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">
 Upstairs
@@ -163,10 +165,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17055f0"/>
+      <child nodeId="node-0x17b95f0"/>
     </children>
   </item>
-  <item nodeId="node-0x17055f0">
+  <item nodeId="node-0x17b95f0">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">
 Master Bedroom
@@ -178,10 +180,10 @@ Master Bedroom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1705770"/>
+      <child nodeId="node-0x17b9770"/>
     </children>
   </item>
-  <item nodeId="node-0x1705770">
+  <item nodeId="node-0x17b9770">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Upstairs
@@ -193,10 +195,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17058f0"/>
+      <child nodeId="node-0x17b98f0"/>
     </children>
   </item>
-  <item nodeId="node-0x17058f0">
+  <item nodeId="node-0x17b98f0">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Bedrrom
@@ -208,10 +210,10 @@ Bedrrom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1705a70"/>
+      <child nodeId="node-0x17b9a70"/>
     </children>
   </item>
-  <item nodeId="node-0x1705a70">
+  <item nodeId="node-0x17b9a70">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Upstairs
@@ -223,10 +225,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1705bf0"/>
+      <child nodeId="node-0x17b9bf0"/>
     </children>
   </item>
-  <item nodeId="node-0x1705bf0">
+  <item nodeId="node-0x17b9bf0">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">
 Master Bedroom
@@ -238,10 +240,10 @@ Master Bedroom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1705d70"/>
+      <child nodeId="node-0x17b9d70"/>
     </children>
   </item>
-  <item nodeId="node-0x1705d70">
+  <item nodeId="node-0x17b9d70">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Upstairs
@@ -253,7 +255,7 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1705ef0">
+  <item nodeId="node-0x17b9ef0">
     <command xml:space="preserve">scenery</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -264,10 +266,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1721110"/>
+      <child nodeId="node-0x17d51a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1721110">
+  <item nodeId="node-0x17d51a0">
     <command xml:space="preserve">examine driveway</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -278,7 +280,7 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1721290">
+  <item nodeId="node-0x17d5320">
     <command xml:space="preserve">examine driveway</command>
     <result xml:space="preserve">The driveway looks new but there are dandelions growing in the cracks. You&apos;ve always hated dandelions. *ah Ah ACHOO* You wipe your nose on a napkin and and put it back in your back pocket.
 
@@ -289,10 +291,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1721410"/>
+      <child nodeId="node-0x17d54a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1721410">
+  <item nodeId="node-0x17d54a0">
     <command xml:space="preserve">examine driveway</command>
     <result xml:space="preserve">The driveway looks new but there are dandelions growing in the cracks. You&apos;ve always hated dandelions.
 
@@ -303,7 +305,7 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1721590">
+  <item nodeId="node-0x17d5620">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in in a front yard.
 
@@ -314,10 +316,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1721710"/>
+      <child nodeId="node-0x17d57a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1721710">
+  <item nodeId="node-0x17d57a0">
     <command xml:space="preserve">list surroundings</command>
     <result xml:space="preserve">You see a forest, a house, a driveway, a porch, a path, a front door, a lawn, a mail box, and a tree in your surroundings.
 
@@ -328,10 +330,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1721890"/>
+      <child nodeId="node-0x17d5920"/>
     </children>
   </item>
-  <item nodeId="node-0x1721890">
+  <item nodeId="node-0x17d5920">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see some surroundings, some bushes and a garden hose here.
@@ -343,10 +345,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1721a10"/>
+      <child nodeId="node-0x17d5aa0"/>
     </children>
   </item>
-  <item nodeId="node-0x1721a10">
+  <item nodeId="node-0x17d5aa0">
     <command xml:space="preserve">help</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -357,10 +359,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1721b90"/>
+      <child nodeId="node-0x17d5c20"/>
     </children>
   </item>
-  <item nodeId="node-0x1721b90">
+  <item nodeId="node-0x17d5c20">
     <command xml:space="preserve">examine forest</command>
     <result xml:space="preserve">The pine forest stands tall and strong with age. The trees sway lightly in breeze, as if they&apos;re friends.
 
@@ -371,10 +373,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1721d10"/>
+      <child nodeId="node-0x17d5da0"/>
     </children>
   </item>
-  <item nodeId="node-0x1721d10">
+  <item nodeId="node-0x17d5da0">
     <command xml:space="preserve">examine forest</command>
     <result xml:space="preserve">The pine forest stands tall and strong with age. 
 
@@ -385,10 +387,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1721e90"/>
+      <child nodeId="node-0x17d5f20"/>
     </children>
   </item>
-  <item nodeId="node-0x1721e90">
+  <item nodeId="node-0x17d5f20">
     <command xml:space="preserve">examine house</command>
     <result xml:space="preserve">The house is two stories with a shale facade and brushed bronze accents.
 
@@ -399,10 +401,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1749130"/>
+      <child nodeId="node-0x17fd1c0"/>
     </children>
   </item>
-  <item nodeId="node-0x1749130">
+  <item nodeId="node-0x17fd1c0">
     <command xml:space="preserve">examine drivewat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -413,10 +415,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17492b0"/>
+      <child nodeId="node-0x17fd340"/>
     </children>
   </item>
-  <item nodeId="node-0x17492b0">
+  <item nodeId="node-0x17fd340">
     <command xml:space="preserve">examine driveway</command>
     <result xml:space="preserve">The driveway looks new but there are dandelions growing between the section cracks. You&apos;ve always hated dandelions. *ah Ah ACHOO* You wipe your nose on a napkin and and put it back in your back pocket.
 
@@ -427,10 +429,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1749430"/>
+      <child nodeId="node-0x17fd4c0"/>
     </children>
   </item>
-  <item nodeId="node-0x1749430">
+  <item nodeId="node-0x17fd4c0">
     <command xml:space="preserve">examine driveway</command>
     <result xml:space="preserve">The driveway looks new but there are dandelions growing between the section cracks. You&apos;ve always hated dandelions.
 
@@ -441,10 +443,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17495b0"/>
+      <child nodeId="node-0x17fd640"/>
     </children>
   </item>
-  <item nodeId="node-0x17495b0">
+  <item nodeId="node-0x17fd640">
     <command xml:space="preserve">examine porch</command>
     <result xml:space="preserve">The porch has beautiful hanging flower pots that are budding. The handrail rail is made from black woven metal and brushed bronze.
 
@@ -455,10 +457,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1749730"/>
+      <child nodeId="node-0x17fd7c0"/>
     </children>
   </item>
-  <item nodeId="node-0x1749730">
+  <item nodeId="node-0x17fd7c0">
     <command xml:space="preserve">examine path</command>
     <result xml:space="preserve">The path connects the front porch to the driveway and passes the bushes. It is made of dark river stones. They crunch softly beneath your feet.
 
@@ -469,10 +471,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17498b0"/>
+      <child nodeId="node-0x17fd940"/>
     </children>
   </item>
-  <item nodeId="node-0x17498b0">
+  <item nodeId="node-0x17fd940">
     <command xml:space="preserve">examine path</command>
     <result xml:space="preserve">The path connects the front porch to the driveway and passes the bushes. It is made of dark river stones. 
 
@@ -483,10 +485,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1749a30"/>
+      <child nodeId="node-0x17fdac0"/>
     </children>
   </item>
-  <item nodeId="node-0x1749a30">
+  <item nodeId="node-0x17fdac0">
     <command xml:space="preserve">examine front door</command>
     <result xml:space="preserve">The front door is black, void of windows, and made of oak. It is unlocked.
 
@@ -497,10 +499,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1749bb0"/>
+      <child nodeId="node-0x17fdc40"/>
     </children>
   </item>
-  <item nodeId="node-0x1749bb0">
+  <item nodeId="node-0x17fdc40">
     <command xml:space="preserve">examine front door</command>
     <result xml:space="preserve">The front door is black, void of windows, and made of oak. It is unlocked.
 
@@ -511,10 +513,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1749d30"/>
+      <child nodeId="node-0x17fddc0"/>
     </children>
   </item>
-  <item nodeId="node-0x1749d30">
+  <item nodeId="node-0x17fddc0">
     <command xml:space="preserve">examine lawn</command>
     <result xml:space="preserve">The lawn is freshly mown and free of debris and weeds.
 
@@ -525,10 +527,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1749eb0"/>
+      <child nodeId="node-0x17fdf40"/>
     </children>
   </item>
-  <item nodeId="node-0x1749eb0">
+  <item nodeId="node-0x17fdf40">
     <command xml:space="preserve">examine mail box</command>
     <result xml:space="preserve">The mail box is empty.
 
@@ -539,10 +541,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1765170"/>
+      <child nodeId="node-0x1819120"/>
     </children>
   </item>
-  <item nodeId="node-0x1765170">
+  <item nodeId="node-0x1819120">
     <command xml:space="preserve">examine tree</command>
     <result xml:space="preserve">The tree looks to be a few years old. It bears fruit, but it&apos;s not ripe enough to eat.
 
@@ -553,10 +555,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17652f0"/>
+      <child nodeId="node-0x18192a0"/>
     </children>
   </item>
-  <item nodeId="node-0x17652f0">
+  <item nodeId="node-0x18192a0">
     <command xml:space="preserve">examine apple tree</command>
     <result xml:space="preserve">The tree looks to be a few years old. It bears fruit, but it&apos;s not ripe enough to eat.
 
@@ -567,10 +569,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1765470"/>
+      <child nodeId="node-0x1819420"/>
     </children>
   </item>
-  <item nodeId="node-0x1765470">
+  <item nodeId="node-0x1819420">
     <command xml:space="preserve">examine buches</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -581,10 +583,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17655f0"/>
+      <child nodeId="node-0x18195a0"/>
     </children>
   </item>
-  <item nodeId="node-0x17655f0">
+  <item nodeId="node-0x18195a0">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers on them, but they could use some water.
 
@@ -595,10 +597,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1765770"/>
+      <child nodeId="node-0x1819720"/>
     </children>
   </item>
-  <item nodeId="node-0x1765770">
+  <item nodeId="node-0x1819720">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see some surroundings, some bushes and a garden hose here.
@@ -610,10 +612,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17658f0"/>
+      <child nodeId="node-0x18198a0"/>
     </children>
   </item>
-  <item nodeId="node-0x17658f0">
+  <item nodeId="node-0x18198a0">
     <command xml:space="preserve">examine garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
 
@@ -624,10 +626,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1765a70"/>
+      <child nodeId="node-0x1819a20"/>
     </children>
   </item>
-  <item nodeId="node-0x1765a70">
+  <item nodeId="node-0x1819a20">
     <command xml:space="preserve">turn on garden hose</command>
     <result xml:space="preserve">The nozzle is now turned on.
 
@@ -638,10 +640,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1765bf0"/>
+      <child nodeId="node-0x1819ba0"/>
     </children>
   </item>
-  <item nodeId="node-0x1765bf0">
+  <item nodeId="node-0x1819ba0">
     <command xml:space="preserve">turn off garden hose</command>
     <result xml:space="preserve">The nozzle is now turned off.
 
@@ -652,10 +654,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1765d70"/>
+      <child nodeId="node-0x1819d20"/>
     </children>
   </item>
-  <item nodeId="node-0x1765d70">
+  <item nodeId="node-0x1819d20">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -666,10 +668,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1765ef0"/>
+      <child nodeId="node-0x1819ea0"/>
     </children>
   </item>
-  <item nodeId="node-0x1765ef0">
+  <item nodeId="node-0x1819ea0">
     <command xml:space="preserve">take nozzle</command>
     <result xml:space="preserve">Taken.
 
@@ -680,10 +682,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x178e160"/>
+      <child nodeId="node-0x1842130"/>
     </children>
   </item>
-  <item nodeId="node-0x178e160">
+  <item nodeId="node-0x1842130">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -692,10 +694,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x178e2e0"/>
+      <child nodeId="node-0x18422b0"/>
     </children>
   </item>
-  <item nodeId="node-0x178e2e0">
+  <item nodeId="node-0x18422b0">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -704,10 +706,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x178e460"/>
+      <child nodeId="node-0x1842430"/>
     </children>
   </item>
-  <item nodeId="node-0x178e460">
+  <item nodeId="node-0x1842430">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers  that glisten in the morning sun.
 
@@ -718,7 +720,1222 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x178e5e0">
+  <item nodeId="node-0x18425b0">
+    <command xml:space="preserve">examien Front Yard</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1842730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1842730">
+    <command xml:space="preserve">examine Front Yard</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine the front door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18428b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18428b0">
+    <command xml:space="preserve">sudo update-initramfs</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1842a30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1842a30">
+    <command xml:space="preserve">clear</command>
+    <result xml:space="preserve">What do you want to clear?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1842bb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1842bb0">
+    <command xml:space="preserve">laslkd</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1842d30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1842d30">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1842eb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1842eb0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x185e1c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x185e1c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x185e340"/>
+    </children>
+  </item>
+  <item nodeId="node-0x185e340">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x185e4c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x185e4c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x185e640"/>
+    </children>
+  </item>
+  <item nodeId="node-0x185e640">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x185e7c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x185e7c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x185e940"/>
+    </children>
+  </item>
+  <item nodeId="node-0x185e940">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x185eac0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x185eac0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x185ec40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x185ec40">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x185edc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x185edc0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x185ef40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x185ef40">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1885110"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1885110">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1885290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1885290">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1885410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1885410">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1885590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1885590">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1885710"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1885710">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1885890"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1885890">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1885a10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1885a10">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1885b90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1885b90">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1885d10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1885d10">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1885e90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1885e90">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18a0150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18a0150">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18a02d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18a02d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18a0450"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18a0450">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18a05d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18a05d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18a0750"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18a0750">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18a08d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18a08d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18a0a50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18a0a50">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18a0bd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18a0bd0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18a0d50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18a0d50">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18a0ed0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18a0ed0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18cc180"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18cc180">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18cc300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18cc300">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18cc480"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18cc480">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18cc600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18cc600">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18cc780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18cc780">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18cc900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18cc900">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18cca80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18cca80">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18ccc00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18ccc00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18ccd80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18ccd80">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18ccf00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18ccf00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18f2130"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18f2130">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18f22b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18f22b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18f2430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18f2430">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18f25b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18f25b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18f2730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18f2730">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18f28b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18f28b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18f2a30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18f2a30">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18f2bb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18f2bb0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18f2d30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18f2d30">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18f2eb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18f2eb0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1918140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1918140">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19182c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19182c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1918440"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1918440">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19185c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19185c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1918740"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1918740">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19188c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19188c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1918a40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1918a40">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1918bc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1918bc0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1918d40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1918d40">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1918ec0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1918ec0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1933170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1933170">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19332f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19332f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1933470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1933470">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19335f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19335f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1933770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1933770">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19338f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19338f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1933a70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1933a70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1933bf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1933bf0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1933d70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1933d70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1933ef0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1933ef0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x195b130"/>
+    </children>
+  </item>
+  <item nodeId="node-0x195b130">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x195b2b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x195b2b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x195b430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x195b430">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x195b5b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x195b5b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x195b730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x195b730">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x195b8b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x195b8b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x195ba30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x195ba30">
+    <command xml:space="preserve">lag?</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x195bbb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x195bbb0">
+    <command xml:space="preserve">kill yourself</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x195bd30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x195bd30">
+    <command xml:space="preserve">kill player</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x195beb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x195beb0">
+    <command xml:space="preserve">kill self</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1976140">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Living Room
@@ -730,10 +1947,10 @@ Living Room
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x178e760"/>
+      <child nodeId="node-0x19762c0"/>
     </children>
   </item>
-  <item nodeId="node-0x178e760">
+  <item nodeId="node-0x19762c0">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Kitchen
@@ -745,11 +1962,11 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x178e8e0"/>
-      <child nodeId="node-0x17d1a50"/>
+      <child nodeId="node-0x1976440"/>
+      <child nodeId="node-0x19b8640"/>
     </children>
   </item>
-  <item nodeId="node-0x178e8e0">
+  <item nodeId="node-0x1976440">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Upstairs
@@ -761,12 +1978,12 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x178ea60"/>
-      <child nodeId="node-0x178ebe0"/>
-      <child nodeId="node-0x17d1150"/>
+      <child nodeId="node-0x19765c0"/>
+      <child nodeId="node-0x1976740"/>
+      <child nodeId="node-0x199cbd0"/>
     </children>
   </item>
-  <item nodeId="node-0x178ea60">
+  <item nodeId="node-0x19765c0">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Master Bedroom
@@ -778,7 +1995,7 @@ Master Bedroom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x178ebe0">
+  <item nodeId="node-0x1976740">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Master Bedroom
@@ -790,10 +2007,10 @@ Master Bedroom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x178ed60"/>
+      <child nodeId="node-0x19768c0"/>
     </children>
   </item>
-  <item nodeId="node-0x178ed60">
+  <item nodeId="node-0x19768c0">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">
 Upstairs
@@ -805,10 +2022,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x178eee0"/>
+      <child nodeId="node-0x1976a40"/>
     </children>
   </item>
-  <item nodeId="node-0x178eee0">
+  <item nodeId="node-0x1976a40">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Master Bedroom
@@ -820,10 +2037,10 @@ Master Bedroom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17a9120"/>
+      <child nodeId="node-0x1976bc0"/>
     </children>
   </item>
-  <item nodeId="node-0x17a9120">
+  <item nodeId="node-0x1976bc0">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -834,10 +2051,10 @@ Master Bedroom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17a92a0"/>
+      <child nodeId="node-0x1976d40"/>
     </children>
   </item>
-  <item nodeId="node-0x17a92a0">
+  <item nodeId="node-0x1976d40">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Upstairs
@@ -849,10 +2066,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17a9420"/>
+      <child nodeId="node-0x1976ec0"/>
     </children>
   </item>
-  <item nodeId="node-0x17a9420">
+  <item nodeId="node-0x1976ec0">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Master Bedroom
@@ -864,10 +2081,10 @@ Master Bedroom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17a95a0"/>
+      <child nodeId="node-0x199c150"/>
     </children>
   </item>
-  <item nodeId="node-0x17a95a0">
+  <item nodeId="node-0x199c150">
     <command xml:space="preserve">go weast</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -878,10 +2095,10 @@ Master Bedroom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17a9720"/>
+      <child nodeId="node-0x199c2d0"/>
     </children>
   </item>
-  <item nodeId="node-0x17a9720">
+  <item nodeId="node-0x199c2d0">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">
 Upstairs
@@ -893,10 +2110,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17a98a0"/>
+      <child nodeId="node-0x199c450"/>
     </children>
   </item>
-  <item nodeId="node-0x17a98a0">
+  <item nodeId="node-0x199c450">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Master Bedroom
@@ -908,10 +2125,10 @@ Master Bedroom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17a9a20"/>
+      <child nodeId="node-0x199c5d0"/>
     </children>
   </item>
-  <item nodeId="node-0x17a9a20">
+  <item nodeId="node-0x199c5d0">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Upstairs
@@ -923,10 +2140,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17a9ba0"/>
+      <child nodeId="node-0x199c750"/>
     </children>
   </item>
-  <item nodeId="node-0x17a9ba0">
+  <item nodeId="node-0x199c750">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">
 Kitchen
@@ -938,10 +2155,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17a9d20"/>
+      <child nodeId="node-0x199c8d0"/>
     </children>
   </item>
-  <item nodeId="node-0x17a9d20">
+  <item nodeId="node-0x199c8d0">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Back Yard
@@ -953,10 +2170,10 @@ Back Yard
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17a9ea0"/>
+      <child nodeId="node-0x199ca50"/>
     </children>
   </item>
-  <item nodeId="node-0x17a9ea0">
+  <item nodeId="node-0x199ca50">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Kitchen
@@ -968,7 +2185,7 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x17d1150">
+  <item nodeId="node-0x199cbd0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Upstairs
 
@@ -979,10 +2196,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17d12d0"/>
+      <child nodeId="node-0x199cd50"/>
     </children>
   </item>
-  <item nodeId="node-0x17d12d0">
+  <item nodeId="node-0x199cd50">
     <command xml:space="preserve">go</command>
     <result xml:space="preserve">You&apos;ll have to say which compass direction to go in.
 
@@ -993,10 +2210,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17d1450"/>
+      <child nodeId="node-0x199ced0"/>
     </children>
   </item>
-  <item nodeId="node-0x17d1450">
+  <item nodeId="node-0x199ced0">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Child&apos;s Bedroom
@@ -1008,10 +2225,10 @@ Child&apos;s Bedroom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17d15d0"/>
+      <child nodeId="node-0x19b81c0"/>
     </children>
   </item>
-  <item nodeId="node-0x17d15d0">
+  <item nodeId="node-0x19b81c0">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Upstairs
@@ -1023,10 +2240,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17d1750"/>
+      <child nodeId="node-0x19b8340"/>
     </children>
   </item>
-  <item nodeId="node-0x17d1750">
+  <item nodeId="node-0x19b8340">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Master Bedroom
@@ -1038,10 +2255,10 @@ Master Bedroom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17d18d0"/>
+      <child nodeId="node-0x19b84c0"/>
     </children>
   </item>
-  <item nodeId="node-0x17d18d0">
+  <item nodeId="node-0x19b84c0">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1052,7 +2269,7 @@ Master Bedroom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x17d1a50">
+  <item nodeId="node-0x19b8640">
     <command xml:space="preserve">go up</command>
     <result xml:space="preserve">
 Upstairs
@@ -1064,10 +2281,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17d1bd0"/>
+      <child nodeId="node-0x19b87c0"/>
     </children>
   </item>
-  <item nodeId="node-0x17d1bd0">
+  <item nodeId="node-0x19b87c0">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1078,10 +2295,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17d1d50"/>
+      <child nodeId="node-0x19b8940"/>
     </children>
   </item>
-  <item nodeId="node-0x17d1d50">
+  <item nodeId="node-0x19b8940">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">
 Master Bedroom
@@ -1093,10 +2310,10 @@ Master Bedroom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17d1ed0"/>
+      <child nodeId="node-0x19b8ac0"/>
     </children>
   </item>
-  <item nodeId="node-0x17d1ed0">
+  <item nodeId="node-0x19b8ac0">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Upstairs
@@ -1108,10 +2325,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17ec180"/>
+      <child nodeId="node-0x19b8c40"/>
     </children>
   </item>
-  <item nodeId="node-0x17ec180">
+  <item nodeId="node-0x19b8c40">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Child&apos;s Bedroom
@@ -1123,10 +2340,10 @@ Child&apos;s Bedroom
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17ec300"/>
+      <child nodeId="node-0x19b8dc0"/>
     </children>
   </item>
-  <item nodeId="node-0x17ec300">
+  <item nodeId="node-0x19b8dc0">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Upstairs
@@ -1138,10 +2355,10 @@ Upstairs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17ec480"/>
+      <child nodeId="node-0x19b8f40"/>
     </children>
   </item>
-  <item nodeId="node-0x17ec480">
+  <item nodeId="node-0x19b8f40">
     <command xml:space="preserve">go down</command>
     <result xml:space="preserve">
 Kitchen
@@ -1153,10 +2370,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17ec600"/>
+      <child nodeId="node-0x19e9130"/>
     </children>
   </item>
-  <item nodeId="node-0x17ec600">
+  <item nodeId="node-0x19e9130">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Back Yard
@@ -1168,10 +2385,10 @@ Back Yard
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17ec780"/>
+      <child nodeId="node-0x19e92b0"/>
     </children>
   </item>
-  <item nodeId="node-0x17ec780">
+  <item nodeId="node-0x19e92b0">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1182,10 +2399,10 @@ Back Yard
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17ec900"/>
+      <child nodeId="node-0x19e9430"/>
     </children>
   </item>
-  <item nodeId="node-0x17ec900">
+  <item nodeId="node-0x19e9430">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Kitchen
@@ -1197,10 +2414,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17eca80"/>
+      <child nodeId="node-0x19e95b0"/>
     </children>
   </item>
-  <item nodeId="node-0x17eca80">
+  <item nodeId="node-0x19e95b0">
     <command xml:space="preserve">quit</command>
     <result xml:space="preserve">Are you sure you want to quit? </result>
     <commentary xml:space="preserve"></commentary>
@@ -1209,10 +2426,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x17ecc00"/>
+      <child nodeId="node-0x19e9730"/>
     </children>
   </item>
-  <item nodeId="node-0x17ecc00">
+  <item nodeId="node-0x19e9730">
     <command xml:space="preserve">y</command>
     <result xml:space="preserve">
 [ The game has finished ]
@@ -1223,7 +2440,7 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x17ecd80">
+  <item nodeId="node-0x19e98b0">
     <command xml:space="preserve">sneeze</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1232,23 +2449,23 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x17ecf00">
+  <item nodeId="node-0x19e9a30">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18181c0"/>
-      <child nodeId="node-0x18184c0"/>
-      <child nodeId="node-0x1995a10"/>
+      <child nodeId="node-0x19e9bb0"/>
+      <child nodeId="node-0x19e9eb0"/>
+      <child nodeId="node-0x1a04760"/>
     </children>
   </item>
-  <item nodeId="node-0x18181c0">
+  <item nodeId="node-0x19e9bb0">
     <command xml:space="preserve">water</command>
     <result xml:space="preserve">You must supply a noun.
 
@@ -1259,10 +2476,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1818340"/>
+      <child nodeId="node-0x19e9d30"/>
     </children>
   </item>
-  <item nodeId="node-0x1818340">
+  <item nodeId="node-0x19e9d30">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">I only understood you as far as wanting to water.
 
@@ -1273,7 +2490,7 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x18184c0">
+  <item nodeId="node-0x19e9eb0">
     <command xml:space="preserve">take nozzle</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1284,10 +2501,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1818640"/>
+      <child nodeId="node-0x1a04160"/>
     </children>
   </item>
-  <item nodeId="node-0x1818640">
+  <item nodeId="node-0x1a04160">
     <command xml:space="preserve">examine garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
 
@@ -1298,10 +2515,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18187c0"/>
+      <child nodeId="node-0x1a042e0"/>
     </children>
   </item>
-  <item nodeId="node-0x18187c0">
+  <item nodeId="node-0x1a042e0">
     <command xml:space="preserve">take nozzle</command>
     <result xml:space="preserve">Taken.
 
@@ -1312,10 +2529,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1818940"/>
+      <child nodeId="node-0x1a04460"/>
     </children>
   </item>
-  <item nodeId="node-0x1818940">
+  <item nodeId="node-0x1a04460">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1324,10 +2541,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1818ac0"/>
+      <child nodeId="node-0x1a045e0"/>
     </children>
   </item>
-  <item nodeId="node-0x1818ac0">
+  <item nodeId="node-0x1a045e0">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers  that glisten in the morning sun.
 
@@ -1338,294 +2555,294 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1995a10">
+  <item nodeId="node-0x1a04760">
     <command xml:space="preserve">take hose</command>
     <result xml:space="preserve">If anyone needs a shower it&apos;s you, not your co-workers.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1995b90"/>
+      <child nodeId="node-0x1a048e0"/>
     </children>
   </item>
-  <item nodeId="node-0x1995b90">
+  <item nodeId="node-0x1a048e0">
     <command xml:space="preserve">examine hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1995d10"/>
+      <child nodeId="node-0x1a04a60"/>
     </children>
   </item>
-  <item nodeId="node-0x1995d10">
+  <item nodeId="node-0x1a04a60">
     <command xml:space="preserve">take nozzle</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1995e90"/>
+      <child nodeId="node-0x1a04be0"/>
     </children>
   </item>
-  <item nodeId="node-0x1995e90">
+  <item nodeId="node-0x1a04be0">
     <command xml:space="preserve">turn on hose</command>
     <result xml:space="preserve">The nozzle is now turned on.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad8410b100"/>
+      <child nodeId="node-0x1a04d60"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad8410b100">
+  <item nodeId="node-0x1a04d60">
     <command xml:space="preserve">water co-workers</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad8410b280"/>
+      <child nodeId="node-0x1a04ee0"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad8410b280">
+  <item nodeId="node-0x1a04ee0">
     <command xml:space="preserve">water self</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad8410b400"/>
+      <child nodeId="node-0x1a2c1a0"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad8410b400">
+  <item nodeId="node-0x1a2c1a0">
     <command xml:space="preserve">water plants</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad8410b580"/>
+      <child nodeId="node-0x1a2c320"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad8410b580">
+  <item nodeId="node-0x1a2c320">
     <command xml:space="preserve">water plants</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad8410b700"/>
+      <child nodeId="node-0x1a2c4a0"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad8410b700">
+  <item nodeId="node-0x1a2c4a0">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">You water the bushes.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad8410b880"/>
+      <child nodeId="node-0x1a2c620"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad8410b880">
+  <item nodeId="node-0x1a2c620">
     <command xml:space="preserve">water bush</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad8410ba00"/>
+      <child nodeId="node-0x1a2c7a0"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad8410ba00">
+  <item nodeId="node-0x1a2c7a0">
     <command xml:space="preserve">examine bush</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad8410bb80"/>
+      <child nodeId="node-0x1a2c920"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad8410bb80">
+  <item nodeId="node-0x1a2c920">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers that glisten in the morning sun.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad8410bd00"/>
+      <child nodeId="node-0x1a2caa0"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad8410bd00">
+  <item nodeId="node-0x1a2caa0">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in in a front yard.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad8410be80"/>
+      <child nodeId="node-0x1a2cc20"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad8410be80">
+  <item nodeId="node-0x1a2cc20">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in in a front yard.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad841251a0"/>
+      <child nodeId="node-0x1a2cda0"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad841251a0">
+  <item nodeId="node-0x1a2cda0">
     <command xml:space="preserve">list surroundings</command>
     <result xml:space="preserve">You see a forest, a house, a driveway, a porch, a path, a front door, a lawn, a mail box, and an apple tree in your surroundings.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad84125320"/>
+      <child nodeId="node-0x1a2cf20"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad84125320">
+  <item nodeId="node-0x1a2cf20">
     <command xml:space="preserve">examine apple tree</command>
     <result xml:space="preserve">The tree looks to be a few years old. It bears fruit, but it&apos;s not ripe enough to eat.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad841254a0"/>
+      <child nodeId="node-0x1a46110"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad841254a0">
+  <item nodeId="node-0x1a46110">
     <command xml:space="preserve">turn on hose</command>
     <result xml:space="preserve">The nozzle is now turned on.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad84125620"/>
+      <child nodeId="node-0x1a46290"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad84125620">
+  <item nodeId="node-0x1a46290">
     <command xml:space="preserve">water tree</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad841257a0"/>
+      <child nodeId="node-0x1a46410"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad841257a0">
+  <item nodeId="node-0x1a46410">
     <command xml:space="preserve">take fruit</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad84125920"/>
+      <child nodeId="node-0x1a46590"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad84125920">
+  <item nodeId="node-0x1a46590">
     <command xml:space="preserve">open mail box</command>
     <result xml:space="preserve">It isn&apos;t something you can open.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fad84125aa0"/>
+      <child nodeId="node-0x1a46710"/>
     </children>
   </item>
-  <item nodeId="node-0x7fad84125aa0">
+  <item nodeId="node-0x1a46710">
     <command xml:space="preserve">turn off nozzle</command>
     <result xml:space="preserve">You switch the nozzle off.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1818c40">
+  <item nodeId="node-0x1a46890">
     <command xml:space="preserve">garden hose is on</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1636,7 +2853,7 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1818dc0">
+  <item nodeId="node-0x1a46a10">
     <command xml:space="preserve">switch on garden hose</command>
     <result xml:space="preserve">It isn&apos;t something you can switch.
 
@@ -1647,7 +2864,7 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1818f40">
+  <item nodeId="node-0x1a46b90">
     <command xml:space="preserve">turn on garden hose</command>
     <result xml:space="preserve">The nozzle is now turned on.
 
@@ -1658,11 +2875,11 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x183e160"/>
-      <child nodeId="node-0x183e5e0"/>
+      <child nodeId="node-0x1a46d10"/>
+      <child nodeId="node-0x1a6e2e0"/>
     </children>
   </item>
-  <item nodeId="node-0x183e160">
+  <item nodeId="node-0x1a46d10">
     <command xml:space="preserve">turn off garden hose</command>
     <result xml:space="preserve">TestThe nozzle is now turned off.
 
@@ -1673,10 +2890,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x183e2e0"/>
+      <child nodeId="node-0x1a46e90"/>
     </children>
   </item>
-  <item nodeId="node-0x183e2e0">
+  <item nodeId="node-0x1a46e90">
     <command xml:space="preserve">pick up garden hose</command>
     <result xml:space="preserve">Taken.
 
@@ -1687,10 +2904,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x183e460"/>
+      <child nodeId="node-0x1a6e160"/>
     </children>
   </item>
-  <item nodeId="node-0x183e460">
+  <item nodeId="node-0x1a6e160">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a garden hose
@@ -1702,7 +2919,7 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x183e5e0">
+  <item nodeId="node-0x1a6e2e0">
     <command xml:space="preserve">turn off gardn hose</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1713,10 +2930,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x183e760"/>
+      <child nodeId="node-0x1a6e460"/>
     </children>
   </item>
-  <item nodeId="node-0x183e760">
+  <item nodeId="node-0x1a6e460">
     <command xml:space="preserve">turn off garden hose</command>
     <result xml:space="preserve">You switch the garden hose off.
 
@@ -1727,10 +2944,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x183e8e0"/>
+      <child nodeId="node-0x1a6e5e0"/>
     </children>
   </item>
-  <item nodeId="node-0x183e8e0">
+  <item nodeId="node-0x1a6e5e0">
     <command xml:space="preserve">switch off garden hose</command>
     <result xml:space="preserve">That&apos;s already off.
 
@@ -1741,10 +2958,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x183ea60"/>
+      <child nodeId="node-0x1a6e760"/>
     </children>
   </item>
-  <item nodeId="node-0x183ea60">
+  <item nodeId="node-0x1a6e760">
     <command xml:space="preserve">switch on garden hose</command>
     <result xml:space="preserve">You switch the garden hose on.
 
@@ -1755,7 +2972,7 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x183ebe0">
+  <item nodeId="node-0x1a6e8e0">
     <command xml:space="preserve">turn on the garden hose</command>
     <result xml:space="preserve">You switch the garden hose on.
 
@@ -1766,10 +2983,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x183ed60"/>
+      <child nodeId="node-0x1a6ea60"/>
     </children>
   </item>
-  <item nodeId="node-0x183ed60">
+  <item nodeId="node-0x1a6ea60">
     <command xml:space="preserve">switch on the garden hose</command>
     <result xml:space="preserve">That&apos;s already on.
 
@@ -1780,10 +2997,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x183eee0"/>
+      <child nodeId="node-0x1a6ebe0"/>
     </children>
   </item>
-  <item nodeId="node-0x183eee0">
+  <item nodeId="node-0x1a6ebe0">
     <command xml:space="preserve">take the garden hose</command>
     <result xml:space="preserve">If anyone needs a shower it&apos;s you, not your co-workers.
 
@@ -1794,7 +3011,7 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1864180">
+  <item nodeId="node-0x1a6ed60">
     <command xml:space="preserve">examine garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for water plants.
 
@@ -1805,10 +3022,10 @@ Kitchen
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1864300"/>
+      <child nodeId="node-0x1a6eee0"/>
     </children>
   </item>
-  <item nodeId="node-0x1864300">
+  <item nodeId="node-0x1a6eee0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see a nozzle, a bushes and a garden hose here.
@@ -1820,7 +3037,7 @@ You can see a nozzle, a bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1864480">
+  <item nodeId="node-0x1a891a0">
     <command xml:space="preserve">water the row of bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -1831,10 +3048,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1864600"/>
+      <child nodeId="node-0x1a89320"/>
     </children>
   </item>
-  <item nodeId="node-0x1864600">
+  <item nodeId="node-0x1a89320">
     <command xml:space="preserve">examine the garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for water plants.
 
@@ -1845,7 +3062,7 @@ You can see a nozzle, a bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1864780">
+  <item nodeId="node-0x1a894a0">
     <command xml:space="preserve">examine the row of bushes</command>
     <result xml:space="preserve">The bushes  have beautiful white flowers on them, but they could use some water.
 
@@ -1856,10 +3073,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1864900"/>
+      <child nodeId="node-0x1a89620"/>
     </children>
   </item>
-  <item nodeId="node-0x1864900">
+  <item nodeId="node-0x1a89620">
     <command xml:space="preserve">water the row of bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -1870,10 +3087,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1864a80"/>
+      <child nodeId="node-0x1a897a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1864a80">
+  <item nodeId="node-0x1a897a0">
     <command xml:space="preserve">examine the garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
 
@@ -1884,10 +3101,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1864c00"/>
+      <child nodeId="node-0x1a89920"/>
     </children>
   </item>
-  <item nodeId="node-0x1864c00">
+  <item nodeId="node-0x1a89920">
     <command xml:space="preserve">turn on the garden hose</command>
     <result xml:space="preserve">The nozzle is now turned on.
 
@@ -1898,10 +3115,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1864d80"/>
+      <child nodeId="node-0x1a89aa0"/>
     </children>
   </item>
-  <item nodeId="node-0x1864d80">
+  <item nodeId="node-0x1a89aa0">
     <command xml:space="preserve">water the row of bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -1912,10 +3129,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1864f00"/>
+      <child nodeId="node-0x1a89c20"/>
     </children>
   </item>
-  <item nodeId="node-0x1864f00">
+  <item nodeId="node-0x1a89c20">
     <command xml:space="preserve">take nozzle</command>
     <result xml:space="preserve">Taken.
 
@@ -1926,10 +3143,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1880120"/>
+      <child nodeId="node-0x1a89da0"/>
     </children>
   </item>
-  <item nodeId="node-0x1880120">
+  <item nodeId="node-0x1a89da0">
     <command xml:space="preserve">water the row of bushes</command>
     <result xml:space="preserve">You water the bushes
 &gt;</result>
@@ -1939,7 +3156,7 @@ You can see a nozzle, a bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x18802a0">
+  <item nodeId="node-0x1a89f20">
     <command xml:space="preserve">scenery</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1950,10 +3167,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1880420"/>
+      <child nodeId="node-0x1ab0100"/>
     </children>
   </item>
-  <item nodeId="node-0x1880420">
+  <item nodeId="node-0x1ab0100">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see some bushes and a garden hose here.
@@ -1965,7 +3182,7 @@ You can see some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x18805a0">
+  <item nodeId="node-0x1ab0280">
     <command xml:space="preserve">examine Front Yard</command>
     <result xml:space="preserve">I only understood you as far as wanting to examine the front door.
 
@@ -1976,10 +3193,10 @@ You can see some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1880720"/>
+      <child nodeId="node-0x1ab0400"/>
     </children>
   </item>
-  <item nodeId="node-0x1880720">
+  <item nodeId="node-0x1ab0400">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see some bushes and a garden hose here.
@@ -1991,10 +3208,10 @@ You can see some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18808a0"/>
+      <child nodeId="node-0x1ab0580"/>
     </children>
   </item>
-  <item nodeId="node-0x18808a0">
+  <item nodeId="node-0x1ab0580">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see some bushes and a garden hose here.
@@ -2006,10 +3223,10 @@ You can see some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1880a20"/>
+      <child nodeId="node-0x1ab0700"/>
     </children>
   </item>
-  <item nodeId="node-0x1880a20">
+  <item nodeId="node-0x1ab0700">
     <command xml:space="preserve">scenery</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2020,10 +3237,10 @@ You can see some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1880ba0"/>
+      <child nodeId="node-0x1ab0880"/>
     </children>
   </item>
-  <item nodeId="node-0x1880ba0">
+  <item nodeId="node-0x1ab0880">
     <command xml:space="preserve">look at scener</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2034,10 +3251,10 @@ You can see some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1880d20"/>
+      <child nodeId="node-0x1ab0a00"/>
     </children>
   </item>
-  <item nodeId="node-0x1880d20">
+  <item nodeId="node-0x1ab0a00">
     <command xml:space="preserve">examine scenery</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2048,10 +3265,10 @@ You can see some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1880ea0"/>
+      <child nodeId="node-0x1ab0b80"/>
     </children>
   </item>
-  <item nodeId="node-0x1880ea0">
+  <item nodeId="node-0x1ab0b80">
     <command xml:space="preserve">look Front Yard</command>
     <result xml:space="preserve">I only understood you as far as wanting to look the front door.
 
@@ -2062,7 +3279,7 @@ You can see some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x18a8160">
+  <item nodeId="node-0x1ab0d00">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in in a front yard.
 
@@ -2073,12 +3290,12 @@ You can see some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18a82e0"/>
-      <child nodeId="node-0x18a8a60"/>
-      <child nodeId="node-0x18a8be0"/>
+      <child nodeId="node-0x1ab0e80"/>
+      <child nodeId="node-0x1acb720"/>
+      <child nodeId="node-0x1acb8a0"/>
     </children>
   </item>
-  <item nodeId="node-0x18a82e0">
+  <item nodeId="node-0x1ab0e80">
     <command xml:space="preserve">take surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -2089,10 +3306,10 @@ You can see some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18a8460"/>
+      <child nodeId="node-0x1acb120"/>
     </children>
   </item>
-  <item nodeId="node-0x18a8460">
+  <item nodeId="node-0x1acb120">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Living Room
@@ -2104,10 +3321,10 @@ Living Room
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18a85e0"/>
+      <child nodeId="node-0x1acb2a0"/>
     </children>
   </item>
-  <item nodeId="node-0x18a85e0">
+  <item nodeId="node-0x1acb2a0">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">Living Room description
 &gt;</result>
@@ -2117,10 +3334,10 @@ Living Room
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18a8760"/>
+      <child nodeId="node-0x1acb420"/>
     </children>
   </item>
-  <item nodeId="node-0x18a8760">
+  <item nodeId="node-0x1acb420">
     <command xml:space="preserve">list surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -2131,10 +3348,10 @@ Living Room
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18a88e0"/>
+      <child nodeId="node-0x1acb5a0"/>
     </children>
   </item>
-  <item nodeId="node-0x18a88e0">
+  <item nodeId="node-0x1acb5a0">
     <command xml:space="preserve">touch surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -2145,7 +3362,7 @@ Living Room
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x18a8a60">
+  <item nodeId="node-0x1acb720">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a surroundings
@@ -2157,7 +3374,7 @@ Living Room
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x18a8be0">
+  <item nodeId="node-0x1acb8a0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see some surroundings, some bushes and a garden hose here.
@@ -2169,7 +3386,7 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x18a8d60">
+  <item nodeId="node-0x1acba20">
     <command xml:space="preserve">examing surroundings</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2180,10 +3397,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18a8ee0"/>
+      <child nodeId="node-0x1acbba0"/>
     </children>
   </item>
-  <item nodeId="node-0x18a8ee0">
+  <item nodeId="node-0x1acbba0">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">surr
 &gt;</result>
@@ -2193,7 +3410,7 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x18c3170">
+  <item nodeId="node-0x1acbd20">
     <command xml:space="preserve">list surroundings</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2204,10 +3421,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18c32f0"/>
+      <child nodeId="node-0x1acbea0"/>
     </children>
   </item>
-  <item nodeId="node-0x18c32f0">
+  <item nodeId="node-0x1acbea0">
     <command xml:space="preserve">water the surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -2218,10 +3435,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18c3470"/>
+      <child nodeId="node-0x1af3160"/>
     </children>
   </item>
-  <item nodeId="node-0x18c3470">
+  <item nodeId="node-0x1af3160">
     <command xml:space="preserve">water the bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -2232,7 +3449,7 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x18c35f0">
+  <item nodeId="node-0x1af32e0">
     <command xml:space="preserve">water surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -2243,10 +3460,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18c3770"/>
+      <child nodeId="node-0x1af3460"/>
     </children>
   </item>
-  <item nodeId="node-0x18c3770">
+  <item nodeId="node-0x1af3460">
     <command xml:space="preserve">take surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -2257,10 +3474,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18c38f0"/>
+      <child nodeId="node-0x1af35e0"/>
     </children>
   </item>
-  <item nodeId="node-0x18c38f0">
+  <item nodeId="node-0x1af35e0">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in in a front yard.
 
@@ -2271,10 +3488,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18c3a70"/>
+      <child nodeId="node-0x1af3760"/>
     </children>
   </item>
-  <item nodeId="node-0x18c3a70">
+  <item nodeId="node-0x1af3760">
     <command xml:space="preserve">list surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -2285,7 +3502,7 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x18c3bf0">
+  <item nodeId="node-0x1af38e0">
     <command xml:space="preserve">water the surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -2296,10 +3513,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18c3d70"/>
+      <child nodeId="node-0x1af3a60"/>
     </children>
   </item>
-  <item nodeId="node-0x18c3d70">
+  <item nodeId="node-0x1af3a60">
     <command xml:space="preserve">take the surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -2310,7 +3527,7 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x18c3ef0">
+  <item nodeId="node-0x1af3be0">
     <command xml:space="preserve">examine</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -2321,10 +3538,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18ea190"/>
+      <child nodeId="node-0x1af3d60"/>
     </children>
   </item>
-  <item nodeId="node-0x18ea190">
+  <item nodeId="node-0x1af3d60">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in in a front yard.
 
@@ -2335,10 +3552,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18ea310"/>
+      <child nodeId="node-0x1af3ee0"/>
     </children>
   </item>
-  <item nodeId="node-0x18ea310">
+  <item nodeId="node-0x1af3ee0">
     <command xml:space="preserve">list surroundings</command>
     <result xml:space="preserve">You see a forest, a house, a driveway, a porch, a path, a front door, a lawn, a mail box, and a tree in your surroundings.
 
@@ -2349,7 +3566,7 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x18ea490">
+  <item nodeId="node-0x1b0d170">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers on them, but they could use some water.
 
@@ -2360,10 +3577,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18ea610"/>
+      <child nodeId="node-0x1b0d2f0"/>
     </children>
   </item>
-  <item nodeId="node-0x18ea610">
+  <item nodeId="node-0x1b0d2f0">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -2374,10 +3591,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18ea790"/>
+      <child nodeId="node-0x1b0d470"/>
     </children>
   </item>
-  <item nodeId="node-0x18ea790">
+  <item nodeId="node-0x1b0d470">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers on them, but they could use some water.
 
@@ -2388,7 +3605,7 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x18ea910">
+  <item nodeId="node-0x1b0d5f0">
     <command xml:space="preserve">water the bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -2399,11 +3616,11 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18eaa90"/>
-      <child nodeId="node-0x19065e0"/>
+      <child nodeId="node-0x1b0d770"/>
+      <child nodeId="node-0x1b36320"/>
     </children>
   </item>
-  <item nodeId="node-0x18eaa90">
+  <item nodeId="node-0x1b0d770">
     <command xml:space="preserve">examine garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
 
@@ -2414,10 +3631,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18eac10"/>
+      <child nodeId="node-0x1b0d8f0"/>
     </children>
   </item>
-  <item nodeId="node-0x18eac10">
+  <item nodeId="node-0x1b0d8f0">
     <command xml:space="preserve">take nozzle</command>
     <result xml:space="preserve">Taken.
 
@@ -2428,10 +3645,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18ead90"/>
+      <child nodeId="node-0x1b0da70"/>
     </children>
   </item>
-  <item nodeId="node-0x18ead90">
+  <item nodeId="node-0x1b0da70">
     <command xml:space="preserve">water the bushes</command>
     <result xml:space="preserve">You can&apos;t water the bushes when the nozzle is off.
 
@@ -2442,10 +3659,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x18eaf10"/>
+      <child nodeId="node-0x1b0dbf0"/>
     </children>
   </item>
-  <item nodeId="node-0x18eaf10">
+  <item nodeId="node-0x1b0dbf0">
     <command xml:space="preserve">turn on garden hose</command>
     <result xml:space="preserve">The nozzle is now turned on.
 
@@ -2456,10 +3673,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1906160"/>
+      <child nodeId="node-0x1b0dd70"/>
     </children>
   </item>
-  <item nodeId="node-0x1906160">
+  <item nodeId="node-0x1b0dd70">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">You water the bushes.
 
@@ -2470,10 +3687,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x19062e0"/>
+      <child nodeId="node-0x1b0def0"/>
     </children>
   </item>
-  <item nodeId="node-0x19062e0">
+  <item nodeId="node-0x1b0def0">
     <command xml:space="preserve">examien bushes</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2484,10 +3701,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1906460"/>
+      <child nodeId="node-0x1b361a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1906460">
+  <item nodeId="node-0x1b361a0">
     <command xml:space="preserve">examine\\ bushes</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2498,7 +3715,7 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x19065e0">
+  <item nodeId="node-0x1b36320">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers on them, but they could use some water.
 
@@ -2509,10 +3726,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1906760"/>
+      <child nodeId="node-0x1b364a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1906760">
+  <item nodeId="node-0x1b364a0">
     <command xml:space="preserve">examine garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
 
@@ -2523,10 +3740,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x19068e0"/>
+      <child nodeId="node-0x1b36620"/>
     </children>
   </item>
-  <item nodeId="node-0x19068e0">
+  <item nodeId="node-0x1b36620">
     <command xml:space="preserve">take nozzle</command>
     <result xml:space="preserve">Taken.
 
@@ -2537,10 +3754,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1906a60"/>
+      <child nodeId="node-0x1b367a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1906a60">
+  <item nodeId="node-0x1b367a0">
     <command xml:space="preserve">water the bushes</command>
     <result xml:space="preserve">You can&apos;t water the bushes when the nozzle is off.
 
@@ -2551,10 +3768,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1906be0"/>
+      <child nodeId="node-0x1b36920"/>
     </children>
   </item>
-  <item nodeId="node-0x1906be0">
+  <item nodeId="node-0x1b36920">
     <command xml:space="preserve">examine garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
 
@@ -2565,10 +3782,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1906d60"/>
+      <child nodeId="node-0x1b36aa0"/>
     </children>
   </item>
-  <item nodeId="node-0x1906d60">
+  <item nodeId="node-0x1b36aa0">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers on them, but they could use some water.
 
@@ -2579,10 +3796,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1906ee0"/>
+      <child nodeId="node-0x1b36c20"/>
     </children>
   </item>
-  <item nodeId="node-0x1906ee0">
+  <item nodeId="node-0x1b36c20">
     <command xml:space="preserve">turn on garden hose</command>
     <result xml:space="preserve">The nozzle is now turned on.
 
@@ -2593,10 +3810,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1937160"/>
+      <child nodeId="node-0x1b36da0"/>
     </children>
   </item>
-  <item nodeId="node-0x1937160">
+  <item nodeId="node-0x1b36da0">
     <command xml:space="preserve">water the bushes</command>
     <result xml:space="preserve">You water the bushes.
 
@@ -2607,10 +3824,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x19372e0"/>
+      <child nodeId="node-0x1b36f20"/>
     </children>
   </item>
-  <item nodeId="node-0x19372e0">
+  <item nodeId="node-0x1b36f20">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers  that glisten in the morning sun.
 
@@ -2621,7 +3838,7 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1937460">
+  <item nodeId="node-0x1b53180">
     <command xml:space="preserve">help</command>
     <result xml:space="preserve"> &gt; Introduction to Retrospect
    Instructions for Play
@@ -2632,10 +3849,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x19375e0"/>
+      <child nodeId="node-0x1b53300"/>
     </children>
   </item>
-  <item nodeId="node-0x19375e0">
+  <item nodeId="node-0x1b53300">
     <command xml:space="preserve"></command>
     <result xml:space="preserve"> &gt; Introduction to Retrospect
    Instructions for Play
@@ -2646,10 +3863,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1937760"/>
+      <child nodeId="node-0x1b53480"/>
     </children>
   </item>
-  <item nodeId="node-0x1937760">
+  <item nodeId="node-0x1b53480">
     <command xml:space="preserve"></command>
     <result xml:space="preserve"> &gt; Introduction to Retrospect
    Instructions for Play
@@ -2660,10 +3877,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x19378e0"/>
+      <child nodeId="node-0x1b53600"/>
     </children>
   </item>
-  <item nodeId="node-0x19378e0">
+  <item nodeId="node-0x1b53600">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    Introduction to Retrospect
@@ -2677,10 +3894,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1937a60"/>
+      <child nodeId="node-0x1b53780"/>
     </children>
   </item>
-  <item nodeId="node-0x1937a60">
+  <item nodeId="node-0x1b53780">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
  &gt; Introduction to Retrospect
@@ -2694,10 +3911,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1937be0"/>
+      <child nodeId="node-0x1b53900"/>
     </children>
   </item>
-  <item nodeId="node-0x1937be0">
+  <item nodeId="node-0x1b53900">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    Introduction to Retrospect
@@ -2711,10 +3928,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1937d60"/>
+      <child nodeId="node-0x1b53a80"/>
     </children>
   </item>
-  <item nodeId="node-0x1937d60">
+  <item nodeId="node-0x1b53a80">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
  &gt; About Interactive Fiction
@@ -2732,10 +3949,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1937ee0"/>
+      <child nodeId="node-0x1b53c00"/>
     </children>
   </item>
-  <item nodeId="node-0x1937ee0">
+  <item nodeId="node-0x1b53c00">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -2761,10 +3978,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1951160"/>
+      <child nodeId="node-0x1b53d80"/>
     </children>
   </item>
-  <item nodeId="node-0x1951160">
+  <item nodeId="node-0x1b53d80">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -2790,10 +4007,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x19512e0"/>
+      <child nodeId="node-0x1b53f00"/>
     </children>
   </item>
-  <item nodeId="node-0x19512e0">
+  <item nodeId="node-0x1b53f00">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -2819,10 +4036,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1951460"/>
+      <child nodeId="node-0x18e5160"/>
     </children>
   </item>
-  <item nodeId="node-0x1951460">
+  <item nodeId="node-0x18e5160">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -2848,10 +4065,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x19515e0"/>
+      <child nodeId="node-0x18e52e0"/>
     </children>
   </item>
-  <item nodeId="node-0x19515e0">
+  <item nodeId="node-0x18e52e0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -2877,10 +4094,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1951760"/>
+      <child nodeId="node-0x18e5460"/>
     </children>
   </item>
-  <item nodeId="node-0x1951760">
+  <item nodeId="node-0x18e5460">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -2906,10 +4123,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x19518e0"/>
+      <child nodeId="node-0x18e55e0"/>
     </children>
   </item>
-  <item nodeId="node-0x19518e0">
+  <item nodeId="node-0x18e55e0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -2935,10 +4152,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1951a60"/>
+      <child nodeId="node-0x18e5760"/>
     </children>
   </item>
-  <item nodeId="node-0x1951a60">
+  <item nodeId="node-0x18e5760">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -2964,10 +4181,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1951be0"/>
+      <child nodeId="node-0x18e58e0"/>
     </children>
   </item>
-  <item nodeId="node-0x1951be0">
+  <item nodeId="node-0x18e58e0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -2993,10 +4210,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1951d60"/>
+      <child nodeId="node-0x18e5a60"/>
     </children>
   </item>
-  <item nodeId="node-0x1951d60">
+  <item nodeId="node-0x18e5a60">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -3022,10 +4239,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1951ee0"/>
+      <child nodeId="node-0x18e5be0"/>
     </children>
   </item>
-  <item nodeId="node-0x1951ee0">
+  <item nodeId="node-0x18e5be0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -3051,10 +4268,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x197b100"/>
+      <child nodeId="node-0x18e5d60"/>
     </children>
   </item>
-  <item nodeId="node-0x197b100">
+  <item nodeId="node-0x18e5d60">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
  &gt; Explore
@@ -3068,10 +4285,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x197b280"/>
+      <child nodeId="node-0x18e5ee0"/>
     </children>
   </item>
-  <item nodeId="node-0x197b280">
+  <item nodeId="node-0x18e5ee0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    Explore
@@ -3089,10 +4306,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x197b400"/>
+      <child nodeId="node-0x1bab1c0"/>
     </children>
   </item>
-  <item nodeId="node-0x197b400">
+  <item nodeId="node-0x1bab1c0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    Explore
@@ -3110,10 +4327,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x197b580"/>
+      <child nodeId="node-0x1bab340"/>
     </children>
   </item>
-  <item nodeId="node-0x197b580">
+  <item nodeId="node-0x1bab340">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    Explore
@@ -3131,10 +4348,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x197b700"/>
+      <child nodeId="node-0x1bab4c0"/>
     </children>
   </item>
-  <item nodeId="node-0x197b700">
+  <item nodeId="node-0x1bab4c0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    Explore
@@ -3152,10 +4369,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x197b880"/>
+      <child nodeId="node-0x1bab640"/>
     </children>
   </item>
-  <item nodeId="node-0x197b880">
+  <item nodeId="node-0x1bab640">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    Explore
@@ -3173,10 +4390,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x197ba00"/>
+      <child nodeId="node-0x1bab7c0"/>
     </children>
   </item>
-  <item nodeId="node-0x197ba00">
+  <item nodeId="node-0x1bab7c0">
     <command xml:space="preserve">q</command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -3194,10 +4411,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x197bb80"/>
+      <child nodeId="node-0x1bab940"/>
     </children>
   </item>
-  <item nodeId="node-0x197bb80">
+  <item nodeId="node-0x1bab940">
     <command xml:space="preserve">q</command>
     <result xml:space="preserve">
    Introduction to Retrospect
@@ -3209,14 +4426,995 @@ You can see some surroundings, some bushes and a garden hose here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x197bd00"/>
+      <child nodeId="node-0x1babac0"/>
     </children>
   </item>
-  <item nodeId="node-0x197bd00">
+  <item nodeId="node-0x1babac0">
     <command xml:space="preserve">q</command>
     <result xml:space="preserve">
 Front Yard
 You can see some bushes and a garden hose here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1babc40">
+    <command xml:space="preserve">examine hose</command>
+    <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1babdc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1babdc0">
+    <command xml:space="preserve">take nozzle</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1babf40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1babf40">
+    <command xml:space="preserve">siwtch on nozzle</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bd2110"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bd2110">
+    <command xml:space="preserve">turn on nozzle</command>
+    <result xml:space="preserve">The hose controls the nozzle.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bd2290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bd2290">
+    <command xml:space="preserve">water bushes</command>
+    <result xml:space="preserve">You can&apos;t water the bushes when the nozzle is off.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bd2410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bd2410">
+    <command xml:space="preserve">turn on hose</command>
+    <result xml:space="preserve">The nozzle is now turned on.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bd2590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bd2590">
+    <command xml:space="preserve">water bushes</command>
+    <result xml:space="preserve">You water the bushes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bd2710"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bd2710">
+    <command xml:space="preserve">examine bushes</command>
+    <result xml:space="preserve">The bushes have beautiful white flowers that glisten in the morning sun.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bd2890"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bd2890">
+    <command xml:space="preserve">clear</command>
+    <result xml:space="preserve">(the nozzle)
+Nothing obvious happens.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bd2a10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bd2a10">
+    <command xml:space="preserve">cls</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bd2b90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bd2b90">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve"> &gt; Introduction to Retrospect
+   Instructions for Play
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bd2d10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bd2d10">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to Retrospect
+ &gt; Instructions for Play
+   Introduction to Retrospect
+ &gt; Instructions for Play
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bd2e90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bd2e90">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Introduction to Retrospect
+   Instructions for Play
+ &gt; Introduction to Retrospect
+   Instructions for Play
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bed160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bed160">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Introduction to Retrospect
+ &gt; Instructions for Play
+   Introduction to Retrospect
+ &gt; Instructions for Play
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bed2e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bed2e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+   Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bed460"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bed460">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   About Interactive Fiction
+ &gt; What to do with &gt;
+   Getting Started
+   Rooms and Travel
+   Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+   About Interactive Fiction
+ &gt; What to do with &gt;
+   Getting Started
+   Rooms and Travel
+   Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bed5e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bed5e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   About Interactive Fiction
+   What to do with &gt;
+ &gt; Getting Started
+   Rooms and Travel
+   Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+   About Interactive Fiction
+   What to do with &gt;
+ &gt; Getting Started
+   Rooms and Travel
+   Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bed760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bed760">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+ &gt; Rooms and Travel
+   Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+ &gt; Rooms and Travel
+   Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bed8e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bed8e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+ &gt; Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+ &gt; Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1beda60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1beda60">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+ &gt; Rooms and Travel
+   Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+ &gt; Rooms and Travel
+   Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bedbe0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bedbe0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+At any given time, you are in a specific location, or room. When you go into a room, the game will print a description of what you can see there. This description will contain two vital kinds of information: things in the room you can interact with or take, and a list of exits, or ways out. If you want to see the description again, you may just type LOOK. 
+
+When you want to leave a location and go to another one, you may communicate this to the game using compass directions: eg, GO NORTH. For simplicity&apos;s sake, you are allowed to omit the word GO, and to abbreviate the compass directions. So you may use NORTH, SOUTH, EAST, WEST, NORTHEAST, SOUTHEAST, NORTHWEST, SOUTHWEST, UP, and DOWN, or in short form N, S, E, W, NE, SE, NW, SW, U, and D.
+
+In some locations, IN and OUT will also be useful.
+
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bedd60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bedd60">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+ &gt; Rooms and Travel
+   Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+ &gt; Rooms and Travel
+   Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1bedee0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1bedee0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+ &gt; Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+ &gt; Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2a1a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2a1a0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+Throughout the game there will be assorted objects that you can do things with. Most importantly, you may TAKE or GET items, and (when you are tired of them) DROP them again. INVENTORY (abbreviated I) will list the items you are currently holding. 
+
+There are usually assorted things you may do with these objects. OPEN, CLOSE, WEAR, EAT, LOCK, and UNLOCK are especially common.
+
+Occasionally, you will find that the game does not recognize the name of an object even though it has been described as being in the room with you. If this is the case, the object is just there for scenery, and you may assume that you do not need to interact with it.
+
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2a320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2a320">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+ &gt; Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+ &gt; Objects
+   Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2a4a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2a4a0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+   Objects
+ &gt; Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+   Objects
+ &gt; Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2a620"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2a620">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+There are a few simple commands for controlling the game itself. These are: 
+
+SAVE saves a snapshot of the game as it is now. 
+RESTORE puts the game back to a previous saved state. You may keep as many saved games as you like. 
+RESTART puts the game back to the way it was at the beginning. 
+QUIT ends the game.
+
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2a7a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2a7a0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+   Objects
+ &gt; Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+   Objects
+ &gt; Controlling the Game
+   How the World is Assembled
+   If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2a920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2a920">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+   Objects
+   Controlling the Game
+ &gt; How the World is Assembled
+   If You Get Stuck
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+   Objects
+   Controlling the Game
+ &gt; How the World is Assembled
+   If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2aaa0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2aaa0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+   Objects
+   Controlling the Game
+   How the World is Assembled
+ &gt; If You Get Stuck
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+   Objects
+   Controlling the Game
+   How the World is Assembled
+ &gt; If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2ac20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2ac20">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+   Objects
+   Controlling the Game
+ &gt; How the World is Assembled
+   If You Get Stuck
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+   Objects
+   Controlling the Game
+ &gt; How the World is Assembled
+   If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2ada0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2ada0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Space
+   Containment
+   Types of Action
+   Other Characters
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2af20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2af20">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+   Space
+ &gt; Containment
+   Types of Action
+   Other Characters
+   Space
+ &gt; Containment
+   Types of Action
+   Other Characters
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c47110"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c47110">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+ &gt; Space
+   Containment
+   Types of Action
+   Other Characters
+ &gt; Space
+   Containment
+   Types of Action
+   Other Characters
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c47290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c47290">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+Most IF games are set in a world made up of rooms without internal division. Movement between rooms is possible; movement within a room does not always amount to anything. &gt;WALK OVER TO THE DESK is rarely a useful sort of command. On the other hand, if something is described as being high or out of reach, it is sometimes relevant to stand on an object to increase your height. This kind of activity tends to be important only if prompted by the game text.
+
+
+
+Please press SPACE to continue.
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c47410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c47410">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c47590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c47590">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve"> &gt; Space
+   Containment
+   Types of Action
+   Other Characters
+ &gt; Space
+   Containment
+   Types of Action
+   Other Characters
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c47710"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c47710">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">
+   About Interactive Fiction
+   What to do with &gt;
+   Getting Started
+   Rooms and Travel
+   Objects
+   Controlling the Game
+ &gt; How the World is Assembled
+   If You Get Stuck
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c47890"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c47890">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">
+   Introduction to Retrospect
+ &gt; Instructions for Play
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c47a10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c47a10">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">
+Front Yard
+You can see some surroundings, some bushes and a garden hose here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c47b90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c47b90">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c47d10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c47d10">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c47e90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c47e90">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Living Room
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c6e110"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c6e110">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Living Room
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c6e290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c6e290">
+    <command xml:space="preserve">kill self</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c6e410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c6e410">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c6e590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c6e590">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c6e710"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c6e710">
+    <command xml:space="preserve">pet the cow</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c6e890"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c6e890">
+    <command xml:space="preserve">walk the dinosaur</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c6ea10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c6ea10">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c6eb90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c6eb90">
+    <command xml:space="preserve">mfw</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
