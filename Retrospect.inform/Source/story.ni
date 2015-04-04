@@ -41,6 +41,14 @@ An Evidence is a kind of thing.
 	Instead of taking an Evidence, say "You can't take evidence from the scene of the crime".
 
 [DEF ACTIONS]
+Understand the command "pwd" as "look".
+Understand the command "ls" as "inventory".
+Understand the command "dir" as "inventory".
+[Understand the command "sudo update-initramfs" as "leveling up".]
+ 	 Understand the command "cd" as "go".
+Understand the command "echo" as "say".
+ [Understand "cd .." as "up".]
+
 Watering is an action applying to one thing.
 	Understand "water [thing]" as watering.
 	
@@ -234,6 +242,15 @@ The vial is a thing.
 	
 The needle is a thing.
 	The description is "An empty needle.".
+	
+your phone is a thing.
+	The player is carrying your phone.
+	Instead of dropping your phone, say "You won’t risk that until you’ve bought a case for it.".
+	
+your clothes are a thing.
+	The description is "Just a typical suit. Your shoes look like they need to be polished."
+	The player is carrying your clothes.
+	Instead of dropping your clothes, say "Nudity is not acceptable in this society.".
 
 [inv inits]
 When Murder begins:
@@ -535,8 +552,9 @@ When Murder begins:
 		The microwave contains a ham sammich.
 		The sammich is edible.
 	
+	The note is in the Kitchen.
+	
 	The refrigerator is a container.
-		The refrigerator is in the Kitchen.
 		The refrigerator is fixed in place.
 		The refrigerator is enterable.
 		Understand "fridge" as refrigerator.
@@ -546,7 +564,8 @@ When Murder begins:
 		Instead of drinking milk, say "Not with that expiration date you're not.".
 		After entering the refrigerator:
 			say "Your attempt to catch the door light as it turns off is a success. But now you're cold and it's dark in here."
-		
+		The refrigerator is on the note.
+				
 	The oven is a container.
 		The oven is in the Kitchen.
 		The oven is fixed in place.
@@ -559,6 +578,11 @@ When Murder begins:
 	The dark stain is a thing.
 		The dark stain is in the Kitchen.
 		Instead of taking the dark stain, say "Do you even know how stains work?"
+		
+	The beer cabinet is a container.
+		The beer cabinet is in the Kitchen.
+		The beer cabinet is openable.
+		After opening the beer cabinet, say "Hmm. Looks like someone drank all the alcohol."
 	[Back Yard]
 															
 	[Upstairs]
@@ -640,6 +664,7 @@ When Murder begins:
 	The bookshelf is a thing.
 		The bookshelf is in the Child's Bedroom.
 		The bookshelf is fixed in place.
+		Understand "shelf" as the bookshelf.
 		After examining the bookshelf:
 			Now the family photo is in the Child's Bedroom;
 			if Investigation is the Current Scene
@@ -663,15 +688,7 @@ When Murder begins:
 		Now the description of the bookshelf is "";
 		Now the description of the family photo is "";]
 																							
-									
-	Understand the command "pwd" as "look".
-	Understand the command "ls" as "inventory".
-	[Understand the command "sudo update-initramfs" as "leveling up".]
- 	 Understand the command "cd" as "go".
-	Understand the command "echo" as "say".
-	 [Understand "cd .." as "up".]
-
-
+								
 
 	
 	
