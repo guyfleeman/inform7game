@@ -27,6 +27,7 @@
 	-> Install Extension
  ]
 Include Basic Help Menu by Emily Short.
+Include Basic Screen Effects by Emily Short.
 [Include Version 2 of Title Page by Jon Ingold.]
 
 [DEF ABSTRACTIONS]
@@ -74,6 +75,9 @@ The Maximum Score is 20. [2x num of clues (whatever that becomes)]
 The Score is 0.
 Use scoring.
 
+The clueFlag is a number that varies.
+The clueFlag is 0.
+
 [forward declaration hack for murder event to trigger scene change]
 The deathFlag is a number that varies.
 The deathFlag is 0.
@@ -106,7 +110,7 @@ Current Scene is a scene that varies.
 [DEF SCENES]
 Investigation is a scene.
 	Investigation begins when the player is in the Front Yard for the first time.
-	[Investigation ends when Investigation begins.]
+	Investigation ends when Investigation is the Current Scene AND the clueFlag is 1.
 	
 Murder is a scene.
 	Murder begins when Investigation ends.
@@ -122,6 +126,7 @@ The Current Scene is Investigation.
 
 When Investigation ends:
 	Now the Current Scene is Murder;
+	Clear the screen;
 	
 When Murder ends:
 	Now the Current Scene is Staging;
@@ -404,6 +409,17 @@ When Murder begins:
 		The police officer is a person.
 		The description is "Just your everyday typical police officer."
 		The police officer is fixed in place.
+		Instead of talking the police officer:
+			if Investigation is the Current Scene
+			begin;
+				if clueCount > 2
+				begin;
+					Say "Looks like this one is turning out to be pretty cut and dry. [if clueCount > 4] Clearly t[otherwise]T[end if]his guy was offed by a local cartel. We'll get some more detectives down here to figure out which group was responsible for this butchery.";
+					Now the clueFlag is 1;
+				otherwise;
+					Say "You'd better keep looking for clues instead of talking to me or the chief is gonna get pissed.";
+				end if;
+			end if;
 	
 	The bushes are a container.
 		The bushes are in the Front Yard.
