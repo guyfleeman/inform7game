@@ -35,6 +35,9 @@ ToggableThing is a kind of thing.
 	ToggableThing can be on or off.
 	ToggableThing is usually off.
 ]
+An Evidence is a kind of thing.
+	An Evidence is always fixed in place.
+	Instead of taking an Evidence, say "You can't take evidence from the scene of the crime".
 
 [DEF ACTIONS]
 Watering is an action applying to one thing.
@@ -101,7 +104,7 @@ Current Scene is a scene that varies.
 [DEF SCENES]
 Investigation is a scene.
 	Investigation begins when the player is in the Front Yard for the first time.
-	Investigation ends when Investigation begins.
+	[Investigation ends when Investigation begins.]
 	
 Murder is a scene.
 	Murder begins when Investigation ends.
@@ -252,7 +255,9 @@ When Murder begins:
 		The description is "The tree looks to be a few years old. It bears fruit, but it's not ripe enough to eat.".
 		
 	[Living Room]
-	
+	The lamp is in the Living Room.
+		The lamp is scenery.
+		The description is "Just your typical lamp. It doesn't seem to be working".
 	[Garage]
 	
 	[Kitchen]
@@ -457,17 +462,40 @@ When Murder begins:
 		Now the mail box is openable;
 		Now the mail box is closed;
 		
-	[Living Room]
+	[Living Room]		
+	The couch is  a thing.
+		The couch is in the Living Room.
+		The description is "Just a couch".
+
+		
+		
+	The TV is an Evidence.
+		The TV is in the Living Room.
+		The description is "An old television. It doesn't seem to be working".
+		
+		
 									
 	[Garage]
 	The car is a container.
 		The car is in the Garage.
 		The car is fixed in place.
+		The description is "A Toyota. Must be at least 20 years old".
 		The car is enterable.
 		
 	The tool bench is a thing.
 		The tool bench is in the Garage.
 		The tool bench is fixed in place.
+		The description is "An old rusty tool bench.".
+		The tool bench contains a wrench, a screwdriver, a hand drill, and a hammer.
+		The hand drill is an Evidence.
+		The wrench is an Evidence.
+		The screwdriver is an Evidence.
+		The hammer is an Evidence.
+		
+	The power box is a thing.
+		The power box is in the Garage.
+		The power box is fixed in place.
+		The description is "It provides electricity to the house. It seems to have been smashed by something".
 											
 	[Kitchen]
 	The microwave is a container.
