@@ -1,19 +1,19 @@
 ! Blurb file created by Inform build 6L38
 
-status "/usr/share/gnome-inform7/Miscellany/CblorbModel.html" "/home/willstuckey/Dropbox/inform7/englishProject/Retrospect.inform/Build/StatusCblorb.html"
+status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Volumes/File Storage/College/Classes/2015Spring/Engl1102/inform7game/Retrospect.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "/home/willstuckey/Dropbox/inform7/englishProject/Retrospect.inform"
+project folder "/Volumes/File Storage/College/Classes/2015Spring/Engl1102/inform7game/Retrospect.inform"
 
 ! Blorb instructions
 
 storyfile leafname "Retrospect.gblorb"
-storyfile "/home/willstuckey/Dropbox/inform7/englishProject/Retrospect.inform/Build/output.ulx" include
-ifiction "/home/willstuckey/Dropbox/inform7/englishProject/Retrospect.inform/Metadata.iFiction" include
-cover "/usr/share/gnome-inform7/Miscellany/Cover.jpg"
-picture 1 "/usr/share/gnome-inform7/Miscellany/Cover.jpg"
+storyfile "/Volumes/File Storage/College/Classes/2015Spring/Engl1102/inform7game/Retrospect.inform/Build/output.ulx" include
+ifiction "/Volumes/File Storage/College/Classes/2015Spring/Engl1102/inform7game/Retrospect.inform/Metadata.iFiction" include
+cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
+picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
 
 ! Placeholder variables
 
@@ -21,7 +21,7 @@ placeholder [IFID] = "47637FCC-D688-11E4-AB4A-40167E8ADB3B"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2015"
 placeholder [TITLE] = "Retrospect"
-placeholder [AUTHOR] = "GroopFore"
+placeholder [AUTHOR] = "GroopOfFore"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release

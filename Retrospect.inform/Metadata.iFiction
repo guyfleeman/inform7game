@@ -7,7 +7,7 @@
         </identification>
         <bibliographic>
             <title>Retrospect</title>
-            <author>GroopFore</author>
+            <author>GroopOfFore</author>
             <headline>An Interactive Fiction</headline>
             <genre>Fiction</genre>
             <firstpublished>2015</firstpublished>
@@ -17,7 +17,7 @@
         <releases>
             <attached>
                 <release>
-                    <releasedate>2015-03-30</releasedate>
+                    <releasedate>2015-04-03</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>6L38</compilerversion>
@@ -27,10 +27,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>6L38</generatorversion>
-            <originated>2015-03-30</originated>
+            <originated>2015-04-03</originated>
         </colophon>
         <glulx>
-            <serial>150330</serial>
+            <serial>150403</serial>
             <release>1</release>
             <compiler>Inform 7 build 6L38</compiler>
         </glulx>

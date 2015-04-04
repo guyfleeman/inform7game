@@ -20,10 +20,11 @@
 									 compiler if they are followed by a blank line or line with only white space (WTF this took me 20mins to fix)
 ]
 
-"Retrospect" by "GroopFore"
+"Retrospect" by "GroopOfFore"
 
 [INCLUDES]
 Include Basic Help Menu by Emily Short.
+[Include Version 2 of Title Page by Jon Ingold.]
 
 [DEF ABSTRACTIONS]
 [ apparently implicit subclasses can be made, but I couldn't get them to work. This wasn't the right approach anyway.
@@ -46,6 +47,8 @@ Turning On is an action applying to one thing.
 Turning Off is an action applying to one thing.
 	Understand "turning off [thing]" as switching off.
 	
+Leveling up is an action applying to nothing.
+	Understand "level up" as leveling up.
 
 [DEF ROOMS]
 Front Yard 			is a room.
@@ -59,9 +62,10 @@ Child's Bedroom 		is a room.
 
 [DEF ROOM LOCATIONS]
 Living Room 			is north of 	Front Yard.
-Garage 				is east of		Living Room.
+Garage 				is west of		Living Room.
 Kitchen 				is north of 	Living Room.
 Upstairs				is above 		Kitchen.
+Upstairs is west of Kitchen.
 Back Yard 				is north of 	Kitchen.
 Master Bedroom 		is east of 		Upstairs.
 Child's Bedroom 		is south of 	Upstairs.
@@ -96,19 +100,18 @@ Child's Bedroom 		is south of 	Upstairs.
 		The lawn is scenery.
 		The description is "The lawn is freshly mown and free of debris and weeds.".
 	
-	The mail box is in the Front Yard.
-		The mail box is scenery.
-		The description is "The mail box is empty. The house number 606 is on the side.".
-	
 	The apple tree is in the Front Yard.
 		The apple tree is scenery.
 		The description is "The tree looks to be a few years old. It bears fruit, but it's not ripe enough to eat.".
-	
+		
 	[Living Room]
 	
 	[Garage]
 	
 	[Kitchen]
+	The back door is in the Kitchen.
+		The back door is scenery.
+		The description is "There is a door here leading to the backyard. It seems unlocked."
 	
 	[Back Yard]
 	
@@ -121,7 +124,7 @@ Child's Bedroom 		is south of 	Upstairs.
 [INIT OBJECTS]
 	[dynamic surroundings
 		tracks the location/scope of the player and updates its position
-		allowing the player to always 'examine surroundings'.]
+		allowing the government to always 'examine surroundings'.]
 	The surroundings are a thing.
 	The indefinite article is "some".
 	After deciding the scope of the player:
@@ -206,10 +209,16 @@ Child's Bedroom 		is south of 	Upstairs.
 		Say "You can't have everything, you know?".
 	
 	[Front Yard]	
-	The bushes are a thing.
+	The police officer is in the Front Yard.
+		The police officer is a person.
+		The description is "Just your everyday typical police officer."
+	
+	The bushes are a container.
 		The bushes are in the Front Yard.
 		The indefinite article is "some".
 		The description is "The bushes have beautiful white flowers [if the bushes are not watered]on them, but they could use some water.[otherwise]that glisten in the morning sun.[end if]".
+		The bushes are enterable.
+		After entering the bushes, say "Ow, that hurt. At least I'm in a bush now.".
 		The bushes can be watered or not watered.
 		The bushes are not watered.
 		Instead of watering the bushes:
@@ -225,6 +234,7 @@ Child's Bedroom 		is south of 	Upstairs.
 			
 	The nozzle is a thing.
 		The description is "The nozzle's plastic is sunbaked and brittle. It is unclear if it has been used recently.".
+		The
 		The nozzle can be switched on or switched off.
 		The nozzle is switched off.
 		Instead of switching on the nozzle:
@@ -233,9 +243,11 @@ Child's Bedroom 		is south of 	Upstairs.
 			Say "The hose controls the nozzle.".
 		
 			
-	The garden hose is a thing.
+	The garden hose is a container.
 		The garden hose is in the Front Yard.
 		The description is "The garden hose has a nozzle attached to it for watering plants.".
+		The garden hose is enterable.
+		Instead of entering garden hose, say "How about no".
 		Instead of taking the garden hose:
 			Say "If anyone needs a shower it's you, not your co-workers.".
 		After examining the garden hose for the first time:
@@ -245,16 +257,56 @@ Child's Bedroom 		is south of 	Upstairs.
 			Instead of switching on the garden hose:
 				Now the nozzle is switched on;
 				Say "The nozzle is now turned on.".				
-			Instead of switching off the garden hose:
-				Now the nozzle is switched off;
+			After switching off the garden hose:
 				Say "The nozzle is now turned off.".
-						
+				
+	The mail box is a container.		
+		The mail box is in the Front Yard.
+		Understand "mailbox" as mail box.
+		The description is "The house number 606 is on its side.[if the mail box is open] The mail box is empty.[end if]".
+		The mail box is fixed in place.
+		The mail box is openable.
+		The mail box is closed.
+		The mail box is enterable.
+		
 	[Living Room]
 									
 	[Garage]
+	The car is a container.
+		The car is in the Garage.
+		The car is fixed in place.
+		The car is enterable.
 											
 	[Kitchen]
-													
+	The microwave is a container.
+		The microwave is in the Kitchen.
+		The microwave contains a ham sammich.
+		The sammich is edible.
+	
+	The refrigerator is a container.
+		The refrigerator is in the Kitchen.
+		The refrigerator is fixed in place.
+		The refrigerator is enterable.
+		Understand "fridge" as refrigerator.
+		milk is a thing.
+		The description is "Looks like it expired a couple weeks ago. Yuck."
+		The refrigerator contains the milk.
+		Instead of drinking milk, say "Not with that expiration date you're not.".
+		After entering the refrigerator:
+			say "Your attempt to catch the door light as it turns off is a success. But now you're cold and it's dark in here."
+		
+	The oven is a container.
+		The oven is in the Kitchen.
+		The oven is fixed in place.
+		The oven contains an applie pie.
+		The apple pie is edible.
+		
+	The spilled cup is a thing.
+		The spilled cup is in the Kitchen.
+
+	The dark stain is a thing.
+		The dark stain is in the Kitchen.
+		Instead of taking the dark stain, say "Do you even know how stains work?"
 	[Back Yard]
 															
 	[Upstairs]
@@ -266,8 +318,12 @@ Child's Bedroom 		is south of 	Upstairs.
 
 																							
 									
-
-
+	Understand the command "pwd" as "look".
+	Understand the command "ls" as "inventory".
+	[Understand the command "sudo update-initramfs" as "leveling up".]
+ 	 Understand the command "cd" as "go".
+	Understand the command "echo" as "say".
+	 [Understand "cd .." as "up".]
 
 
 
