@@ -73,7 +73,7 @@ Current Scene is a scene that varies.
 [DEF SCENES]
 Investigation is a scene.
 	Investigation begins when the player is in the Front Yard for the first time.
-	Investigation ends when Investigation begins.
+	[Investigation ends when Investigation begins.]
 	
 Murder is a scene.
 	Murder begins when Investigation ends.
@@ -101,7 +101,7 @@ The sentinel is a thing.
 	The sentinel is on;
 	
 The Back Door is a door.
-	Instead of picking the back door:
+	Instead of picking the Back Door:
 		Say "Picking... (press random keys)[line break]";
 		while the sentinel is on
 		begin;
@@ -117,7 +117,7 @@ The Back Door is a door.
 		
 The Front Door is a door.
 	The description is "The front door is black, devoid of windows, and made of oak. It is unlocked.".
-	Instead of picking the back door:
+	Instead of picking the Front Door:
 		Say "Picking... (press random keys)[line break]";
 		while the sentinel is on
 		begin;
@@ -126,7 +126,7 @@ The Front Door is a door.
 			if a random chance of 1 in 5 succeeds
 			begin;
 				Say "Done.";
-				Now the Back Door is unlocked;
+				Now the Front Door is unlocked;
 				stop;
 			end if;
 		end while;
