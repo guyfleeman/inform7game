@@ -54,7 +54,9 @@ Reading is an action applying to one thing.
 	
 Picking is an action applying to a thing.
 	Understand "pick [door]" as picking.
-	
+
+Looking under is an action applying to a thing.
+	Understand "look under [thing]" as examining.
 [wrap the default switch commands]
 Turning On is an action applying to one thing.
 	Understand "turning on [thing]" as switching on.
@@ -399,17 +401,21 @@ When Murder begins:
 		Now the mail box is closed;
 		
 	[Living Room]		
-	The couch is  a thing.
+	The couch is a thing.
 		The couch is in the Living Room.
-		The description is "Just a couch".
-
-		
+		The description is "Just a couch".		
 		
 	The TV is an Evidence.
 		The TV is in the Living Room.
 		The description is "An old television. It doesn't seem to be working".
 		
-		
+	The Ketamine is an Evidence.
+		Instead of examining the couch for the first time:
+			if Investigation is the Current Scene
+			begin;
+				Now the Ketamine is in the Living Room;
+				Say "You have found a large bag of Ketamine. [if we have not  examined the couch]You pull it out from underneath the couch.[end if]";
+			end if;
 									
 	[Garage]
 	The car is a container.
@@ -431,7 +437,11 @@ When Murder begins:
 	The power box is a thing.
 		The power box is in the Garage.
 		The power box is fixed in place.
-		The description is "It provides electricity to the house. It seems to have been smashed by something".
+		
+	When Investigation begins:	
+		Now the description of the power box is "It provides electricity to the house. It seems to have been smashed by something".
+	When Investigation ends:
+		Now the description of the power box is "".
 											
 	[Kitchen]
 	The microwave is a container.
