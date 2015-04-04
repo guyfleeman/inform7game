@@ -400,6 +400,10 @@ When Murder begins:
 		The car is in the Garage.
 		The car is fixed in place.
 		The car is enterable.
+		
+	The tool bench is a thing
+		The tool bench is in the Garage
+		The tool bench is fixed in place
 											
 	[Kitchen]
 	The microwave is a container.
