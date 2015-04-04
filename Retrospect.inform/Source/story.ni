@@ -98,7 +98,9 @@ A thing has some text called smell.
 A thing has some text called deathStatus.
 	The deathStatus of a thing is usually "alive".
 	
-
+Brightness is a kind of value. 
+	The brightnesses are dim and bright.
+	
 Current Scene is a scene that varies.
 
 [DEF SCENES]
@@ -169,6 +171,19 @@ The Front Door is a door.
 				stop;
 			end if;
 		end while;
+		
+The fence gate is a door.
+	The fence gate is unlocked.
+	The fence gate is closed.
+	Instead of opening the fence gate:
+		if Investigation is the Current Scene
+		begin;
+			Say "The police have already searched this area and found nothing.";
+		otherwise if Murder is the Current Scene;
+			Say "You already entered from here. You aren't ready to go back.";
+		otherwise if Staging is the Current Scene;
+			Say "eval stg score";
+		end if;
 
 [DEF ROOM LOCATIONS]
 Living Room is north of Front Door.
@@ -182,6 +197,7 @@ Child's Bedroom is south of Upstairs.
 
 The Front Door is north of the Front Yard and south of the Living Room.
 The Back Door is north of the Kitchen and south of Back Yard.
+The fence gate is north of the Back Yard.
 
 When Investigation begins:
 	Now the Front Door is unlocked;
@@ -641,5 +657,6 @@ When Murder begins:
 
 
 
+	
 	
 	
