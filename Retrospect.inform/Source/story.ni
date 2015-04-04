@@ -24,7 +24,7 @@
 
 [INCLUDES]
 Include Basic Help Menu by Emily Short.
-Include Version 2 of Title Page by Jon Ingold.
+[Include Version 2 of Title Page by Jon Ingold.]
 
 [DEF ABSTRACTIONS]
 [ apparently implicit subclasses can be made, but I couldn't get them to work. This wasn't the right approach anyway.
@@ -322,6 +322,7 @@ Child's Bedroom 		is south of 	Upstairs.
 	Understand the command "ls" as "inventory".
 	[Understand the command "sudo update-initramfs" as "leveling up".]
  	 Understand the command "cd" as "go".
+	Understand the command "echo" as "say".
 	 [Understand "cd .." as "up".]
 
 
