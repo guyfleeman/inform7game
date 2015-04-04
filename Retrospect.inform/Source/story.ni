@@ -22,7 +22,10 @@
 
 "Retrospect" by "GroopOfFore"
 
-[INCLUDES]
+[INCLUDES
+ File
+	-> Install Extension
+ ]
 Include Basic Help Menu by Emily Short.
 [Include Version 2 of Title Page by Jon Ingold.]
 
@@ -40,39 +43,50 @@ Watering is an action applying to one thing.
 Listing is an action applying to one thing.
 	Understand "list [thing]" as listing.
 	
+Leveling up is an action applying to nothing.
+	Understand "level up" as leveling up.
+		
+Reading is an action applying to one thing.
+	Understand "read [thing]" as reading.
+	
+Picking is an action applying to a thing.
+	Understand "pick [door]" as picking.
+	
 [wrap the default switch commands]
 Turning On is an action applying to one thing.
 	Understand "turning on [thing]" as switching on.
 	
 Turning Off is an action applying to one thing.
 	Understand "turning off [thing]" as switching off.
-
-Leveling up is an action applying to nothing.
-	Understand "level up" as leveling up.
 	
 [DEF GLOBAL VARS]
-The Maximum Score is 20. [2x num of clues (whatever the becomes)]
+The Maximum Score is 20. [2x num of clues (whatever that becomes)]
 The Score is 0.
 
-[
-_Flashback is a number that varies.
-_Flashback is 0.
+A thing has some text called content. 
+	The content of a thing is usually "".
+	
+A thing has some text called smell.
 
-_Staging is a number that varies.
-_Staging is 0. 
-]
+Current Scene is a scene that varies.
 
 [DEF SCENES]
 Investigation is a scene.
 	Investigation begins when the player is in the Front Yard for the first time.
+	Investigation ends when Investigation begins.
 	
 Murder is a scene.
 	Murder begins when Investigation ends.
+	When Murder begins:
+		Move the player to the Back Yard;
 	
 Staging is a scene.
 	Staging begins when Murder ends.
+	
+The Current Scene is Investigation.
+[The Current Scene is Murder.]
 
-[DEF ROOMS]
+[DEF ROOMS/DOORS]
 Front Yard is a room.
 Living Room  is a room.
 Garage is a room.
@@ -82,14 +96,70 @@ Upstairs is a room.
 Master Bedroom is a room.
 Child's Bedroom is a room.
 
+The sentinel is a thing.
+	The sentinel can be on or off.
+	The sentinel is on;
+	
+The Back Door is a door.
+	Instead of picking the back door:
+		Say "Picking... (press random keys)[line break]";
+		while the sentinel is on
+		begin;
+			Wait for any key;
+			Say "[if a random chance of 1 in 2 succeeds]*click*[otherwise]*clank*[end if][line break]";
+			if a random chance of 1 in 5 succeeds
+			begin;
+				Say "Done.";
+				Now the Back Door is unlocked;
+				stop;
+			end if;
+		end while;
+		
+The Front Door is a door.
+	The description is "The front door is black, devoid of windows, and made of oak. It is unlocked.".
+	Instead of picking the back door:
+		Say "Picking... (press random keys)[line break]";
+		while the sentinel is on
+		begin;
+			Wait for any key;
+			Say "[if a random chance of 1 in 2 succeeds]*click*[otherwise]*clank*[end if][line break]";
+			if a random chance of 1 in 5 succeeds
+			begin;
+				Say "Done.";
+				Now the Back Door is unlocked;
+				stop;
+			end if;
+		end while;
+
 [DEF ROOM LOCATIONS]
-Living Room is north of Front Yard.
+Living Room is north of Front Door.
 Garage is east of Living Room.
 Kitchen is north of Living Room.
+Kitchen is south of the Back Door.
 Upstairs is above Kitchen.
-Back Yard is north of	Kitchen.
+Back Yard is north of	Back Door.
 Master Bedroom is east of Upstairs.
 Child's Bedroom is south of Upstairs.
+
+The Front Door is north of the Front Yard and south of the Living Room.
+The Back Door is north of the Kitchen and south of Back Yard.
+
+When Investigation begins:
+	Now the Front Door is unlocked;
+	Now the Back Door is unlocked;
+
+When Murder begins:
+	Now the Front Door is locked;
+	Now the Back Door is locked;
+
+[INIT INVENTORY]
+The pick gun is a thing.
+	The description is "A pick gun. Pick guns can be used to unlock most residential locks.".
+	The pick gun unlocks the Back Door.
+	The pick gun unlocks the Front Door.
+
+When Murder begins:
+	Now the player has the pick gun.
 
 [INIT SCENERY]
 	[Front Yard]
@@ -112,10 +182,6 @@ Child's Bedroom is south of Upstairs.
 	The path is in the Front Yard.
 		The path is scenery.
 		The description is "The path connects the front porch to the driveway and passes the bushes. It is made of dark river stones. [if we have not examined the path]They crunch softly beneath your feet.[end if]".
-	
-	The front door is in the Front Yard.
-		The front door is scenery.
-		The description is "The front door is black, devoid of windows, and made of oak. It is unlocked.".
 		
 	The lawn is in the Front Yard.
 		The lawn is scenery.
@@ -130,9 +196,10 @@ Child's Bedroom is south of Upstairs.
 	[Garage]
 	
 	[Kitchen]
+	[
 	The back door is in the Kitchen.
 		The back door is scenery.
-		The description is "There is a door here leading to the backyard. It seems unlocked."
+		The description is "There is a door here leading to the backyard. It seems unlocked."]
 	
 	[Back Yard]
 	
@@ -141,6 +208,28 @@ Child's Bedroom is south of Upstairs.
 	[Master Bedroom]
 	
 	[Child's Bedroom]
+	The window is in the Child's Bedroom.
+		The window is scenery.
+		The description is "A pine forest can be seen. Just past the edge of the forest, you can see a duck blind.".
+	
+	[Scenery scene routines]
+	When Investigation begins:
+		Say "Scenery Init investigation".
+		
+	When Investigation ends:
+		Say "Scenery End Investigation".
+		
+	When Murder begins:
+		Say "Scenery Init Murder".
+		
+	When Murder ends:
+		Say "Scenery End Murder".
+		
+	When Staging begins:
+		Say "Scenery Init Staging".
+		
+	When Staging ends:
+		Say "Scenery End Staging".
 
 [INIT OBJECTS]
 	[dynamic surroundings
@@ -233,29 +322,34 @@ Child's Bedroom is south of Upstairs.
 	The police officer is in the Front Yard.
 		The police officer is a person.
 		The description is "Just your everyday typical police officer."
+		The police officer is fixed in place.
 	
 	The bushes are a container.
 		The bushes are in the Front Yard.
 		The indefinite article is "some".
 		The description is "The bushes have beautiful white flowers [if the bushes are not watered]on them, but they could use some water.[otherwise]that glisten in the morning sun.[end if]".
+		The bushes are fixed in place.
 		The bushes are enterable.
-		After entering the bushes, say "Ow, that hurt. At least I'm in a bush now.".
+		After entering the bushes:
+			say "Ow, that hurt. At least I'm in a bush now.".
 		The bushes can be watered or not watered.
 		The bushes are not watered.
 		Instead of watering the bushes:
-			if the player has the nozzle and the nozzle is switched on
+			if Investigation is the Current Scene
 			begin;
-				Say "You water the bushes.";
-				Now the bushes are watered;
-			otherwise if the player has the nozzle and the nozzle is switched off;
-				Say "You can't water the bushes when the nozzle is off.";
-			otherwise;
-				Say "You have nothing with which to water the plant.";
-			end if;
+				if the player has the nozzle and the nozzle is switched on
+				begin;
+					Say "You water the bushes.";
+					Now the bushes are watered;
+				otherwise if the player has the nozzle and the nozzle is switched off;
+					Say "You can't water the bushes when the nozzle is off.";
+				otherwise;
+					Say "You have nothing with which to water the plant.";
+				end if;
+			end if.
 			
 	The nozzle is a thing.
 		The description is "The nozzle's plastic is sunbaked and brittle. It is unclear if it has been used recently.".
-		The
 		The nozzle can be switched on or switched off.
 		The nozzle is switched off.
 		Instead of switching on the nozzle:
@@ -266,28 +360,38 @@ Child's Bedroom is south of Upstairs.
 	The garden hose is a thing.
 		The garden hose is in the Front Yard.
 		The description is "The garden hose has a nozzle attached to it for watering plants.".
-		The garden hose is enterable.
-		Instead of entering garden hose, say "How about no".
-		Instead of taking the garden hose:
-			Say "If anyone needs a shower it's you, not your co-workers.".
+		The garden hose is fixed in place.
 		After examining the garden hose for the first time:
-			Move the nozzle to the Front Yard.
+			if Investigation is the Current Scene
+			begin;
+				Move the nozzle to the Front Yard;
+			end if.
 		The garden hose can be switched on or switched off.
 			The garden hose is switched off.
 			Instead of switching on the garden hose:
-				Now the nozzle is switched on;
-				Say "The nozzle is now turned on.".				
+				if Investigation is the Current Scene
+				begin;
+					Now the nozzle is switched on;
+					Say "The nozzle is now turned on.";
+				end if.				
 			After switching off the garden hose:
-				Say "The nozzle is now turned off.".
+				if Investigation is the Current Scene
+				begin;
+					Now the nozzle is switched off;
+					Say "The nozzle is now turned off.";
+				end if;
 				
-	The mail box is a container.		
+	The mail box is a container.				
 		The mail box is in the Front Yard.
+		The description of the mail box is "The house number 606 is on its side.[if the mail box is open] The mail box is empty.[end if]".
 		Understand "mailbox" as mail box.
-		The description is "The house number 606 is on its side.[if the mail box is open] The mail box is empty.[end if]".
 		The mail box is fixed in place.
-		The mail box is openable.
-		The mail box is closed.
-		The mail box is enterable.
+		
+	[dynamic properties]
+	When Investigation begins:		
+		[mail box]
+		Now the mail box is openable;
+		Now the mail box is closed;
 		
 	[Living Room]
 									
@@ -335,8 +439,55 @@ Child's Bedroom is south of Upstairs.
 	[Master Bedroom]
 																			
 	[Child's Bedroom]
-
-
+	The child's bed is a thing.
+		The bed is in the Child's Bedroom.
+		The description of the child's bed is "The child's bed looks normal.".
+		The child's bed is fixed in place.
+		Instead of smelling the bed:
+			Say "[if the smell of the noun is not empty]It smells [the smell of the noun].[paragraph break][otherwise]You smell nothing unexpected.[end if]".
+	
+	The alarm clock is a thing.
+		The alarm clock is in the Child's Bedroom.
+		The description of the alarm clock is "An ordinary alarm clock. It's set to go off at 7:10 am.".
+		The alarm clock is fixed in place.
+		
+	The backpack is a thing.
+		The backpack is in the Child's Bedroom.
+		The description of the backpack is "An Avengers backpack. It contains Math 6, Biology, and Civics textbooks.". 
+		
+	The family photo is a thing.
+	
+	The note is a thing.
+		The description of the note is "A text scribbled on a Post-It note.".
+		The content of the note is "4ceBew1thYou".
+		Instead of reading the note:
+			Say "The [noun] reads '[the content of the noun]'";
+		
+	The bookshelf is a thing.
+		The bookshelf is in the Child's Bedroom.
+		The bookshelf is fixed in place.
+		After examining the bookshelf:
+			Now the family photo is in the Child's Bedroom;
+			if Investigation is the Current Scene
+			begin;
+				Now the note is in the Child's Bedroom;
+			end if;
+		
+	When Investigation begins:
+		Now the description of the bookshelf is "A wooden bookshelf. It has some books, photos, and Legos.";
+		
+	When Investigation ends:
+		Now the description of the bookshelf is "";
+		
+	When Murder begins:
+		Now the smell of the child's bed is "faintly of urine";
+		Now the description of the bookshelf is "A wooden bookshelf. It has the Hunger Games and Percy Jackson series neatly aligned on its third shelf. The other shelves are filled with Star Wars Legos and photos.";
+		Now the description of the family photo is "A family of four. An infant daughter is on the far left next to her mother. The father is on the far right and has placed his arm on his son's knee. The son is sitting cross-legged evenly between his mother and his father. Nobody seems thrilled to be in the photo.";
+		
+	[When Murder ends:
+		Now the smell of the child's bed is "";
+		Now the description of the bookshelf is "";
+		Now the description of the family photo is "";]
 																							
 									
 	Understand the command "pwd" as "look".
@@ -348,4 +499,5 @@ Child's Bedroom is south of Upstairs.
 
 
 
+	
 	
