@@ -1,2944 +1,1054 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x258d740" xmlns="http://www.logicalshift.org.uk/IF/Skein">
-  <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x7fc9f42a7620"/>
-  <item nodeId="node-0x258d740">
+<Skein rootNode="node-0x02830E40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x02830E40"/>
+  <item nodeId="node-0x02830E40">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">
-
-
-Scenery Init investigation
-Scenery End Investigation
-Back Yard
-You can see a Back Door here.
-
-Scenery Init Murder
-Retrospect
-An Interactive Fiction by GroopOfFore
-Release 1 / Serial number 150404 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
-
-Back Yard
-You can see a Back Door here.
-
-&gt;</result>
+    <result xml:space="preserve">Scenery Init investigation&#x000A;Scenery End Investigation&#x000A;Back Yard&#x000A;You can see a Back Door here.&#x000A;&#x000A;Scenery Init Murder&#x000A;Retrospect&#x000A;An Interactive Fiction by GroopOfFore&#x000A;Release 1 / Serial number 150404 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Back Yard&#x000A;You can see a Back Door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x258d8c0"/>
-      <child nodeId="node-0x2cabea0"/>
-      <child nodeId="node-0x2cc7160"/>
-      <child nodeId="node-0x2cf1a80"/>
-      <child nodeId="node-0x2d39150"/>
-      <child nodeId="node-0x2d392d0"/>
-      <child nodeId="node-0x2d39a50"/>
-      <child nodeId="node-0x2d58bf0"/>
-      <child nodeId="node-0x2d911a0"/>
-      <child nodeId="node-0x2d91320"/>
-      <child nodeId="node-0x2d91c20"/>
-      <child nodeId="node-0x7fca640d7a80"/>
-      <child nodeId="node-0x7fca640d7f00"/>
-      <child nodeId="node-0x7fca001a1400"/>
-      <child nodeId="node-0x7fc9f40e6a30"/>
+      <child nodeId="node-0x02830EB0"/>
+      <child nodeId="node-0x0281FC78"/>
+      <child nodeId="node-0x0281FCE8"/>
+      <child nodeId="node-0x02824708"/>
+      <child nodeId="node-0x02824E08"/>
+      <child nodeId="node-0x02824858"/>
+      <child nodeId="node-0x02824A18"/>
+      <child nodeId="node-0x028245B8"/>
+      <child nodeId="node-0x02824FC8"/>
+      <child nodeId="node-0x02824EE8"/>
+      <child nodeId="node-0x02868AF8"/>
     </children>
   </item>
-  <item nodeId="node-0x258d8c0">
+  <item nodeId="node-0x02830EB0">
     <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x258da40"/>
+      <child nodeId="node-0x02830F80"/>
     </children>
   </item>
-  <item nodeId="node-0x258da40">
+  <item nodeId="node-0x02830F80">
     <command xml:space="preserve">Current Scene</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x258dbc0"/>
+      <child nodeId="node-0x02815028"/>
     </children>
   </item>
-  <item nodeId="node-0x258dbc0">
+  <item nodeId="node-0x02815028">
     <command xml:space="preserve">scenes</command>
-    <result xml:space="preserve">Scene &apos;Entire Game&apos; playing (for 0 mins now)
-Scene &apos;Investigation&apos; playing (for 0 mins now)
-(Scene monitoring now switched on. Type &quot;scenes off&quot; to switch it off again.)
-
-&gt;</result>
+    <result xml:space="preserve">Scene 'Entire Game' playing (for 0 mins now)&#x000A;Scene 'Investigation' playing (for 0 mins now)&#x000A;(Scene monitoring now switched on. Type "scenes off" to switch it off again.)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x258dd40"/>
+      <child nodeId="node-0x02815098"/>
     </children>
   </item>
-  <item nodeId="node-0x258dd40">
+  <item nodeId="node-0x02815098">
     <command xml:space="preserve">scener</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x258dec0"/>
+      <child nodeId="node-0x02857EF8"/>
     </children>
   </item>
-  <item nodeId="node-0x258dec0">
+  <item nodeId="node-0x02857EF8">
     <command xml:space="preserve">scenes</command>
-    <result xml:space="preserve">Scene &apos;Entire Game&apos; playing (for 0 mins now)
-Scene &apos;Investigation&apos; playing (for 0 mins now)
-(Scene monitoring now switched on. Type &quot;scenes off&quot; to switch it off again.)
-
-&gt;</result>
+    <result xml:space="preserve">Scene 'Entire Game' playing (for 0 mins now)&#x000A;Scene 'Investigation' playing (for 0 mins now)&#x000A;(Scene monitoring now switched on. Type "scenes off" to switch it off again.)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cab120"/>
+      <child nodeId="node-0x02857F68"/>
     </children>
   </item>
-  <item nodeId="node-0x2cab120">
+  <item nodeId="node-0x02857F68">
     <command xml:space="preserve">scenes</command>
-    <result xml:space="preserve">Scene &apos;Entire Game&apos; playing (for 0 mins now)
-Scene &apos;Investigation&apos; playing (for 0 mins now)
-(Scene monitoring now switched on. Type &quot;scenes off&quot; to switch it off again.)
-
-&gt;</result>
+    <result xml:space="preserve">Scene 'Entire Game' playing (for 0 mins now)&#x000A;Scene 'Investigation' playing (for 0 mins now)&#x000A;(Scene monitoring now switched on. Type "scenes off" to switch it off again.)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cab2a0"/>
+      <child nodeId="node-0x02815458"/>
     </children>
   </item>
-  <item nodeId="node-0x2cab2a0">
+  <item nodeId="node-0x02815458">
     <command xml:space="preserve">go nroth</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cab420"/>
+      <child nodeId="node-0x0281EE78"/>
     </children>
   </item>
-  <item nodeId="node-0x2cab420">
+  <item nodeId="node-0x0281EE78">
     <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">
-Living Room
-
-&gt;</result>
+    <result xml:space="preserve">&#x000A;Living Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cab5a0"/>
+      <child nodeId="node-0x0281F060"/>
     </children>
   </item>
-  <item nodeId="node-0x2cab5a0">
+  <item nodeId="node-0x0281F060">
     <command xml:space="preserve">scenes</command>
-    <result xml:space="preserve">Scene &apos;Entire Game&apos; playing (for 1 mins now)
-Scene &apos;Investigation&apos; playing (for 1 mins now)
-(Scene monitoring now switched on. Type &quot;scenes off&quot; to switch it off again.)
-
-&gt;</result>
+    <result xml:space="preserve">Scene 'Entire Game' playing (for 1 mins now)&#x000A;Scene 'Investigation' playing (for 1 mins now)&#x000A;(Scene monitoring now switched on. Type "scenes off" to switch it off again.)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cab720"/>
+      <child nodeId="node-0x0281F1C8"/>
     </children>
   </item>
-  <item nodeId="node-0x2cab720">
+  <item nodeId="node-0x0281F1C8">
     <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">
-Front Yard
-You can see a police officer, some bushes (empty), a garden hose and a mail box (closed) here.
-
-&gt;</result>
+    <result xml:space="preserve">&#x000A;Front Yard&#x000A;You can see a police officer, some bushes (empty), a garden hose and a mail box (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cab8a0"/>
+      <child nodeId="node-0x0281F3B0"/>
     </children>
   </item>
-  <item nodeId="node-0x2cab8a0">
+  <item nodeId="node-0x0281F3B0">
     <command xml:space="preserve">scenes</command>
-    <result xml:space="preserve">Scene &apos;Entire Game&apos; playing (for 2 mins now)
-Scene &apos;Investigation&apos; playing (for 2 mins now)
-(Scene monitoring now switched on. Type &quot;scenes off&quot; to switch it off again.)
-
-&gt;</result>
+    <result xml:space="preserve">Scene 'Entire Game' playing (for 2 mins now)&#x000A;Scene 'Investigation' playing (for 2 mins now)&#x000A;(Scene monitoring now switched on. Type "scenes off" to switch it off again.)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2caba20"/>
+      <child nodeId="node-0x0281F518"/>
     </children>
   </item>
-  <item nodeId="node-0x2caba20">
+  <item nodeId="node-0x0281F518">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Front Yard
-You can see a police officer, some bushes (empty), a garden hose and a mail box (closed) here.
-
-&gt;</result>
+    <result xml:space="preserve">Front Yard&#x000A;You can see a police officer, some bushes (empty), a garden hose and a mail box (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cabba0"/>
+      <child nodeId="node-0x0281F700"/>
     </children>
   </item>
-  <item nodeId="node-0x2cabba0">
+  <item nodeId="node-0x0281F700">
     <command xml:space="preserve">scenes</command>
-    <result xml:space="preserve">Scene &apos;Entire Game&apos; playing (for 3 mins now)
-Scene &apos;Investigation&apos; playing (for 3 mins now)
-(Scene monitoring now switched on. Type &quot;scenes off&quot; to switch it off again.)
-
-&gt;</result>
+    <result xml:space="preserve">Scene 'Entire Game' playing (for 3 mins now)&#x000A;Scene 'Investigation' playing (for 3 mins now)&#x000A;(Scene monitoring now switched on. Type "scenes off" to switch it off again.)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cabd20"/>
+      <child nodeId="node-0x0281FD58"/>
     </children>
   </item>
-  <item nodeId="node-0x2cabd20">
+  <item nodeId="node-0x0281FD58">
     <command xml:space="preserve">say does it look like i give a frickle frackle</command>
-    <result xml:space="preserve">(to the police officer)
-There is no reply.
-
-&gt;</result>
+    <result xml:space="preserve">(to the police officer)&#x000A;There is no reply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2cabea0">
+  <item nodeId="node-0x0281FC78">
     <command xml:space="preserve">open mailbox</command>
-    <result xml:space="preserve">You open the mail box.
-
-&gt;</result>
+    <result xml:space="preserve">You open the mail box.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2cc7160">
+  <item nodeId="node-0x0281FCE8">
     <command xml:space="preserve">examine garden hose</command>
-    <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
-
-&gt;</result>
+    <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cc72e0"/>
+      <child nodeId="node-0x0281F888"/>
     </children>
   </item>
-  <item nodeId="node-0x2cc72e0">
+  <item nodeId="node-0x0281F888">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Front Yard
-You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (closed) here.
-
-&gt;</result>
+    <result xml:space="preserve">Front Yard&#x000A;You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cc7460"/>
-      <child nodeId="node-0x2cc75e0"/>
-      <child nodeId="node-0x2cf1600"/>
+      <child nodeId="node-0x0281F8F8"/>
+      <child nodeId="node-0x0281FF18"/>
+      <child nodeId="node-0x0281FDC8"/>
     </children>
   </item>
-  <item nodeId="node-0x2cc7460">
+  <item nodeId="node-0x0281F8F8">
     <command xml:space="preserve">scenes</command>
-    <result xml:space="preserve">Scene &apos;Entire Game&apos; playing (for 2 mins now)
-Scene &apos;Investigation&apos; playing (for 2 mins now)
-(Scene monitoring now switched on. Type &quot;scenes off&quot; to switch it off again.)
-
-&gt;</result>
+    <result xml:space="preserve">Scene 'Entire Game' playing (for 2 mins now)&#x000A;Scene 'Investigation' playing (for 2 mins now)&#x000A;(Scene monitoring now switched on. Type "scenes off" to switch it off again.)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2cc75e0">
+  <item nodeId="node-0x0281FF18">
     <command xml:space="preserve">take nozzle</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cc7760"/>
+      <child nodeId="node-0x0281F9D8"/>
     </children>
   </item>
-  <item nodeId="node-0x2cc7760">
+  <item nodeId="node-0x0281F9D8">
     <command xml:space="preserve">rules</command>
-    <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
-
-&gt;</result>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cc78e0"/>
+      <child nodeId="node-0x0281F968"/>
     </children>
   </item>
-  <item nodeId="node-0x2cc78e0">
+  <item nodeId="node-0x0281F968">
     <command xml:space="preserve">rules</command>
-    <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
-
-&gt;</result>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cc7a60"/>
+      <child nodeId="node-0x0281FA48"/>
     </children>
   </item>
-  <item nodeId="node-0x2cc7a60">
+  <item nodeId="node-0x0281FA48">
     <command xml:space="preserve">open mailboc</command>
-    <result xml:space="preserve">[Rule &quot;After deciding the scope of the player&quot; applies.]
-[Rule &quot;After deciding the scope of the player&quot; applies.]
-You can&apos;t see any such thing.
-
-&gt;</result>
+    <result xml:space="preserve">[Rule "After deciding the scope of the player" applies.]&#x000A;[Rule "After deciding the scope of the player" applies.]&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cc7be0"/>
+      <child nodeId="node-0x0281FAB8"/>
     </children>
   </item>
-  <item nodeId="node-0x2cc7be0">
+  <item nodeId="node-0x0281FAB8">
     <command xml:space="preserve">open mailbox</command>
-    <result xml:space="preserve">[Rule &quot;After deciding the scope of the player&quot; applies.]
-[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-[Rule &quot;announce items from multiple object lists rule&quot; applies.]
-[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
-[Rule &quot;before stage rule&quot; applies.]
-[Rule &quot;instead stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
-[Rule &quot;player aware of his own actions rule&quot; applies.]
-[Rule &quot;check stage rule&quot; applies.]
-[Rule &quot;can&apos;t open unless openable rule&quot; applies.]
-[Rule &quot;can&apos;t open what&apos;s locked rule&quot; applies.]
-[Rule &quot;can&apos;t open what&apos;s already open rule&quot; applies.]
-[Rule &quot;carry out stage rule&quot; applies.]
-[Rule &quot;standard opening rule&quot; applies.]
-[Rule &quot;after stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
-[Rule &quot;report stage rule&quot; applies.]
-[Rule &quot;reveal any newly visible interior rule&quot; applies.]
-[Rule &quot;standard report opening rule&quot; applies.]
-You open the mail box.
-[Rule &quot;last specific action-processing rule&quot; applies.]
-
-[Rule &quot;A first turn sequence rule&quot; applies.]
-[Rule &quot;every turn stage rule&quot; applies.]
-[Rule &quot;A last turn sequence rule&quot; applies.]
-[Rule &quot;notify score changes rule&quot; applies.]
-&gt;</result>
+    <result xml:space="preserve">[Rule "After deciding the scope of the player" applies.]&#x000A;[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "can't open unless openable rule" applies.]&#x000A;[Rule "can't open what's locked rule" applies.]&#x000A;[Rule "can't open what's already open rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "standard opening rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "reveal any newly visible interior rule" applies.]&#x000A;[Rule "standard report opening rule" applies.]&#x000A;You open the mail box.&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cc7d60"/>
+      <child nodeId="node-0x0281FB28"/>
     </children>
   </item>
-  <item nodeId="node-0x2cc7d60">
+  <item nodeId="node-0x0281FB28">
     <command xml:space="preserve">take nozzl</command>
-    <result xml:space="preserve">[Rule &quot;After deciding the scope of the player&quot; applies.]
-[Rule &quot;After deciding the scope of the player&quot; applies.]
-[Rule &quot;After deciding the scope of the player&quot; applies.]
-You can&apos;t see any such thing.
-
-&gt;</result>
+    <result xml:space="preserve">[Rule "After deciding the scope of the player" applies.]&#x000A;[Rule "After deciding the scope of the player" applies.]&#x000A;[Rule "After deciding the scope of the player" applies.]&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cc7ee0"/>
+      <child nodeId="node-0x0281FF88"/>
     </children>
   </item>
-  <item nodeId="node-0x2cc7ee0">
+  <item nodeId="node-0x0281FF88">
     <command xml:space="preserve">take nozzle</command>
-    <result xml:space="preserve">[Rule &quot;After deciding the scope of the player&quot; applies.]
-[Rule &quot;After deciding the scope of the player&quot; applies.]
-[Rule &quot;After deciding the scope of the player&quot; applies.]
-You can&apos;t see any such thing.
-
-&gt;</result>
+    <result xml:space="preserve">[Rule "After deciding the scope of the player" applies.]&#x000A;[Rule "After deciding the scope of the player" applies.]&#x000A;[Rule "After deciding the scope of the player" applies.]&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cf1180"/>
+      <child nodeId="node-0x0281FB98"/>
     </children>
   </item>
-  <item nodeId="node-0x2cf1180">
+  <item nodeId="node-0x0281FB98">
     <command xml:space="preserve">examine mail box</command>
-    <result xml:space="preserve">[Rule &quot;After deciding the scope of the player&quot; applies.]
-[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-[Rule &quot;announce items from multiple object lists rule&quot; applies.]
-[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
-[Rule &quot;before stage rule&quot; applies.]
-[Rule &quot;can&apos;t act in the dark rule&quot; applies.]
-[Rule &quot;instead stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
-[Rule &quot;player aware of his own actions rule&quot; applies.]
-[Rule &quot;check stage rule&quot; applies.]
-[Rule &quot;carry out stage rule&quot; applies.]
-[Rule &quot;standard examining rule&quot; applies.]
-The house number 606 is on its side. The mail box is empty.
-
-[Rule &quot;examine directions rule&quot; applies.]
-[Rule &quot;examine containers rule&quot; applies.]
-[Rule &quot;examine supporters rule&quot; applies.]
-[Rule &quot;examine devices rule&quot; applies.]
-[Rule &quot;examine undescribed things rule&quot; applies.]
-[Rule &quot;after stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
-[Rule &quot;report stage rule&quot; applies.]
-[Rule &quot;report other people examining rule&quot; applies.]
-[Rule &quot;last specific action-processing rule&quot; applies.]
-[Rule &quot;A first turn sequence rule&quot; applies.]
-[Rule &quot;every turn stage rule&quot; applies.]
-[Rule &quot;A last turn sequence rule&quot; applies.]
-[Rule &quot;notify score changes rule&quot; applies.]
-&gt;</result>
+    <result xml:space="preserve">[Rule "After deciding the scope of the player" applies.]&#x000A;[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "can't act in the dark rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "standard examining rule" applies.]&#x000A;The house number 606 is on its side. The mail box is empty.&#x000A;&#x000A;[Rule "examine directions rule" applies.]&#x000A;[Rule "examine containers rule" applies.]&#x000A;[Rule "examine supporters rule" applies.]&#x000A;[Rule "examine devices rule" applies.]&#x000A;[Rule "examine undescribed things rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "report other people examining rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cf1300"/>
+      <child nodeId="node-0x0281FC08"/>
     </children>
   </item>
-  <item nodeId="node-0x2cf1300">
+  <item nodeId="node-0x0281FC08">
     <command xml:space="preserve">close mailbox</command>
-    <result xml:space="preserve">[Rule &quot;After deciding the scope of the player&quot; applies.]
-[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-[Rule &quot;announce items from multiple object lists rule&quot; applies.]
-[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
-[Rule &quot;before stage rule&quot; applies.]
-[Rule &quot;instead stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
-[Rule &quot;player aware of his own actions rule&quot; applies.]
-[Rule &quot;check stage rule&quot; applies.]
-[Rule &quot;can&apos;t close unless openable rule&quot; applies.]
-[Rule &quot;can&apos;t close what&apos;s already closed rule&quot; applies.]
-[Rule &quot;carry out stage rule&quot; applies.]
-[Rule &quot;standard closing rule&quot; applies.]
-[Rule &quot;after stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
-[Rule &quot;report stage rule&quot; applies.]
-[Rule &quot;standard report closing rule&quot; applies.]
-You close the mail box.
-[Rule &quot;last specific action-processing rule&quot; applies.]
-
-[Rule &quot;A first turn sequence rule&quot; applies.]
-[Rule &quot;every turn stage rule&quot; applies.]
-[Rule &quot;A last turn sequence rule&quot; applies.]
-[Rule &quot;notify score changes rule&quot; applies.]
-&gt;</result>
+    <result xml:space="preserve">[Rule "After deciding the scope of the player" applies.]&#x000A;[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "can't close unless openable rule" applies.]&#x000A;[Rule "can't close what's already closed rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "standard closing rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "standard report closing rule" applies.]&#x000A;You close the mail box.&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cf1480"/>
+      <child nodeId="node-0x0281FEA8"/>
     </children>
   </item>
-  <item nodeId="node-0x2cf1480">
+  <item nodeId="node-0x0281FEA8">
     <command xml:space="preserve">examine mail box</command>
-    <result xml:space="preserve">[Rule &quot;After deciding the scope of the player&quot; applies.]
-[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-[Rule &quot;announce items from multiple object lists rule&quot; applies.]
-[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
-[Rule &quot;before stage rule&quot; applies.]
-[Rule &quot;can&apos;t act in the dark rule&quot; applies.]
-[Rule &quot;instead stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
-[Rule &quot;player aware of his own actions rule&quot; applies.]
-[Rule &quot;check stage rule&quot; applies.]
-[Rule &quot;carry out stage rule&quot; applies.]
-[Rule &quot;standard examining rule&quot; applies.]
-The house number 606 is on its side.
-
-[Rule &quot;examine directions rule&quot; applies.]
-[Rule &quot;examine containers rule&quot; applies.]
-[Rule &quot;examine supporters rule&quot; applies.]
-[Rule &quot;examine devices rule&quot; applies.]
-[Rule &quot;examine undescribed things rule&quot; applies.]
-[Rule &quot;after stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
-[Rule &quot;report stage rule&quot; applies.]
-[Rule &quot;report other people examining rule&quot; applies.]
-[Rule &quot;last specific action-processing rule&quot; applies.]
-[Rule &quot;A first turn sequence rule&quot; applies.]
-[Rule &quot;every turn stage rule&quot; applies.]
-[Rule &quot;A last turn sequence rule&quot; applies.]
-[Rule &quot;notify score changes rule&quot; applies.]
-&gt;</result>
+    <result xml:space="preserve">[Rule "After deciding the scope of the player" applies.]&#x000A;[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "can't act in the dark rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "standard examining rule" applies.]&#x000A;The house number 606 is on its side.&#x000A;&#x000A;[Rule "examine directions rule" applies.]&#x000A;[Rule "examine containers rule" applies.]&#x000A;[Rule "examine supporters rule" applies.]&#x000A;[Rule "examine devices rule" applies.]&#x000A;[Rule "examine undescribed things rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "report other people examining rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2cf1600">
+  <item nodeId="node-0x0281FDC8">
     <command xml:space="preserve">take nozzl</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cf1780"/>
+      <child nodeId="node-0x0281FFF8"/>
     </children>
   </item>
-  <item nodeId="node-0x2cf1780">
+  <item nodeId="node-0x0281FFF8">
     <command xml:space="preserve">take nozzle</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cf1900"/>
+      <child nodeId="node-0x0281FE38"/>
     </children>
   </item>
-  <item nodeId="node-0x2cf1900">
+  <item nodeId="node-0x0281FE38">
     <command xml:space="preserve">rules</command>
-    <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
-
-&gt;</result>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2cf1a80">
+  <item nodeId="node-0x02824708">
     <command xml:space="preserve">examien garden hose</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cf1c00"/>
+      <child nodeId="node-0x02824388"/>
     </children>
   </item>
-  <item nodeId="node-0x2cf1c00">
+  <item nodeId="node-0x02824388">
     <command xml:space="preserve">examine garden hose</command>
-    <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
-
-&gt;</result>
+    <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cf1d80"/>
+      <child nodeId="node-0x02824628"/>
     </children>
   </item>
-  <item nodeId="node-0x2cf1d80">
+  <item nodeId="node-0x02824628">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Front Yard
-You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (empty) here.
-
-&gt;</result>
+    <result xml:space="preserve">Front Yard&#x000A;You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (empty) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2cf1f00"/>
-      <child nodeId="node-0x2d0f420"/>
+      <child nodeId="node-0x02824778"/>
+      <child nodeId="node-0x02824938"/>
     </children>
   </item>
-  <item nodeId="node-0x2cf1f00">
+  <item nodeId="node-0x02824778">
     <command xml:space="preserve">scenes</command>
-    <result xml:space="preserve">Scene &apos;Entire Game&apos; playing (for 2 mins now)
-(Scene monitoring now switched on. Type &quot;scenes off&quot; to switch it off again.)
-
-&gt;</result>
+    <result xml:space="preserve">Scene 'Entire Game' playing (for 2 mins now)&#x000A;(Scene monitoring now switched on. Type "scenes off" to switch it off again.)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d0f120"/>
+      <child nodeId="node-0x02824078"/>
     </children>
   </item>
-  <item nodeId="node-0x2d0f120">
+  <item nodeId="node-0x02824078">
     <command xml:space="preserve">take nozzle</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d0f2a0"/>
+      <child nodeId="node-0x028243F8"/>
     </children>
   </item>
-  <item nodeId="node-0x2d0f2a0">
+  <item nodeId="node-0x028243F8">
     <command xml:space="preserve">examine mail box</command>
-    <result xml:space="preserve">The mail box is empty.
-
-&gt;</result>
+    <result xml:space="preserve">The mail box is empty.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2d0f420">
+  <item nodeId="node-0x02824938">
     <command xml:space="preserve">take nozzle</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d0f5a0"/>
+      <child nodeId="node-0x02824CB8"/>
     </children>
   </item>
-  <item nodeId="node-0x2d0f5a0">
+  <item nodeId="node-0x02824CB8">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Front Yard
-You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (empty) here.
-
-&gt;</result>
+    <result xml:space="preserve">Front Yard&#x000A;You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (empty) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d0f720"/>
+      <child nodeId="node-0x02824158"/>
     </children>
   </item>
-  <item nodeId="node-0x2d0f720">
+  <item nodeId="node-0x02824158">
     <command xml:space="preserve">examine garden hose</command>
-    <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
-
-&gt;</result>
+    <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d0f8a0"/>
+      <child nodeId="node-0x02824468"/>
     </children>
   </item>
-  <item nodeId="node-0x2d0f8a0">
+  <item nodeId="node-0x02824468">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Front Yard
-You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (empty) here.
-
-&gt;</result>
+    <result xml:space="preserve">Front Yard&#x000A;You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (empty) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d0fa20"/>
+      <child nodeId="node-0x028249A8"/>
     </children>
   </item>
-  <item nodeId="node-0x2d0fa20">
+  <item nodeId="node-0x028249A8">
     <command xml:space="preserve">rulebook</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d0fba0"/>
+      <child nodeId="node-0x02824C48"/>
     </children>
   </item>
-  <item nodeId="node-0x2d0fba0">
+  <item nodeId="node-0x02824C48">
     <command xml:space="preserve">rulesbook</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d0fd20"/>
+      <child nodeId="node-0x028248C8"/>
     </children>
   </item>
-  <item nodeId="node-0x2d0fd20">
+  <item nodeId="node-0x028248C8">
     <command xml:space="preserve">rules</command>
-    <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
-
-&gt;</result>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d0fea0"/>
+      <child nodeId="node-0x028247E8"/>
     </children>
   </item>
-  <item nodeId="node-0x2d0fea0">
+  <item nodeId="node-0x028247E8">
     <command xml:space="preserve">rules</command>
-    <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
-
-&gt;</result>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2d39150">
+  <item nodeId="node-0x02824E08">
     <command xml:space="preserve">examine mail box</command>
-    <result xml:space="preserve">The house number 606 is on its side.
-
-&gt;</result>
+    <result xml:space="preserve">The house number 606 is on its side.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2d392d0">
+  <item nodeId="node-0x02824858">
     <command xml:space="preserve">open mail box</command>
-    <result xml:space="preserve">It isn&apos;t something you can open.
-
-&gt;</result>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d39450"/>
+      <child nodeId="node-0x028240E8"/>
     </children>
   </item>
-  <item nodeId="node-0x2d39450">
+  <item nodeId="node-0x028240E8">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Front Yard
-You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (empty) here.
-
-&gt;</result>
+    <result xml:space="preserve">Front Yard&#x000A;You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (empty) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d395d0"/>
+      <child nodeId="node-0x02824318"/>
     </children>
   </item>
-  <item nodeId="node-0x2d395d0">
+  <item nodeId="node-0x02824318">
     <command xml:space="preserve">examien garden hose</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d39750"/>
+      <child nodeId="node-0x02824D28"/>
     </children>
   </item>
-  <item nodeId="node-0x2d39750">
+  <item nodeId="node-0x02824D28">
     <command xml:space="preserve">examine garden hose</command>
-    <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
-
-&gt;</result>
+    <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d398d0"/>
+      <child nodeId="node-0x02824698"/>
     </children>
   </item>
-  <item nodeId="node-0x2d398d0">
+  <item nodeId="node-0x02824698">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Front Yard
-You can see a nozzle, some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (empty) here.
-
-&gt;</result>
+    <result xml:space="preserve">Front Yard&#x000A;You can see a nozzle, some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (empty) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2d39a50">
+  <item nodeId="node-0x02824A18">
     <command xml:space="preserve">rules</command>
-    <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
-
-&gt;</result>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d39bd0"/>
+      <child nodeId="node-0x028241C8"/>
     </children>
   </item>
-  <item nodeId="node-0x2d39bd0">
+  <item nodeId="node-0x028241C8">
     <command xml:space="preserve">rules</command>
-    <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
-
-&gt;</result>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d39d50"/>
-      <child nodeId="node-0x2d58470"/>
+      <child nodeId="node-0x02824A88"/>
+      <child nodeId="node-0x02824B68"/>
     </children>
   </item>
-  <item nodeId="node-0x2d39d50">
+  <item nodeId="node-0x02824A88">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-[Rule &quot;determine visibility ceiling rule&quot; applies.]
-[Rule &quot;announce items from multiple object lists rule&quot; applies.]
-[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
-[Rule &quot;before stage rule&quot; applies.]
-[Rule &quot;instead stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
-[Rule &quot;player aware of his own actions rule&quot; applies.]
-[Rule &quot;check stage rule&quot; applies.]
-[Rule &quot;carry out stage rule&quot; applies.]
-[Rule &quot;declare everything unmentioned rule&quot; applies.]
-[Rule &quot;room description heading rule&quot; applies.]
-Front Yard
-[Rule &quot;room description body text rule&quot; applies.]
-[Rule &quot;room description paragraphs about objects rule&quot; applies.]
-[Rule &quot;initialise locale description rule&quot; applies.]
-[Rule &quot;find notable locale objects rule&quot; applies.]
-[Rule &quot;standard notable locale objects rule&quot; applies.]
-[Rule &quot;interesting locale paragraphs rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;you-can-also-see rule&quot; applies.]
-You can see a police officer, some bushes (empty), a garden hose and a mail box (closed) here.
-
-[Rule &quot;check new arrival rule&quot; applies.]
-[Rule &quot;after stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
-[Rule &quot;report stage rule&quot; applies.]
-[Rule &quot;other people looking rule&quot; applies.]
-[Rule &quot;last specific action-processing rule&quot; applies.]
-[Rule &quot;A first turn sequence rule&quot; applies.]
-[Rule &quot;every turn stage rule&quot; applies.]
-[Rule &quot;A last turn sequence rule&quot; applies.]
-[Rule &quot;notify score changes rule&quot; applies.]
-&gt;</result>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "determine visibility ceiling rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "declare everything unmentioned rule" applies.]&#x000A;[Rule "room description heading rule" applies.]&#x000A;Front Yard&#x000A;[Rule "room description body text rule" applies.]&#x000A;[Rule "room description paragraphs about objects rule" applies.]&#x000A;[Rule "initialise locale description rule" applies.]&#x000A;[Rule "find notable locale objects rule" applies.]&#x000A;[Rule "standard notable locale objects rule" applies.]&#x000A;[Rule "interesting locale paragraphs rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "you-can-also-see rule" applies.]&#x000A;You can see a police officer, some bushes (empty), a garden hose and a mail box (closed) here.&#x000A;&#x000A;[Rule "check new arrival rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "other people looking rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d39ed0"/>
-      <child nodeId="node-0x2d582f0"/>
+      <child nodeId="node-0x028244D8"/>
+      <child nodeId="node-0x02824238"/>
     </children>
   </item>
-  <item nodeId="node-0x2d39ed0">
+  <item nodeId="node-0x028244D8">
     <command xml:space="preserve">examine garden hose</command>
-    <result xml:space="preserve">[Rule &quot;After deciding the scope of the player&quot; applies.]
-[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-[Rule &quot;announce items from multiple object lists rule&quot; applies.]
-[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
-[Rule &quot;before stage rule&quot; applies.]
-[Rule &quot;can&apos;t act in the dark rule&quot; applies.]
-[Rule &quot;instead stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
-[Rule &quot;player aware of his own actions rule&quot; applies.]
-[Rule &quot;check stage rule&quot; applies.]
-[Rule &quot;carry out stage rule&quot; applies.]
-[Rule &quot;standard examining rule&quot; applies.]
-The garden hose has a nozzle attached to it for watering plants.
-
-[Rule &quot;examine directions rule&quot; applies.]
-[Rule &quot;examine containers rule&quot; applies.]
-[Rule &quot;examine supporters rule&quot; applies.]
-[Rule &quot;examine devices rule&quot; applies.]
-[Rule &quot;examine undescribed things rule&quot; applies.]
-[Rule &quot;after stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
-[Rule &quot;report stage rule&quot; applies.]
-[Rule &quot;report other people examining rule&quot; applies.]
-[Rule &quot;last specific action-processing rule&quot; applies.]
-[Rule &quot;A first turn sequence rule&quot; applies.]
-[Rule &quot;every turn stage rule&quot; applies.]
-[Rule &quot;A last turn sequence rule&quot; applies.]
-[Rule &quot;notify score changes rule&quot; applies.]
-&gt;</result>
+    <result xml:space="preserve">[Rule "After deciding the scope of the player" applies.]&#x000A;[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "can't act in the dark rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "standard examining rule" applies.]&#x000A;The garden hose has a nozzle attached to it for watering plants.&#x000A;&#x000A;[Rule "examine directions rule" applies.]&#x000A;[Rule "examine containers rule" applies.]&#x000A;[Rule "examine supporters rule" applies.]&#x000A;[Rule "examine devices rule" applies.]&#x000A;[Rule "examine undescribed things rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "report other people examining rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d58170"/>
+      <child nodeId="node-0x02824AF8"/>
     </children>
   </item>
-  <item nodeId="node-0x2d58170">
+  <item nodeId="node-0x02824AF8">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-[Rule &quot;determine visibility ceiling rule&quot; applies.]
-[Rule &quot;announce items from multiple object lists rule&quot; applies.]
-[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
-[Rule &quot;before stage rule&quot; applies.]
-[Rule &quot;instead stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
-[Rule &quot;player aware of his own actions rule&quot; applies.]
-[Rule &quot;check stage rule&quot; applies.]
-[Rule &quot;carry out stage rule&quot; applies.]
-[Rule &quot;declare everything unmentioned rule&quot; applies.]
-[Rule &quot;room description heading rule&quot; applies.]
-Front Yard
-[Rule &quot;room description body text rule&quot; applies.]
-[Rule &quot;room description paragraphs about objects rule&quot; applies.]
-[Rule &quot;initialise locale description rule&quot; applies.]
-[Rule &quot;find notable locale objects rule&quot; applies.]
-[Rule &quot;standard notable locale objects rule&quot; applies.]
-[Rule &quot;interesting locale paragraphs rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;you-can-also-see rule&quot; applies.]
-You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (closed) here.
-
-[Rule &quot;check new arrival rule&quot; applies.]
-[Rule &quot;after stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
-[Rule &quot;report stage rule&quot; applies.]
-[Rule &quot;other people looking rule&quot; applies.]
-[Rule &quot;last specific action-processing rule&quot; applies.]
-[Rule &quot;A first turn sequence rule&quot; applies.]
-[Rule &quot;every turn stage rule&quot; applies.]
-[Rule &quot;A last turn sequence rule&quot; applies.]
-[Rule &quot;notify score changes rule&quot; applies.]
-&gt;</result>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "determine visibility ceiling rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "declare everything unmentioned rule" applies.]&#x000A;[Rule "room description heading rule" applies.]&#x000A;Front Yard&#x000A;[Rule "room description body text rule" applies.]&#x000A;[Rule "room description paragraphs about objects rule" applies.]&#x000A;[Rule "initialise locale description rule" applies.]&#x000A;[Rule "find notable locale objects rule" applies.]&#x000A;[Rule "standard notable locale objects rule" applies.]&#x000A;[Rule "interesting locale paragraphs rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "you-can-also-see rule" applies.]&#x000A;You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (closed) here.&#x000A;&#x000A;[Rule "check new arrival rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "other people looking rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2d582f0">
+  <item nodeId="node-0x02824238">
     <command xml:space="preserve">examine bushes</command>
-    <result xml:space="preserve">[Rule &quot;After deciding the scope of the player&quot; applies.]
-[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-[Rule &quot;announce items from multiple object lists rule&quot; applies.]
-[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
-[Rule &quot;before stage rule&quot; applies.]
-[Rule &quot;can&apos;t act in the dark rule&quot; applies.]
-[Rule &quot;instead stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
-[Rule &quot;player aware of his own actions rule&quot; applies.]
-[Rule &quot;check stage rule&quot; applies.]
-[Rule &quot;carry out stage rule&quot; applies.]
-[Rule &quot;standard examining rule&quot; applies.]
-The bushes have beautiful white flowers on them, but they could use some water.
-
-[Rule &quot;examine directions rule&quot; applies.]
-[Rule &quot;examine containers rule&quot; applies.]
-[Rule &quot;examine supporters rule&quot; applies.]
-[Rule &quot;examine devices rule&quot; applies.]
-[Rule &quot;examine undescribed things rule&quot; applies.]
-[Rule &quot;after stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
-[Rule &quot;report stage rule&quot; applies.]
-[Rule &quot;report other people examining rule&quot; applies.]
-[Rule &quot;last specific action-processing rule&quot; applies.]
-[Rule &quot;A first turn sequence rule&quot; applies.]
-[Rule &quot;every turn stage rule&quot; applies.]
-[Rule &quot;A last turn sequence rule&quot; applies.]
-[Rule &quot;notify score changes rule&quot; applies.]
-&gt;</result>
+    <result xml:space="preserve">[Rule "After deciding the scope of the player" applies.]&#x000A;[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "can't act in the dark rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "standard examining rule" applies.]&#x000A;The bushes have beautiful white flowers on them, but they could use some water.&#x000A;&#x000A;[Rule "examine directions rule" applies.]&#x000A;[Rule "examine containers rule" applies.]&#x000A;[Rule "examine supporters rule" applies.]&#x000A;[Rule "examine devices rule" applies.]&#x000A;[Rule "examine undescribed things rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "report other people examining rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2d58470">
+  <item nodeId="node-0x02824B68">
     <command xml:space="preserve">open mailbox</command>
-    <result xml:space="preserve">[Rule &quot;After deciding the scope of the player&quot; applies.]
-[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-[Rule &quot;announce items from multiple object lists rule&quot; applies.]
-[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
-[Rule &quot;before stage rule&quot; applies.]
-[Rule &quot;instead stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
-[Rule &quot;player aware of his own actions rule&quot; applies.]
-[Rule &quot;check stage rule&quot; applies.]
-[Rule &quot;can&apos;t open unless openable rule&quot; applies.]
-[Rule &quot;can&apos;t open what&apos;s locked rule&quot; applies.]
-[Rule &quot;can&apos;t open what&apos;s already open rule&quot; applies.]
-[Rule &quot;carry out stage rule&quot; applies.]
-[Rule &quot;standard opening rule&quot; applies.]
-[Rule &quot;after stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
-[Rule &quot;report stage rule&quot; applies.]
-[Rule &quot;reveal any newly visible interior rule&quot; applies.]
-[Rule &quot;standard report opening rule&quot; applies.]
-You open the mail box.
-[Rule &quot;last specific action-processing rule&quot; applies.]
-
-[Rule &quot;A first turn sequence rule&quot; applies.]
-[Rule &quot;every turn stage rule&quot; applies.]
-[Rule &quot;A last turn sequence rule&quot; applies.]
-[Rule &quot;notify score changes rule&quot; applies.]
-&gt;</result>
+    <result xml:space="preserve">[Rule "After deciding the scope of the player" applies.]&#x000A;[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "can't open unless openable rule" applies.]&#x000A;[Rule "can't open what's locked rule" applies.]&#x000A;[Rule "can't open what's already open rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "standard opening rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "reveal any newly visible interior rule" applies.]&#x000A;[Rule "standard report opening rule" applies.]&#x000A;You open the mail box.&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d585f0"/>
+      <child nodeId="node-0x02824BD8"/>
     </children>
   </item>
-  <item nodeId="node-0x2d585f0">
+  <item nodeId="node-0x02824BD8">
     <command xml:space="preserve">examine garden hose</command>
-    <result xml:space="preserve">[Rule &quot;After deciding the scope of the player&quot; applies.]
-[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-[Rule &quot;announce items from multiple object lists rule&quot; applies.]
-[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
-[Rule &quot;before stage rule&quot; applies.]
-[Rule &quot;can&apos;t act in the dark rule&quot; applies.]
-[Rule &quot;instead stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
-[Rule &quot;player aware of his own actions rule&quot; applies.]
-[Rule &quot;check stage rule&quot; applies.]
-[Rule &quot;carry out stage rule&quot; applies.]
-[Rule &quot;standard examining rule&quot; applies.]
-The garden hose has a nozzle attached to it for watering plants.
-
-[Rule &quot;examine directions rule&quot; applies.]
-[Rule &quot;examine containers rule&quot; applies.]
-[Rule &quot;examine supporters rule&quot; applies.]
-[Rule &quot;examine devices rule&quot; applies.]
-[Rule &quot;examine undescribed things rule&quot; applies.]
-[Rule &quot;after stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
-[Rule &quot;report stage rule&quot; applies.]
-[Rule &quot;report other people examining rule&quot; applies.]
-[Rule &quot;last specific action-processing rule&quot; applies.]
-[Rule &quot;A first turn sequence rule&quot; applies.]
-[Rule &quot;every turn stage rule&quot; applies.]
-[Rule &quot;A last turn sequence rule&quot; applies.]
-[Rule &quot;notify score changes rule&quot; applies.]
-&gt;</result>
+    <result xml:space="preserve">[Rule "After deciding the scope of the player" applies.]&#x000A;[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "can't act in the dark rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "standard examining rule" applies.]&#x000A;The garden hose has a nozzle attached to it for watering plants.&#x000A;&#x000A;[Rule "examine directions rule" applies.]&#x000A;[Rule "examine containers rule" applies.]&#x000A;[Rule "examine supporters rule" applies.]&#x000A;[Rule "examine devices rule" applies.]&#x000A;[Rule "examine undescribed things rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "report other people examining rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d58770"/>
+      <child nodeId="node-0x02824548"/>
     </children>
   </item>
-  <item nodeId="node-0x2d58770">
+  <item nodeId="node-0x02824548">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-[Rule &quot;determine visibility ceiling rule&quot; applies.]
-[Rule &quot;announce items from multiple object lists rule&quot; applies.]
-[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
-[Rule &quot;before stage rule&quot; applies.]
-[Rule &quot;instead stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness before action rule&quot; applies.]
-[Rule &quot;player aware of his own actions rule&quot; applies.]
-[Rule &quot;check stage rule&quot; applies.]
-[Rule &quot;carry out stage rule&quot; applies.]
-[Rule &quot;declare everything unmentioned rule&quot; applies.]
-[Rule &quot;room description heading rule&quot; applies.]
-Front Yard
-[Rule &quot;room description body text rule&quot; applies.]
-[Rule &quot;room description paragraphs about objects rule&quot; applies.]
-[Rule &quot;initialise locale description rule&quot; applies.]
-[Rule &quot;find notable locale objects rule&quot; applies.]
-[Rule &quot;standard notable locale objects rule&quot; applies.]
-[Rule &quot;interesting locale paragraphs rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;you-can-also-see rule&quot; applies.]
-You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (empty) here.
-
-[Rule &quot;check new arrival rule&quot; applies.]
-[Rule &quot;after stage rule&quot; applies.]
-[Rule &quot;investigate player&apos;s awareness after action rule&quot; applies.]
-[Rule &quot;report stage rule&quot; applies.]
-[Rule &quot;other people looking rule&quot; applies.]
-[Rule &quot;last specific action-processing rule&quot; applies.]
-[Rule &quot;A first turn sequence rule&quot; applies.]
-[Rule &quot;every turn stage rule&quot; applies.]
-[Rule &quot;A last turn sequence rule&quot; applies.]
-[Rule &quot;notify score changes rule&quot; applies.]
-&gt;</result>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "determine visibility ceiling rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "declare everything unmentioned rule" applies.]&#x000A;[Rule "room description heading rule" applies.]&#x000A;Front Yard&#x000A;[Rule "room description body text rule" applies.]&#x000A;[Rule "room description paragraphs about objects rule" applies.]&#x000A;[Rule "initialise locale description rule" applies.]&#x000A;[Rule "find notable locale objects rule" applies.]&#x000A;[Rule "standard notable locale objects rule" applies.]&#x000A;[Rule "interesting locale paragraphs rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "you-can-also-see rule" applies.]&#x000A;You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (empty) here.&#x000A;&#x000A;[Rule "check new arrival rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "other people looking rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d588f0"/>
+      <child nodeId="node-0x02824D98"/>
     </children>
   </item>
-  <item nodeId="node-0x2d588f0">
+  <item nodeId="node-0x02824D98">
     <command xml:space="preserve">rules off</command>
-    <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
-Rules tracing now switched off. Type &quot;rules&quot; to switch it on again.
-
-&gt;</result>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;Rules tracing now switched off. Type "rules" to switch it on again.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d58a70"/>
+      <child nodeId="node-0x028242A8"/>
     </children>
   </item>
-  <item nodeId="node-0x2d58a70">
+  <item nodeId="node-0x028242A8">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Front Yard
-You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (empty) here.
-
-&gt;</result>
+    <result xml:space="preserve">Front Yard&#x000A;You can see some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (empty) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2d58bf0">
+  <item nodeId="node-0x028245B8">
     <command xml:space="preserve">examien garden hsoe</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d58d70"/>
+      <child nodeId="node-0x02824F58"/>
     </children>
   </item>
-  <item nodeId="node-0x2d58d70">
+  <item nodeId="node-0x02824F58">
     <command xml:space="preserve">examine garden hose</command>
-    <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
-
-&gt;</result>
+    <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d58ef0"/>
+      <child nodeId="node-0x02824E78"/>
     </children>
   </item>
-  <item nodeId="node-0x2d58ef0">
+  <item nodeId="node-0x02824E78">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Front Yard
-You can see a nozzle, some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (closed) here.
-
-&gt;</result>
+    <result xml:space="preserve">Front Yard&#x000A;You can see a nozzle, some surroundings, a police officer, some bushes (empty), a garden hose and a mail box (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2d911a0">
+  <item nodeId="node-0x02824FC8">
     <command xml:space="preserve">water bushes</command>
-    <result xml:space="preserve">You have nothing with which to water the plant.
-
-&gt;</result>
+    <result xml:space="preserve">You have nothing with which to water the plant.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2d91320">
+  <item nodeId="node-0x02824EE8">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Back Yard
-
-&gt;</result>
+    <result xml:space="preserve">Back Yard&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d914a0"/>
+      <child nodeId="node-0x02868468"/>
     </children>
   </item>
-  <item nodeId="node-0x2d914a0">
+  <item nodeId="node-0x02868468">
     <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">
-Kitchen
-You can see a microwave (in which is a ham sammich), a refrigerator (in which is milk), an oven (in which is an applie pie), a spilled cup and a dark stain here.
-
-&gt;</result>
+    <result xml:space="preserve">&#x000A;Kitchen&#x000A;You can see a microwave (in which is a ham sammich), a refrigerator (in which is milk), an oven (in which is an applie pie), a spilled cup and a dark stain here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d91620"/>
+      <child nodeId="node-0x02868238"/>
     </children>
   </item>
-  <item nodeId="node-0x2d91620">
+  <item nodeId="node-0x02868238">
     <command xml:space="preserve">go up</command>
-    <result xml:space="preserve">
-Upstairs
-
-&gt;</result>
+    <result xml:space="preserve">&#x000A;Upstairs&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d917a0"/>
+      <child nodeId="node-0x028682A8"/>
     </children>
   </item>
-  <item nodeId="node-0x2d917a0">
+  <item nodeId="node-0x028682A8">
     <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d91920"/>
+      <child nodeId="node-0x02868B68"/>
     </children>
   </item>
-  <item nodeId="node-0x2d91920">
+  <item nodeId="node-0x02868B68">
     <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">
-Child&apos;s Bedroom
-
-&gt;</result>
+    <result xml:space="preserve">&#x000A;Child's Bedroom&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d91aa0"/>
+      <child nodeId="node-0x028689A8"/>
     </children>
   </item>
-  <item nodeId="node-0x2d91aa0">
+  <item nodeId="node-0x028689A8">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Child&apos;s Bedroom
-
-&gt;</result>
+    <result xml:space="preserve">Child's Bedroom&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2d91c20">
+  <item nodeId="node-0x02868AF8">
     <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">(first opening the Back Door)
-It seems to be locked.
-
-&gt;</result>
+    <result xml:space="preserve">(first opening the Back Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d91da0"/>
-      <child nodeId="node-0x7fca640d7480"/>
-      <child nodeId="node-0x7fca640d7900"/>
-      <child nodeId="node-0x7fca6429e620"/>
-      <child nodeId="node-0x7fca6429ef20"/>
-      <child nodeId="node-0x7fc9f428f130"/>
+      <child nodeId="node-0x02868388"/>
+      <child nodeId="node-0x028683F8"/>
+      <child nodeId="node-0x02868EE8"/>
+      <child nodeId="node-0x02868F58"/>
+      <child nodeId="node-0x02868628"/>
     </children>
   </item>
-  <item nodeId="node-0x2d91da0">
+  <item nodeId="node-0x02868388">
     <command xml:space="preserve">go up</command>
-    <result xml:space="preserve">
-Upstairs
-
-&gt;</result>
+    <result xml:space="preserve">&#x000A;Upstairs&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2d91f20"/>
+      <child nodeId="node-0x02868A18"/>
     </children>
   </item>
-  <item nodeId="node-0x2d91f20">
+  <item nodeId="node-0x02868A18">
     <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">
-Child&apos;s Bedroom
-You can see a child&apos;s bed, an alarm clock and a bookshelf here.
-
-&gt;</result>
+    <result xml:space="preserve">&#x000A;Child's Bedroom&#x000A;You can see a child's bed, an alarm clock and a bookshelf here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2dac150"/>
-      <child nodeId="node-0x2dac2d0"/>
-      <child nodeId="node-0x2dac5d0"/>
-      <child nodeId="node-0x2dac750"/>
-      <child nodeId="node-0x2dac8d0"/>
-      <child nodeId="node-0x2dd9600"/>
+      <child nodeId="node-0x02868A88"/>
+      <child nodeId="node-0x02868C48"/>
+      <child nodeId="node-0x02868CB8"/>
+      <child nodeId="node-0x02868698"/>
+      <child nodeId="node-0x02868858"/>
+      <child nodeId="node-0x02868E78"/>
     </children>
   </item>
-  <item nodeId="node-0x2dac150">
+  <item nodeId="node-0x02868A88">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Child&apos;s Bedroom
-
-&gt;</result>
+    <result xml:space="preserve">Child's Bedroom&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2dac2d0">
+  <item nodeId="node-0x02868C48">
     <command xml:space="preserve">examine bed</command>
-    <result xml:space="preserve">The child&apos;s bed looks normal.
-
-&gt;</result>
+    <result xml:space="preserve">The child's bed looks normal.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2dac450"/>
+      <child nodeId="node-0x02868778"/>
     </children>
   </item>
-  <item nodeId="node-0x2dac450">
+  <item nodeId="node-0x02868778">
     <command xml:space="preserve">smell bed</command>
-    <result xml:space="preserve">You smell nothing unexpected.
-
-&gt;</result>
+    <result xml:space="preserve">You smell nothing unexpected.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2dac5d0">
+  <item nodeId="node-0x02868CB8">
     <command xml:space="preserve">smell the bed</command>
-    <result xml:space="preserve">You smell nothing unexpected.
-
-&gt;</result>
+    <result xml:space="preserve">You smell nothing unexpected.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2dac750">
+  <item nodeId="node-0x02868698">
     <command xml:space="preserve">smell bed</command>
-    <result xml:space="preserve">It smells faintly of urine.
-
-&gt;</result>
+    <result xml:space="preserve">It smells faintly of urine.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2dac8d0">
-    <command xml:space="preserve">examine child&apos;s bed</command>
-    <result xml:space="preserve">The child&apos;s bed looks normal.
-
-&gt;</result>
+  <item nodeId="node-0x02868858">
+    <command xml:space="preserve">examine child's bed</command>
+    <result xml:space="preserve">The child's bed looks normal.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2daca50"/>
+      <child nodeId="node-0x02868BD8"/>
     </children>
   </item>
-  <item nodeId="node-0x2daca50">
-    <command xml:space="preserve">smell child&apos;s be</command>
-    <result xml:space="preserve">I only understood you as far as wanting to smell the child&apos;s bed.
-
-&gt;</result>
+  <item nodeId="node-0x02868BD8">
+    <command xml:space="preserve">smell child's be</command>
+    <result xml:space="preserve">I only understood you as far as wanting to smell the child's bed.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2dacbd0"/>
+      <child nodeId="node-0x02868D28"/>
     </children>
   </item>
-  <item nodeId="node-0x2dacbd0">
-    <command xml:space="preserve">smell child&apos;s bed</command>
-    <result xml:space="preserve">It smells faintly of urine.
-
-&gt;</result>
+  <item nodeId="node-0x02868D28">
+    <command xml:space="preserve">smell child's bed</command>
+    <result xml:space="preserve">It smells faintly of urine.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2dacd50"/>
+      <child nodeId="node-0x02868938"/>
     </children>
   </item>
-  <item nodeId="node-0x2dacd50">
+  <item nodeId="node-0x02868938">
     <command xml:space="preserve">examine alarm clock</command>
-    <result xml:space="preserve">An ordinary alarm clock. It&apos;s set to go off at 7:10 am.
-
-&gt;</result>
+    <result xml:space="preserve">An ordinary alarm clock. It's set to go off at 7:10 am.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2daced0"/>
+      <child nodeId="node-0x02868D98"/>
     </children>
   </item>
-  <item nodeId="node-0x2daced0">
+  <item nodeId="node-0x02868D98">
     <command xml:space="preserve">examine booksheld</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2dd9180"/>
+      <child nodeId="node-0x02868E08"/>
     </children>
   </item>
-  <item nodeId="node-0x2dd9180">
+  <item nodeId="node-0x02868E08">
     <command xml:space="preserve">examine bookshelf</command>
-    <result xml:space="preserve">A wooden bookshelf. It has the Hunger Games and Percy Jackson series neatly aligned on its third shelf. The other shelves are filled with Star Wars legos and photos.
-
-&gt;</result>
+    <result xml:space="preserve">A wooden bookshelf. It has the Hunger Games and Percy Jackson series neatly aligned on its third shelf. The other shelves are filled with Star Wars legos and photos.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2dd9300"/>
+      <child nodeId="node-0x02868708"/>
     </children>
   </item>
-  <item nodeId="node-0x2dd9300">
+  <item nodeId="node-0x02868708">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Child&apos;s Bedroom
-You can see a family photo, some surroundings, a child&apos;s bed, an alarm clock and a bookshelf here.
-
-&gt;</result>
+    <result xml:space="preserve">Child's Bedroom&#x000A;You can see a family photo, some surroundings, a child's bed, an alarm clock and a bookshelf here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2dd9480"/>
+      <child nodeId="node-0x02868318"/>
     </children>
   </item>
-  <item nodeId="node-0x2dd9480">
+  <item nodeId="node-0x02868318">
     <command xml:space="preserve">examine family photo</command>
-    <result xml:space="preserve">A family of four. An infant daughter is on the far left next to her mother. The father is on the far right and has placed his arm on his son&apos;s knee. The son is sitting cross-legged evenly between his mother and his father. Nobody seems thrilled to be in the photo.
-
-&gt;</result>
+    <result xml:space="preserve">A family of four. An infant daughter is on the far left next to her mother. The father is on the far right and has placed his arm on his son's knee. The son is sitting cross-legged evenly between his mother and his father. Nobody seems thrilled to be in the photo.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2dd9600">
+  <item nodeId="node-0x02868E78">
     <command xml:space="preserve">examine bookshelf</command>
-    <result xml:space="preserve">A wooden bookshelf. It has the Hunger Games and Percy Jackson series neatly aligned on its third shelf. The other shelves are filled with Star Wars Legos and photos.
-
-&gt;</result>
+    <result xml:space="preserve">A wooden bookshelf. It has the Hunger Games and Percy Jackson series neatly aligned on its third shelf. The other shelves are filled with Star Wars Legos and photos.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2dd9780"/>
+      <child nodeId="node-0x028684D8"/>
     </children>
   </item>
-  <item nodeId="node-0x2dd9780">
+  <item nodeId="node-0x028684D8">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Child&apos;s Bedroom
-You can see a family photo, some surroundings, a child&apos;s bed, an alarm clock and a bookshelf here.
-
-&gt;</result>
+    <result xml:space="preserve">Child's Bedroom&#x000A;You can see a family photo, some surroundings, a child's bed, an alarm clock and a bookshelf here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7fca640d7480">
+  <item nodeId="node-0x028683F8">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Back Yard
-You can see some surroundings and a Back Door here.
-
-&gt;</result>
+    <result xml:space="preserve">Back Yard&#x000A;You can see some surroundings and a Back Door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7fca640d7900">
+  <item nodeId="node-0x02868EE8">
     <command xml:space="preserve">unlock Back Door</command>
-    <result xml:space="preserve">What do you want to unlock the Back Door with?
-
-&gt;</result>
+    <result xml:space="preserve">What do you want to unlock the Back Door with?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7fca6429e620">
+  <item nodeId="node-0x02868F58">
     <command xml:space="preserve">pick the pack door</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fca6429e7a0"/>
+      <child nodeId="node-0x028681C8"/>
     </children>
   </item>
-  <item nodeId="node-0x7fca6429e7a0">
+  <item nodeId="node-0x028681C8">
     <command xml:space="preserve">pick the door</command>
     <result xml:space="preserve">Picking... (press random keys)</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fca6429e920"/>
+      <child nodeId="node-0x02868548"/>
     </children>
   </item>
-  <item nodeId="node-0x7fca6429e920">
+  <item nodeId="node-0x02868548">
     <command xml:space="preserve"></command>
     <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fca6429eaa0"/>
+      <child nodeId="node-0x028687E8"/>
     </children>
   </item>
-  <item nodeId="node-0x7fca6429eaa0">
+  <item nodeId="node-0x028687E8">
     <command xml:space="preserve"></command>
     <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fca6429ec20"/>
+      <child nodeId="node-0x028685B8"/>
     </children>
   </item>
-  <item nodeId="node-0x7fca6429ec20">
+  <item nodeId="node-0x028685B8">
     <command xml:space="preserve"></command>
-    <result xml:space="preserve">
-&gt;</result>
+    <result xml:space="preserve">&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7fca6429ef20">
+  <item nodeId="node-0x02868628">
     <command xml:space="preserve">pick back door</command>
     <result xml:space="preserve">Picking... (press random keys)</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7fca6429eda0"/>
+      <child nodeId="node-0x028688C8"/>
     </children>
   </item>
-  <item nodeId="node-0x7fca6429eda0">
+  <item nodeId="node-0x028688C8">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">*clank*</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f40e6130"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f40e6130">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f40e62b0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f40e62b0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f40e6430"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f40e6430">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f40e65b0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f40e65b0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f40e6730"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f40e6730">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f40e68b0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f40e68b0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-  </item>
-  <item nodeId="node-0x7fc9f428f130">
-    <command xml:space="preserve">pick door</command>
-    <result xml:space="preserve">Picking... (press random keys)
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f428f2b0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f428f2b0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-Done.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f428f430"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f428f430">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">(first opening the Back Door)
-
-Kitchen
-You can see a Back Door, a microwave (in which is a ham sammich), a refrigerator (in which is milk), an oven (in which is an applie pie), a spilled cup and a dark stain here.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f428f5b0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f428f5b0">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">
-Back Yard
-You can see a Back Door here.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f428f730"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f428f730">
-    <command xml:space="preserve">pick door</command>
-    <result xml:space="preserve">Picking... (press random keys)
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f428f8b0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f428f8b0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f428fa30"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f428fa30">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f428fbb0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f428fbb0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f428fd30"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f428fd30">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f428feb0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f428feb0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f42a71a0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f42a71a0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f42a7320"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f42a7320">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f42a74a0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f42a74a0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-Done.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f42a7620"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f42a7620">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-  </item>
-  <item nodeId="node-0x7fca640d7a80">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:
-  a pick gun
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca640d7600"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca640d7600">
-    <command xml:space="preserve">unlock back door</command>
-    <result xml:space="preserve">(with the pick gun)
-That doesn&apos;t seem to be something you can unlock.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca640d7780"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca640d7780">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">(first opening the Back Door)
-It seems to be locked.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca640d7c00"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca640d7c00">
-    <command xml:space="preserve">pick back door</command>
-    <result xml:space="preserve">&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca640d7d80"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca640d7d80">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">(first opening the Back Door)
-It seems to be locked.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-  </item>
-  <item nodeId="node-0x7fca640d7f00">
-    <command xml:space="preserve">pick the back door</command>
-    <result xml:space="preserve">Picking...
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca001a1100"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca001a1100">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">Done.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca001a1280"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca001a1280">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">(first opening the Back Door)
-
-Kitchen
-You can see a Back Door, a microwave (in which is a ham sammich), a refrigerator (in which is milk), an oven (in which is an applie pie), a spilled cup and a dark stain here.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-  </item>
-  <item nodeId="node-0x7fca001a1400">
-    <command xml:space="preserve">pick back door</command>
-    <result xml:space="preserve">Picking...
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca001a1580"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca001a1580">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve"></result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca001a1700"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca001a1700">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve"></result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca001a1880"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca001a1880">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve"></result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca001a1a00"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca001a1a00">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve"></result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca001a1b80"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca001a1b80">
-    <command xml:space="preserve">b</command>
-    <result xml:space="preserve"></result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca001a1d00"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca001a1d00">
-    <command xml:space="preserve">b</command>
-    <result xml:space="preserve"></result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca001a1e80"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca001a1e80">
-    <command xml:space="preserve">b</command>
-    <result xml:space="preserve"></result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca6429e1a0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca6429e1a0">
-    <command xml:space="preserve">b</command>
-    <result xml:space="preserve"></result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca6429e320"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca6429e320">
-    <command xml:space="preserve">b</command>
-    <result xml:space="preserve"></result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca6429e4a0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca6429e4a0">
-    <command xml:space="preserve">b</command>
-    <result xml:space="preserve">
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-  </item>
-  <item nodeId="node-0x7fc9f40e6a30">
-    <command xml:space="preserve">pick door</command>
-    <result xml:space="preserve">Picking... (press random keys)
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f40e6bb0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f40e6bb0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f40e6d30"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f40e6d30">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f40e6eb0"/>
-      <child nodeId="node-0x7fca64397e80"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f40e6eb0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca6436a180"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca6436a180">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca6436a300"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca6436a300">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca6436a480"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca6436a480">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca6436a600"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca6436a600">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca6436a780"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca6436a780">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca6436a900"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca6436a900">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca6436aa80"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca6436aa80">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca6436ac00"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca6436ac00">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca6436ad80"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca6436ad80">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca6436af00"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca6436af00">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca64397100"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca64397100">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca64397280"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca64397280">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca64397400"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca64397400">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca64397580"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca64397580">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca64397700"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca64397700">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca64397880"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca64397880">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca64397a00"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca64397a00">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca64397b80"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca64397b80">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fca64397d00"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fca64397d00">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-  </item>
-  <item nodeId="node-0x7fca64397e80">
-    <command xml:space="preserve">pick door</command>
-    <result xml:space="preserve">Picking... (press random keys)
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f41b6130"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f41b6130">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f41b62b0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f41b62b0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f41b6430"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f41b6430">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*click*
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f41b65b0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f41b65b0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f41b6730"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f41b6730">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f41b68b0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f41b68b0">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">(first opening the Back Door)
-It seems to be locked.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f41b6a30"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f41b6a30">
-    <command xml:space="preserve">pick door</command>
-    <result xml:space="preserve">Picking... (press random keys)
-</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f41b6bb0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f41b6bb0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">*clank*
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f41b6d30"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f41b6d30">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7fc9f41b6eb0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7fc9f41b6eb0">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">(first opening the Back Door)
-It seems to be locked.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
   </item>
 </Skein>
