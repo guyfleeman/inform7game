@@ -52,6 +52,13 @@ Reading is an action applying to one thing.
 Picking is an action applying to a thing.
 	Understand "pick [door]" as picking.
 	
+Talking is an action applying to one thing.
+	Understand "talk [person]" as talking.
+	Understand "talk to [person]" as talking.
+	
+Killing is an action applying to one thing and one carried thing.
+	Understand "kill [thing] with [something preferably held]" as killing.
+	
 [wrap the default switch commands]
 Turning On is an action applying to one thing.
 	Understand "turning on [thing]" as switching on.
@@ -62,21 +69,44 @@ Turning Off is an action applying to one thing.
 [DEF GLOBAL VARS]
 The Maximum Score is 20. [2x num of clues (whatever that becomes)]
 The Score is 0.
+Use scoring.
+
+[forward declaration hack for murder event to trigger scene change]
+The deathFlag is a number that varies.
+The deathFlag is 0.
+
+[number of clues found]
+The clueCount is a number that varies.
+The clueCount is 0.
+
+[number of items staged]
+The stagingCount is a number that varies.
+The stagingCount is 0.
+
+After deciding the scope of the player:
+	Now the Score is 0;
+	Increase the Score by clueCount;
+	Increase the Score by stagingCount;
+	[The Score is add clueCount AND stagingCount.]
 
 A thing has some text called content. 
-	The content of a thing is usually "".
-	
+	The content of a thing is usually "".	
 A thing has some text called smell.
+A thing has some text called deathStatus.
+	The deathStatus of a thing is usually "alive".
+	
 
 Current Scene is a scene that varies.
 
 [DEF SCENES]
 Investigation is a scene.
 	Investigation begins when the player is in the Front Yard for the first time.
-	[Investigation ends when Investigation begins.]
+	Investigation ends when Investigation begins.
 	
 Murder is a scene.
 	Murder begins when Investigation ends.
+	Murder ends when Murder is the Current Scene AND the deathFlag is 1.
+	
 	When Murder begins:
 		Move the player to the Back Yard;
 	
@@ -84,6 +114,12 @@ Staging is a scene.
 	Staging begins when Murder ends.
 	
 The Current Scene is Investigation.
+
+When Investigation ends:
+	Now the Current Scene is Murder;
+	
+When Murder ends:
+	Now the Current Scene is Staging;
 [The Current Scene is Murder.]
 
 [DEF ROOMS/DOORS]
@@ -98,7 +134,7 @@ Child's Bedroom is a room.
 
 The sentinel is a thing.
 	The sentinel can be on or off.
-	The sentinel is on;
+	The sentinel is on.
 	
 The Back Door is a door.
 	Instead of picking the Back Door:
@@ -107,7 +143,7 @@ The Back Door is a door.
 		begin;
 			Wait for any key;
 			Say "[if a random chance of 1 in 2 succeeds]*click*[otherwise]*clank*[end if][line break]";
-			if a random chance of 1 in 5 succeeds
+			if a random chance of 1 in 5 succeeds [this is the shittiest RND I've ever seen]
 			begin;
 				Say "Done.";
 				Now the Back Door is unlocked;
@@ -152,14 +188,38 @@ When Murder begins:
 	Now the Front Door is locked;
 	Now the Back Door is locked;
 
-[INIT INVENTORY]
+[DEF INVENTORY]
 The pick gun is a thing.
 	The description is "A pick gun. Pick guns can be used to unlock most residential locks.".
 	The pick gun unlocks the Back Door.
 	The pick gun unlocks the Front Door.
+	
+The burner phone is a thing.
+	The description is "A burner phone with local Ketamine dealers in the contacts.".
+	
+The machete is a thing.
+	The description is "A sharpened machete with a wooden handle.".
+	
+The zip ties are a thing.
+	The indefinite article is "some".
+	The description is "Black industrial zip ties.".
+	
+The vial is a thing.
+	[The indefninite article is "some".]
+	The description is "A vial of Ketamine.".
+	
+The needle is a thing.
+	The description is "An empty needle.".
 
+[inv inits]
 When Murder begins:
-	Now the player has the pick gun.
+	Now the player has the pick gun;
+	Now the player has the burner phone;
+	Now the player has the machete;
+	Now the player has the zip ties;
+	Now the player has the vial;
+	Now the player has the needle.
+	
 
 [INIT SCENERY]
 	[Front Yard]
@@ -387,6 +447,10 @@ When Murder begins:
 		Understand "mailbox" as mail box.
 		The mail box is fixed in place.
 		
+	The magazine is a thing.
+		The magazine is in the mailbox.
+		The description is "TaeKwonDo Times.".
+		
 	[dynamic properties]
 	When Investigation begins:		
 		[mail box]
@@ -401,9 +465,9 @@ When Murder begins:
 		The car is fixed in place.
 		The car is enterable.
 		
-	The tool bench is a thing
-		The tool bench is in the Garage
-		The tool bench is fixed in place
+	The tool bench is a thing.
+		The tool bench is in the Garage.
+		The tool bench is fixed in place.
 											
 	[Kitchen]
 	The microwave is a container.
@@ -441,6 +505,52 @@ When Murder begins:
 	
 																	
 	[Master Bedroom]
+	The desk is a container.
+		The desk is in the Master Bedroom.
+		The description is "A wooden desk with drawers."
+		The desk is fixed in place.
+		The desk is closed.
+	
+	The guy is a person.
+		The guy is in the Master Bedroom.
+		The guy is fixed in place.
+		The deathStatus of the guy is "alive".
+		Instead of attacking the guy:
+			Say "Kill with what?";
+		Instead of killing the guy:
+			if Investigation is the Current Scene
+			begin;
+				Say "That wouldn't be very... professional.";
+			otherwise if Murder is the Current Scene;
+				if the deathStatus of the guy is "alive" AND the second noun is the machete
+				begin;
+					Say "After covering the man's mouth, you slit his neck with the [the second noun]. His screams are muffled by your hand and the blood running down his throat. He dies almost instantly.";
+					Now the deathStatus of the guy is "dead";
+					Now the deathFlag is 1;
+				otherwise if the deathStatus of the guy is "dead";
+					Say "That doesn't seem necessary.";
+				end if;
+			otherwise if Staging is the Current Scene;
+				Say "Playing with dead bodies isn't really your thing.";
+			end if;
+		Instead of talking the guy:
+			if Investigation is the Current Scene
+			begin;
+				Say "You wouldn't want your co-workers to think you're crazy. Would you?";
+			otherwise if Murder is the Current Scene;
+				Say "Despite your best efforts, you can't summon the courage to say something.";
+			otherwise if Staging is the Current Scene;
+				Say "You couldn't talk before, why would you be able to do that now.";
+			end if;
+			
+	When Investigation begins:
+		Now the deathStatus of the guy is "dead";
+		
+	When Murder begins:
+		Now the deathStatus of the guy is "alive";
+		
+	When staging begins:
+		Now the deathStatus of the guy is "dead";
 																			
 	[Child's Bedroom]
 	The child's bed is a thing.
