@@ -4,10 +4,10 @@
   <activeNode nodeId="node-0x02830E40"/>
   <item nodeId="node-0x02830E40">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">Scenery Init investigation&#x000A;Scenery End Investigation&#x000A;Back Yard&#x000A;You can see a Back Door here.&#x000A;&#x000A;Scenery Init Murder&#x000A;Retrospect&#x000A;An Interactive Fiction by GroopOfFore&#x000A;Release 1 / Serial number 150404 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Back Yard&#x000A;You can see a Back Door here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Scenery Init investigation&#x000A;Retrospect&#x000A;An Interactive Fiction by GroopOfFore&#x000A;Release 1 / Serial number 150404 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Front Yard&#x000A;You can see a Front Door, a police officer, some bushes (empty), a garden hose and a mail box (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-0x02830EB0"/>
