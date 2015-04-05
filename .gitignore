@@ -2,7 +2,7 @@ Build
 Index
 
 #files
-Retro*/notes.rtf
-Retro*/Release.blurb
-Retro*/Skein.skein
-Retro*/Metadata.iFiction
+*.rtf
+*.blurb
+*.skein
+*.iFiction

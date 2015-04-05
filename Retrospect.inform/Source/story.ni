@@ -1,4 +1,4 @@
-[ code style when relevant and possible...
+﻿[ code style when relevant and possible...
 	start with commented definitions
 	proceed with commented location definitions
 	proceed with commented initializations
@@ -63,8 +63,6 @@ Reading is an action applying to one thing.
 	
 Picking is an action applying to a thing.
 	Understand "pick [door]" as picking.
-
-
 	
 Talking is an action applying to one thing.
 	Understand "talk [person]" as talking.
@@ -197,7 +195,15 @@ The fence gate is a door.
 		otherwise if Murder is the Current Scene;
 			Say "You already entered from here. You aren't ready to go back.";
 		otherwise if Staging is the Current Scene;
-			Say "eval stg score";
+			if the stagingCount  > 2
+			begin;
+				Now Score is 0;
+				Increase Score by clueCount;
+				Increase Score by stagingCount;
+				End the story saying "Your score is: [Score]";
+			otherwise;
+				Say "You need to stage more evidence before you leave.";
+			end if;
 		end if;
 
 [DEF ROOM LOCATIONS]
@@ -262,7 +268,6 @@ When Murder begins:
 	Now the player has the zip ties;
 	Now the player has the vial;
 	Now the player has the needle.
-	
 
 [INIT SCENERY]
 	[Front Yard]
@@ -434,6 +439,7 @@ When Murder begins:
 				if clueCount > 2
 				begin;
 					Say "Looks like this one is turning out to be pretty cut and dry. [if clueCount > 4] Clearly t[otherwise]T[end if]his guy was offed by a local cartel. We'll get some more detectives down here to figure out which group was responsible for this butchery.";
+					Wait for any key;
 					Now the clueFlag is 1;
 				otherwise;
 					Say "You'd better keep looking for clues instead of talking to me or the chief is gonna get pissed.";
