@@ -101,20 +101,6 @@ The clueFlag is 0.
 The deathFlag is a number that varies.
 The deathFlag is 0.
 
-[number of clues found]
-The clueCount is a number that varies.
-The clueCount is 0.
-
-[number of items staged]
-The stagingCount is a number that varies.
-The stagingCount is 0.
-
-After deciding the scope of the player:
-	Now the Score is 0;
-	Increase the Score by clueCount;
-	Increase the Score by stagingCount;
-	[The Score is add clueCount AND stagingCount.]
-
 A thing has some text called content. 
 	The content of a thing is usually "".	
 A thing has some text called smell.
@@ -145,6 +131,7 @@ The Current Scene is Investigation.
 
 When Investigation ends:
 	Now the Current Scene is Murder;
+	Set clueCount to score;	
 	Clear the screen;
 	
 When Murder ends:
@@ -206,15 +193,7 @@ The fence gate is a door.
 		otherwise if Murder is the Current Scene;
 			Say "You already entered from here. You aren't ready to go back.";
 		otherwise if Staging is the Current Scene;
-			if the stagingCount  > 2
-			begin;
-				Now Score is 0;
-				Increase Score by clueCount;
-				Increase Score by stagingCount;
-				End the story saying "Your score is: [Score]";
-			otherwise;
-				Say "You need to stage more evidence before you leave.";
-			end if;
+			Say "eval stg score";
 		end if;
 
 [DEF ROOM LOCATIONS]
@@ -283,6 +262,7 @@ When Murder begins:
 	Now the player has the zip ties;
 	Now the player has the vial;
 	Now the player has the needle.
+	
 
 [INIT SCENERY]
 	[Front Yard]
@@ -463,10 +443,9 @@ When Murder begins:
 		Instead of talking the police officer:
 			if Investigation is the Current Scene
 			begin;
-				if clueCount > 2
+				if score > 2
 				begin;
-					Say "Looks like this one is turning out to be pretty cut and dry. [if clueCount > 4] Clearly t[otherwise]T[end if]his guy was offed by a local cartel. We'll get some more detectives down here to figure out which group was responsible for this butchery.";
-					Wait for any key;
+					Say "Looks like this one is turning out to be pretty cut and dry. [if score > 4] Clearly t[otherwise]T[end if]his guy was offed by a local cartel. We'll get some more detectives down here to figure out which group was responsible for this butchery.";
 					Now the clueFlag is 1;
 				otherwise;
 					Say "You'd better keep looking for clues instead of chitchatting or the chief is gonna get pissed.";
