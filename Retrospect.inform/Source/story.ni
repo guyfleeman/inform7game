@@ -527,22 +527,38 @@ When Murder begins:
 		Now the mail box is closed;
 		
 	[Living Room]		
-	The couch is a thing.
+	The couch is an Evidence.
 		The couch is in the Living Room.
-		The description is "Just a couch".		
+		The description is "Just a couch".
 		
 	The TV is an Evidence.
 		The TV is in the Living Room.
 		The description is "An old television. It doesn't seem to be working".
+
+	The laptop is an Evidence.
+		The description is "A modest HP Laptop.
+			[if the laptop is switched on and the laptop is unlocked] You copy the password you found into the computer and it successfully unlocks.
+			[otherwise if laptop is switched on and the laptop is locked] The Laptop is locked. You will need to find the password. Don't waste your time guessing.
+			[otherwise] Try switching it on.
+			[end if]".
+		The laptop is in the Living Room.
+		The laptop is either locked or unlocked.
+			The laptop is locked.
+		The laptop can be switched on or switched off.
+			The laptop is switched off.
+			Instead of switching on the laptop:
+				Now the laptop is switched on;
+				Say "The laptop is now turned on.";
+			After switching off the laptop:
+				Now the laptop is switched off;
+				Say "The laptop is now turned off.";
 		
 	The Ketamine is an Evidence.
-		Instead of examining the couch for the first time:
-			if Investigation is the Current Scene
-			begin;
-				Now the Ketamine is in the Living Room;
-				Say "You have found a large bag of Ketamine. [if we have not  examined the couch]You pull it out from underneath the couch.[end if]";
-			end if;
-									
+		Instead of looking under couch for the first time:
+			Now Ketamine is in Living Room;
+			say "You find a large bag of Ketamine. You pull it out from underneath the couch".
+		The description is "Ketamine is a heavy drug. Worth a lot of money too".
+
 	[Garage]
 	The car is a container.
 		The car is in the Garage.
@@ -556,14 +572,22 @@ When Murder begins:
 		The description is "An old rusty tool bench.".
 		The tool bench contains a wrench, a screwdriver, a hand drill, and a hammer.
 		The hand drill is an Evidence.
+			The description is "A common household tool... or possibly a brutal weapon".
 		The wrench is an Evidence.
+			The description is "A common household tool".
 		The screwdriver is an Evidence.
+			The description is "A common household tool".
 		The hammer is an Evidence.
+			The description is "A common household tool... or possibly a brutal weapon".
+	The scale is an Evidence.
+		Instead of looking under the tool bench for the first time:
+			Now the scale is in the Garage;
+			say "You find a small scale behind the TV. The units are currently set to measure in grams. You pull it out from under the tool bench.".
+		The description is "A small battery-powered measuring scale. You place your car keys on the scale and see that it has 3 decimal places of precision".
 		
 	The power box is a thing.
 		The power box is in the Garage.
 		The power box is fixed in place.
-		
 	When Investigation begins:	
 		Now the description of the power box is "It provides electricity to the house. It seems to have been smashed by something".
 	When Investigation ends:
@@ -579,6 +603,7 @@ When Murder begins:
 	
 	The card is an Evidence.
 		The description is "This is evidence."
+		The card is in the Kitchen.
 	
 	The refrigerator is a container.
 		The refrigerator is fixed in place.
@@ -697,11 +722,11 @@ When Murder begins:
 	The family photo is a thing.
 		The description is "A family of four. The photo is torn such that the father's face is ripped out."
 	
-	The note is a thing.
-		The description of the note is "A text scribbled on a Post-It note.".
-		The content of the note is "F0rceBeW1thY0u".
-		Instead of reading the note:
-			Say "The [noun] reads '[the content of the noun]'";
+
+	The post-it note is a thing.
+		The description of the post-it note is "A text scribbled on a post-it note. It appears to say '4ceBew1thYou'. [if we have not examined the post-it note for the first time]It could be a password for something[end if]".
+		Instead of reading the post-it note:
+			Say "'4ceBew1thYou''";
 		
 	The bookshelf is a thing.
 		The bookshelf is in the Child's Bedroom.
@@ -709,9 +734,11 @@ When Murder begins:
 		Understand "shelf" as the bookshelf.
 		After examining the bookshelf:
 			Now the family photo is in the Child's Bedroom;
+			Now the laptop is unlocked;
 			if Investigation is the Current Scene
 			begin;
-				Now the note is in the Child's Bedroom;
+				Now the player is carrying the post-it note;
+				say "A post-it note falls into your hands as you looked through the books.";
 			end if;
 		
 	When Investigation begins:
