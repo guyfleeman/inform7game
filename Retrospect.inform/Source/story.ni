@@ -94,6 +94,9 @@ The Maximum Score is 20. [2x num of clues (whatever that becomes)]
 The Score is 0.
 Use scoring.
 
+The stageCount is a number that varies.
+The stageCount is 0. [todo: every staged item decrements stageCount and increments score. when it hits 0, you win]
+
 The clueFlag is a number that varies.
 The clueFlag is 0.
 
@@ -131,7 +134,6 @@ The Current Scene is Investigation.
 
 When Investigation ends:
 	Now the Current Scene is Murder;
-	Set clueCount to score;	
 	Clear the screen;
 	
 When Murder ends:
@@ -530,10 +532,12 @@ When Murder begins:
 	The couch is an Evidence.
 		The couch is in the Living Room.
 		The description is "Just a couch".
+		After examining the couch, increase the score by 1.
 		
 	The TV is an Evidence.
 		The TV is in the Living Room.
 		The description is "An old television. It doesn't seem to be working".
+		After examining the TV, increase the score by 1.
 
 	The laptop is an Evidence.
 		The description is "A modest HP Laptop.
@@ -552,12 +556,15 @@ When Murder begins:
 			After switching off the laptop:
 				Now the laptop is switched off;
 				Say "The laptop is now turned off.";
+		After examining the laptop:
+			Increase the score by 1. [todo: only if on]
 		
 	The Ketamine is an Evidence.
 		Instead of looking under couch for the first time:
 			Now Ketamine is in Living Room;
 			say "You find a large bag of Ketamine. You pull it out from underneath the couch".
 		The description is "Ketamine is a heavy drug. Worth a lot of money too".
+		After examining Ketamine, increase the score by 1.
 
 	[Garage]
 	The car is a container.
@@ -584,6 +591,7 @@ When Murder begins:
 			Now the scale is in the Garage;
 			say "You find a small scale behind the TV. The units are currently set to measure in grams. You pull it out from under the tool bench.".
 		The description is "A small battery-powered measuring scale. You place your car keys on the scale and see that it has 3 decimal places of precision".
+		After examining the scale, increase the score by 1.
 		
 	The power box is a thing.
 		The power box is in the Garage.
@@ -604,6 +612,7 @@ When Murder begins:
 	The card is an Evidence.
 		The description is "This is evidence."
 		The card is in the Kitchen.
+		After examining the card, increase score by 1.
 	
 	The refrigerator is a container.
 		The refrigerator is fixed in place.
