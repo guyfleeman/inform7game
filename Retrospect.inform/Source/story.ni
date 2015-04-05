@@ -49,6 +49,17 @@ Understand the command "dir" as "inventory".
 Understand the command "echo" as "say".
  [Understand "cd .." as "up".]
 
+Being is an action applying to one thing.
+	Understand "be" as being.
+
+Flying is an action applying to nothing.
+	Understand "fly" as flying.
+	Instead of flying, say "You wish."
+	
+Pooping is an action applying to nothing.
+	Understand "poop" as pooping.
+	Instead of pooping, say "This is not the time to do that."
+	
 Watering is an action applying to one thing.
 	Understand "water [thing]" as watering.
 	
@@ -64,10 +75,6 @@ Reading is an action applying to one thing.
 Picking is an action applying to a thing.
 	Understand "pick [door]" as picking.
 
-Looking under is an action applying to a thing.
-	Understand "look under [thing]" as examining.
-
-	
 Talking is an action applying to one thing.
 	Understand "talk [person]" as talking.
 	Understand "talk to [person]" as talking.
@@ -158,8 +165,8 @@ The sentinel is a thing.
 	The sentinel can be on or off.
 	The sentinel is on.
 	
-The Back Door is a door.
-	Instead of picking the Back Door:
+The back door is a door.
+	Instead of picking the back door:
 		Say "Picking... (press random keys)[line break]";
 		while the sentinel is on
 		begin;
@@ -168,12 +175,12 @@ The Back Door is a door.
 			if a random chance of 1 in 5 succeeds [this is the shittiest RND I've ever seen]
 			begin;
 				Say "Done.";
-				Now the Back Door is unlocked;
+				Now the back door is unlocked;
 				stop;
 			end if;
 		end while;
 		
-The Front Door is a door.
+The front door is a door.
 	The description is "The front door is black, devoid of windows, and made of oak. It is unlocked.".
 	Instead of picking the Front Door:
 		Say "Picking... (press random keys)[line break]";
@@ -184,7 +191,7 @@ The Front Door is a door.
 			if a random chance of 1 in 5 succeeds
 			begin;
 				Say "Done.";
-				Now the Front Door is unlocked;
+				Now the front door is unlocked;
 				stop;
 			end if;
 		end while;
@@ -203,32 +210,35 @@ The fence gate is a door.
 		end if;
 
 [DEF ROOM LOCATIONS]
-Living Room is north of Front Door.
+Living Room is north of front door.
 Garage is east of Living Room.
 Kitchen is north of Living Room.
-Kitchen is south of the Back Door.
+Kitchen is south of the back door.
 Upstairs is above Kitchen.
-Back Yard is north of	Back Door.
+Back Yard is north of Back Door.
 Master Bedroom is east of Upstairs.
 Child's Bedroom is south of Upstairs.
 
-The Front Door is north of the Front Yard and south of the Living Room.
-The Back Door is north of the Kitchen and south of Back Yard.
+The front door is north of the Front Yard and south of the Living Room.
+The back door is north of the Kitchen and south of Back Yard.
 The fence gate is north of the Back Yard.
 
+The portal gun is in the front door.
+	The portal gun is edible.
+
 When Investigation begins:
-	Now the Front Door is unlocked;
-	Now the Back Door is unlocked;
+	Now the front door is unlocked;
+	Now the back door is unlocked;
 
 When Murder begins:
-	Now the Front Door is locked;
-	Now the Back Door is locked;
+	Now the front door is locked;
+	Now the back door is locked;
 
 [DEF INVENTORY]
 The pick gun is a thing.
 	The description is "A pick gun. Pick guns can be used to unlock most residential locks.".
-	The pick gun unlocks the Back Door.
-	The pick gun unlocks the Front Door.
+	The pick gun unlocks the back door.
+	The pick gun unlocks the front door.
 	
 The burner phone is a thing.
 	The description is "A burner phone with local Ketamine dealers in the contacts.".
@@ -255,6 +265,7 @@ your clothes are a thing.
 	The description is "Just a typical suit. Your shoes look like they need to be polished."
 	The player is carrying your clothes.
 	Instead of dropping your clothes, say "Nudity is not acceptable in this society.".
+	Instead of eating your clothes, say "You put your sleeve in your mouth and bite down. There are now teeth marks on your arm.[if the player is in the front yard] The police officer looks at you and raises his eyebrow.[end if]".
 
 [inv inits]
 When Murder begins:
@@ -309,10 +320,22 @@ When Murder begins:
 		The description is "There is a door here leading to the backyard. It seems unlocked."]
 	
 	[Back Yard]
+	The shovel is in the back yard.
+	
+	The flowers are in the back yard.
+		The description is "Tulips. Your least favorite flower."
 	
 	[Upstairs]
 	
 	[Master Bedroom]
+	The desk is a container.
+		The desk is in the Master Bedroom.
+		The desk is openable.
+	
+	The desk contains a cell phone.
+		The cell phone is Evidence.
+		The description of the cell phone is "There appear to be the contacts of various drug dealers here.".
+		After examining the cell phone, increase score by 1.
 	
 	[Child's Bedroom]
 	The window is in the Child's Bedroom.
@@ -438,12 +461,13 @@ When Murder begins:
 					Say "Looks like this one is turning out to be pretty cut and dry. [if clueCount > 4] Clearly t[otherwise]T[end if]his guy was offed by a local cartel. We'll get some more detectives down here to figure out which group was responsible for this butchery.";
 					Now the clueFlag is 1;
 				otherwise;
-					Say "You'd better keep looking for clues instead of talking to me or the chief is gonna get pissed.";
+					Say "You'd better keep looking for clues instead of chitchatting or the chief is gonna get pissed.";
 				end if;
 			end if;
 	
 	The bushes are a container.
 		The bushes are in the Front Yard.
+		Understand "bush" as bushes.
 		The indefinite article is "some".
 		The description is "The bushes have beautiful white flowers [if the bushes are not watered]on them, but they could use some water.[otherwise]that glisten in the morning sun.[end if]".
 		The bushes are fixed in place.
@@ -556,36 +580,44 @@ When Murder begins:
 	When Investigation begins:	
 		Now the description of the power box is "It provides electricity to the house. It seems to have been smashed by something".
 	When Investigation ends:
-		Now the description of the power box is "".
+		Now the description of the power box is "It provides electricity to the house".
 											
 	[Kitchen]
 	The microwave is a container.
 		The microwave is in the Kitchen.
+		The microwave is fixed in place.
 		The microwave contains a ham sammich.
 		The sammich is edible.
+		After eating the sammich, say "Maybe that was a bad idea. This is a crime scene, not a buffet.".
 	
-	The note is in the Kitchen.
+	The card is an Evidence.
+		The description is "This is evidence."
 	
 	The refrigerator is a container.
 		The refrigerator is fixed in place.
+		The refrigerator is in the Kitchen.
 		The refrigerator is enterable.
 		Understand "fridge" as refrigerator.
 		milk is a thing.
-		The description is "Looks like it expired a couple weeks ago. Yuck."
+		The description is "The expiration date says 6/06. Yuck."
 		The refrigerator contains the milk.
 		Instead of drinking milk, say "Not with that expiration date you're not.".
 		After entering the refrigerator:
 			say "Your attempt to catch the door light as it turns off is a success. But now you're cold and it's dark in here."
-		The refrigerator is on the note.
+		Instead of looking under the refrigerator for the first time:
+			Now the card is in the Kitchen;
+			say "You see a card here."
 				
 	The oven is a container.
 		The oven is in the Kitchen.
 		The oven is fixed in place.
-		The oven contains an applie pie.
+		The oven contains an apple pie.
 		The apple pie is edible.
+		After eating the apple pie, say "Maybe that was a bad idea. But a delicious one."
 		
 	The spilled cup is a thing.
 		The spilled cup is in the Kitchen.
+		The description is "Smells of alcohol."
 
 	The dark stain is a thing.
 		The dark stain is in the Kitchen.
@@ -658,18 +690,29 @@ When Murder begins:
 	
 	The alarm clock is a thing.
 		The alarm clock is in the Child's Bedroom.
-		The description of the alarm clock is "An ordinary alarm clock. It's set to go off at 7:10 am.".
+		The description of the alarm clock is "An ordinary alarm clock. It's set to go off at 6:06 am.".
 		The alarm clock is fixed in place.
 		
-	The backpack is a thing.
+	The math textbook is a thing.
+		The description of the math textbook is "You flip through the textbook. There are some poorly drawn genitals on page 606."
+		Instead of reading the math textbook, say "Consider the function f(x) = 606. What kind of line would this make? Regardless of what values of x are inputed into the function, the only value of f(x) that ever comes out is 606. Therefore, this function would be graphed as a horizontal line, where each point on the line is at y = 606.".
+	The biology textbook is a thing.
+	The civics textbook is a thing.
+	
+	The backpack is a container.
 		The backpack is in the Child's Bedroom.
 		The description of the backpack is "An Avengers backpack. It contains Math 6, Biology, and Civics textbooks.". 
+		After examining the backpack for the first time:
+			Now the backpack contains the math textbook;
+			Now the backpack contains the biology textbook;
+			Now the backpack contains the civics textbook;
 		
 	The family photo is a thing.
+		The description is "A family of four. The photo is torn such that the father's face is ripped out."
 	
 	The note is a thing.
 		The description of the note is "A text scribbled on a Post-It note.".
-		The content of the note is "4ceBew1thYou".
+		The content of the note is "F0rceBeW1thY0u".
 		Instead of reading the note:
 			Say "The [noun] reads '[the content of the noun]'";
 		
@@ -685,8 +728,8 @@ When Murder begins:
 			end if;
 		
 	When Investigation begins:
-		Now the description of the bookshelf is "A wooden bookshelf. It has some books, photos, and Legos.";
-		
+		Now the description of the bookshelf is "A wooden bookshelf. It has some books, a family photo, and Legos.";
+			
 	When Investigation ends:
 		Now the description of the bookshelf is "";
 		
