@@ -44,6 +44,7 @@ An Evidence is a kind of thing.
 Understand the command "pwd" as "look".
 Understand the command "ls" as "inventory".
 Understand the command "dir" as "inventory".
+Understand the command "pockets" as "inventory".
 [Understand the command "sudo update-initramfs" as "leveling up".]
  	 Understand the command "cd" as "go".
 Understand the command "echo" as "say".
@@ -59,6 +60,13 @@ Flying is an action applying to nothing.
 Pooping is an action applying to nothing.
 	Understand "poop" as pooping.
 	Instead of pooping, say "This is not the time to do that."
+
+Importing is an action applying to one thing.
+	Understand "import [thing]" as importing.
+	antigravity is a thing.
+	Instead of importing antigravity:
+		Now the player is carrying antigravity;
+		say "Medicine cabinet sampled.".
 	
 Watering is an action applying to one thing.
 	Understand "water [thing]" as watering.
@@ -95,7 +103,9 @@ The Score is 0.
 Use scoring.
 
 The stageCount is a number that varies.
-The stageCount is 0. [todo: every staged item decrements stageCount and increments score. when it hits 0, you win]
+The stageCount is 0.
+
+The clueCount is a number that varies. The clueCount is 0.
 
 The clueFlag is a number that varies.
 The clueFlag is 0.
@@ -200,7 +210,7 @@ The fence gate is a door.
 
 [DEF ROOM LOCATIONS]
 Living Room is north of front door.
-Garage is east of Living Room.
+Garage is west of Living Room.
 Kitchen is north of Living Room.
 Kitchen is south of the back door.
 Upstairs is above Kitchen.
@@ -317,14 +327,6 @@ When Murder begins:
 	[Upstairs]
 	
 	[Master Bedroom]
-	The desk is a container.
-		The desk is in the Master Bedroom.
-		The desk is openable.
-	
-	The desk contains a cell phone.
-		The cell phone is Evidence.
-		The description of the cell phone is "There appear to be the contacts of various drug dealers here.".
-		After examining the cell phone, increase score by 1.
 	
 	[Child's Bedroom]
 	The window is in the Child's Bedroom.
@@ -532,12 +534,10 @@ When Murder begins:
 	The couch is an Evidence.
 		The couch is in the Living Room.
 		The description is "Just a couch".
-		After examining the couch, increase the score by 1.
 		
 	The TV is an Evidence.
 		The TV is in the Living Room.
 		The description is "An old television. It doesn't seem to be working".
-		After examining the TV, increase the score by 1.
 
 	The laptop is an Evidence.
 		The description is "A modest HP Laptop.
@@ -557,21 +557,28 @@ When Murder begins:
 				Now the laptop is switched off;
 				Say "The laptop is now turned off.";
 		After examining the laptop:
-			Increase the score by 1. [todo: only if on]
+			Increase the clueCount by 1. [todo: only if on]
 		
 	The Ketamine is an Evidence.
 		Instead of looking under couch for the first time:
 			Now Ketamine is in Living Room;
 			say "You find a large bag of Ketamine. You pull it out from underneath the couch".
 		The description is "Ketamine is a heavy drug. Worth a lot of money too".
-		After examining Ketamine, increase the score by 1.
+		After examining Ketamine, increase the clueCount by 1.
 
 	[Garage]
+	The hood is a thing.
+		The hood is fixed in place.
+		The description is "You lift the hood open. Underneath, you find a small compartment filled with Ketamine.".
+		After examining the hood under the first time, increase the clueCount by 1.
+		[Understand looking under the hood as examining the hood.]
+		
 	The car is a container.
 		The car is in the Garage.
 		The car is fixed in place.
-		The description is "A Toyota. Must be at least 20 years old".
+		The description is "A Toyota. Must be at least 20 years old. The hood is slightly open.". 
 		The car is enterable.
+		After examining the car for the first time, move the hood to the Garage.
 		
 	The tool bench is a thing.
 		The tool bench is in the Garage.
@@ -586,16 +593,17 @@ When Murder begins:
 			The description is "A common household tool".
 		The hammer is an Evidence.
 			The description is "A common household tool... or possibly a brutal weapon".
+			
 	The scale is an Evidence.
 		Instead of looking under the tool bench for the first time:
 			Now the scale is in the Garage;
 			say "You find a small scale behind the TV. The units are currently set to measure in grams. You pull it out from under the tool bench.".
 		The description is "A small battery-powered measuring scale. You place your car keys on the scale and see that it has 3 decimal places of precision".
-		After examining the scale, increase the score by 1.
+		After examining the scale for the first time, increase the clueCount by 1.
 		
-	The power box is a thing.
+	The power box is an Evidence.
 		The power box is in the Garage.
-		The power box is fixed in place.
+		After examining the power box for the first time, increase clueCount by 1.
 	When Investigation begins:	
 		Now the description of the power box is "It provides electricity to the house. It seems to have been smashed by something".
 	When Investigation ends:
@@ -610,9 +618,9 @@ When Murder begins:
 		After eating the sammich, say "Maybe that was a bad idea. This is a crime scene, not a buffet.".
 	
 	The card is an Evidence.
-		The description is "This is evidence."
+		The description is "Pretend this card says something meaningful." [TODO]
 		The card is in the Kitchen.
-		After examining the card, increase score by 1.
+		After examining the card for the first time, increase clueCount by 1.
 	
 	The refrigerator is a container.
 		The refrigerator is fixed in place.
@@ -639,10 +647,12 @@ When Murder begins:
 	The spilled cup is a thing.
 		The spilled cup is in the Kitchen.
 		The description is "Smells of alcohol."
+		After examining the spilled cup for the first time, increase clueCount by 1.
 
 	The dark stain is a thing.
 		The dark stain is in the Kitchen.
 		Instead of taking the dark stain, say "Do you even know how stains work?"
+		After examining the dark stain for the first time, increase clueCount by 1.
 		
 	The beer cabinet is a container.
 		The beer cabinet is in the Kitchen.
@@ -658,7 +668,13 @@ When Murder begins:
 		The desk is in the Master Bedroom.
 		The description is "A wooden desk with drawers."
 		The desk is fixed in place.
+		The desk is openable.
 		The desk is closed.
+
+	The desk contains a cell phone.
+		The cell phone is Evidence.
+		The description of the cell phone is "There appear to be the contacts of various drug dealers here.".
+		After examining the cell phone for the first time, increase clueCount by 1.
 	
 	The guy is a person.
 		The guy is in the Master Bedroom.
@@ -715,7 +731,7 @@ When Murder begins:
 		The alarm clock is fixed in place.
 		
 	The math textbook is a thing.
-		The description of the math textbook is "You flip through the textbook. There are some poorly drawn genitals on page 606."
+		The description of the math textbook is "You flip through the textbook. It appears as if someone has poorly drawn some genitals on page 606."
 		Instead of reading the math textbook, say "Consider the function f(x) = 606. What kind of line would this make? Regardless of what values of x are inputed into the function, the only value of f(x) that ever comes out is 606. Therefore, this function would be graphed as a horizontal line, where each point on the line is at y = 606.".
 	The biology textbook is a thing.
 	The civics textbook is a thing.
@@ -728,10 +744,9 @@ When Murder begins:
 			Now the backpack contains the biology textbook;
 			Now the backpack contains the civics textbook;
 		
-	The family photo is a thing.
+	The family photo is a thing. [Don't place this until player x's the bookshelf]
 		The description is "A family of four. The photo is torn such that the father's face is ripped out."
 	
-
 	The post-it note is a thing.
 		The description of the post-it note is "A text scribbled on a post-it note. It appears to say '4ceBew1thYou'. [if we have not examined the post-it note for the first time]It could be a password for something[end if]".
 		Instead of reading the post-it note:
