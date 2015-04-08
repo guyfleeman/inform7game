@@ -103,7 +103,7 @@ The Score is 0.
 Use scoring.
 
 The stageCount is a number that varies.
-The stageCount is 0. [todo: every staged item increments stageCount and increments score. when it hits 0, you win]
+The stageCount is 0.
 
 The clueCount is a number that varies. The clueCount is 0.
 
