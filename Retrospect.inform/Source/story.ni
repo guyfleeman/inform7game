@@ -74,6 +74,9 @@ Watering is an action applying to one thing.
 Listing is an action applying to one thing.
 	Understand "list [thing]" as listing.
 	
+Swinging is an action applying to one thing.
+	Understand "swing [thing]" as swinging.
+
 Leveling up is an action applying to nothing.
 	Understand "level up" as leveling up.
 		
@@ -274,7 +277,6 @@ When Murder begins:
 	Now the player has the zip ties;
 	Now the player has the vial;
 	Now the player has the needle.
-	
 
 [INIT SCENERY]
 	[Front Yard]
@@ -297,6 +299,10 @@ When Murder begins:
 	The path is in the Front Yard.
 		The path is scenery.
 		The description is "The path connects the front porch to the driveway and passes the bushes. It is made of dark river stones. [if we have not examined the path]They crunch softly beneath your feet.[end if]".
+	
+	The front door is in the Front Yard.
+		The front door is scenery.
+		The description is "The front door is black, devoid of windows, and made of oak. It is unlocked.".
 		
 	The lawn is in the Front Yard.
 		The lawn is scenery.
@@ -319,6 +325,26 @@ When Murder begins:
 		The description is "There is a door here leading to the backyard. It seems unlocked."]
 	
 	[Back Yard]
+	The house is in the Back Yard.
+		The house is scenery.
+		The description is "The house is two stories with a shale facade and brushed bronze accents.".
+
+	The pond is in the Back Yard.
+		The pond is scenery.
+		The description is "A small pond lies in the middle of the lush grass. Shimmering bass swim in its clear, green water.[if we have not examined the pond] You spot a catfish lurking deep in the pool.[end if]".
+
+	The back door is in the Back Yard.
+		The back door is scenery.
+		The description is "The back door hangs on one hinge, its lock splintered. It swings slowly in the breeze, sometimes banging into the side of the house.".
+		
+	The field is in the Back Yard.
+		The field is scenery.
+		The description is "The field is a display of vibrant, unmowed grass speckled with purple and yellow wildflowers. The landscape hazily reminds you of happier summers gone by.".
+		
+	The fence is in the Back Yard.
+		The fence is scenery.
+		The description is "A wooden fence follows the perimeter of the yard along the edge of the forest. It has a gate at the north end of the property.".
+		
 	The shovel is in the back yard.
 	
 	The flowers are in the back yard.
@@ -402,7 +428,7 @@ When Murder begins:
 			Say "Upstairs description"
 		instead;
 		if the player is in the Back Yard,
-			Say "Back Yard description"
+			Say "The back yard is a breezy, green field surrounded by forest dense enough to shroud it from any neighbors. From here the house seems like a haven, hidden away from the rest of humanity."
 		instead;
 		if the player is in the Master Bedroom,
 			Say "Master Bedroom description"
@@ -428,7 +454,7 @@ When Murder begins:
 			Say "Living Room list"
 		instead;
 		if the player is in the Back Yard,
-			Say "Living Room list"
+			Say "You can see the house, its back door, a field, and a pond."
 		instead;
 		if the player is in the Master Bedroom,
 			Say "Master Bedroom list"
@@ -658,8 +684,23 @@ When Murder begins:
 		The beer cabinet is in the Kitchen.
 		The beer cabinet is openable.
 		After opening the beer cabinet, say "Hmm. Looks like someone drank all the alcohol."
+		
 	[Back Yard]
-															
+	The swingset is a thing.
+		The swingset is in the Back Yard.
+		The description is "Two swings hang from an old wooden frame[if the swingset is not broken] by rusty chains. They sway and creak in the wind.[otherwise], each by a single chain. They drag on the ground as they sway in the wind.".
+		The swingset can be broken or not broken.
+		The swingset is not broken.
+		Instead of swinging:
+			if the swingset is not broken
+			begin;
+				Say "You decide to swing on a swing. Unsurprisingly, it breaks under your weight. You give the other swing a try, and once again you fall to the ground.";
+				Now the swingset is broken;
+			otherwise;
+				Say "You already broke the swingset.";
+			end if;
+	
+										
 	[Upstairs]
 	
 																	
