@@ -3,7 +3,7 @@
 		proceed with commented location definitions
 			proceed with commented initializations
 				
-					do no capitalize names unless they are the first word in a statement
+					do not capitalize names unless they are the first word in a statement
 ]
 
 [helpful links
@@ -39,6 +39,9 @@ Watering is an action applying to one thing.
 Listing is an action applying to one thing.
 	Understand "list [thing]" as listing.
 	
+Swinging is an action applying to one thing.
+	Understand "swing [thing]" as swinging.
+	
 [wrap the default switch commands]
 Turning On is an action applying to one thing.
 	Understand "turning on [thing]" as switching on.
@@ -48,23 +51,23 @@ Turning Off is an action applying to one thing.
 	
 
 [DEF ROOMS]
-Front Yard 			is a room.
-Living Room 			is a room.
+Front Yard is a room.
+Living Room is a room.
 Garage is a room.
-Kitchen 				is a room.
-Back Yard				is a room.
-Upstairs 				is a room.
-Master Bedroom 		is a room.
-Child's Bedroom 		is a room.
+Kitchen is a room.
+Back Yard is a room.
+Upstairs is a room.
+Master Bedroom is a room.
+Child's Bedroom is a room.
 
 [DEF ROOM LOCATIONS]
-Living Room 			is north of 	Front Yard.
-Garage 				is east of		Living Room.
-Kitchen 				is north of 	Living Room.
-Upstairs				is above 		Kitchen.
-Back Yard 				is north of 	Kitchen.
-Master Bedroom 		is east of 		Upstairs.
-Child's Bedroom 		is south of 	Upstairs.
+Living Room is north of Front Yard.
+Garage is east of Living Room.
+Kitchen is north of Living Room.
+Upstairs is above Kitchen.
+Back Yard is north of Kitchen.
+Master Bedroom is east of Upstairs.
+Child's Bedroom is south of Upstairs.
 
 [INIT SCENERY]
 	[Front Yard]
@@ -90,7 +93,7 @@ Child's Bedroom 		is south of 	Upstairs.
 	
 	The front door is in the Front Yard.
 		The front door is scenery.
-		The description is "The front door is black, void of windows, and made of oak. It is unlocked.".
+		The description is "The front door is black, devoid of windows, and made of oak. It is unlocked.".
 		
 	The lawn is in the Front Yard.
 		The lawn is scenery.
@@ -111,7 +114,26 @@ Child's Bedroom 		is south of 	Upstairs.
 	[Kitchen]
 	
 	[Back Yard]
-	
+	The house is in the Back Yard.
+		The house is scenery.
+		The description is "The house is two stories with a shale facade and brushed bronze accents.".
+
+	The pond is in the Back Yard.
+		The pond is scenery.
+		The description is "A small pond lies in the middle of the lush grass. Shimmering bass swim in its clear, green water.[if we have not examined the pond] You spot a catfish lurking deep in the pool.[end if]".
+
+	The back door is in the Back Yard.
+		The back door is scenery.
+		The description is "The back door hangs on one hinge, its lock splintered. It swings slowly in the breeze, sometimes banging into the side of the house.".
+		
+	The field is in the Back Yard.
+		The field is scenery.
+		The description is "The field is a display of vibrant, unmowed grass speckled with purple and yellow wildflowers. The landscape hazily reminds you of happier summers gone by.".
+		
+	The fence is in the Back Yard.
+		The fence is scenery.
+		The description is "A wooden fence follows the perimeter of the yard along the edge of the forest. It has a gate at the north end of the property.".
+		
 	[Upstairs]
 	
 	[Master Bedroom]
@@ -168,7 +190,7 @@ Child's Bedroom 		is south of 	Upstairs.
 			Say "Upstairs description"
 		instead;
 		if the player is in the Back Yard,
-			Say "Back Yard description"
+			Say "The back yard is a breezy, green field surrounded by forest dense enough to shroud it from any neighbors. From here the house seems like a haven, hidden away from the rest of humanity."
 		instead;
 		if the player is in the Master Bedroom,
 			Say "Master Bedroom description"
@@ -194,7 +216,7 @@ Child's Bedroom 		is south of 	Upstairs.
 			Say "Living Room list"
 		instead;
 		if the player is in the Back Yard,
-			Say "Living Room list"
+			Say "You can see the house, its back door, a field, and a pond."
 		instead;
 		if the player is in the Master Bedroom,
 			Say "Master Bedroom list"
@@ -256,7 +278,21 @@ Child's Bedroom 		is south of 	Upstairs.
 	[Kitchen]
 													
 	[Back Yard]
-															
+	The swingset is a thing.
+		The swingset is in the Back Yard.
+		The description is "Two swings hang from an old wooden frame[if the swingset is not broken] by rusty chains. They sway and creak in the wind.[otherwise], each by a single chain. They drag on the ground as they sway in the wind.".
+		The swingset can be broken or not broken.
+		The swingset is not broken.
+		Instead of swinging:
+			if the swingset is not broken
+			begin;
+				Say "You decide to swing on a swing. Unsurprisingly, it breaks under your weight. You give the other swing a try, and once again you fall to the ground.";
+				Now the swingset is broken;
+			otherwise;
+				Say "You already broke the swingset.";
+			end if;
+	
+										
 	[Upstairs]
 																	
 	[Master Bedroom]
