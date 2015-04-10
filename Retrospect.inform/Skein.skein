@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0xb3dc4e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0xf8e5120" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xb3dc4e0" />
-  <item nodeId="node-0xb3dc4e0">
+  <activeNode nodeId="node-0xf8e5120" />
+  <item nodeId="node-0xf8e5120">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -19,31 +19,31 @@ You can see some bushes and a garden hose here.
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x11010a50" />
-      <child nodeId="node-0x11010900" />
-      <child nodeId="node-0x1100f9b0" />
-      <child nodeId="node-0x1100f940" />
-      <child nodeId="node-0x1100f1d0" />
-      <child nodeId="node-0x1100f080" />
-      <child nodeId="node-0x1100ed70" />
-      <child nodeId="node-0x1100d870" />
-      <child nodeId="node-0x1100d800" />
-      <child nodeId="node-0x1100d6b0" />
-      <child nodeId="node-0x1100d5d0" />
-      <child nodeId="node-0x1100d250" />
-      <child nodeId="node-0x1100cf40" />
-      <child nodeId="node-0x1100c4c0" />
-      <child nodeId="node-0x1100c450" />
-      <child nodeId="node-0x1100b340" />
-      <child nodeId="node-0x1100b610" />
-      <child nodeId="node-0x1100b530" />
-      <child nodeId="node-0x1100b450" />
-      <child nodeId="node-0xb3dc6e0" />
-      <child nodeId="node-0xb3dc640" />
-      <child nodeId="node-0xb3dc550" />
+      <child nodeId="node-0x1f7265b0" />
+      <child nodeId="node-0x1f726460" />
+      <child nodeId="node-0x1f725510" />
+      <child nodeId="node-0x1f7254a0" />
+      <child nodeId="node-0x1f724d30" />
+      <child nodeId="node-0x1f724be0" />
+      <child nodeId="node-0x1f7248d0" />
+      <child nodeId="node-0x1f7233d0" />
+      <child nodeId="node-0x1f723360" />
+      <child nodeId="node-0x1f723210" />
+      <child nodeId="node-0x1f723130" />
+      <child nodeId="node-0x1f722db0" />
+      <child nodeId="node-0x1f722aa0" />
+      <child nodeId="node-0x1f722020" />
+      <child nodeId="node-0x1f721fb0" />
+      <child nodeId="node-0x1f720e90" />
+      <child nodeId="node-0x1f721170" />
+      <child nodeId="node-0x1f721090" />
+      <child nodeId="node-0x1f720ff0" />
+      <child nodeId="node-0xf8e8640" />
+      <child nodeId="node-0xf8dba30" />
+      <child nodeId="node-0xf8e9080" />
     </children>
   </item>
-  <item nodeId="node-0xb3dc550">
+  <item nodeId="node-0xf8e9080">
     <command xml:space="preserve">list surroundings</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -52,10 +52,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0xb3dc5a0" />
+      <child nodeId="node-0xf8e90d0" />
     </children>
   </item>
-  <item nodeId="node-0xb3dc5a0">
+  <item nodeId="node-0xf8e90d0">
     <command xml:space="preserve">water the surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -64,10 +64,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0xb3dc5f0" />
+      <child nodeId="node-0xf8db9e0" />
     </children>
   </item>
-  <item nodeId="node-0xb3dc5f0">
+  <item nodeId="node-0xf8db9e0">
     <command xml:space="preserve">water the bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -76,7 +76,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0xb3dc640">
+  <item nodeId="node-0xf8dba30">
     <command xml:space="preserve">water the surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -85,10 +85,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0xb3dc690" />
+      <child nodeId="node-0xf8dba80" />
     </children>
   </item>
-  <item nodeId="node-0xb3dc690">
+  <item nodeId="node-0xf8dba80">
     <command xml:space="preserve">take the surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -97,7 +97,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0xb3dc6e0">
+  <item nodeId="node-0xf8e8640">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in in a front yard.
 
@@ -106,12 +106,12 @@ You can see some bushes and a garden hose here.
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0xb3dc770" />
-      <child nodeId="node-0x1100b1a0" />
-      <child nodeId="node-0x1100b150" />
+      <child nodeId="node-0x1f720fa0" />
+      <child nodeId="node-0x1f720d00" />
+      <child nodeId="node-0x1f720cb0" />
     </children>
   </item>
-  <item nodeId="node-0x1100b150">
+  <item nodeId="node-0x1f720cb0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see some surroundings, some bushes and a garden hose here.
@@ -121,7 +121,7 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100b1a0">
+  <item nodeId="node-0x1f720d00">
     <command xml:space="preserve">take surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -130,10 +130,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b1f0" />
+      <child nodeId="node-0x1f720d50" />
     </children>
   </item>
-  <item nodeId="node-0x1100b1f0">
+  <item nodeId="node-0x1f720d50">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Living Room
@@ -143,10 +143,10 @@ Living Room
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b260" />
+      <child nodeId="node-0x1f720db0" />
     </children>
   </item>
-  <item nodeId="node-0x1100b260">
+  <item nodeId="node-0x1f720db0">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">Living Room description
 &gt;</result>
@@ -154,10 +154,10 @@ Living Room
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b2d0" />
+      <child nodeId="node-0x1f720e20" />
     </children>
   </item>
-  <item nodeId="node-0x1100b2d0">
+  <item nodeId="node-0x1f720e20">
     <command xml:space="preserve">list surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -166,10 +166,10 @@ Living Room
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b400" />
+      <child nodeId="node-0x1f720f50" />
     </children>
   </item>
-  <item nodeId="node-0x1100b400">
+  <item nodeId="node-0x1f720f50">
     <command xml:space="preserve">touch surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -178,7 +178,7 @@ Living Room
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0xb3dc770">
+  <item nodeId="node-0x1f720fa0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a surroundings
@@ -188,7 +188,7 @@ Living Room
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100b450">
+  <item nodeId="node-0x1f720ff0">
     <command xml:space="preserve">scenery</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -197,10 +197,10 @@ Living Room
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b4c0" />
+      <child nodeId="node-0x1f721040" />
     </children>
   </item>
-  <item nodeId="node-0x1100b4c0">
+  <item nodeId="node-0x1f721040">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see some bushes and a garden hose here.
@@ -210,7 +210,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100b530">
+  <item nodeId="node-0x1f721090">
     <command xml:space="preserve">examine garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for water plants.
 
@@ -219,10 +219,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b5a0" />
+      <child nodeId="node-0x1f721100" />
     </children>
   </item>
-  <item nodeId="node-0x1100b5a0">
+  <item nodeId="node-0x1f721100">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see a nozzle, a bushes and a garden hose here.
@@ -232,7 +232,7 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100b610">
+  <item nodeId="node-0x1f721170">
     <command xml:space="preserve">examing surroundings</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -241,10 +241,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b680" />
+      <child nodeId="node-0x1f7211e0" />
     </children>
   </item>
-  <item nodeId="node-0x1100b680">
+  <item nodeId="node-0x1f7211e0">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">surr
 &gt;</result>
@@ -252,7 +252,7 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100b340">
+  <item nodeId="node-0x1f720e90">
     <command xml:space="preserve">help</command>
     <result xml:space="preserve"> &gt; Introduction to Retrospect
    Instructions for Play
@@ -261,10 +261,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b390" />
+      <child nodeId="node-0x1f720ee0" />
     </children>
   </item>
-  <item nodeId="node-0x1100b390">
+  <item nodeId="node-0x1f720ee0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve"> &gt; Introduction to Retrospect
    Instructions for Play
@@ -273,10 +273,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b870" />
+      <child nodeId="node-0x1f7213d0" />
     </children>
   </item>
-  <item nodeId="node-0x1100b870">
+  <item nodeId="node-0x1f7213d0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve"> &gt; Introduction to Retrospect
    Instructions for Play
@@ -285,10 +285,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b8e0" />
+      <child nodeId="node-0x1f721440" />
     </children>
   </item>
-  <item nodeId="node-0x1100b8e0">
+  <item nodeId="node-0x1f721440">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    Introduction to Retrospect
@@ -300,10 +300,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b950" />
+      <child nodeId="node-0x1f7214b0" />
     </children>
   </item>
-  <item nodeId="node-0x1100b950">
+  <item nodeId="node-0x1f7214b0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
  &gt; Introduction to Retrospect
@@ -315,10 +315,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b9c0" />
+      <child nodeId="node-0x1f721520" />
     </children>
   </item>
-  <item nodeId="node-0x1100b9c0">
+  <item nodeId="node-0x1f721520">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    Introduction to Retrospect
@@ -330,10 +330,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100ba30" />
+      <child nodeId="node-0x1f721590" />
     </children>
   </item>
-  <item nodeId="node-0x1100ba30">
+  <item nodeId="node-0x1f721590">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
  &gt; About Interactive Fiction
@@ -349,10 +349,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100baa0" />
+      <child nodeId="node-0x1f721600" />
     </children>
   </item>
-  <item nodeId="node-0x1100baa0">
+  <item nodeId="node-0x1f721600">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -376,10 +376,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100bb10" />
+      <child nodeId="node-0x1f721670" />
     </children>
   </item>
-  <item nodeId="node-0x1100bb10">
+  <item nodeId="node-0x1f721670">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -403,10 +403,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100bb80" />
+      <child nodeId="node-0x1f7216e0" />
     </children>
   </item>
-  <item nodeId="node-0x1100bb80">
+  <item nodeId="node-0x1f7216e0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -430,10 +430,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100bbf0" />
+      <child nodeId="node-0x1f721750" />
     </children>
   </item>
-  <item nodeId="node-0x1100bbf0">
+  <item nodeId="node-0x1f721750">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -457,10 +457,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100bc60" />
+      <child nodeId="node-0x1f7217c0" />
     </children>
   </item>
-  <item nodeId="node-0x1100bc60">
+  <item nodeId="node-0x1f7217c0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -484,10 +484,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100bcd0" />
+      <child nodeId="node-0x1f721830" />
     </children>
   </item>
-  <item nodeId="node-0x1100bcd0">
+  <item nodeId="node-0x1f721830">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -511,10 +511,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b6f0" />
+      <child nodeId="node-0x1f721250" />
     </children>
   </item>
-  <item nodeId="node-0x1100b6f0">
+  <item nodeId="node-0x1f721250">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -538,10 +538,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b760" />
+      <child nodeId="node-0x1f7212c0" />
     </children>
   </item>
-  <item nodeId="node-0x1100b760">
+  <item nodeId="node-0x1f7212c0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -565,10 +565,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100b7d0" />
+      <child nodeId="node-0x1f721330" />
     </children>
   </item>
-  <item nodeId="node-0x1100b7d0">
+  <item nodeId="node-0x1f721330">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -592,10 +592,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100bf80" />
+      <child nodeId="node-0x1f721ae0" />
     </children>
   </item>
-  <item nodeId="node-0x1100bf80">
+  <item nodeId="node-0x1f721ae0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -619,10 +619,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100bff0" />
+      <child nodeId="node-0x1f721b50" />
     </children>
   </item>
-  <item nodeId="node-0x1100bff0">
+  <item nodeId="node-0x1f721b50">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -646,10 +646,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c060" />
+      <child nodeId="node-0x1f721bc0" />
     </children>
   </item>
-  <item nodeId="node-0x1100c060">
+  <item nodeId="node-0x1f721bc0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
  &gt; Explore
@@ -661,10 +661,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c0d0" />
+      <child nodeId="node-0x1f721c30" />
     </children>
   </item>
-  <item nodeId="node-0x1100c0d0">
+  <item nodeId="node-0x1f721c30">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    Explore
@@ -680,10 +680,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c140" />
+      <child nodeId="node-0x1f721ca0" />
     </children>
   </item>
-  <item nodeId="node-0x1100c140">
+  <item nodeId="node-0x1f721ca0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    Explore
@@ -699,10 +699,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c1b0" />
+      <child nodeId="node-0x1f721d10" />
     </children>
   </item>
-  <item nodeId="node-0x1100c1b0">
+  <item nodeId="node-0x1f721d10">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    Explore
@@ -718,10 +718,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c220" />
+      <child nodeId="node-0x1f721d80" />
     </children>
   </item>
-  <item nodeId="node-0x1100c220">
+  <item nodeId="node-0x1f721d80">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    Explore
@@ -737,10 +737,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c290" />
+      <child nodeId="node-0x1f721df0" />
     </children>
   </item>
-  <item nodeId="node-0x1100c290">
+  <item nodeId="node-0x1f721df0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">
    Explore
@@ -756,10 +756,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c300" />
+      <child nodeId="node-0x1f721e60" />
     </children>
   </item>
-  <item nodeId="node-0x1100c300">
+  <item nodeId="node-0x1f721e60">
     <command xml:space="preserve">q</command>
     <result xml:space="preserve">
    About Interactive Fiction
@@ -775,10 +775,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c370" />
+      <child nodeId="node-0x1f721ed0" />
     </children>
   </item>
-  <item nodeId="node-0x1100c370">
+  <item nodeId="node-0x1f721ed0">
     <command xml:space="preserve">q</command>
     <result xml:space="preserve">
    Introduction to Retrospect
@@ -788,10 +788,10 @@ You can see a nozzle, a bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c3e0" />
+      <child nodeId="node-0x1f721f40" />
     </children>
   </item>
-  <item nodeId="node-0x1100c3e0">
+  <item nodeId="node-0x1f721f40">
     <command xml:space="preserve">q</command>
     <result xml:space="preserve">
 Front Yard
@@ -802,7 +802,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100c450">
+  <item nodeId="node-0x1f721fb0">
     <command xml:space="preserve">garden hose is on</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -811,7 +811,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100c4c0">
+  <item nodeId="node-0x1f722020">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -820,12 +820,12 @@ You can see some bushes and a garden hose here.
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100cd10" />
-      <child nodeId="node-0x1100cc30" />
-      <child nodeId="node-0x1100c530" />
+      <child nodeId="node-0x1f722870" />
+      <child nodeId="node-0x1f722790" />
+      <child nodeId="node-0x1f722090" />
     </children>
   </item>
-  <item nodeId="node-0x1100c530">
+  <item nodeId="node-0x1f722090">
     <command xml:space="preserve">take hose</command>
     <result xml:space="preserve">If anyone needs a shower it&apos;s you, not your co-workers.
 
@@ -834,10 +834,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c5a0" />
+      <child nodeId="node-0x1f722100" />
     </children>
   </item>
-  <item nodeId="node-0x1100c5a0">
+  <item nodeId="node-0x1f722100">
     <command xml:space="preserve">examine hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
 
@@ -846,10 +846,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c610" />
+      <child nodeId="node-0x1f722170" />
     </children>
   </item>
-  <item nodeId="node-0x1100c610">
+  <item nodeId="node-0x1f722170">
     <command xml:space="preserve">take nozzle</command>
     <result xml:space="preserve">Taken.
 
@@ -858,10 +858,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c680" />
+      <child nodeId="node-0x1f7221e0" />
     </children>
   </item>
-  <item nodeId="node-0x1100c680">
+  <item nodeId="node-0x1f7221e0">
     <command xml:space="preserve">turn on hose</command>
     <result xml:space="preserve">The nozzle is now turned on.
 
@@ -870,10 +870,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100bd40" />
+      <child nodeId="node-0x1f7218a0" />
     </children>
   </item>
-  <item nodeId="node-0x1100bd40">
+  <item nodeId="node-0x1f7218a0">
     <command xml:space="preserve">water co-workers</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -882,20 +882,20 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100bdb0" />
+      <child nodeId="node-0x1f721910" />
     </children>
   </item>
-  <item nodeId="node-0x1100bdb0">
+  <item nodeId="node-0x1f721910">
     <command xml:space="preserve">water self</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100be20" />
+      <child nodeId="node-0x1f721980" />
     </children>
   </item>
-  <item nodeId="node-0x1100be20">
+  <item nodeId="node-0x1f721980">
     <command xml:space="preserve">water plants</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -904,10 +904,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100be90" />
+      <child nodeId="node-0x1f7219f0" />
     </children>
   </item>
-  <item nodeId="node-0x1100be90">
+  <item nodeId="node-0x1f7219f0">
     <command xml:space="preserve">water plants</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -916,10 +916,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100bf00" />
+      <child nodeId="node-0x1f721a60" />
     </children>
   </item>
-  <item nodeId="node-0x1100bf00">
+  <item nodeId="node-0x1f721a60">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">You water the bushes.
 
@@ -928,10 +928,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c6f0" />
+      <child nodeId="node-0x1f722250" />
     </children>
   </item>
-  <item nodeId="node-0x1100c6f0">
+  <item nodeId="node-0x1f722250">
     <command xml:space="preserve">water bush</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -940,10 +940,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c760" />
+      <child nodeId="node-0x1f7222c0" />
     </children>
   </item>
-  <item nodeId="node-0x1100c760">
+  <item nodeId="node-0x1f7222c0">
     <command xml:space="preserve">examine bush</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -952,10 +952,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c7d0" />
+      <child nodeId="node-0x1f722330" />
     </children>
   </item>
-  <item nodeId="node-0x1100c7d0">
+  <item nodeId="node-0x1f722330">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers that glisten in the morning sun.
 
@@ -964,10 +964,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c840" />
+      <child nodeId="node-0x1f7223a0" />
     </children>
   </item>
-  <item nodeId="node-0x1100c840">
+  <item nodeId="node-0x1f7223a0">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in in a front yard.
 
@@ -976,10 +976,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c8b0" />
+      <child nodeId="node-0x1f722410" />
     </children>
   </item>
-  <item nodeId="node-0x1100c8b0">
+  <item nodeId="node-0x1f722410">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in in a front yard.
 
@@ -988,10 +988,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c920" />
+      <child nodeId="node-0x1f722480" />
     </children>
   </item>
-  <item nodeId="node-0x1100c920">
+  <item nodeId="node-0x1f722480">
     <command xml:space="preserve">list surroundings</command>
     <result xml:space="preserve">You see a forest, a house, a driveway, a porch, a path, a front door, a lawn, a mail box, and an apple tree in your surroundings.
 
@@ -1000,10 +1000,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100c990" />
+      <child nodeId="node-0x1f7224f0" />
     </children>
   </item>
-  <item nodeId="node-0x1100c990">
+  <item nodeId="node-0x1f7224f0">
     <command xml:space="preserve">examine apple tree</command>
     <result xml:space="preserve">The tree looks to be a few years old. It bears fruit, but it&apos;s not ripe enough to eat.
 
@@ -1012,10 +1012,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100ca00" />
+      <child nodeId="node-0x1f722560" />
     </children>
   </item>
-  <item nodeId="node-0x1100ca00">
+  <item nodeId="node-0x1f722560">
     <command xml:space="preserve">turn on hose</command>
     <result xml:space="preserve">The nozzle is now turned on.
 
@@ -1024,20 +1024,20 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100ca70" />
+      <child nodeId="node-0x1f7225d0" />
     </children>
   </item>
-  <item nodeId="node-0x1100ca70">
+  <item nodeId="node-0x1f7225d0">
     <command xml:space="preserve">water tree</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100cae0" />
+      <child nodeId="node-0x1f722640" />
     </children>
   </item>
-  <item nodeId="node-0x1100cae0">
+  <item nodeId="node-0x1f722640">
     <command xml:space="preserve">take fruit</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1046,10 +1046,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100cb50" />
+      <child nodeId="node-0x1f7226b0" />
     </children>
   </item>
-  <item nodeId="node-0x1100cb50">
+  <item nodeId="node-0x1f7226b0">
     <command xml:space="preserve">open mail box</command>
     <result xml:space="preserve">It isn&apos;t something you can open.
 
@@ -1058,10 +1058,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100cbc0" />
+      <child nodeId="node-0x1f722720" />
     </children>
   </item>
-  <item nodeId="node-0x1100cbc0">
+  <item nodeId="node-0x1f722720">
     <command xml:space="preserve">turn off nozzle</command>
     <result xml:space="preserve">You switch the nozzle off.
 
@@ -1070,7 +1070,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100cc30">
+  <item nodeId="node-0x1f722790">
     <command xml:space="preserve">water</command>
     <result xml:space="preserve">You must supply a noun.
 
@@ -1079,10 +1079,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100cca0" />
+      <child nodeId="node-0x1f722800" />
     </children>
   </item>
-  <item nodeId="node-0x1100cca0">
+  <item nodeId="node-0x1f722800">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">I only understood you as far as wanting to water.
 
@@ -1091,7 +1091,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100cd10">
+  <item nodeId="node-0x1f722870">
     <command xml:space="preserve">take nozzle</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1100,10 +1100,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100cd80" />
+      <child nodeId="node-0x1f7228e0" />
     </children>
   </item>
-  <item nodeId="node-0x1100cd80">
+  <item nodeId="node-0x1f7228e0">
     <command xml:space="preserve">examine garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
 
@@ -1112,10 +1112,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100cdf0" />
+      <child nodeId="node-0x1f722950" />
     </children>
   </item>
-  <item nodeId="node-0x1100cdf0">
+  <item nodeId="node-0x1f722950">
     <command xml:space="preserve">take nozzle</command>
     <result xml:space="preserve">Taken.
 
@@ -1124,20 +1124,20 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100ce60" />
+      <child nodeId="node-0x1f7229c0" />
     </children>
   </item>
-  <item nodeId="node-0x1100ce60">
+  <item nodeId="node-0x1f7229c0">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">&gt;</result>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100ced0" />
+      <child nodeId="node-0x1f722a30" />
     </children>
   </item>
-  <item nodeId="node-0x1100ced0">
+  <item nodeId="node-0x1f722a30">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers  that glisten in the morning sun.
 
@@ -1146,7 +1146,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100cf40">
+  <item nodeId="node-0x1f722aa0">
     <command xml:space="preserve">examine the row of bushes</command>
     <result xml:space="preserve">The bushes  have beautiful white flowers on them, but they could use some water.
 
@@ -1155,10 +1155,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100cfb0" />
+      <child nodeId="node-0x1f722b10" />
     </children>
   </item>
-  <item nodeId="node-0x1100cfb0">
+  <item nodeId="node-0x1f722b10">
     <command xml:space="preserve">water the row of bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -1167,10 +1167,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d020" />
+      <child nodeId="node-0x1f722b80" />
     </children>
   </item>
-  <item nodeId="node-0x1100d020">
+  <item nodeId="node-0x1f722b80">
     <command xml:space="preserve">examine the garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
 
@@ -1179,10 +1179,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d090" />
+      <child nodeId="node-0x1f722bf0" />
     </children>
   </item>
-  <item nodeId="node-0x1100d090">
+  <item nodeId="node-0x1f722bf0">
     <command xml:space="preserve">turn on the garden hose</command>
     <result xml:space="preserve">The nozzle is now turned on.
 
@@ -1191,10 +1191,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d100" />
+      <child nodeId="node-0x1f722c60" />
     </children>
   </item>
-  <item nodeId="node-0x1100d100">
+  <item nodeId="node-0x1f722c60">
     <command xml:space="preserve">water the row of bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -1203,10 +1203,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d170" />
+      <child nodeId="node-0x1f722cd0" />
     </children>
   </item>
-  <item nodeId="node-0x1100d170">
+  <item nodeId="node-0x1f722cd0">
     <command xml:space="preserve">take nozzle</command>
     <result xml:space="preserve">Taken.
 
@@ -1215,10 +1215,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d1e0" />
+      <child nodeId="node-0x1f722d40" />
     </children>
   </item>
-  <item nodeId="node-0x1100d1e0">
+  <item nodeId="node-0x1f722d40">
     <command xml:space="preserve">water the row of bushes</command>
     <result xml:space="preserve">You water the bushes
 &gt;</result>
@@ -1226,7 +1226,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100d250">
+  <item nodeId="node-0x1f722db0">
     <command xml:space="preserve">turn on garden hose</command>
     <result xml:space="preserve">The nozzle is now turned on.
 
@@ -1235,11 +1235,11 @@ You can see some bushes and a garden hose here.
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d410" />
-      <child nodeId="node-0x1100d2c0" />
+      <child nodeId="node-0x1f722f70" />
+      <child nodeId="node-0x1f722e20" />
     </children>
   </item>
-  <item nodeId="node-0x1100d2c0">
+  <item nodeId="node-0x1f722e20">
     <command xml:space="preserve">turn off garden hose</command>
     <result xml:space="preserve">TestThe nozzle is now turned off.
 
@@ -1248,10 +1248,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d330" />
+      <child nodeId="node-0x1f722e90" />
     </children>
   </item>
-  <item nodeId="node-0x1100d330">
+  <item nodeId="node-0x1f722e90">
     <command xml:space="preserve">pick up garden hose</command>
     <result xml:space="preserve">Taken.
 
@@ -1260,10 +1260,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d3a0" />
+      <child nodeId="node-0x1f722f00" />
     </children>
   </item>
-  <item nodeId="node-0x1100d3a0">
+  <item nodeId="node-0x1f722f00">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a garden hose
@@ -1273,7 +1273,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100d410">
+  <item nodeId="node-0x1f722f70">
     <command xml:space="preserve">turn off gardn hose</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1282,10 +1282,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d480" />
+      <child nodeId="node-0x1f722fe0" />
     </children>
   </item>
-  <item nodeId="node-0x1100d480">
+  <item nodeId="node-0x1f722fe0">
     <command xml:space="preserve">turn off garden hose</command>
     <result xml:space="preserve">You switch the garden hose off.
 
@@ -1294,10 +1294,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d4f0" />
+      <child nodeId="node-0x1f723050" />
     </children>
   </item>
-  <item nodeId="node-0x1100d4f0">
+  <item nodeId="node-0x1f723050">
     <command xml:space="preserve">switch off garden hose</command>
     <result xml:space="preserve">That&apos;s already off.
 
@@ -1306,10 +1306,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d560" />
+      <child nodeId="node-0x1f7230c0" />
     </children>
   </item>
-  <item nodeId="node-0x1100d560">
+  <item nodeId="node-0x1f7230c0">
     <command xml:space="preserve">switch on garden hose</command>
     <result xml:space="preserve">You switch the garden hose on.
 
@@ -1318,7 +1318,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100d5d0">
+  <item nodeId="node-0x1f723130">
     <command xml:space="preserve">water the row of bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -1327,10 +1327,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d640" />
+      <child nodeId="node-0x1f7231a0" />
     </children>
   </item>
-  <item nodeId="node-0x1100d640">
+  <item nodeId="node-0x1f7231a0">
     <command xml:space="preserve">examine the garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for water plants.
 
@@ -1339,7 +1339,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100d6b0">
+  <item nodeId="node-0x1f723210">
     <command xml:space="preserve">turn on the garden hose</command>
     <result xml:space="preserve">You switch the garden hose on.
 
@@ -1348,10 +1348,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d720" />
+      <child nodeId="node-0x1f723280" />
     </children>
   </item>
-  <item nodeId="node-0x1100d720">
+  <item nodeId="node-0x1f723280">
     <command xml:space="preserve">switch on the garden hose</command>
     <result xml:space="preserve">That&apos;s already on.
 
@@ -1360,10 +1360,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d790" />
+      <child nodeId="node-0x1f7232f0" />
     </children>
   </item>
-  <item nodeId="node-0x1100d790">
+  <item nodeId="node-0x1f7232f0">
     <command xml:space="preserve">take the garden hose</command>
     <result xml:space="preserve">If anyone needs a shower it&apos;s you, not your co-workers.
 
@@ -1372,7 +1372,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100d800">
+  <item nodeId="node-0x1f723360">
     <command xml:space="preserve">switch on garden hose</command>
     <result xml:space="preserve">It isn&apos;t something you can switch.
 
@@ -1381,7 +1381,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100d870">
+  <item nodeId="node-0x1f7233d0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see some bushes and a garden hose here.
@@ -1391,13 +1391,13 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100ec90" />
-      <child nodeId="node-0x1100ebb0" />
-      <child nodeId="node-0x1100de90" />
-      <child nodeId="node-0x1100d8e0" />
+      <child nodeId="node-0x1f7247f0" />
+      <child nodeId="node-0x1f724710" />
+      <child nodeId="node-0x1f7239f0" />
+      <child nodeId="node-0x1f723440" />
     </children>
   </item>
-  <item nodeId="node-0x1100d8e0">
+  <item nodeId="node-0x1f723440">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Living Room
@@ -1407,10 +1407,10 @@ Living Room
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d950" />
+      <child nodeId="node-0x1f7234b0" />
     </children>
   </item>
-  <item nodeId="node-0x1100d950">
+  <item nodeId="node-0x1f7234b0">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">
 Garage
@@ -1420,10 +1420,10 @@ Garage
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100d9c0" />
+      <child nodeId="node-0x1f723520" />
     </children>
   </item>
-  <item nodeId="node-0x1100d9c0">
+  <item nodeId="node-0x1f723520">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Living Room
@@ -1433,10 +1433,10 @@ Living Room
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100da30" />
+      <child nodeId="node-0x1f723590" />
     </children>
   </item>
-  <item nodeId="node-0x1100da30">
+  <item nodeId="node-0x1f723590">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Kitchen
@@ -1446,10 +1446,10 @@ Kitchen
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100daa0" />
+      <child nodeId="node-0x1f723600" />
     </children>
   </item>
-  <item nodeId="node-0x1100daa0">
+  <item nodeId="node-0x1f723600">
     <command xml:space="preserve">go upstairs</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1458,10 +1458,10 @@ Kitchen
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100db10" />
+      <child nodeId="node-0x1f723670" />
     </children>
   </item>
-  <item nodeId="node-0x1100db10">
+  <item nodeId="node-0x1f723670">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1470,10 +1470,10 @@ Kitchen
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100db80" />
+      <child nodeId="node-0x1f7236e0" />
     </children>
   </item>
-  <item nodeId="node-0x1100db80">
+  <item nodeId="node-0x1f7236e0">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">
 Upstairs
@@ -1483,10 +1483,10 @@ Upstairs
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100dbf0" />
+      <child nodeId="node-0x1f723750" />
     </children>
   </item>
-  <item nodeId="node-0x1100dbf0">
+  <item nodeId="node-0x1f723750">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">
 Master Bedroom
@@ -1496,10 +1496,10 @@ Master Bedroom
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100dc60" />
+      <child nodeId="node-0x1f7237c0" />
     </children>
   </item>
-  <item nodeId="node-0x1100dc60">
+  <item nodeId="node-0x1f7237c0">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Upstairs
@@ -1509,10 +1509,10 @@ Upstairs
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100dcd0" />
+      <child nodeId="node-0x1f723830" />
     </children>
   </item>
-  <item nodeId="node-0x1100dcd0">
+  <item nodeId="node-0x1f723830">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Bedrrom
@@ -1522,10 +1522,10 @@ Bedrrom
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100dd40" />
+      <child nodeId="node-0x1f7238a0" />
     </children>
   </item>
-  <item nodeId="node-0x1100dd40">
+  <item nodeId="node-0x1f7238a0">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Upstairs
@@ -1535,10 +1535,10 @@ Upstairs
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100ddb0" />
+      <child nodeId="node-0x1f723910" />
     </children>
   </item>
-  <item nodeId="node-0x1100ddb0">
+  <item nodeId="node-0x1f723910">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">
 Master Bedroom
@@ -1548,10 +1548,10 @@ Master Bedroom
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100de20" />
+      <child nodeId="node-0x1f723980" />
     </children>
   </item>
-  <item nodeId="node-0x1100de20">
+  <item nodeId="node-0x1f723980">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Upstairs
@@ -1561,7 +1561,7 @@ Upstairs
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100de90">
+  <item nodeId="node-0x1f7239f0">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in in a front yard.
 
@@ -1570,10 +1570,10 @@ Upstairs
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100df00" />
+      <child nodeId="node-0x1f723a60" />
     </children>
   </item>
-  <item nodeId="node-0x1100df00">
+  <item nodeId="node-0x1f723a60">
     <command xml:space="preserve">list surroundings</command>
     <result xml:space="preserve">You see a forest, a house, a driveway, a porch, a path, a front door, a lawn, a mail box, and a tree in your surroundings.
 
@@ -1582,10 +1582,10 @@ Upstairs
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100df70" />
+      <child nodeId="node-0x1f723ad0" />
     </children>
   </item>
-  <item nodeId="node-0x1100df70">
+  <item nodeId="node-0x1f723ad0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see some surroundings, some bushes and a garden hose here.
@@ -1595,10 +1595,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100dfe0" />
+      <child nodeId="node-0x1f723b40" />
     </children>
   </item>
-  <item nodeId="node-0x1100dfe0">
+  <item nodeId="node-0x1f723b40">
     <command xml:space="preserve">help</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1607,10 +1607,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e050" />
+      <child nodeId="node-0x1f723bb0" />
     </children>
   </item>
-  <item nodeId="node-0x1100e050">
+  <item nodeId="node-0x1f723bb0">
     <command xml:space="preserve">examine forest</command>
     <result xml:space="preserve">The pine forest stands tall and strong with age. The trees sway lightly in breeze, as if they&apos;re friends.
 
@@ -1619,10 +1619,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e0c0" />
+      <child nodeId="node-0x1f723c20" />
     </children>
   </item>
-  <item nodeId="node-0x1100e0c0">
+  <item nodeId="node-0x1f723c20">
     <command xml:space="preserve">examine forest</command>
     <result xml:space="preserve">The pine forest stands tall and strong with age. 
 
@@ -1631,10 +1631,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e130" />
+      <child nodeId="node-0x1f723c90" />
     </children>
   </item>
-  <item nodeId="node-0x1100e130">
+  <item nodeId="node-0x1f723c90">
     <command xml:space="preserve">examine house</command>
     <result xml:space="preserve">The house is two stories with a shale facade and brushed bronze accents.
 
@@ -1643,10 +1643,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e1a0" />
+      <child nodeId="node-0x1f723d00" />
     </children>
   </item>
-  <item nodeId="node-0x1100e1a0">
+  <item nodeId="node-0x1f723d00">
     <command xml:space="preserve">examine drivewat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1655,10 +1655,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e210" />
+      <child nodeId="node-0x1f723d70" />
     </children>
   </item>
-  <item nodeId="node-0x1100e210">
+  <item nodeId="node-0x1f723d70">
     <command xml:space="preserve">examine driveway</command>
     <result xml:space="preserve">The driveway looks new but there are dandelions growing between the section cracks. You&apos;ve always hated dandelions. *ah Ah ACHOO* You wipe your nose on a napkin and and put it back in your back pocket.
 
@@ -1667,10 +1667,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e280" />
+      <child nodeId="node-0x1f723de0" />
     </children>
   </item>
-  <item nodeId="node-0x1100e280">
+  <item nodeId="node-0x1f723de0">
     <command xml:space="preserve">examine driveway</command>
     <result xml:space="preserve">The driveway looks new but there are dandelions growing between the section cracks. You&apos;ve always hated dandelions.
 
@@ -1679,10 +1679,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e2f0" />
+      <child nodeId="node-0x1f723e50" />
     </children>
   </item>
-  <item nodeId="node-0x1100e2f0">
+  <item nodeId="node-0x1f723e50">
     <command xml:space="preserve">examine porch</command>
     <result xml:space="preserve">The porch has beautiful hanging flower pots that are budding. The handrail rail is made from black woven metal and brushed bronze.
 
@@ -1691,10 +1691,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e360" />
+      <child nodeId="node-0x1f723ec0" />
     </children>
   </item>
-  <item nodeId="node-0x1100e360">
+  <item nodeId="node-0x1f723ec0">
     <command xml:space="preserve">examine path</command>
     <result xml:space="preserve">The path connects the front porch to the driveway and passes the bushes. It is made of dark river stones. They crunch softly beneath your feet.
 
@@ -1703,10 +1703,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e3d0" />
+      <child nodeId="node-0x1f723f30" />
     </children>
   </item>
-  <item nodeId="node-0x1100e3d0">
+  <item nodeId="node-0x1f723f30">
     <command xml:space="preserve">examine path</command>
     <result xml:space="preserve">The path connects the front porch to the driveway and passes the bushes. It is made of dark river stones. 
 
@@ -1715,10 +1715,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e440" />
+      <child nodeId="node-0x1f723fa0" />
     </children>
   </item>
-  <item nodeId="node-0x1100e440">
+  <item nodeId="node-0x1f723fa0">
     <command xml:space="preserve">examine front door</command>
     <result xml:space="preserve">The front door is black, void of windows, and made of oak. It is unlocked.
 
@@ -1727,10 +1727,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e4b0" />
+      <child nodeId="node-0x1f724010" />
     </children>
   </item>
-  <item nodeId="node-0x1100e4b0">
+  <item nodeId="node-0x1f724010">
     <command xml:space="preserve">examine front door</command>
     <result xml:space="preserve">The front door is black, void of windows, and made of oak. It is unlocked.
 
@@ -1739,10 +1739,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e520" />
+      <child nodeId="node-0x1f724080" />
     </children>
   </item>
-  <item nodeId="node-0x1100e520">
+  <item nodeId="node-0x1f724080">
     <command xml:space="preserve">examine lawn</command>
     <result xml:space="preserve">The lawn is freshly mown and free of debris and weeds.
 
@@ -1751,10 +1751,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e590" />
+      <child nodeId="node-0x1f7240f0" />
     </children>
   </item>
-  <item nodeId="node-0x1100e590">
+  <item nodeId="node-0x1f7240f0">
     <command xml:space="preserve">examine mail box</command>
     <result xml:space="preserve">The mail box is empty.
 
@@ -1763,10 +1763,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e600" />
+      <child nodeId="node-0x1f724160" />
     </children>
   </item>
-  <item nodeId="node-0x1100e600">
+  <item nodeId="node-0x1f724160">
     <command xml:space="preserve">examine tree</command>
     <result xml:space="preserve">The tree looks to be a few years old. It bears fruit, but it&apos;s not ripe enough to eat.
 
@@ -1775,10 +1775,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e670" />
+      <child nodeId="node-0x1f7241d0" />
     </children>
   </item>
-  <item nodeId="node-0x1100e670">
+  <item nodeId="node-0x1f7241d0">
     <command xml:space="preserve">examine apple tree</command>
     <result xml:space="preserve">The tree looks to be a few years old. It bears fruit, but it&apos;s not ripe enough to eat.
 
@@ -1787,10 +1787,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e6e0" />
+      <child nodeId="node-0x1f724240" />
     </children>
   </item>
-  <item nodeId="node-0x1100e6e0">
+  <item nodeId="node-0x1f724240">
     <command xml:space="preserve">examine buches</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1799,10 +1799,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e750" />
+      <child nodeId="node-0x1f7242b0" />
     </children>
   </item>
-  <item nodeId="node-0x1100e750">
+  <item nodeId="node-0x1f7242b0">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers on them, but they could use some water.
 
@@ -1811,10 +1811,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e7c0" />
+      <child nodeId="node-0x1f724320" />
     </children>
   </item>
-  <item nodeId="node-0x1100e7c0">
+  <item nodeId="node-0x1f724320">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see some surroundings, some bushes and a garden hose here.
@@ -1824,10 +1824,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e830" />
+      <child nodeId="node-0x1f724390" />
     </children>
   </item>
-  <item nodeId="node-0x1100e830">
+  <item nodeId="node-0x1f724390">
     <command xml:space="preserve">examine garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
 
@@ -1836,10 +1836,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e8a0" />
+      <child nodeId="node-0x1f724400" />
     </children>
   </item>
-  <item nodeId="node-0x1100e8a0">
+  <item nodeId="node-0x1f724400">
     <command xml:space="preserve">turn on garden hose</command>
     <result xml:space="preserve">The nozzle is now turned on.
 
@@ -1848,10 +1848,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e910" />
+      <child nodeId="node-0x1f724470" />
     </children>
   </item>
-  <item nodeId="node-0x1100e910">
+  <item nodeId="node-0x1f724470">
     <command xml:space="preserve">turn off garden hose</command>
     <result xml:space="preserve">The nozzle is now turned off.
 
@@ -1860,10 +1860,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e980" />
+      <child nodeId="node-0x1f7244e0" />
     </children>
   </item>
-  <item nodeId="node-0x1100e980">
+  <item nodeId="node-0x1f7244e0">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -1872,10 +1872,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100e9f0" />
+      <child nodeId="node-0x1f724550" />
     </children>
   </item>
-  <item nodeId="node-0x1100e9f0">
+  <item nodeId="node-0x1f724550">
     <command xml:space="preserve">take nozzle</command>
     <result xml:space="preserve">Taken.
 
@@ -1884,30 +1884,30 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100ea60" />
+      <child nodeId="node-0x1f7245c0" />
     </children>
   </item>
-  <item nodeId="node-0x1100ea60">
+  <item nodeId="node-0x1f7245c0">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">&gt;</result>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100ead0" />
+      <child nodeId="node-0x1f724630" />
     </children>
   </item>
-  <item nodeId="node-0x1100ead0">
+  <item nodeId="node-0x1f724630">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">&gt;</result>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100eb40" />
+      <child nodeId="node-0x1f7246a0" />
     </children>
   </item>
-  <item nodeId="node-0x1100eb40">
+  <item nodeId="node-0x1f7246a0">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers  that glisten in the morning sun.
 
@@ -1916,7 +1916,7 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100ebb0">
+  <item nodeId="node-0x1f724710">
     <command xml:space="preserve">scenery</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1925,10 +1925,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100ec20" />
+      <child nodeId="node-0x1f724780" />
     </children>
   </item>
-  <item nodeId="node-0x1100ec20">
+  <item nodeId="node-0x1f724780">
     <command xml:space="preserve">examine driveway</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1937,7 +1937,7 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100ec90">
+  <item nodeId="node-0x1f7247f0">
     <command xml:space="preserve">examine driveway</command>
     <result xml:space="preserve">The driveway looks new but there are dandelions growing in the cracks. You&apos;ve always hated dandelions. *ah Ah ACHOO* You wipe your nose on a napkin and and put it back in your back pocket.
 
@@ -1946,10 +1946,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100ed00" />
+      <child nodeId="node-0x1f724860" />
     </children>
   </item>
-  <item nodeId="node-0x1100ed00">
+  <item nodeId="node-0x1f724860">
     <command xml:space="preserve">examine driveway</command>
     <result xml:space="preserve">The driveway looks new but there are dandelions growing in the cracks. You&apos;ve always hated dandelions.
 
@@ -1958,7 +1958,7 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100ed70">
+  <item nodeId="node-0x1f7248d0">
     <command xml:space="preserve">examine Front Yard</command>
     <result xml:space="preserve">I only understood you as far as wanting to examine the front door.
 
@@ -1967,10 +1967,10 @@ You can see some surroundings, some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100ede0" />
+      <child nodeId="node-0x1f724940" />
     </children>
   </item>
-  <item nodeId="node-0x1100ede0">
+  <item nodeId="node-0x1f724940">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see some bushes and a garden hose here.
@@ -1980,10 +1980,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100ee50" />
+      <child nodeId="node-0x1f7249b0" />
     </children>
   </item>
-  <item nodeId="node-0x1100ee50">
+  <item nodeId="node-0x1f7249b0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Front Yard
 You can see some bushes and a garden hose here.
@@ -1993,10 +1993,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100eec0" />
+      <child nodeId="node-0x1f724a20" />
     </children>
   </item>
-  <item nodeId="node-0x1100eec0">
+  <item nodeId="node-0x1f724a20">
     <command xml:space="preserve">scenery</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2005,10 +2005,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100ef30" />
+      <child nodeId="node-0x1f724a90" />
     </children>
   </item>
-  <item nodeId="node-0x1100ef30">
+  <item nodeId="node-0x1f724a90">
     <command xml:space="preserve">look at scener</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2017,10 +2017,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100efa0" />
+      <child nodeId="node-0x1f724b00" />
     </children>
   </item>
-  <item nodeId="node-0x1100efa0">
+  <item nodeId="node-0x1f724b00">
     <command xml:space="preserve">examine scenery</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2029,10 +2029,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f010" />
+      <child nodeId="node-0x1f724b70" />
     </children>
   </item>
-  <item nodeId="node-0x1100f010">
+  <item nodeId="node-0x1f724b70">
     <command xml:space="preserve">look Front Yard</command>
     <result xml:space="preserve">I only understood you as far as wanting to look the front door.
 
@@ -2041,7 +2041,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100f080">
+  <item nodeId="node-0x1f724be0">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers on them, but they could use some water.
 
@@ -2050,10 +2050,10 @@ You can see some bushes and a garden hose here.
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f0f0" />
+      <child nodeId="node-0x1f724c50" />
     </children>
   </item>
-  <item nodeId="node-0x1100f0f0">
+  <item nodeId="node-0x1f724c50">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -2062,10 +2062,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f160" />
+      <child nodeId="node-0x1f724cc0" />
     </children>
   </item>
-  <item nodeId="node-0x1100f160">
+  <item nodeId="node-0x1f724cc0">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers on them, but they could use some water.
 
@@ -2074,7 +2074,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100f1d0">
+  <item nodeId="node-0x1f724d30">
     <command xml:space="preserve">water the bushes</command>
     <result xml:space="preserve">You have nothing with which to water the plant.
 
@@ -2083,11 +2083,11 @@ You can see some bushes and a garden hose here.
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f630" />
-      <child nodeId="node-0x1100f240" />
+      <child nodeId="node-0x1f725190" />
+      <child nodeId="node-0x1f724da0" />
     </children>
   </item>
-  <item nodeId="node-0x1100f240">
+  <item nodeId="node-0x1f724da0">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers on them, but they could use some water.
 
@@ -2096,10 +2096,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f2b0" />
+      <child nodeId="node-0x1f724e10" />
     </children>
   </item>
-  <item nodeId="node-0x1100f2b0">
+  <item nodeId="node-0x1f724e10">
     <command xml:space="preserve">examine garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
 
@@ -2108,10 +2108,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f320" />
+      <child nodeId="node-0x1f724e80" />
     </children>
   </item>
-  <item nodeId="node-0x1100f320">
+  <item nodeId="node-0x1f724e80">
     <command xml:space="preserve">take nozzle</command>
     <result xml:space="preserve">Taken.
 
@@ -2120,10 +2120,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f390" />
+      <child nodeId="node-0x1f724ef0" />
     </children>
   </item>
-  <item nodeId="node-0x1100f390">
+  <item nodeId="node-0x1f724ef0">
     <command xml:space="preserve">water the bushes</command>
     <result xml:space="preserve">You can&apos;t water the bushes when the nozzle is off.
 
@@ -2132,10 +2132,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f400" />
+      <child nodeId="node-0x1f724f60" />
     </children>
   </item>
-  <item nodeId="node-0x1100f400">
+  <item nodeId="node-0x1f724f60">
     <command xml:space="preserve">examine garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
 
@@ -2144,10 +2144,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f470" />
+      <child nodeId="node-0x1f724fd0" />
     </children>
   </item>
-  <item nodeId="node-0x1100f470">
+  <item nodeId="node-0x1f724fd0">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers on them, but they could use some water.
 
@@ -2156,10 +2156,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f4e0" />
+      <child nodeId="node-0x1f725040" />
     </children>
   </item>
-  <item nodeId="node-0x1100f4e0">
+  <item nodeId="node-0x1f725040">
     <command xml:space="preserve">turn on garden hose</command>
     <result xml:space="preserve">The nozzle is now turned on.
 
@@ -2168,10 +2168,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f550" />
+      <child nodeId="node-0x1f7250b0" />
     </children>
   </item>
-  <item nodeId="node-0x1100f550">
+  <item nodeId="node-0x1f7250b0">
     <command xml:space="preserve">water the bushes</command>
     <result xml:space="preserve">You water the bushes.
 
@@ -2180,10 +2180,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f5c0" />
+      <child nodeId="node-0x1f725120" />
     </children>
   </item>
-  <item nodeId="node-0x1100f5c0">
+  <item nodeId="node-0x1f725120">
     <command xml:space="preserve">examine bushes</command>
     <result xml:space="preserve">The bushes have beautiful white flowers  that glisten in the morning sun.
 
@@ -2192,7 +2192,7 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100f630">
+  <item nodeId="node-0x1f725190">
     <command xml:space="preserve">examine garden hose</command>
     <result xml:space="preserve">The garden hose has a nozzle attached to it for watering plants.
 
@@ -2201,10 +2201,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f6a0" />
+      <child nodeId="node-0x1f725200" />
     </children>
   </item>
-  <item nodeId="node-0x1100f6a0">
+  <item nodeId="node-0x1f725200">
     <command xml:space="preserve">take nozzle</command>
     <result xml:space="preserve">Taken.
 
@@ -2213,10 +2213,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f710" />
+      <child nodeId="node-0x1f725270" />
     </children>
   </item>
-  <item nodeId="node-0x1100f710">
+  <item nodeId="node-0x1f725270">
     <command xml:space="preserve">water the bushes</command>
     <result xml:space="preserve">You can&apos;t water the bushes when the nozzle is off.
 
@@ -2225,10 +2225,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f780" />
+      <child nodeId="node-0x1f7252e0" />
     </children>
   </item>
-  <item nodeId="node-0x1100f780">
+  <item nodeId="node-0x1f7252e0">
     <command xml:space="preserve">turn on garden hose</command>
     <result xml:space="preserve">The nozzle is now turned on.
 
@@ -2237,10 +2237,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f7f0" />
+      <child nodeId="node-0x1f725350" />
     </children>
   </item>
-  <item nodeId="node-0x1100f7f0">
+  <item nodeId="node-0x1f725350">
     <command xml:space="preserve">water bushes</command>
     <result xml:space="preserve">You water the bushes.
 
@@ -2249,10 +2249,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f860" />
+      <child nodeId="node-0x1f7253c0" />
     </children>
   </item>
-  <item nodeId="node-0x1100f860">
+  <item nodeId="node-0x1f7253c0">
     <command xml:space="preserve">examien bushes</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2261,10 +2261,10 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100f8d0" />
+      <child nodeId="node-0x1f725430" />
     </children>
   </item>
-  <item nodeId="node-0x1100f8d0">
+  <item nodeId="node-0x1f725430">
     <command xml:space="preserve">examine\\ bushes</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2273,14 +2273,14 @@ You can see some bushes and a garden hose here.
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100f940">
+  <item nodeId="node-0x1f7254a0">
     <command xml:space="preserve">sneeze</command>
     <result xml:space="preserve">&gt;</result>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x1100f9b0">
+  <item nodeId="node-0x1f725510">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Living Room
@@ -2290,10 +2290,10 @@ Living Room
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100fa20" />
+      <child nodeId="node-0x1f725580" />
     </children>
   </item>
-  <item nodeId="node-0x1100fa20">
+  <item nodeId="node-0x1f725580">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Kitchen
@@ -2303,11 +2303,11 @@ Kitchen
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x110103c0" />
-      <child nodeId="node-0x1100fa90" />
+      <child nodeId="node-0x1f725f20" />
+      <child nodeId="node-0x1f7255f0" />
     </children>
   </item>
-  <item nodeId="node-0x1100fa90">
+  <item nodeId="node-0x1f7255f0">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Upstairs
@@ -2317,176 +2317,12 @@ Upstairs
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x11010350" />
-      <child nodeId="node-0x1100fb00" />
-      <child nodeId="node-0x1100fda0" />
+      <child nodeId="node-0x1f725eb0" />
+      <child nodeId="node-0x1f725660" />
+      <child nodeId="node-0x1f725c10" />
     </children>
   </item>
-  <item nodeId="node-0x1100fda0">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">
-Master Bedroom
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x1100fe10" />
-    </children>
-  </item>
-  <item nodeId="node-0x1100fe10">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">
-Upstairs
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x1100fe80" />
-    </children>
-  </item>
-  <item nodeId="node-0x1100fe80">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">
-Master Bedroom
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x1100fef0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1100fef0">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x1100ff60" />
-    </children>
-  </item>
-  <item nodeId="node-0x1100ff60">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">
-Upstairs
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x1100ffd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1100ffd0">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">
-Master Bedroom
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x11010040" />
-    </children>
-  </item>
-  <item nodeId="node-0x11010040">
-    <command xml:space="preserve">go weast</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x110100b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x110100b0">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">
-Upstairs
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x11010120" />
-    </children>
-  </item>
-  <item nodeId="node-0x11010120">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">
-Master Bedroom
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x11010190" />
-    </children>
-  </item>
-  <item nodeId="node-0x11010190">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">
-Upstairs
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x11010200" />
-    </children>
-  </item>
-  <item nodeId="node-0x11010200">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">
-Kitchen
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x11010270" />
-    </children>
-  </item>
-  <item nodeId="node-0x11010270">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">
-Back Yard
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x110102e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x110102e0">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">
-Kitchen
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x1100fb00">
+  <item nodeId="node-0x1f725c10">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Upstairs
 
@@ -2495,10 +2331,10 @@ Kitchen
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100fb70" />
+      <child nodeId="node-0x1f725c80" />
     </children>
   </item>
-  <item nodeId="node-0x1100fb70">
+  <item nodeId="node-0x1f725c80">
     <command xml:space="preserve">go</command>
     <result xml:space="preserve">You&apos;ll have to say which compass direction to go in.
 
@@ -2507,10 +2343,10 @@ Kitchen
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100fbe0" />
+      <child nodeId="node-0x1f725cf0" />
     </children>
   </item>
-  <item nodeId="node-0x1100fbe0">
+  <item nodeId="node-0x1f725cf0">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Child&apos;s Bedroom
@@ -2520,10 +2356,10 @@ Child&apos;s Bedroom
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100fc50" />
+      <child nodeId="node-0x1f725d60" />
     </children>
   </item>
-  <item nodeId="node-0x1100fc50">
+  <item nodeId="node-0x1f725d60">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Upstairs
@@ -2533,10 +2369,10 @@ Upstairs
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100fcc0" />
+      <child nodeId="node-0x1f725dd0" />
     </children>
   </item>
-  <item nodeId="node-0x1100fcc0">
+  <item nodeId="node-0x1f725dd0">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Master Bedroom
@@ -2546,10 +2382,10 @@ Master Bedroom
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1100fd30" />
+      <child nodeId="node-0x1f725e40" />
     </children>
   </item>
-  <item nodeId="node-0x1100fd30">
+  <item nodeId="node-0x1f725e40">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2558,7 +2394,171 @@ Master Bedroom
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x11010350">
+  <item nodeId="node-0x1f725660">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Master Bedroom
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f7256d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f7256d0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Upstairs
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f725740" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f725740">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Master Bedroom
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f7257b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f7257b0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f725820" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f725820">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Upstairs
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f725890" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f725890">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Master Bedroom
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f725900" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f725900">
+    <command xml:space="preserve">go weast</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f725970" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f725970">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Upstairs
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f7259e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f7259e0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Master Bedroom
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f725a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f725a50">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Upstairs
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f725ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f725ac0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Kitchen
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f725b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f725b30">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Back Yard
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f725ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f725ba0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Kitchen
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x1f725eb0">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Master Bedroom
@@ -2568,7 +2568,7 @@ Master Bedroom
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x110103c0">
+  <item nodeId="node-0x1f725f20">
     <command xml:space="preserve">go up</command>
     <result xml:space="preserve">
 Upstairs
@@ -2578,10 +2578,10 @@ Upstairs
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x11010430" />
+      <child nodeId="node-0x1f725f90" />
     </children>
   </item>
-  <item nodeId="node-0x11010430">
+  <item nodeId="node-0x1f725f90">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2590,10 +2590,10 @@ Upstairs
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x110104a0" />
+      <child nodeId="node-0x1f726000" />
     </children>
   </item>
-  <item nodeId="node-0x110104a0">
+  <item nodeId="node-0x1f726000">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">
 Master Bedroom
@@ -2603,10 +2603,10 @@ Master Bedroom
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x11010510" />
+      <child nodeId="node-0x1f726070" />
     </children>
   </item>
-  <item nodeId="node-0x11010510">
+  <item nodeId="node-0x1f726070">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Upstairs
@@ -2616,10 +2616,10 @@ Upstairs
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x11010580" />
+      <child nodeId="node-0x1f7260e0" />
     </children>
   </item>
-  <item nodeId="node-0x11010580">
+  <item nodeId="node-0x1f7260e0">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Child&apos;s Bedroom
@@ -2629,10 +2629,10 @@ Child&apos;s Bedroom
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x110105f0" />
+      <child nodeId="node-0x1f726150" />
     </children>
   </item>
-  <item nodeId="node-0x110105f0">
+  <item nodeId="node-0x1f726150">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Upstairs
@@ -2642,10 +2642,10 @@ Upstairs
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x11010660" />
+      <child nodeId="node-0x1f7261c0" />
     </children>
   </item>
-  <item nodeId="node-0x11010660">
+  <item nodeId="node-0x1f7261c0">
     <command xml:space="preserve">go down</command>
     <result xml:space="preserve">
 Kitchen
@@ -2655,10 +2655,10 @@ Kitchen
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x110106d0" />
+      <child nodeId="node-0x1f726230" />
     </children>
   </item>
-  <item nodeId="node-0x110106d0">
+  <item nodeId="node-0x1f726230">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">
 Back Yard
@@ -2668,10 +2668,10 @@ Back Yard
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x11010740" />
+      <child nodeId="node-0x1f7262a0" />
     </children>
   </item>
-  <item nodeId="node-0x11010740">
+  <item nodeId="node-0x1f7262a0">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2680,10 +2680,10 @@ Back Yard
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x110107b0" />
+      <child nodeId="node-0x1f726310" />
     </children>
   </item>
-  <item nodeId="node-0x110107b0">
+  <item nodeId="node-0x1f726310">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">
 Kitchen
@@ -2693,20 +2693,20 @@ Kitchen
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x11010820" />
+      <child nodeId="node-0x1f726380" />
     </children>
   </item>
-  <item nodeId="node-0x11010820">
+  <item nodeId="node-0x1f726380">
     <command xml:space="preserve">quit</command>
     <result xml:space="preserve">Are you sure you want to quit? </result>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x11010890" />
+      <child nodeId="node-0x1f7263f0" />
     </children>
   </item>
-  <item nodeId="node-0x11010890">
+  <item nodeId="node-0x1f7263f0">
     <command xml:space="preserve">y</command>
     <result xml:space="preserve">
 [ The game has finished ]
@@ -2715,7 +2715,7 @@ Kitchen
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x11010900">
+  <item nodeId="node-0x1f726460">
     <command xml:space="preserve">examine</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -2724,10 +2724,10 @@ Kitchen
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x11010970" />
+      <child nodeId="node-0x1f7264d0" />
     </children>
   </item>
-  <item nodeId="node-0x11010970">
+  <item nodeId="node-0x1f7264d0">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in in a front yard.
 
@@ -2736,10 +2736,10 @@ Kitchen
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x110109e0" />
+      <child nodeId="node-0x1f726540" />
     </children>
   </item>
-  <item nodeId="node-0x110109e0">
+  <item nodeId="node-0x1f726540">
     <command xml:space="preserve">list surroundings</command>
     <result xml:space="preserve">You see a forest, a house, a driveway, a porch, a path, a front door, a lawn, a mail box, and a tree in your surroundings.
 
@@ -2748,7 +2748,7 @@ Kitchen
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x11010a50">
+  <item nodeId="node-0x1f7265b0">
     <command xml:space="preserve">water surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -2757,10 +2757,10 @@ Kitchen
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x11010ac0" />
+      <child nodeId="node-0x1f726620" />
     </children>
   </item>
-  <item nodeId="node-0x11010ac0">
+  <item nodeId="node-0x1f726620">
     <command xml:space="preserve">take surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
@@ -2769,10 +2769,10 @@ Kitchen
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x11010b30" />
+      <child nodeId="node-0x1f726690" />
     </children>
   </item>
-  <item nodeId="node-0x11010b30">
+  <item nodeId="node-0x1f726690">
     <command xml:space="preserve">examine surroundings</command>
     <result xml:space="preserve">You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in in a front yard.
 
@@ -2781,10 +2781,10 @@ Kitchen
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x11010ba0" />
+      <child nodeId="node-0x1f726700" />
     </children>
   </item>
-  <item nodeId="node-0x11010ba0">
+  <item nodeId="node-0x1f726700">
     <command xml:space="preserve">list surroundings</command>
     <result xml:space="preserve">That isn&apos;t available.
 
