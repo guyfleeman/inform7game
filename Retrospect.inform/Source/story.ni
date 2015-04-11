@@ -55,17 +55,15 @@ Being is an action applying to one thing.
 
 Flying is an action applying to nothing.
 	Understand "fly" as flying.
-	Instead of flying, say "You wish."
+	Instead of flying, say "[if player is carrying antigravity]You slowly float up into the air like a ballon.[otherwise]You wish.[end if]"
 	
 Pooping is an action applying to nothing.
 	Understand "poop" as pooping.
 	Instead of pooping, say "This is not the time to do that."
 
-Importing is an action applying to one thing.
-	Understand "import [thing]" as importing.
-	antigravity is a thing.
-	Instead of importing antigravity:
-		Now the player is carrying antigravity;
+Understand "import [thing]" as taking.
+	antigravity is a thing. The player is carrying antigravity.
+	After taking antigravity:
 		say "Medicine cabinet sampled.".
 	
 Watering is an action applying to one thing.
@@ -615,7 +613,9 @@ When Murder begins:
 		The microwave is fixed in place.
 		The microwave contains a ham sammich.
 		The sammich is edible.
-		After eating the sammich, say "Maybe that was a bad idea. This is a crime scene, not a buffet.".
+		After eating the sammich:
+			say "Maybe that was a bad idea. This is a crime scene, not a buffet.";
+			decrease score by 1.
 	
 	The card is an Evidence.
 		The description is "Pretend this card says something meaningful." [TODO]
@@ -628,11 +628,12 @@ When Murder begins:
 		The refrigerator is enterable.
 		Understand "fridge" as refrigerator.
 		milk is a thing.
-		The description is "The expiration date says 6/06. Yuck."
+		The description is "The expiration date says 606. Yuck."
 		The refrigerator contains the milk.
 		Instead of drinking milk, say "Not with that expiration date you're not.".
 		After entering the refrigerator:
-			say "Your attempt to catch the door light as it turns off is a success. But now you're cold and it's dark in here."
+			say "Your attempt to catch the door light as it turns off is a success. But now you're cold and it's dark in here.";
+			decrease score by 1.
 		Instead of looking under the refrigerator for the first time:
 			Now the card is in the Kitchen;
 			say "You see a card here."
@@ -642,7 +643,9 @@ When Murder begins:
 		The oven is fixed in place.
 		The oven contains an apple pie.
 		The apple pie is edible.
-		After eating the apple pie, say "Maybe that was a bad idea. But a delicious one."
+		After eating the apple pie:
+			say "Maybe that was a bad idea. But a delicious one.";
+			decrease score by 1.
 		
 	The spilled cup is a thing.
 		The spilled cup is in the Kitchen.
@@ -655,6 +658,7 @@ When Murder begins:
 		After examining the dark stain for the first time, increase clueCount by 1.
 		
 	The beer cabinet is a container.
+		The beer cabinet is fixed in place.
 		The beer cabinet is in the Kitchen.
 		The beer cabinet is openable.
 		After opening the beer cabinet, say "Hmm. Looks like someone drank all the alcohol."
