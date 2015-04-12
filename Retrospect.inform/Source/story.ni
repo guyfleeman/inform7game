@@ -74,8 +74,9 @@ Watering is an action applying to one thing.
 Listing is an action applying to one thing.
 	Understand "list [thing]" as listing.
 	
-Swinging is an action applying to one thing.
+[Swinging is an action applying to one thing.
 	Understand "swing [thing]" as swinging.
+	removed; already defined]
 
 Leveling up is an action applying to nothing.
 	Understand "level up" as leveling up.
@@ -155,7 +156,7 @@ When Murder ends:
 
 [DEF ROOMS/DOORS]
 Front Yard is a room.
-Living Room  is a room.
+Living Room is a room.
 Garage is a room.
 Kitchen is a room.
 Back Yard is a room.
@@ -345,9 +346,14 @@ When Murder begins:
 		The fence is scenery.
 		The description is "A wooden fence follows the perimeter of the yard along the edge of the forest. It has a gate at the north end of the property.".
 		
-	The shovel is in the back yard.
+	The shovel is in the Back Yard.
 	
-	The flowers are in the back yard.
+
+	The fence is in the Back Yard.
+		The fence is scenery.
+		The description is "A tan picket fence delineates the yard's perimeter.  Its frame is wrapped in thin vines of honeysuckle, with bumblebees flitting around their blooms.  There is a gate to the north of the yard.".
+	
+	The flower bed is in the Back Yard.
 		The description is "Tulips. Your least favorite flower."
 	
 	[Upstairs]
@@ -413,7 +419,7 @@ When Murder begins:
 		instead;
 	Instead of examining the surroundings:
 		if the player is in the Front Yard,
-			Say "You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in in a front yard."
+			Say "You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in a front yard."
 		instead;
 		if the player is in the Living Room,
 			Say "Living Room description"
@@ -454,7 +460,7 @@ When Murder begins:
 			Say "Living Room list"
 		instead;
 		if the player is in the Back Yard,
-			Say "You can see the house, its back door, a field, and a pond."
+			Say "You can see the house, its back door, a field, a fence, a flower bed, and a pond."
 		instead;
 		if the player is in the Master Bedroom,
 			Say "Master Bedroom list"
@@ -559,7 +565,7 @@ When Murder begins:
 	[Living Room]		
 	The couch is an Evidence.
 		The couch is in the Living Room.
-		The description is "Just a couch".
+		The description is "Just a couch.".
 		
 	The TV is an Evidence.
 		The TV is in the Living Room.
@@ -699,7 +705,6 @@ When Murder begins:
 			otherwise;
 				Say "You already broke the swingset.";
 			end if;
-	
 										
 	[Upstairs]
 	
