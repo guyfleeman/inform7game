@@ -1,41 +1,14 @@
-[ code style when relevant and possible...
-	start with commented definitions
-	proceed with commented location definitions
-	proceed with commented initializations
-				
-	do no capitalize names unless they are the first word in a statement
-]
-
 [helpful links
 	-Action Syntax Guide: 		http://inform7.com/learn/documents/I7_syntax.txt
 	-Implied Object Structure: http://www.ifwiki.org/index.php/Inform_7_for_Programmers/Part_1
 ]
 
-[tips
-	-Watch plurality when defining objects, check the room description. It seems to be fairly stupid.
-			-Fix by stating 'The indefinite article is "".'
-	-Only the last statement in conditional blocks has punctuation of *any* kind.
-					-Bug?
-	-In rules (functions or SR's) Statements ending in a ';' prior to a conditional block generate errors in the 
-			compiler if they are followed by a blank line or line with only white space (WTF this took me 20mins to fix)
-]
-
 "Retrospect" by "GroopOfFore"
 
-[INCLUDES
- File
-	-> Install Extension
- ]
 Include Basic Help Menu by Emily Short.
 Include Basic Screen Effects by Emily Short.
-[Include Version 2 of Title Page by Jon Ingold.]
 
 [DEF ABSTRACTIONS]
-[ apparently implicit subclasses can be made, but I couldn't get them to work. This wasn't the right approach anyway.
-ToggableThing is a kind of thing.
-	ToggableThing can be on or off.
-	ToggableThing is usually off.
-]
 An Evidence is a kind of container.
 	[An Evidence is usually fixed in place.]
 	Instead of taking evidence:
@@ -59,22 +32,13 @@ An Evidence is a kind of container.
 		
 		
 	[When Investigation begins:]
+	
+[DEF EVIDENCE]
+
 
 
 [DEF ACTIONS]
-Understand the command "pwd" as "look".
-Understand the command "ls" as "inventory".
-Understand the command "dir" as "inventory".
-[Understand the command "sudo update-initramfs" as "leveling up".]
- 	 Understand the command "cd" as "go".
-Understand the command "echo" as "say".
- [Understand "cd .." as "up".]
-destroying is an action applying to one thing.
-	Understand "destroy" as destroying.
-	Understand "break" as destroying.
-	Understand "annihilate" as destroying.
-
-destroying is an action applying to one thing.
+Destroying is an action applying to one thing.
 	Understand "destroy" as destroying.
 	Understand "break" as destroying.
 	Understand "annihilate" as destroying.
@@ -85,24 +49,11 @@ Being is an action applying to one thing.
 Using is an action applying to one thing.
 	Understand "use" as using.
 	
-Flying is an action applying to nothing.
-	Understand "fly" as flying.
-	Instead of flying, say "[if player is carrying antigravity]You slowly float up into the air like a balloon.[otherwise]You wish.[end if]"
-
-Understand "import [thing]" as taking.
-	antigravity is a thing. [The player is carrying antigravity.]
-	After taking antigravity:
-		say "Medicine cabinet sampled.".
-	
 Watering is an action applying to one thing.
 	Understand "water [thing]" as watering.
 	
 Listing is an action applying to one thing.
 	Understand "list [thing]" as listing.
-	
-[Swinging is an action applying to one thing.
-	Understand "swing [thing]" as swinging.
-	removed; already defined]
 
 Leveling up is an action applying to nothing.
 	Understand "level up" as leveling up.
@@ -124,12 +75,31 @@ Hiding is an action applying to one carried thing and a thing.
 	Understand "hide [something preferably held] under [thing]" as hiding.
 	Understand "hide [something preferably held] in [thing]" as hiding.
 
-[wrap the default switch commands]
 Turning On is an action applying to one thing.
 	Understand "turning on [thing]" as switching on.
 	
 Turning Off is an action applying to one thing.
 	Understand "turning off [thing]" as switching off.
+	
+Password Unlocking is an action applying to one thing.
+	Understand "password unlock [thing]" as password unlocking. 
+	
+Pouring is an action applying to two things.
+	Understand "pour [something preferably held] into [thing]" as pouring.
+	Understand "pour [something preferably held] in [thing]" as pouring.
+	
+Tying is an action applying to two things.
+	Understand "tie [thing] with [something preferably held]" as tying.
+	
+[DEF ACTION OVERRIDES]
+Instead of taking something:
+	if Investigation is the Current Scene
+	begin;
+		Say "You shouldn't remove anything from an active crime scene.";
+	otherwise if Murder is the Current Scene;
+		Say "You have a job to do. Now isn't the time.";
+	end if;
+		
 	
 [DEF GLOBAL VARS]
 The Maximum Score is 20. [2x num of clues (whatever that becomes)]
@@ -137,7 +107,6 @@ The Score is 0.
 Use scoring.
 
 The stageCount is a number that varies.
-
 The stageCount is 0.
 
 The clueCount is a number that varies.
@@ -146,20 +115,23 @@ The clueCount is 0.
 The clueFlag is a number that varies.
 The clueFlag is 0.
 
-[forward declaration hack for murder event to trigger scene change]
 The deathFlag is a number that varies.
 The deathFlag is 0.
 
+[DEF PROPERTIES]
 A thing has some text called content. 
 	The content of a thing is usually "".	
 A thing has some text called smell.
 A thing has some text called deathStatus.
 	The deathStatus of a thing is usually "alive".
+A thing has some text called discoveredStatus.
+	The discoveredStatus of a thing is usually "false".
+A thing has some text called stagedStatus.
+	The stagedStatus of a thing is usually "false".
 	
 Brightness is a kind of value. 
 	The brightnesses are dim and bright.
 	
-
 [DEF SCENES]
 Current Scene is a scene that varies.
 
@@ -170,14 +142,13 @@ Investigation is a scene.
 	
 Murder is a scene.
 	Murder begins when Investigation ends.
-	Murder ends when Murder is the Current Scene AND the deathFlag is 1.
+	[Murder ends when Murder is the Current Scene AND the deathFlag is 1.]
+	Murder ends when Murder begins.
 	
 Staging is a scene.
 	Staging begins when Murder ends.
 	
 The Current Scene is Investigation.
-[The Current Scene is Murder.]
-[The Current Scene is Staging.]
 
 When Investigation ends:
 	Now the Current Scene is Murder;
@@ -204,6 +175,11 @@ The sentinel is a thing.
 	The sentinel is on.
 	
 The back door is a door.
+	The back door can be broken or not broken.
+	When Investigation begins:
+		Now the back door is broken;
+	When Murder begins:
+		Now the back door is not broken;
 	Instead of picking the back door:
 		Say "Picking... (press random keys)[line break]";
 		while the sentinel is on
@@ -219,7 +195,12 @@ The back door is a door.
 		end while;
 		
 The front door is a door.
-	The description is "The front door is black, devoid of windows, and made of oak. It is unlocked.".
+	The front door can be broken or not broken.
+	When Investigation begins:
+		Now the front door is broken.
+	When Murder begins:
+		Now the front door is not broken.
+	The description is "The front door is black and made of oak.[if the front door is broken]The window on the door has been smashed.[end if][if the front door is unlocked]It's unlocked[end if]".
 	Instead of picking the Front Door:
 		Say "Picking... (press random keys)[line break]";
 		while the sentinel is on
@@ -281,22 +262,28 @@ The burner phone is a thing.
 The machete is a thing.
 	The description is "A sharpened machete with a wooden handle.".
 	
+The email drafts are a thing.
+	The indefinite article is "some".
+	The description is "Email drafts alluding to a drug buy.".
+	
 The zip ties are a thing.
 	The indefinite article is "some".
 	The description is "Black industrial zip ties.".
 	
 The vial is a thing.
-	[The indefninite article is "some".]
 	The description is "A vial of Ketamine.".
 	
 The needle is a thing.
 	The description is "An empty needle.".
 	
-your phone is a thing.
+The scale is a thing.
+	The description is "A scale with decimals of precision.".
+	
+Your phone is a thing.
 	The player is carrying your phone.
 	Instead of dropping your phone, say "You won’t risk that until you’ve bought a case for it.".
 	
-your clothes are a thing.
+Your clothes are a thing.
 	The description is "Just a typical suit. Your shoes look like they need to be polished."
 	The player is carrying your clothes.
 	Instead of dropping your clothes, say "Nudity is not acceptable in this society.".
@@ -307,12 +294,13 @@ When Murder begins:
 	Now the player has the pick gun;
 	Now the player has the burner phone;
 	Now the player has the machete;
+	Now the player has the email drafts;
 	Now the player has the zip ties;
 	Now the player has the vial;
-	Now the player has the needle.
-	
+	Now the player has the needle;
+	Now the player has the scale.
 
-[INIT SCENERY]
+[DEF SCENERY]
 	[Front Yard]
 	The forest is in the Front Yard.
 		The forest is scenery.
@@ -349,23 +337,16 @@ When Murder begins:
 	[Garage]
 	
 	[Kitchen]
-	[
-	The back door is in the Kitchen.
-		The back door is scenery.
-		The description is "There is a door here leading to the backyard. It seems unlocked."]
 	
 	[Back Yard]
 	This house is in the Back Yard.
 		The house is scenery.
 		The description is "The house is two stories with a shale facade and brushed bronze accents.".
 
-	The pond is in the Back Yard.
-		The pond is scenery.
-		The description is "A small pond lies in the middle of the lush grass. Shimmering bass swim in its clear, green water.[if we have not examined the pond] You spot a catfish lurking deep in the pool.[end if]".
-
 	The backdoor is in the Back Yard.
 		The back door is scenery.
 		The description is "The back door hangs on one hinge, its lock splintered. It swings slowly in the breeze, sometimes banging into the side of the house.".
+		
 		
 	The field is in the Back Yard.
 		The field is scenery.
@@ -396,113 +377,8 @@ When Murder begins:
 	The window is in the Child's Bedroom.
 		The window is scenery.
 		The description is "A pine forest can be seen. Just past the edge of the forest, you can see a duck blind.".
-	
-	[Scenery scene routines]
-	When Investigation begins:
-		Say "Scenery Init investigation".
 		
-	When Investigation ends:
-		Say "Scenery End Investigation".
-		
-	When Murder begins:
-		Say "Scenery Init Murder".
-		
-	When Murder ends:
-		Say "Scenery End Murder".
-		
-	When Staging begins:
-		Say "Scenery Init Staging".
-		
-	When Staging ends:
-		Say "Scenery End Staging".
-
-[INIT OBJECTS]
-	[dynamic surroundings
-		tracks the location/scope of the player and updates its position
-		allowing the government to always 'examine surroundings'.]
-	The surroundings are a thing.
-	The indefinite article is "some".
-	After deciding the scope of the player:
-		Place the surroundings in scope;
-		[Place the surroundings in scope.]
-		if the player is in the Front Yard,
-			Move the surroundings to the Front Yard
-		instead;
-		if the player is in the Living Room,
-			Move the surroundings to the Living Room
-		instead;
-		if the player is in the Garage,
-			Move the surroundings to the Garage
-		instead;
-		if the player is in the Kitchen,
-			Move the surroundings to the Kitchen
-		instead;
-		if the player is in the Upstairs,
-			Move the surroundings to the Upstairs
-		instead;
-		if the player is in the Back Yard,
-			Move the surroundings to the Back Yard
-		instead;
-		if the player is in the Master Bedroom,
-			Move the surroundings to the Master Bedroom
-		instead;
-		if the player is in the Child's Bedroom,
-			Move the surroundings to the Child's Bedroom
-		instead;
-	Instead of examining the surroundings:
-		if the player is in the Front Yard,
-			Say "You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in a front yard."
-		instead;
-		if the player is in the Living Room,
-			Say "Living Room description"
-		instead;
-		if the player is in the Garage,
-			Say "Garage description"
-		instead;
-		if the player is in the Kitchen,
-			Say "Kitchen description"
-		instead;
-		if the player is in the Upstairs,
-			Say "Upstairs description"
-		instead;
-		if the player is in the Back Yard,
-			Say "Back Yard description"
-		instead;
-		if the player is in the Master Bedroom,
-			Say "Master Bedroom description"
-		instead;
-		if the player is in the Child's Bedroom,
-			Say "Child's Room description"
-		instead;
-	[list scenery for further examination]
-	Instead of listing the surroundings:
-		if the player is in the Front Yard,
-			Say "You see a forest, a house, a driveway, a porch, a path, a front door, a lawn, a mail box, and an apple tree in your surroundings."
-		instead;
-		if the player is in the Living Room,
-			Say "Living Room list"
-		instead;
-		if the player is in the Garage,
-			Say "Garage list"
-		instead;
-		if the player is in the Kitchen,
-			Say "Kitchen list"
-		instead;
-		if the player is in the Upstairs,
-			Say "Upstairs list"
-		instead;
-		if the player is in the Back Yard,
-			Say "You can see the house, its back door, a field, a swing set, a fence, a flower bed, and a pond."
-		instead;
-		if the player is in the Master Bedroom,
-			Say "Master Bedroom list"
-		instead;
-		if the player is in the Child's Bedroom,
-			Say "Child's Room list"
-		instead;
-	Instead of taking the surroundings:
-		Do nothing.
-	
+[DEF OBJECTS]
 	[Front Yard]	
 	The police officer is in the Front Yard.
 		The police officer is a person.
@@ -595,7 +471,7 @@ When Murder begins:
 		Now the mail box is closed;
 		
 	[Living Room]		
-	The couch is an Evidence.
+	The couch is a thing.
 		Understand "sofa" as the couch.
 		The couch is in the Living Room.
 		The description is "Just a couch".
@@ -608,31 +484,11 @@ When Murder begins:
 				continue the action;
 			end if;
 		
-	The TV is an Evidence.
+	The TV is a thing.
 		Understand "Television" as the TV.
 		The TV is in the Living Room.
 		The description is "An old television. It doesn't seem to be working".
 		After examining the TV, increase the score by 1.
-
-	The laptop is an Evidence.
-		The description is "A modest HP Laptop.
-			[if the laptop is switched on and the laptop is unlocked] You copy the password you found into the computer and it successfully unlocks.
-			[otherwise if laptop is switched on and the laptop is locked] The Laptop is locked. You will need to find the password. Don't waste your time guessing.
-			[otherwise] Try switching it on.
-			[end if]".
-		The laptop is in the Living Room.
-		The laptop is either locked or unlocked.
-			The laptop is locked.
-		The laptop can be switched on or switched off.
-			The laptop is switched off.
-			Instead of switching on the laptop:
-				Now the laptop is switched on;
-				Say "The laptop is now turned on.";
-			After switching off the laptop:
-				Now the laptop is switched off;
-				Say "The laptop is now turned off.";
-		After examining the laptop:
-			Increase the score by 1. [todo: only if on]
 		
 	The Ketamine is an Evidence.
 		Instead of looking under couch for the first time:
@@ -642,7 +498,6 @@ When Murder begins:
 		After examining Ketamine, increase the score by 1.
 		When the Investigation ends, now the Ketamine is carried by the player.
 		
-
 	[Garage]
 	The hood is a thing.
 		The hood is fixed in place.
@@ -656,32 +511,31 @@ When Murder begins:
 			say "You have found a clue.";
 			increase the clueCount by 1.
 
+	The keyring is a thing.
+		When Investigation begins:
+			Now the keyring is in the car;
+
 	The car is a container.
 		The car is in the Garage.
 		The car is fixed in place.
 		The description is "A Toyota. Must be at least 20 years old".
 		The car is enterable.
+		The car is closed.
+		
+	The hand drill is a thing.
+		The description is "A common household tool.".
+	The wrench is a thing.
+		The description is "A common household tool".
+	The screwdriver is a thing.
+		The description is "A common household tool".
+	The hammer is a thing.
+		The description is "A common household tool.".
 		
 	The tool bench is a thing.
 		The tool bench is in the Garage.
 		The tool bench is fixed in place.
 		The description is "An old rusty tool bench.".
 		The tool bench contains a wrench, a screwdriver, a hand drill, and a hammer.
-		The hand drill is an Evidence.
-			The description is "A common household tool... or possibly a brutal weapon".
-		The wrench is an Evidence.
-			The description is "A common household tool".
-		The screwdriver is an Evidence.
-			The description is "A common household tool".
-		The hammer is an Evidence.
-			The description is "A common household tool... or possibly a brutal weapon".
-	The scale is an Evidence.
-		Instead of looking under the tool bench for the first time:
-			Now the scale is in the Garage;
-			say "You find a small scale behind the TV. The units are currently set to measure in grams. You pull it out from under the tool bench.".
-		The description is "A small battery-powered measuring scale. You place your car keys on the scale and see that it has 3 decimal places of precision".
-		After examining the scale, increase the score by 1.
-	When Investigation ends, now the scale is carried by the player;
 		
 	The power box is a thing.
 		The power box is in the Garage.
@@ -757,12 +611,7 @@ When Murder begins:
 	The dark stain is a thing.
 		The dark stain is in the Kitchen.
 		Instead of taking the dark stain, say "Do you even know how stains work?"
-		
-	The beer cabinet is a container.
-		The beer cabinet is fixed in place.
-		The beer cabinet is in the Kitchen.
-		The beer cabinet is openable.
-		After opening the beer cabinet, say "Hmm. Looks like someone drank all the alcohol."
+	
 	[Back Yard]
 	The swingset is a thing.
 		The swingset is in the Back Yard.
@@ -787,6 +636,21 @@ When Murder begins:
 		The description is "A wooden desk with drawers."
 		The desk is fixed in place.
 		The desk is closed.
+		The desk is locked.
+		When Investigation begins:
+			Now the vial is in the desk;
+		When Murder begins:
+			Now the desk is unlocked;
+		
+	The left desk drawer is a container.
+		The left desk drawer is in the Master Bedroom.
+		The left desk drawer is fixed in place.
+		The left desk drawer is closed.
+	
+	The right desk drawer is a container.
+		The right desk drawer is in the Master Bedroom.
+		The right desk drawer is fixed in place.
+		The right desk drawer is closed.
 	
 	The guy is a person.
 		The guy is in the Master Bedroom.
@@ -859,11 +723,10 @@ When Murder begins:
 	The family photo is a thing.
 		The description is "A family of four. The photo is torn such that the father's face is ripped out."
 	
-
 	The post-it note is a thing.
 		The description of the post-it note is "A text scribbled on a post-it note. It appears to say '4ceBew1thYou'. [if we have not examined the post-it note for the first time]It could be a password for something[end if]".
 		Instead of reading the post-it note:
-			Say "'4ceBew1thYou''";
+			Say "'4cebew1thYou''";
 		
 	The bookshelf is a thing.
 		The bookshelf is in the Child's Bedroom.
@@ -871,12 +734,7 @@ When Murder begins:
 		Understand "shelf" as the bookshelf.
 		After examining the bookshelf:
 			Now the family photo is in the Child's Bedroom;
-			Now the laptop is unlocked;
-			if Investigation is the Current Scene
-			begin;
-				Now the player is carrying the post-it note;
-				say "A post-it note falls into your hands as you looked through the books.";
-			end if;
+			Now the post-it note is in the Child's Bedroom;
 		
 	When Investigation begins:
 		Now the description of the bookshelf is "A wooden bookshelf. It has some books, a family photo, and Legos.";
@@ -889,10 +747,597 @@ When Murder begins:
 		Now the description of the bookshelf is "A wooden bookshelf. It has the Hunger Games and Percy Jackson series neatly aligned on its third shelf. The other shelves are filled with Star Wars Legos and photos.";
 		Now the description of the family photo is "A family of four. An infant daughter is on the far left next to her mother. The father is on the far right and has placed his arm on his son's knee. The son is sitting cross-legged evenly between his mother and his father. Nobody seems thrilled to be in the photo.";
 		
-	[When Murder ends:
-		Now the smell of the child's bed is "";
-		Now the description of the bookshelf is "";
-		Now the description of the family photo is "";]
+[DEF EVIDENCE]
+
+[Front Yard]
+[door smash]
+
+[Living Room]
+[
+The ketamine powder is a thing.
+	Instead of looking under the couch:
+		if Investigation is the Current Scene
+		begin;
+			Say "You found some ketamine powder under the couch.";
+			if discoveredStatus of the ketamine powder is "false"
+			begin;
+				Increase the clueCount by 2;
+				Now the discoveredStatus of the ketamine powder is "true";
+			end if;
+		otherwise if Murder is the Current Scene;
+			Say "You find nothing of interest.";
+		otherwise if Staging is the Current Scene;
+			if stagedStatus of the ketamine powder is "true"
+			begin;
+				Say "You see some ketamine powder.";
+			otherwise;
+				Say "You find nothing of interest.";
+			end if;
+		end if;
+	Before inserting the ketamine powder into the couch:
+		if Murder is the Current Scene
+		begin;
+			Say "You have more important things to focus on right now.";
+			Reject the Player's command;
+		end if;
+	After inserting the ketamine powder into the couch:
+		if Staging is the Current Scene
+		begin;
+			If the stagedStatus of the ketamine powder is "false"
+			begin;
+				Increase stageCount by 2;
+				Now the stagedStatus of the ketamine powder is "true";
+			end if;
+		end if;
+]
+
+The glass shards are a thing.
+	The description is "The glass shards indicate someone broke into the home through the front door. The shards have an unusual pattern.".
+	When Investigation begins:
+		Now the glass shards are in the Living Room;
+	When Murder begins:
+		Now the glass shards are in the pond;
+	After examining the glass shards for the second time:
+		Say "The glass shards are collected in one localized area and direction.";
+	After examining the glass shards for the third time:
+		Say "The glass shards clearly indicate the door was broken inward. This must be a point of entry.";
+		if the discoveredStatus of the glass shards is "false"
+		begin;
+			Increase the clueCount by 2;
+			Now the discoveredStatus of the glass shards is "true";
+		end if;
+	Instead of attacking the front door:
+		if the front door is broken
+		begin;
+			Say "The door is already broken.";
+		otherwise;
+			if Murder is the Current Scene
+			begin;
+				Say "I wouldn't do that. It might wake someone up.";
+			otherwise if Staging is the current scene;
+				Say "You smash the door's window with your elbow.";
+				if the player is in the Front Yard
+				begin;
+					Say "The debris flies inward.";
+					if the stagedStatus of the glass shards is "false"
+					begin;
+						Increase the stageCount by 2;
+						Now the stagedStatus of the glass shards is "true";
+					end if;
+				end if;
+			end if;
+		end if;
+		
+The reminder is a thing.
+	The description of the reminder is "s@v3th3ch1ldr3n".
+	
+The laptop is a thing.
+	The description is "A modest HP Laptop.".
+	The laptop is in the Living Room.
+	The laptop can be locked or unlocked.
+	The laptop is locked.
+	Instead of password unlocking the laptop:
+		Now the command prompt is "Enter Password: ".
+		After reading a command when the command prompt is "Enter Password: ":
+			if Investigation is the Current Scene
+			begin;
+				if the Player's command matches "4cebew1thyou"
+				begin;
+					Say "Access Granted.";
+					Now the laptop is unlocked;
+					Now the command prompt is ">";
+				otherwise;
+					Say "Access Denied.";
+					Now the command prompt is ">";
+					Reject the Player's command;
+				end if;
+			otherwise if Murder is the Current Scene;
+				Say "You have more important things to focus on right now.";
+			otherwise if Staging is the Current Scene;
+				if the Player's command matches "s@v3th3ch1ldr3n"
+				begin;
+					Say "Access Granted.";
+					Now the laptop is unlocked;
+					Now the command prompt is ">";
+				otherwise;
+					Say "Access Denied.";
+					Now the command prompt is ">";
+					Reject the Player's command;
+				end if;
+			end if;
+	When Investigation begins:
+		Now the laptop is locked.
+	When Murder begins:
+		Now the laptop is locked.
+	Instead of examining the laptop:
+		if the laptop is unlocked
+		begin;
+			if Investigation is the Current Scene
+			begin;
+				Say "After a few minutes of looking through the owner's GMail account, you find some cryptic messages mentioning 'cat Valium' and 'jet'.";
+				if the discoveredStatus of the laptop is "false"
+				begin;
+					Increase clueCount by 3;
+					Now the discoveredStatus of the laptop is "true";
+				end if;
+			otherwise if Murder is the Current Scene;
+				Say "A murdering investigator huh?"; [this should never happen so easter egg]
+			otherwise if Staging is the Current Scene;
+				Say "After looking though the owner's email, you find nothing out of the ordinary.";
+			end if;
+		otherwise;
+			Say "A modest HP Laptop.";
+		end if;
+	Instead of looking under the laptop:
+		If Staging is the Current Scene
+		begin;
+			Say "You find a reminder taped to the bottom of the laptop and you take it.";
+			Now the player has the reminder;
+		otherwise;
+			Say "You find nothing here.";
+		end if;
+	Instead of inserting the email drafts into the laptop:
+		if the laptop is unlocked
+		begin;
+			if the Investigation is the Current Scene
+			begin;
+				Say "How in the F&*% you did you do this?";
+			otherwise if Murder is the Current Scene;
+				Say "You have more important things to focus on right now.";
+			otherwise if Staging is the Current Scene;
+				Say "The email drafts have been entered into the IMAP record.";
+				if the stagedStatus of the laptop is "false"
+				begin;
+					Increase the stageCount by 3;
+					Now the stagedStatus of the laptop is "true";
+				end if;
+			end if;
+		otherwise;
+			Say "The laptop is currently locked.";
+		end if;
+			
+[Kitchen]
+The cabinets are a thing.
+	The indefinite article is "some".
+	The cabinets are in the Kitchen.
+	The cabinets can be broken or not broken.
+	When Investigation begins:
+		Now the cabinets are broken;
+	When Murder begins:
+		Now the cabinets are not broken;
+	Instead of destroying the cabinets:
+		if Investigation is the Current Scene
+		begin;
+			Say "No need to beat a dead horse.";
+		otherwise if Murder is the Current Scene;
+			Say "You have more important things to focus on right now.";
+		otherwise if Staging is the Current Scene;
+			Say "You pull the contents off of the shelves of the cabinets, destroying everything.";
+			Now the cabinets are broken;
+			if the stagedStatus of the cabinets is "false"
+			begin;
+				Increase the stageCount by 1;
+				Now the stagedStatus of the cabinets is "true";
+			end if;
+		end if;
+	Instead of examining the cabinets:
+		Say "[if the cabinets are not broken]The cabinets are made of dark wood with brushed bronze handles. They have glass panels so you can see all of the ceramic cookware behind them.[otherwise]The cabinets have been thoroughly ransacked.[end if]";
+		if Investigation is the Current Scene
+		begin;
+			Say "It looks a though someone may have been looking for something. It's unclear of they found what they were looking for.";
+			if the discoveredStatus of the cabinets is "false"
+			begin;
+				Increase the clueCount by 1;
+				Now the discoveredStatus of the cabinets is "true";
+			end if;
+		end if;
+			
+The drawers are a thing.
+	The indefinite article is "some".
+	The drawers are in the Kitchen.
+	The drawers can be broken or not broken.
+	When Investigation begins:
+		Now the drawers are broken;
+	When Murder begins:
+		Now the drawers are not broken;
+	Instead of destroying the drawers:
+		if Investigation is the Current Scene
+		begin;
+			Say "No need to beat a dead horse.";
+		otherwise if Murder is the Current Scene;
+			Say "You have more important things to focus on right now.";
+		otherwise if Staging is the Current Scene;
+			Say "You pull the contents off of the shelves of the drawers, destroying everything.";
+			Now the drawers are broken;
+			if the stagedStatus of the drawers is "false"
+			begin;
+				Increase the stageCount by 1;
+				Now the stagedStatus of the drawers is "true";
+			end if;
+		end if;
+	Instead of examining the drawers:
+		Say "[if the drawers are not broken]The drawers are made of dark wood with brushed bronze handles. They have glass panels so you can see all of the ceramic cookware behind them.[otherwise]The drawers have been thoroughly ransacked.[end if]";
+		if Investigation is the Current Scene
+		begin;
+			Say "It looks a though someone may have been looking for something. It's unclear of they found what they were looking for.";
+			if the discoveredStatus of the drawers is "false"
+			begin;
+				Increase the clueCount by 1;
+				Now the discoveredStatus of the drawers is "true";
+			end if;
+		end if;
+	
+The beer is a thing.
+	When Murder begins:
+		Now the beer is in the refrigerator.
+	The description is "A delicious Angry Orchard Cinnful holiday special.".
+	Instead of drinking the the beer:
+		Say "You drink the cider and enjoy it refreshing balance of flavor.";
+		Remove the beer from play;
+	Instead of taking the beer:
+		if Murder is the Current Scene
+		begin;
+			Say "You have more important things to focus on right now.";
+		otherwise if Staging is the Current Scene;
+			Say "You take the beer.";
+			Now the player has the beer;
+		end if;
+	Instead of pouring the beer:
+		if the second noun is the pond
+		begin;
+			Say "You waste a perfectly good cider by pouring it into the pond. Hmm... the catfish seem to like it.";
+			if the stagedStatus of the beer is "false"
+			begin;
+				Increase the stageCount by 5;
+				Now the stagedStatus of the beer is "true";
+			end if;
+		otherwise;
+			Say "How frightfully un-couth.";
+		end if;
+		Remove the beer from play;
+	
+The refrigerator is a container.
+	The refrigerator is in the Kitchen.
+	The description is "A stainless steel refrigerator.".
+	The refrigerator is openable.
+	The refrigerator is unlocked.
+	The refrigerator is closed.
+	
+The glass pieces are a thing.
+	The description is "The glass pieces indicate someone broke into the home through the back door. The pieces have an unusual pattern.".
+	When Investigation begins:
+		Now the glass pieces are in the Kitchen;
+	When Murder begins:
+		Now the glass pieces are in the pond;
+	After examining the glass pieces for the second time:
+		Say "The glass pieces are collected in one localized area and direction.";
+	After examining the glass pieces for the third time:
+		Say "The glass pieces clearly indicate the door was broken inward. This must be a point of entry.";
+		if the discoveredStatus of the glass pieces is "false"
+		begin;
+			Increase the clueCount by 2;
+			Now the discoveredStatus of the glass pieces is "true";
+		end if;
+	Instead of attacking the back door:
+		if the back door is broken
+		begin;
+			Say "The door is already broken.";
+		otherwise;
+			if Murder is the Current Scene
+			begin;
+				Say "I wouldn't do that. It might wake someone up.";
+			otherwise if Staging is the current scene;
+				Say "You smash the door's window with your elbow.";
+				if the player is in the Back Yard
+				begin;
+					Say "The debris flies inward.";
+					if the stagedStatus of the glass pieces is "false"
+					begin;
+						Increase the stageCount by 3;
+						Now the stagedStatus of the glass pieces is "true";
+					end if;
+				end if;
+			end if;
+		end if;
+
+[Garage]
+The power box is a thing.
+
+[Back Yard]
+The footprints are a thing.
+	The footprints are in the backyard.
+	The description is "Some footprints have been left in the muddier areas of lawn.".
+	Instead of examining the footprints:
+		if Investigation is the Current Scene
+		begin;
+			Say "Some footprints have been left in the muddier areas of lawn. You wonder if they match any other footprints in the home.";
+		otherwise;
+			Say "Some footprints have been left in the muddier areas of lawn.";
+			if the discoveredStatus of the footprints is "false"
+			begin;
+				Increase the clueCount by 1;
+				Now the discoveredStatus of the footprints is "true";
+			end if;
+		end if;
+		
+The pond is thing.
+	The pond is in the Back Yard.	
+	The description is "A small pond lies in the middle of the lush grass. Shimmering bass swim in its clear, green water.[if we have not examined the pond] You spot a catfish lurking deep in the pool.[end if]".
+	Instead of examining the pond:
+		Say "A small pond lies in the middle of the lush grass. Shimmering bass swim in its clear, green water.[if we have not examined the pond] You spot a catfish lurking deep in the pool.[end if]";
+		if Investigation is the Current Scene
+		begin;
+			Say "The catfish seems to be swimming slowly today.";
+			if the discoveredStatus of the beer is "false"
+			begin;
+				Increase the clueCount by 1;
+				Now the discoveredStatus of the beer is "true";
+			end if;
+		end if;		
+
+[Upstairs]
+The blood streaks are a thing.
+	The description is "Some blood streaks left by the shoes of the murderer.".
+	When Investigation begins:
+		Now the blood streaks are in the upstairs;
+	When Murder begins:
+		Now the blood streaks are in the pond;
+	When Staging begins:
+		Now the blood streaks are in the pond;
+	Instead of examining the blood streaks:
+		if Investigation is the Current Scene
+		begin;
+			Say "The blood streaks are leaving the master bedroom. Based on the spatter patterns, the person who left them didn't leave quickly. Perhaps he or she was injured in the struggle.";
+			if the discoveredStatus of the blood streaks is "false"
+			begin;
+				Increase clueCount by 1;
+				Now the discoveredStatus of the blood streaks is "true";
+			end if;
+		otherwise;
+			Say "Some blood streaks left by the shoes of the murderer.";
+		end if;
+
+[Master Bedroom]
+[body]
+The body is a thing.
+	When Investigation begins:
+		Now the body is in the Master Bedroom;
+	When Murder begins:
+		Now the body is in the pond;
+	When Staging begins:
+		Now the body is in the Master Bedroom;
+Instead of examining the body:
+	if Investigation is the Current Scene
+	begin;
+		Say "The victim has been cut in the neck. His hands have also been tied with industrial zip ties.";
+		if the discoveredStatus of the zip ties is "false"
+		begin;
+			Increase the clueCount by 1;
+			Now the discoveredStatus of the zip ties is "true";
+		end if;
+	otherwise if Staging is the Current Scene;
+		Say "The victim has been cut in the neck.";
+	end if;
+	Instead of tying the body:
+		if the second noun is zip ties
+		begin;
+			if the stagedStatus of the body is "false"
+			begin;
+				Say "You tie the hands of the body with the zip tie.";
+				Increase the stageCount by 1;
+			end if;
+		otherwise;
+			Say "You can't do that.";
+		end if;
+
+[vial]
+The keyring unlocks the desk.
+Instead of examining the desk:
+	if the desk is closed
+	begin;
+		Say "The desk is closed.";
+	otherwise if the desk is locked;
+		Say "The desk it locked.";
+	otherwise;
+		if Investigation is the Current Scene
+		begin;
+			Say "You find a vial under some paperwork.";
+			if the discoveredStatus of the right desk drawer is "false"
+			begin;
+				Increase the clueCount by 3;
+				Now the discoveredStatus of the right desk drawer is "true";
+			end if;
+		otherwise if Murder is the Current Scene;
+			Say "You have more important things to focus on right now.";
+		otherwise if Staging is the Current Scene;
+			Say "You see some cluttered paper work and files.";
+		end if;
+	end if;
+Before taking the vial:
+	if Investigation is the Current Scene
+	begin;
+		Say "You shouldn't take evidence from an active crime scene.";
+	end if;
+Before inserting the vial into the left desk drawer:
+	if Murder is the Current Scene
+	begin;
+		Say "You have more important things to focus on right now.";
+		Reject the Player's command;
+	end if;
+Before inserting the vial into the right desk drawer:
+	if Murder is the Current Scene
+	begin;
+		Say "You have more important things to focus on right now.";
+		Reject the Player's command;
+	end if;
+Before inserting the vial into the desk:
+	if Murder is the Current Scene
+	begin;
+		Say "You have more important things to focus on right now.";
+		Reject the Player's command;
+	end if;
+After inserting the vial into the desk:
+	if the stagedStatus of the vial is "false"
+	begin;
+		Increase the stageCount by 2;
+		Now the stagedStatus of the vial is "true";
+	end if;
+After removing the vial from the desk:
+	if the stagedStatus of the vial is "true"
+	begin;
+		Decrease the stageCount by 2;
+		Now the stagedStatus of the vial is "false";
+	end if;
+When Investigation begins:
+	Now the Vial is in the desk;
+	Now the desk is closed;
+	Now the desk is locked;
+When Murder begins:
+	Now the desk is closed;
+	Now the desk is unlocked;
+
+[scale]
+Instead of examining the right desk drawer:
+	if the right desk drawer is closed
+	begin;
+		Say "The drawer is closed.";
+	otherwise;
+		if Investigation is the Current Scene
+		begin;
+			Say "You find a scale under some paperwork.";
+			if the discoveredStatus of the right desk drawer is "false"
+			begin;
+				Increase the clueCount by 1;
+				Now the discoveredStatus of the right desk drawer is "true";
+			end if;
+		otherwise if Murder is the Current Scene;
+			Say "You have more important things to focus on right now.";
+		otherwise if Staging is the Current Scene;
+			Say "You see some cluttered paper work and files.";
+		end if;
+	end if;
+Before taking the scale:
+	if Investigation is the Current Scene
+	begin;
+		Say "You shouldn't take evidence from an active crime scene.";
+	end if;
+Before inserting the scale into the left desk drawer:
+	if Murder is the Current Scene
+	begin;
+		Say "You have more important things to focus on right now.";
+		Reject the Player's command;
+	end if;
+Before inserting the scale into the right desk drawer:
+	if Murder is the Current Scene
+	begin;
+		Say "You have more important things to focus on right now.";
+		Reject the Player's command;
+	end if;
+Before inserting the scale into the desk:
+	if Murder is the Current Scene
+	begin;
+		Say "You have more important things to focus on right now.";
+		Reject the Player's command;
+	end if;
+After inserting the scale into the right desk drawer:
+	if the stagedStatus of the scale is "false"
+	begin;
+		Increase the stageCount by 2;
+		Now the stagedStatus of the scale is "true";
+	end if;
+After removing the scale from the right desk drawer:
+	if the stagedStatus of the scale is "true"
+	begin;
+		Decrease the stageCount by 2;
+		Now the stagedStatus of the scale is "false";
+	end if;
+When Investigation begins:
+	Now the scale is in the right desk drawer;
+	Now the right desk drawer is closed;
+When Murder begins:
+	Now the right desk drawer is closed;
+
+[needle]
+Instead of examining the left desk drawer:
+	if the left desk drawer is closed
+	begin;
+		Say "The drawer is closed.";
+	otherwise;
+		if Investigation is the Current Scene
+		begin;
+			Say "You find a needle under some paperwork.";
+			if the discoveredStatus of the left desk drawer is "false"
+			begin;
+				Increase the clueCount by 1;
+				Now the discoveredStatus of the left desk drawer is "true";
+			end if;
+		otherwise if Murder is the Current Scene;
+			Say "You have more important things to focus on right now.";
+		otherwise if Staging is the Current Scene;
+			Say "You see some cluttered paper work and files.";
+		end if;
+	end if;
+Before taking the needle:
+	if Investigation is the Current Scene
+	begin;
+		Say "You shouldn't take evidence from an active crime scene.";
+	end if;
+Before inserting the needle into the left desk drawer:
+	if Murder is the Current Scene
+	begin;
+		Say "You have more important things to focus on right now.";
+		Reject the Player's command;
+	end if;
+Before inserting the needle into the right desk drawer:
+	if Murder is the Current Scene
+	begin;
+		Say "You have more important things to focus on right now.";
+		Reject the Player's command;
+	end if;
+Before inserting the needle into the desk:
+	if Murder is the Current Scene
+	begin;
+		Say "You have more important things to focus on right now.";
+		Reject the Player's command;
+	end if;
+After inserting the needle into the left desk drawer:
+	if the stagedStatus of the needle is "false"
+	begin;
+		Increase the stageCount by 2;
+		Now the stagedStatus of the needle is "true";
+	end if;
+After removing the needle from the left desk drawer:
+	if the stagedStatus of the needle is "true"
+	begin;
+		Decrease the stageCount by 2;
+		Now the stagedStatus of the needle is "false";
+	end if;
+When Investigation begins:
+	Now the needle is in the left desk drawer;
+	Now the left desk drawer is closed;
+When Murder begins:
+	Now the left desk drawer is closed;
+
 																							
 								
 
