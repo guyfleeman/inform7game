@@ -80,11 +80,12 @@ Being is an action applying to one thing.
 
 Flying is an action applying to nothing.
 	Understand "fly" as flying.
-	Instead of flying, say "You wish."
-	
-Pooping is an action applying to nothing.
-	Understand "poop" as pooping.
-	Instead of pooping, say "This is not the time to do that."
+	Instead of flying, say "[if player is carrying antigravity]You slowly float up into the air like a ballon.[otherwise]You wish.[end if]"
+
+Understand "import [thing]" as taking.
+	antigravity is a thing. [The player is carrying antigravity.]
+	After taking antigravity:
+		say "Medicine cabinet sampled.".
 	
 Watering is an action applying to one thing.
 	Understand "water [thing]" as watering.
@@ -92,13 +93,10 @@ Watering is an action applying to one thing.
 Listing is an action applying to one thing.
 	Understand "list [thing]" as listing.
 	
-<<<<<<< HEAD
 [Swinging is an action applying to one thing.
 	Understand "swing [thing]" as swinging.
 	removed; already defined]
 
-=======
->>>>>>> 835ff0ef3a9dbf280bb6e8f86170217c1caa5901
 Leveling up is an action applying to nothing.
 	Understand "level up" as leveling up.
 		
@@ -150,9 +148,10 @@ A thing has some text called deathStatus.
 Brightness is a kind of value. 
 	The brightnesses are dim and bright.
 	
-Current Scene is a scene that varies.
 
 [DEF SCENES]
+Current Scene is a scene that varies.
+
 Investigation is a scene.
 	Investigation begins when the player is in the Front Yard for the first time.
 	Investigation ends when Investigation is the Current Scene AND the clueFlag is 1.
@@ -160,9 +159,6 @@ Investigation is a scene.
 Murder is a scene.
 	Murder begins when Investigation ends.
 	Murder ends when Murder is the Current Scene AND the deathFlag is 1.
-	
-	When Murder begins:
-		Move the player to the Back Yard;
 	
 Staging is a scene.
 	Staging begins when Murder ends.
@@ -175,9 +171,11 @@ When Investigation ends:
 	Now the Current Scene is Murder;
 	Clear the screen;
 	
+When Murder begins:
+	Move the player to the Back Yard;
+
 When Murder ends:
 	Now the Current Scene is Staging;
-[The Current Scene is Murder.]
 
 [DEF ROOMS/DOORS]
 Front Yard is a room.
@@ -240,8 +238,8 @@ The fence gate is a door.
 [DEF ROOM LOCATIONS]
 Living Room is north of front door.
 Garage is east of Living Room.
+Garage is west of Living Room.
 Kitchen is north of Living Room.
-Kitchen is south of the back door.
 Upstairs is above Kitchen.
 Back Yard is north of Back Door.
 Master Bedroom is east of Upstairs.
@@ -250,9 +248,6 @@ Child's Bedroom is south of Upstairs.
 The front door is north of the Front Yard and south of the Living Room.
 The back door is north of the Kitchen and south of Back Yard.
 The fence gate is north of the Back Yard.
-
-The portal gun is in the front door.
-	The portal gun is edible.
 
 When Investigation begins:
 	Now the front door is unlocked;
@@ -348,8 +343,7 @@ When Murder begins:
 		The description is "There is a door here leading to the backyard. It seems unlocked."]
 	
 	[Back Yard]
-<<<<<<< HEAD
-	The house is in the Back Yard.
+	This house is in the Back Yard.
 		The house is scenery.
 		The description is "The house is two stories with a shale facade and brushed bronze accents.".
 
@@ -357,7 +351,7 @@ When Murder begins:
 		The pond is scenery.
 		The description is "A small pond lies in the middle of the lush grass. Shimmering bass swim in its clear, green water.[if we have not examined the pond] You spot a catfish lurking deep in the pool.[end if]".
 
-	The back door is in the Back Yard.
+	The backdoor is in the Back Yard.
 		The back door is scenery.
 		The description is "The back door hangs on one hinge, its lock splintered. It swings slowly in the breeze, sometimes banging into the side of the house.".
 		
@@ -370,10 +364,6 @@ When Murder begins:
 		The description is "A wooden fence follows the perimeter of the yard along the edge of the forest. It has a gate at the north end of the property.".
 		
 	The shovel is in the Back Yard.
-=======
-	The shovel is in the back yard.
->>>>>>> 835ff0ef3a9dbf280bb6e8f86170217c1caa5901
-	
 
 	The fence is in the Back Yard.
 		The fence is scenery.
@@ -485,20 +475,16 @@ When Murder begins:
 			Say "Living Room list"
 		instead;
 		if the player is in the Garage,
-			Say "Living Room list"
+			Say "Garage list"
 		instead;
 		if the player is in the Kitchen,
-			Say "Living Room list"
+			Say "Kitchen list"
 		instead;
 		if the player is in the Upstairs,
-			Say "Living Room list"
+			Say "Upstairs list"
 		instead;
 		if the player is in the Back Yard,
-<<<<<<< HEAD
-			Say "You can see the house, its back door, a field, a fence, a flower bed, and a pond."
-=======
-			Say "Living Room list"
->>>>>>> 835ff0ef3a9dbf280bb6e8f86170217c1caa5901
+			Say "You can see the house, its back door, a field, a swing set, a fence, a flower bed, and a pond."
 		instead;
 		if the player is in the Master Bedroom,
 			Say "Master Bedroom list"
@@ -507,7 +493,7 @@ When Murder begins:
 			Say "Child's Room list"
 		instead;
 	Instead of taking the surroundings:
-		Say "You can't have everything, you know?".
+		Do nothing.
 	
 	[Front Yard]	
 	The police officer is in the Front Yard.
@@ -604,9 +590,6 @@ When Murder begins:
 	The couch is an Evidence.
 		Understand "sofa" as the couch.
 		The couch is in the Living Room.
-<<<<<<< HEAD
-		The description is "Just a couch.".
-=======
 		The description is "Just a couch".
 		After examining the couch, increase the score by 1.
 		Instead of taking the couch:
@@ -616,8 +599,6 @@ When Murder begins:
 			otherwise;
 				continue the action;
 			end if;
-		
->>>>>>> 835ff0ef3a9dbf280bb6e8f86170217c1caa5901
 		
 	The TV is an Evidence.
 		Understand "Television" as the TV.
@@ -715,7 +696,9 @@ When Murder begins:
 		The microwave is fixed in place.
 		The microwave contains a ham sammich.
 		The sammich is edible.
-		After eating the sammich, say "Maybe that was a bad idea. This is a crime scene, not a buffet.".
+		After eating the sammich:
+			say "Maybe that was a bad idea. This is a crime scene, not a buffet.";
+			decrease score by 1.
 	
 	The card is an Evidence.
 		The description is "This is evidence."
@@ -728,11 +711,12 @@ When Murder begins:
 		The refrigerator is enterable.
 		Understand "fridge" as refrigerator.
 		milk is a thing.
-		The description is "The expiration date says 6/06. Yuck."
+		The description is "The expiration date says 606. Yuck."
 		The refrigerator contains the milk.
 		Instead of drinking milk, say "Not with that expiration date you're not.".
 		After entering the refrigerator:
-			say "Your attempt to catch the door light as it turns off is a success. But now you're cold and it's dark in here."
+			say "Your attempt to catch the door light as it turns off is a success. But now you're cold and it's dark in here.";
+			decrease score by 1.
 		Instead of looking under the refrigerator for the first time:
 			Now the card is in the Kitchen;
 			say "You see a card here."
@@ -742,7 +726,9 @@ When Murder begins:
 		The oven is fixed in place.
 		The oven contains an apple pie.
 		The apple pie is edible.
-		After eating the apple pie, say "Maybe that was a bad idea. But a delicious one."
+		After eating the apple pie:
+			say "Maybe that was a bad idea. But a delicious one.";
+			decrease score by 1.
 		
 	The spilled cup is a thing.
 		The spilled cup is in the Kitchen.
@@ -753,11 +739,11 @@ When Murder begins:
 		Instead of taking the dark stain, say "Do you even know how stains work?"
 		
 	The beer cabinet is a container.
+		The beer cabinet is fixed in place.
 		The beer cabinet is in the Kitchen.
 		The beer cabinet is openable.
 		After opening the beer cabinet, say "Hmm. Looks like someone drank all the alcohol."
 	[Back Yard]
-<<<<<<< HEAD
 	The swingset is a thing.
 		The swingset is in the Back Yard.
 		The description is "Two swings hang from an old wooden frame[if the swingset is not broken] by rusty chains. They sway and creak in the wind.[otherwise], each by a single chain. They drag on the ground as they sway in the wind.".
@@ -772,9 +758,6 @@ When Murder begins:
 				Say "You already broke the swingset.";
 			end if;
 										
-=======
-															
->>>>>>> 835ff0ef3a9dbf280bb6e8f86170217c1caa5901
 	[Upstairs]
 	
 																	
