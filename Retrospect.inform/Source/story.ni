@@ -37,31 +37,50 @@ ToggableThing is a kind of thing.
 	ToggableThing is usually off.
 ]
 An Evidence is a kind of thing.
-	An Evidence is always fixed in place.
-	Instead of taking an Evidence, say "You can't take evidence from the scene of the crime".
+	[An Evidence is usually fixed in place.]
+	Instead of taking evidence:
+		if Staging is the Current Scene
+		begin;
+			continue the action;
+		end if;
+		Say "[if Investigation is the Current Scene]You can't take evidence from the scene of the crime [otherwise if Murder is the Current Scene]You have bigger priorities right now[otherwise if Staging is the Current Scene]Taken.".
+		[if Investigation is the Current Scene
+		begin;
+			Say "You can't take evidence from the scene of the crime";
+		otherwise if Murder is the Current Scene;
+			Say "You have bigger priorities right now";
+		otherwise if Staging is the Current Scene;
+			carry out taking Evidence:
+				now evidence is carried by the player;
+		end if;]
+	[Instead of taking evidence:
+		while the current scene is not Staging:
+			say "Can't touch this";]
+		
+		
+	[When Investigation begins:]
+		
+	
 
 [DEF ACTIONS]
 Understand the command "pwd" as "look".
 Understand the command "ls" as "inventory".
 Understand the command "dir" as "inventory".
-Understand the command "pockets" as "inventory".
 [Understand the command "sudo update-initramfs" as "leveling up".]
  	 Understand the command "cd" as "go".
 Understand the command "echo" as "say".
  [Understand "cd .." as "up".]
+destroying is an action applying to one thing.
+	Understand "destroy" as destroying.
+	Understand "break" as destroying.
+	Understand "annihilate" as destroying.
 
 Being is an action applying to one thing.
 	Understand "be" as being.
 
-Using is an action applying to one thing.
-	Understand "use" as using.
 Flying is an action applying to nothing.
 	Understand "fly" as flying.
 	Instead of flying, say "[if player is carrying antigravity]You slowly float up into the air like a ballon.[otherwise]You wish.[end if]"
-	
-Pooping is an action applying to nothing.
-	Understand "poop" as pooping.
-	Instead of pooping, say "This is not the time to do that."
 
 Understand "import [thing]" as taking.
 	antigravity is a thing. [The player is carrying antigravity.]
@@ -75,7 +94,8 @@ Listing is an action applying to one thing.
 	Understand "list [thing]" as listing.
 	
 [Swinging is an action applying to one thing.
-	Understand "swing [thing]" as swinging.]
+	Understand "swing [thing]" as swinging.
+	removed; already defined]
 
 Leveling up is an action applying to nothing.
 	Understand "level up" as leveling up.
@@ -92,6 +112,10 @@ Talking is an action applying to one thing.
 	
 Killing is an action applying to one thing and one carried thing.
 	Understand "kill [thing] with [something preferably held]" as killing.
+
+Hiding is an action applying to one carried thing and a thing.
+	Understand "hide [something preferably held] under [thing]" as hiding.
+	Understand "hide [something preferably held] in [thing]" as hiding.
 	
 [wrap the default switch commands]
 Turning On is an action applying to one thing.
@@ -106,9 +130,7 @@ The Score is 0.
 Use scoring.
 
 The stageCount is a number that varies.
-The stageCount is 0.
-
-The clueCount is a number that varies. The clueCount is 0.
+The stageCount is 0. [todo: every staged item decrements stageCount and increments score. when it hits 0, you win]
 
 The clueFlag is a number that varies.
 The clueFlag is 0.
@@ -141,7 +163,9 @@ Murder is a scene.
 Staging is a scene.
 	Staging begins when Murder ends.
 	
-The Current Scene is Investigation.
+[The Current Scene is Investigation.]
+[The Current Scene is Murder.]
+The Current Scene is Staging.
 
 When Investigation ends:
 	Now the Current Scene is Murder;
@@ -155,7 +179,7 @@ When Murder ends:
 
 [DEF ROOMS/DOORS]
 Front Yard is a room.
-Living Room  is a room.
+Living Room is a room.
 Garage is a room.
 Kitchen is a room.
 Back Yard is a room.
@@ -212,10 +236,10 @@ The fence gate is a door.
 		end if;
 
 [DEF ROOM LOCATIONS]
-[Living Room is north of Front Yard.]
+Living Room is north of front door.
+Garage is east of Living Room.
 Garage is west of Living Room.
 Kitchen is north of Living Room.
-[Kitchen is south of the Back Yard.]
 Upstairs is above Kitchen.
 Back Yard is north of Back Door.
 Master Bedroom is east of Upstairs.
@@ -255,9 +279,6 @@ The vial is a thing.
 	
 The needle is a thing.
 	The description is "An empty needle.".
-
-The fake note is a thing.
-	The description is "A faked note asking for Ketamine.".
 	
 your phone is a thing.
 	The player is carrying your phone.
@@ -276,8 +297,8 @@ When Murder begins:
 	Now the player has the machete;
 	Now the player has the zip ties;
 	Now the player has the vial;
-	Now the player has the needle;
-	Now the player has the fake note.
+	Now the player has the needle.
+	
 
 [INIT SCENERY]
 	[Front Yard]
@@ -300,10 +321,6 @@ When Murder begins:
 	The path is in the Front Yard.
 		The path is scenery.
 		The description is "The path connects the front porch to the driveway and passes the bushes. It is made of dark river stones. [if we have not examined the path]They crunch softly beneath your feet.[end if]".
-	
-	The front door is in the Front Yard.
-		The front door is scenery.
-		The description is "The front door is black, devoid of windows, and made of oak. It is unlocked.".
 		
 	The lawn is in the Front Yard.
 		The lawn is scenery.
@@ -354,15 +371,20 @@ When Murder begins:
 	[Upstairs]
 	
 	[Master Bedroom]
-	The window is in the Master Bedroom.
+	The desk is a container.
+		The desk is in the Master Bedroom.
+		The desk is openable.
+	
+	The desk contains a cell phone.
+		The cell phone is Evidence.
+		The description of the cell phone is "There appear to be the contacts of various drug dealers here.".
+		After examining the cell phone, increase score by 1.
+	
+	[Child's Bedroom]
+	The window is in the Child's Bedroom.
 		The window is scenery.
 		The description is "A pine forest can be seen. Just past the edge of the forest, you can see a duck blind.".
-			
-	[Child's Bedroom]
-	The poster is in the Child's Bedroom.
-		The poster is scenery.
-		The description is "It's a movie poster for that new superhero movie."
-		
+	
 	[Scenery scene routines]
 	When Investigation begins:
 		Say "Scenery Init investigation".
@@ -417,7 +439,7 @@ When Murder begins:
 		instead;
 	Instead of examining the surroundings:
 		if the player is in the Front Yard,
-			Say "You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in in a front yard."
+			Say "You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in a front yard."
 		instead;
 		if the player is in the Living Room,
 			Say "Living Room description"
@@ -432,7 +454,7 @@ When Murder begins:
 			Say "Upstairs description"
 		instead;
 		if the player is in the Back Yard,
-			Say "The back yard is a breezy, green field surrounded by forest dense enough to shroud it from any neighbors. From here the house seems like a haven, hidden away from the rest of humanity."
+			Say "Back Yard description"
 		instead;
 		if the player is in the Master Bedroom,
 			Say "Master Bedroom description"
@@ -458,7 +480,7 @@ When Murder begins:
 			Say "Upstairs list"
 		instead;
 		if the player is in the Back Yard,
-			Say "You can see the house, its back door, a field, a swing set, and a pond."
+			Say "You can see the house, its back door, a field, a swing set, a fence, a flower bed, and a pond."
 		instead;
 		if the player is in the Master Bedroom,
 			Say "Master Bedroom list"
@@ -477,9 +499,9 @@ When Murder begins:
 		Instead of talking the police officer:
 			if Investigation is the Current Scene
 			begin;
-				if score > 4
+				if score > 2
 				begin;
-					Say "Looks like this one is turning out to be pretty cut and dry. [if clueCount > 4] Clearly t[otherwise]T[end if]his guy was offed by a local cartel. We'll get some more detectives down here to figure out which group was responsible for this butchery.";
+					Say "Looks like this one is turning out to be pretty cut and dry. [if score > 4] Clearly t[otherwise]T[end if]his guy was offed by a local cartel. We'll get some more detectives down here to figure out which group was responsible for this butchery.";
 					Now the clueFlag is 1;
 				otherwise;
 					Say "You'd better keep looking for clues instead of chitchatting or the chief is gonna get pissed.";
@@ -562,12 +584,23 @@ When Murder begins:
 		
 	[Living Room]		
 	The couch is an Evidence.
+		Understand "sofa" as the couch.
 		The couch is in the Living Room.
 		The description is "Just a couch".
+		After examining the couch, increase the score by 1.
+		Instead of taking the couch:
+			If Staging is the current scene
+			begin;
+				Say "Houses typically have couches";
+			otherwise;
+				continue the action;
+			end if;
 		
 	The TV is an Evidence.
+		Understand "Television" as the TV.
 		The TV is in the Living Room.
 		The description is "An old television. It doesn't seem to be working".
+		After examining the TV, increase the score by 1.
 
 	The laptop is an Evidence.
 		The description is "A modest HP Laptop.
@@ -587,38 +620,23 @@ When Murder begins:
 				Now the laptop is switched off;
 				Say "The laptop is now turned off.";
 		After examining the laptop:
-			say "You have found a clue.";
-			Increase the clueCount by 1. [todo: only if on]
+			Increase the score by 1. [todo: only if on]
 		
 	The Ketamine is an Evidence.
 		Instead of looking under couch for the first time:
 			Now Ketamine is in Living Room;
 			say "You find a large bag of Ketamine. You pull it out from underneath the couch".
-		The description is "Ketamine is a heavy drug. Worth a lot of money too.".
-		After examining Ketamine:
-			increase the clueCount by 1;
-			say "You have found a clue.".
+		The description is "Ketamine is a heavy drug. Worth a lot of money too".
+		After examining Ketamine, increase the score by 1.
+		When the Investigation ends, now the Ketamine is carried by the player.
+		
 
 	[Garage]
-	The hood is a thing.
-		The hood is fixed in place.
-		The description is "The hood is slightly open. I wonder if there's anything underneath.".
-		The crystal meth is a thing.
-		Instead of looking under the hood for the first time:
-			Now the crystal meth is in Garage;
-			say "You lift the hood open. Underneath, you find a small compartment filled with crystal meth.".
-		The description of crystal meth is "Crystal meth is a heavy drug. Worth a lot of money too.".
-		After examining the crystal meth:
-			say "You have found a clue.";
-			increase the clueCount by 1.
-		[Understand looking under the hood as examining the hood.]
-		
 	The car is a container.
 		The car is in the Garage.
 		The car is fixed in place.
-		The description is "A Toyota. Must be at least 20 years old. The hood is slightly open.". 
+		The description is "A Toyota. Must be at least 20 years old".
 		The car is enterable.
-		After examining the car for the first time, move the hood to the Garage.
 		
 	The tool bench is a thing.
 		The tool bench is in the Garage.
@@ -633,25 +651,40 @@ When Murder begins:
 			The description is "A common household tool".
 		The hammer is an Evidence.
 			The description is "A common household tool... or possibly a brutal weapon".
-			
 	The scale is an Evidence.
 		Instead of looking under the tool bench for the first time:
 			Now the scale is in the Garage;
 			say "You find a small scale behind the TV. The units are currently set to measure in grams. You pull it out from under the tool bench.".
 		The description is "A small battery-powered measuring scale. You place your car keys on the scale and see that it has 3 decimal places of precision".
-		After examining the scale for the first time:
-			say "You have found a clue.";
-			increase the clueCount by 1.
+		After examining the scale, increase the score by 1.
+	When Investigation ends, now the scale is carried by the player;
 		
-	The power box is an Evidence.
+	The power box is a thing.
 		The power box is in the Garage.
-		After examining the power box for the first time:
-			say "You have found a clue.";
-			increase clueCount by 1.
+		The power box is fixed in place.
+		The power box can be broken or not broken.
+		
 	When Investigation begins:	
-		Now the description of the power box is "It provides electricity to the house. It seems to have been smashed by something".
+		Now the description of the power box is "It provides electricity to the house. It seems to have been smashed by something";
+		Now the power box is broken;
 	When Investigation ends:
-		Now the description of the power box is "It provides electricity to the house".
+		Now the description of the power box is "It provides electricity to the house";
+		Now the power box is not broken;
+	Instead of attacking the power box:
+		if Investigation is the current scene
+		begin;
+			Say "It's already broken.";
+		otherwise if Murder is the current scene;
+			Say "It's probably not wise to do that right now.";
+		otherwise if Staging is the current scene;
+			if the second noun is the machete or the second noun is the hammer
+			begin;
+					Say "The power box gives off a small burst of sparks, but it looks like [the second noun] did the trick.";
+					Now the power box is broken;
+			otherwise;
+				Say "You will need to find a stronger weapon";
+			end if;
+		end if;
 											
 	[Kitchen]
 	The microwave is a container.
@@ -664,11 +697,9 @@ When Murder begins:
 			decrease score by 1.
 	
 	The card is an Evidence.
-		The description is "You can see a note written on the card. It appears to be an anonymous request for Ketamine."
+		The description is "This is evidence."
 		The card is in the Kitchen.
-		After examining the card for the first time:
-			say "You have found a clue.";
-			increase clueCount by 1.
+		After examining the card, increase score by 1.
 	
 	The refrigerator is a container.
 		The refrigerator is fixed in place.
@@ -695,24 +726,19 @@ When Murder begins:
 			say "Maybe that was a bad idea. But a delicious one.";
 			decrease score by 1.
 		
-	The spilled cup is an Evidence.
+	The spilled cup is a thing.
 		The spilled cup is in the Kitchen.
 		The description is "Smells of alcohol."
-		After examining the spilled cup for the first time:
-			say "You have found a clue.";
-			increase clueCount by 1.
 
 	The dark stain is a thing.
 		The dark stain is in the Kitchen.
 		Instead of taking the dark stain, say "Do you even know how stains work?"
-		[After examining the dark stain for the first time, increase clueCount by 1.]
 		
 	The beer cabinet is a container.
 		The beer cabinet is fixed in place.
 		The beer cabinet is in the Kitchen.
 		The beer cabinet is openable.
 		After opening the beer cabinet, say "Hmm. Looks like someone drank all the alcohol."
-		
 	[Back Yard]
 	The swingset is a thing.
 		The swingset is in the Back Yard.
@@ -724,11 +750,9 @@ When Murder begins:
 			begin;
 				Say "You decide to swing on a swing. Unsurprisingly, it breaks under your weight. You give the other swing a try, and once again you fall to the ground.";
 				Now the swingset is broken;
-				Decrease score by 1;
 			otherwise;
 				Say "You already broke the swingset.";
 			end if;
-	
 										
 	[Upstairs]
 	
@@ -738,16 +762,7 @@ When Murder begins:
 		The desk is in the Master Bedroom.
 		The description is "A wooden desk with drawers."
 		The desk is fixed in place.
-		The desk is openable.
 		The desk is closed.
-
-	The desk contains a cell phone.
-		The cell phone is Evidence.
-		The description of the cell phone is "There appear to be the contacts of various drug dealers here.".
-		After examining the cell phone for the first time:
-			say "You have found a clue.";
-			increase clueCount by 1.
-		When Murder begins, now the player is carrying the cell phone.
 	
 	The guy is a person.
 		The guy is in the Master Bedroom.
@@ -804,12 +819,10 @@ When Murder begins:
 		The alarm clock is fixed in place.
 		
 	The math textbook is a thing.
-		The description of the math textbook is "You flip through the textbook. It appears as if someone has poorly drawn some genitals on page 606."
+		The description of the math textbook is "You flip through the textbook. There are some poorly drawn genitals on page 606."
 		Instead of reading the math textbook, say "Consider the function f(x) = 606. What kind of line would this make? Regardless of what values of x are inputed into the function, the only value of f(x) that ever comes out is 606. Therefore, this function would be graphed as a horizontal line, where each point on the line is at y = 606.".
 	The biology textbook is a thing.
-		Instead of reading the biology textbook, say "blahblahblahbiologyisweirdanddoesn'tmakesenseblahblahblah".
 	The civics textbook is a thing.
-		Instead of reading the civics textbook, say "Our country is stupid and full of stupid people. The end."	
 	
 	The backpack is a container.
 		The backpack is in the Child's Bedroom.
@@ -819,9 +832,10 @@ When Murder begins:
 			Now the backpack contains the biology textbook;
 			Now the backpack contains the civics textbook;
 		
-	The family photo is a thing. [Don't place this until player x's the bookshelf]
+	The family photo is a thing.
 		The description is "A family of four. The photo is torn such that the father's face is ripped out."
 	
+
 	The post-it note is a thing.
 		The description of the post-it note is "A text scribbled on a post-it note. It appears to say '4ceBew1thYou'. [if we have not examined the post-it note for the first time]It could be a password for something[end if]".
 		Instead of reading the post-it note:
@@ -856,4 +870,9 @@ When Murder begins:
 		Now the description of the bookshelf is "";
 		Now the description of the family photo is "";]
 																							
+								
+
+	
+	
+	
 	
