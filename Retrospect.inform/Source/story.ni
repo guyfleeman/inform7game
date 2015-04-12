@@ -36,7 +36,7 @@ ToggableThing is a kind of thing.
 	ToggableThing can be on or off.
 	ToggableThing is usually off.
 ]
-An Evidence is a kind of thing.
+An Evidence is a kind of container.
 	[An Evidence is usually fixed in place.]
 	Instead of taking evidence:
 		if Staging is the Current Scene
@@ -80,7 +80,7 @@ Being is an action applying to one thing.
 
 Flying is an action applying to nothing.
 	Understand "fly" as flying.
-	Instead of flying, say "[if player is carrying antigravity]You slowly float up into the air like a ballon.[otherwise]You wish.[end if]"
+	Instead of flying, say "[if player is carrying antigravity]You slowly float up into the air like a balloon.[otherwise]You wish.[end if]"
 
 Understand "import [thing]" as taking.
 	antigravity is a thing. [The player is carrying antigravity.]
@@ -154,7 +154,8 @@ Current Scene is a scene that varies.
 
 Investigation is a scene.
 	Investigation begins when the player is in the Front Yard for the first time.
-	Investigation ends when Investigation is the Current Scene AND the clueFlag is 1.
+	[Investigation ends when Investigation is the Current Scene AND the clueFlag is 1.]
+	Investigation ends when Investigation begins.
 	
 Murder is a scene.
 	Murder begins when Investigation ends.
@@ -163,9 +164,9 @@ Murder is a scene.
 Staging is a scene.
 	Staging begins when Murder ends.
 	
-[The Current Scene is Investigation.]
+The Current Scene is Investigation.
 [The Current Scene is Murder.]
-The Current Scene is Staging.
+[The Current Scene is Staging.]
 
 When Investigation ends:
 	Now the Current Scene is Murder;
@@ -558,7 +559,7 @@ When Murder begins:
 				begin;
 					Now the nozzle is switched on;
 					Say "The nozzle is now turned on.";
-				end if.				
+				end if;		
 			After switching off the garden hose:
 				if Investigation is the Current Scene
 				begin;
