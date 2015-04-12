@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x027C5208" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x027C5208"/>
+  <item nodeId="node-0x027C5208">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">Scenery Init investigation&#x000A;Retrospect&#x000A;An Interactive Fiction by GroopOfFore&#x000A;Release 1 / Serial number 150411 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Front Yard&#x000A;You can see a front door, a police officer, some bushes (empty), a garden hose and a mail box (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x027C5368"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027C5368">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the front door)&#x000A;&#x000A;Living Room&#x000A;You can see a front door, a couch, a TV and a laptop here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02833028"/>
+      <child nodeId="node-0x02833570"/>
+      <child nodeId="node-0x027CFE28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02833028">
+    <command xml:space="preserve">examine surroundings</command>
+    <result xml:space="preserve">Living Room description&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02833178"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02833178">
+    <command xml:space="preserve">look at TV</command>
+    <result xml:space="preserve">An old television. It doesn't seem to be working&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02833280"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02833280">
+    <command xml:space="preserve">look at the couch</command>
+    <result xml:space="preserve">Just a couch&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x028333D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028333D0">
+    <command xml:space="preserve">look at Television</command>
+    <result xml:space="preserve">An old television. It doesn't seem to be working&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02833570">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Garage&#x000A;You can see a car (empty), a tool bench (in which are a wrench, a screwdriver, a hand drill and a hammer) and a power box here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x028336A0"/>
+      <child nodeId="node-0x027CF540"/>
+      <child nodeId="node-0x027CFAA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x028336A0">
+    <command xml:space="preserve">examine power box</command>
+    <result xml:space="preserve">It provides electricity to the house. It seems to have been smashed by something&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x027CF540">
+    <command xml:space="preserve">break power box</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027CF620"/>
+      <child nodeId="node-0x027CFE98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027CF620">
+    <command xml:space="preserve">destroy power box</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027CF700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027CF700">
+    <command xml:space="preserve">destroy the power box</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x027CFE98">
+    <command xml:space="preserve">current scene</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027CFF08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027CFF08">
+    <command xml:space="preserve">break the power box</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x027CFAA8">
+    <command xml:space="preserve"> go east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027CFDB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027CFDB8">
+    <command xml:space="preserve">destroy power box</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027CF878"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027CF878">
+    <command xml:space="preserve">break power box</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x027CFE28">
+    <command xml:space="preserve">examine couch</command>
+    <result xml:space="preserve">Just a couch&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027CF8E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027CF8E8">
+    <command xml:space="preserve">look under couch</command>
+    <result xml:space="preserve">You find a large bag of Ketamine. You pull it out from underneath the couch&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027CF958"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027CF958">
+    <command xml:space="preserve">look under couch</command>
+    <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027CF9C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027CF9C8">
+    <command xml:space="preserve">take ketamine</command>
+    <result xml:space="preserve">You can't take evidence from the scene of the crime&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027CFCD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027CFCD8">
+    <command xml:space="preserve">look at sofa</command>
+    <result xml:space="preserve">Just a couch&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027CFB18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027CFB18">
+    <command xml:space="preserve">examine surroundings</command>
+    <result xml:space="preserve">Living Room description&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027CFB88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027CFB88">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027CFBF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027CFBF8">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  your phone&#x000A;  your clothes&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027CF808"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027CF808">
+    <command xml:space="preserve">dir</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  your phone&#x000A;  your clothes&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027CFD48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027CFD48">
+    <command xml:space="preserve">use phone</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0C18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0C18">
+    <command xml:space="preserve">take off clothes</command>
+    <result xml:space="preserve">You aren't wearing your clothes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D05F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D05F8">
+    <command xml:space="preserve">burn clothes</command>
+    <result xml:space="preserve">This dangerous act would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0AC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0AC8">
+    <command xml:space="preserve">cd</command>
+    <result xml:space="preserve">You'll have to say which compass direction to go in.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0908"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0908">
+    <command xml:space="preserve">go</command>
+    <result xml:space="preserve">You'll have to say which compass direction to go in.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0898"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0898">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Garage&#x000A;You can see a car (empty), a tool bench (in which are a wrench, a screwdriver, a hand drill and a hammer) and a power box here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0518"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0518">
+    <command xml:space="preserve">look at hand drill</command>
+    <result xml:space="preserve">A common household tool... or possibly a brutal weapon&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0438"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0438">
+    <command xml:space="preserve">take hand drill</command>
+    <result xml:space="preserve">You can't take evidence from the scene of the crime&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0B38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0B38">
+    <command xml:space="preserve">take powerbox</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0CF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0CF8">
+    <command xml:space="preserve">take power box</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D10E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D10E8">
+    <command xml:space="preserve">look at power box</command>
+    <result xml:space="preserve">It provides electricity to the house. It seems to have been smashed by something&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D03C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D03C8">
+    <command xml:space="preserve">look behind power box</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0A58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0A58">
+    <command xml:space="preserve">look under power box</command>
+    <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0C88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0C88">
+    <command xml:space="preserve">look above power box</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0358"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0358">
+    <command xml:space="preserve">look below power box</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D04A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D04A8">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Living Room&#x000A;You can see a Ketamine, a front door, a couch, a TV and a laptop here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0588"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0588">
+    <command xml:space="preserve">burn door</command>
+    <result xml:space="preserve">This dangerous act would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0DD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0DD8">
+    <command xml:space="preserve">kiss couch</command>
+    <result xml:space="preserve">You can only do that to something animate.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0D68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0D68">
+    <command xml:space="preserve">look at laptop</command>
+    <result xml:space="preserve">A modest HP Laptop.  Try switching it on. &#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0978"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0978">
+    <command xml:space="preserve">turn on laptop</command>
+    <result xml:space="preserve">The laptop is now turned on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D1078"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D1078">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0E48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0E48">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0748"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0748">
+    <command xml:space="preserve">look at laptop</command>
+    <result xml:space="preserve">A modest HP Laptop.  The Laptop is locked. You will need to find the password. Don't waste your time guessing. &#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D09E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D09E8">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Kitchen&#x000A;You can see a back door, a microwave (in which is a ham sammich), a card, a refrigerator (in which is milk), an oven (in which is an apple pie), a spilled cup, a dark stain and a beer cabinet (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0F28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0F28">
+    <command xml:space="preserve">look at beer cabinet</command>
+    <result xml:space="preserve">The beer cabinet is empty.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0F98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0F98">
+    <command xml:space="preserve">examine surroundings</command>
+    <result xml:space="preserve">Kitchen description&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D07B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D07B8">
+    <command xml:space="preserve">take microwave</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0BA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0BA8">
+    <command xml:space="preserve">look at card</command>
+    <result xml:space="preserve">This is evidence.&#x000A;&#x000A;[Your score has just gone up by one point.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D1008"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D1008">
+    <command xml:space="preserve">read card</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0668"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0668">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">&gt; Introduction to Retrospect&#x000A;   Instructions for Play</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D0828"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D0828">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Introduction to Retrospect&#x000A; &gt; Instructions for Play&#x000A;&#x000A;   Introduction to Retrospect&#x000A; &gt; Instructions for Play</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D12A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D12A8">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">&gt; About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D1158"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D1158">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D11C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D11C8">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">The &gt; sign is where the game says, "Okay, what do you want to do now?"  You may respond by typing an instruction -- usually an imperative verb, possibly followed by prepositions and objects.  So, for instance, LOOK, LOOK AT FISH, TAKE FISH.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D1238"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D1238">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4D50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4D50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4F10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4F10">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4AB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4AB0">
+    <command xml:space="preserve">[back]</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D47A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D47A0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4F80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4F80">
+    <command xml:space="preserve">[back]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A; &gt; What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4DC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4DC0">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A; &gt; Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A; &gt; Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4880">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A; &gt; Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A; &gt; Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D5220"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D5220">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A; &gt; Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A; &gt; Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D5300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D5300">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A; &gt; Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A; &gt; Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4B90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4B90">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A; &gt; How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A; &gt; How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D48F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D48F0">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A; &gt; If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A; &gt; If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D5290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D5290">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A; &gt; How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A; &gt; How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4810"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4810">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A; &gt; Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A; &gt; Controlling the Game&#x000A;   How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4960"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4960">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A; &gt; How the World is Assembled&#x000A;   If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A; &gt; How the World is Assembled&#x000A;   If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4FF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4FF0">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A; &gt; If You Get Stuck&#x000A;&#x000A;   About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A; &gt; If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D49D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D49D0">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">&gt; Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A;   Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4C70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4C70">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Explore&#x000A; &gt; Read carefully&#x000A;   Be creative&#x000A;   Cooperate&#x000A;&#x000A;   Explore&#x000A; &gt; Read carefully&#x000A;   Be creative&#x000A;   Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4A40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4A40">
+    <command xml:space="preserve">[right]</command>
+    <result xml:space="preserve">Explore&#x000A; &gt; Read carefully&#x000A;   Be creative&#x000A;   Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4CE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4CE0">
+    <command xml:space="preserve">[right]</command>
+    <result xml:space="preserve">Explore&#x000A; &gt; Read carefully&#x000A;   Be creative&#x000A;   Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D50D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D50D0">
+    <command xml:space="preserve">[right]</command>
+    <result xml:space="preserve">Explore&#x000A; &gt; Read carefully&#x000A;   Be creative&#x000A;   Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4B20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4B20">
+    <command xml:space="preserve">[right]</command>
+    <result xml:space="preserve">Explore&#x000A; &gt; Read carefully&#x000A;   Be creative&#x000A;   Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4C00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4C00">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Explore&#x000A;   Read carefully&#x000A; &gt; Be creative&#x000A;   Cooperate&#x000A;&#x000A;   Explore&#x000A;   Read carefully&#x000A; &gt; Be creative&#x000A;   Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4E30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4E30">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A; &gt; Cooperate&#x000A;&#x000A;   Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A; &gt; Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D46C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D46C0">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A; &gt; Cooperate&#x000A;&#x000A;   Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A; &gt; Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4EA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4EA0">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Play with someone else. Two heads are often better than one. If that doesn't work, try emailing the author or (better yet) posting a request for hints on the newsgroup rec.games.int-fiction.  For best results, put the name of the game you want help with in the subject line; then leave a page or so of blank spoiler space (so that no one will read about where you got to in the game unless they've already played it), and describe your problem as clearly as possible.  Someone will probably be able to tell you how to get around it.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D5370"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D5370">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A; &gt; Cooperate&#x000A;&#x000A;   Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A; &gt; Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D5060"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D5060">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Play with someone else. Two heads are often better than one. If that doesn't work, try emailing the author or (better yet) posting a request for hints on the newsgroup rec.games.int-fiction.  For best results, put the name of the game you want help with in the subject line; then leave a page or so of blank spoiler space (so that no one will read about where you got to in the game unless they've already played it), and describe your problem as clearly as possible.  Someone will probably be able to tell you how to get around it.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D5140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D5140">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A; &gt; Cooperate&#x000A;&#x000A;   Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A; &gt; Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4650"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4650">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Play with someone else. Two heads are often better than one. If that doesn't work, try emailing the author or (better yet) posting a request for hints on the newsgroup rec.games.int-fiction.  For best results, put the name of the game you want help with in the subject line; then leave a page or so of blank spoiler space (so that no one will read about where you got to in the game unless they've already played it), and describe your problem as clearly as possible.  Someone will probably be able to tell you how to get around it.&#x000A;&#x000A;&#x000A;&#x000A;Please press SPACE to continue.</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D51B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D51B0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A; &gt; Cooperate&#x000A;&#x000A;   Explore&#x000A;   Read carefully&#x000A;   Be creative&#x000A; &gt; Cooperate</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D53E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D53E0">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">About Interactive Fiction&#x000A;   What to do with &gt;&#x000A;   Getting Started&#x000A;   Rooms and Travel&#x000A;   Objects&#x000A;   Controlling the Game&#x000A;   How the World is Assembled&#x000A; &gt; If You Get Stuck</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D4730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D4730">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">Introduction to Retrospect&#x000A; &gt; Instructions for Play</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D5450"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D5450">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">Kitchen&#x000A;You can see some surroundings, a back door, a microwave (in which is a ham sammich), a card, a refrigerator (in which is milk), an oven (in which is an apple pie), a spilled cup, a dark stain and a beer cabinet (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D5530"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D5530">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D54C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D54C0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Living Room&#x000A;You can see a Ketamine, a front door, a couch, a TV and a laptop here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027D55A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027D55A0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Kitchen&#x000A;You can see a back door, a microwave (in which is a ham sammich), a card, a refrigerator (in which is milk), an oven (in which is an apple pie), a spilled cup, a dark stain and a beer cabinet (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027DA900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027DA900">
+    <command xml:space="preserve">go up</command>
+    <result xml:space="preserve">Upstairs&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027DA740"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027DA740">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Master Bedroom&#x000A;You can see a desk (closed) and a guy here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027DAEB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027DAEB0">
+    <command xml:space="preserve">look at desk</command>
+    <result xml:space="preserve">A wooden desk with drawers.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027DA9E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027DA9E0">
+    <command xml:space="preserve">open desk</command>
+    <result xml:space="preserve">You open the desk, revealing a cell phone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x027DA200"/>
+    </children>
+  </item>
+  <item nodeId="node-0x027DA200">
+    <command xml:space="preserve">read cell phone</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>

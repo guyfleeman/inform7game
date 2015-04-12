@@ -567,7 +567,9 @@ When Murder begins:
 		The description is "Just a couch".
 		After examining the couch, increase the score by 1.
 		Instead of taking the couch:
-			If Staging is the current scene, say "Houses typically have couches";
+			If Staging is the current scene
+			begin;
+				Say "Houses typically have couches";
 			otherwise;
 				continue the action;
 			end if;
