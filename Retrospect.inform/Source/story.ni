@@ -62,7 +62,7 @@ Pooping is an action applying to nothing.
 	Instead of pooping, say "This is not the time to do that."
 
 Understand "import [thing]" as taking.
-	antigravity is a thing. The player is carrying antigravity.
+	antigravity is a thing. [The player is carrying antigravity.]
 	After taking antigravity:
 		say "Medicine cabinet sampled.".
 	
@@ -72,8 +72,8 @@ Watering is an action applying to one thing.
 Listing is an action applying to one thing.
 	Understand "list [thing]" as listing.
 	
-Swinging is an action applying to one thing.
-	Understand "swing [thing]" as swinging.
+[Swinging is an action applying to one thing.
+	Understand "swing [thing]" as swinging.]
 
 Leveling up is an action applying to nothing.
 	Understand "level up" as leveling up.
@@ -124,9 +124,10 @@ A thing has some text called deathStatus.
 Brightness is a kind of value. 
 	The brightnesses are dim and bright.
 	
-Current Scene is a scene that varies.
 
 [DEF SCENES]
+Current Scene is a scene that varies.
+
 Investigation is a scene.
 	Investigation begins when the player is in the Front Yard for the first time.
 	Investigation ends when Investigation is the Current Scene AND the clueFlag is 1.
@@ -134,9 +135,6 @@ Investigation is a scene.
 Murder is a scene.
 	Murder begins when Investigation ends.
 	Murder ends when Murder is the Current Scene AND the deathFlag is 1.
-	
-	When Murder begins:
-		Move the player to the Back Yard;
 	
 Staging is a scene.
 	Staging begins when Murder ends.
@@ -147,9 +145,11 @@ When Investigation ends:
 	Now the Current Scene is Murder;
 	Clear the screen;
 	
+When Murder begins:
+	Move the player to the Back Yard;
+
 When Murder ends:
 	Now the Current Scene is Staging;
-[The Current Scene is Murder.]
 
 [DEF ROOMS/DOORS]
 Front Yard is a room.
@@ -210,10 +210,10 @@ The fence gate is a door.
 		end if;
 
 [DEF ROOM LOCATIONS]
-Living Room is north of front door.
+[Living Room is north of Front Yard.]
 Garage is west of Living Room.
 Kitchen is north of Living Room.
-Kitchen is south of the back door.
+[Kitchen is south of the Back Yard.]
 Upstairs is above Kitchen.
 Back Yard is north of Back Door.
 Master Bedroom is east of Upstairs.
@@ -222,9 +222,6 @@ Child's Bedroom is south of Upstairs.
 The front door is north of the Front Yard and south of the Living Room.
 The back door is north of the Kitchen and south of Back Yard.
 The fence gate is north of the Back Yard.
-
-The portal gun is in the front door.
-	The portal gun is edible.
 
 When Investigation begins:
 	Now the front door is unlocked;
@@ -323,7 +320,7 @@ When Murder begins:
 		The description is "There is a door here leading to the backyard. It seems unlocked."]
 	
 	[Back Yard]
-	The house is in the Back Yard.
+	This house is in the Back Yard.
 		The house is scenery.
 		The description is "The house is two stories with a shale facade and brushed bronze accents.".
 
@@ -331,7 +328,7 @@ When Murder begins:
 		The pond is scenery.
 		The description is "A small pond lies in the middle of the lush grass. Shimmering bass swim in its clear, green water.[if we have not examined the pond] You spot a catfish lurking deep in the pool.[end if]".
 
-	The back door is in the Back Yard.
+	The backdoor is in the Back Yard.
 		The back door is scenery.
 		The description is "The back door hangs on one hinge, its lock splintered. It swings slowly in the breeze, sometimes banging into the side of the house.".
 		
@@ -443,16 +440,16 @@ When Murder begins:
 			Say "Living Room list"
 		instead;
 		if the player is in the Garage,
-			Say "Living Room list"
+			Say "Garage list"
 		instead;
 		if the player is in the Kitchen,
-			Say "Living Room list"
+			Say "Kitchen list"
 		instead;
 		if the player is in the Upstairs,
-			Say "Living Room list"
+			Say "Upstairs list"
 		instead;
 		if the player is in the Back Yard,
-			Say "You can see the house, its back door, a field, and a pond."
+			Say "You can see the house, its back door, a field, a swing set, and a pond."
 		instead;
 		if the player is in the Master Bedroom,
 			Say "Master Bedroom list"
@@ -461,7 +458,7 @@ When Murder begins:
 			Say "Child's Room list"
 		instead;
 	Instead of taking the surroundings:
-		Say "You can't have everything, you know?".
+		Do nothing.
 	
 	[Front Yard]	
 	The police officer is in the Front Yard.
