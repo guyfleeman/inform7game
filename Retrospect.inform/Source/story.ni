@@ -53,6 +53,8 @@ Understand the command "echo" as "say".
 Being is an action applying to one thing.
 	Understand "be" as being.
 
+Using is an action applying to one thing.
+	Understand "use" as using.
 Flying is an action applying to nothing.
 	Understand "fly" as flying.
 	Instead of flying, say "[if player is carrying antigravity]You slowly float up into the air like a ballon.[otherwise]You wish.[end if]"
@@ -253,6 +255,9 @@ The vial is a thing.
 	
 The needle is a thing.
 	The description is "An empty needle.".
+
+The fake note is a thing.
+	The description is "A faked note asking for Ketamine.".
 	
 your phone is a thing.
 	The player is carrying your phone.
@@ -271,7 +276,8 @@ When Murder begins:
 	Now the player has the machete;
 	Now the player has the zip ties;
 	Now the player has the vial;
-	Now the player has the needle.
+	Now the player has the needle;
+	Now the player has the fake note.
 
 [INIT SCENERY]
 	[Front Yard]
@@ -348,12 +354,15 @@ When Murder begins:
 	[Upstairs]
 	
 	[Master Bedroom]
-	
-	[Child's Bedroom]
-	The window is in the Child's Bedroom.
+	The window is in the Master Bedroom.
 		The window is scenery.
 		The description is "A pine forest can be seen. Just past the edge of the forest, you can see a duck blind.".
-	
+			
+	[Child's Bedroom]
+	The poster is in the Child's Bedroom.
+		The poster is scenery.
+		The description is "It's a movie poster for that new superhero movie."
+		
 	[Scenery scene routines]
 	When Investigation begins:
 		Say "Scenery Init investigation".
@@ -468,9 +477,9 @@ When Murder begins:
 		Instead of talking the police officer:
 			if Investigation is the Current Scene
 			begin;
-				if score > 2
+				if score > 4
 				begin;
-					Say "Looks like this one is turning out to be pretty cut and dry. [if score > 4] Clearly t[otherwise]T[end if]his guy was offed by a local cartel. We'll get some more detectives down here to figure out which group was responsible for this butchery.";
+					Say "Looks like this one is turning out to be pretty cut and dry. [if clueCount > 4] Clearly t[otherwise]T[end if]his guy was offed by a local cartel. We'll get some more detectives down here to figure out which group was responsible for this butchery.";
 					Now the clueFlag is 1;
 				otherwise;
 					Say "You'd better keep looking for clues instead of chitchatting or the chief is gonna get pissed.";
@@ -578,20 +587,30 @@ When Murder begins:
 				Now the laptop is switched off;
 				Say "The laptop is now turned off.";
 		After examining the laptop:
+			say "You have found a clue.";
 			Increase the clueCount by 1. [todo: only if on]
 		
 	The Ketamine is an Evidence.
 		Instead of looking under couch for the first time:
 			Now Ketamine is in Living Room;
 			say "You find a large bag of Ketamine. You pull it out from underneath the couch".
-		The description is "Ketamine is a heavy drug. Worth a lot of money too".
-		After examining Ketamine, increase the clueCount by 1.
+		The description is "Ketamine is a heavy drug. Worth a lot of money too.".
+		After examining Ketamine:
+			increase the clueCount by 1;
+			say "You have found a clue.".
 
 	[Garage]
 	The hood is a thing.
 		The hood is fixed in place.
-		The description is "You lift the hood open. Underneath, you find a small compartment filled with Ketamine.".
-		After examining the hood under the first time, increase the clueCount by 1.
+		The description is "The hood is slightly open. I wonder if there's anything underneath.".
+		The crystal meth is a thing.
+		Instead of looking under the hood for the first time:
+			Now the crystal meth is in Garage;
+			say "You lift the hood open. Underneath, you find a small compartment filled with crystal meth.".
+		The description of crystal meth is "Crystal meth is a heavy drug. Worth a lot of money too.".
+		After examining the crystal meth:
+			say "You have found a clue.";
+			increase the clueCount by 1.
 		[Understand looking under the hood as examining the hood.]
 		
 	The car is a container.
@@ -620,11 +639,15 @@ When Murder begins:
 			Now the scale is in the Garage;
 			say "You find a small scale behind the TV. The units are currently set to measure in grams. You pull it out from under the tool bench.".
 		The description is "A small battery-powered measuring scale. You place your car keys on the scale and see that it has 3 decimal places of precision".
-		After examining the scale for the first time, increase the clueCount by 1.
+		After examining the scale for the first time:
+			say "You have found a clue.";
+			increase the clueCount by 1.
 		
 	The power box is an Evidence.
 		The power box is in the Garage.
-		After examining the power box for the first time, increase clueCount by 1.
+		After examining the power box for the first time:
+			say "You have found a clue.";
+			increase clueCount by 1.
 	When Investigation begins:	
 		Now the description of the power box is "It provides electricity to the house. It seems to have been smashed by something".
 	When Investigation ends:
@@ -641,9 +664,11 @@ When Murder begins:
 			decrease score by 1.
 	
 	The card is an Evidence.
-		The description is "Pretend this card says something meaningful." [TODO]
+		The description is "You can see a note written on the card. It appears to be an anonymous request for Ketamine."
 		The card is in the Kitchen.
-		After examining the card for the first time, increase clueCount by 1.
+		After examining the card for the first time:
+			say "You have found a clue.";
+			increase clueCount by 1.
 	
 	The refrigerator is a container.
 		The refrigerator is fixed in place.
@@ -670,15 +695,17 @@ When Murder begins:
 			say "Maybe that was a bad idea. But a delicious one.";
 			decrease score by 1.
 		
-	The spilled cup is a thing.
+	The spilled cup is an Evidence.
 		The spilled cup is in the Kitchen.
 		The description is "Smells of alcohol."
-		After examining the spilled cup for the first time, increase clueCount by 1.
+		After examining the spilled cup for the first time:
+			say "You have found a clue.";
+			increase clueCount by 1.
 
 	The dark stain is a thing.
 		The dark stain is in the Kitchen.
 		Instead of taking the dark stain, say "Do you even know how stains work?"
-		After examining the dark stain for the first time, increase clueCount by 1.
+		[After examining the dark stain for the first time, increase clueCount by 1.]
 		
 	The beer cabinet is a container.
 		The beer cabinet is fixed in place.
@@ -697,6 +724,7 @@ When Murder begins:
 			begin;
 				Say "You decide to swing on a swing. Unsurprisingly, it breaks under your weight. You give the other swing a try, and once again you fall to the ground.";
 				Now the swingset is broken;
+				Decrease score by 1;
 			otherwise;
 				Say "You already broke the swingset.";
 			end if;
@@ -716,7 +744,10 @@ When Murder begins:
 	The desk contains a cell phone.
 		The cell phone is Evidence.
 		The description of the cell phone is "There appear to be the contacts of various drug dealers here.".
-		After examining the cell phone for the first time, increase clueCount by 1.
+		After examining the cell phone for the first time:
+			say "You have found a clue.";
+			increase clueCount by 1.
+		When Murder begins, now the player is carrying the cell phone.
 	
 	The guy is a person.
 		The guy is in the Master Bedroom.
@@ -776,7 +807,9 @@ When Murder begins:
 		The description of the math textbook is "You flip through the textbook. It appears as if someone has poorly drawn some genitals on page 606."
 		Instead of reading the math textbook, say "Consider the function f(x) = 606. What kind of line would this make? Regardless of what values of x are inputed into the function, the only value of f(x) that ever comes out is 606. Therefore, this function would be graphed as a horizontal line, where each point on the line is at y = 606.".
 	The biology textbook is a thing.
+		Instead of reading the biology textbook, say "blahblahblahbiologyisweirdanddoesn'tmakesenseblahblahblah".
 	The civics textbook is a thing.
+		Instead of reading the civics textbook, say "Our country is stupid and full of stupid people. The end."	
 	
 	The backpack is a container.
 		The backpack is in the Child's Bedroom.
