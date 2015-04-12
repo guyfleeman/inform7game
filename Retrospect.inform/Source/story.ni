@@ -359,17 +359,13 @@ When Murder begins:
 		The field is scenery.
 		The description is "The field is a display of vibrant, unmowed grass speckled with purple and yellow wildflowers. The landscape hazily reminds you of happier summers gone by.".
 		
-	The fence is in the Back Yard.
-		The fence is scenery.
-		The description is "A wooden fence follows the perimeter of the yard along the edge of the forest. It has a gate at the north end of the property.".
-		
 	The shovel is in the Back Yard.
 
 	The fence is in the Back Yard.
 		The fence is scenery.
 		The description is "A tan picket fence delineates the yard's perimeter.  Its frame is wrapped in thin vines of honeysuckle, with bumblebees flitting around their blooms.  There is a gate to the north of the yard.".
 	
-	The flower bed is in the Back Yard.
+	The flowerbed is in the Back Yard.
 		The description is "Tulips. Your least favorite flower."
 	
 	[Upstairs]
@@ -876,6 +872,7 @@ When Murder begins:
 																							
 								
 
+	
 	
 	
 	
