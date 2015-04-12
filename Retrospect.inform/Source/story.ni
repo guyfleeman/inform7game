@@ -37,8 +37,30 @@ ToggableThing is a kind of thing.
 	ToggableThing is usually off.
 ]
 An Evidence is a kind of thing.
-	An Evidence is always fixed in place.
-	Instead of taking an Evidence, say "You can't take evidence from the scene of the crime".
+	[An Evidence is usually fixed in place.]
+	Instead of taking evidence:
+		if Staging is the Current Scene
+		begin;
+			continue the action;
+		end if;
+		Say "[if Investigation is the Current Scene]You can't take evidence from the scene of the crime [otherwise if Murder is the Current Scene]You have bigger priorities right now[otherwise if Staging is the Current Scene]Taken.".
+		[if Investigation is the Current Scene
+		begin;
+			Say "You can't take evidence from the scene of the crime";
+		otherwise if Murder is the Current Scene;
+			Say "You have bigger priorities right now";
+		otherwise if Staging is the Current Scene;
+			carry out taking Evidence:
+				now evidence is carried by the player;
+		end if;]
+	[Instead of taking evidence:
+		while the current scene is not Staging:
+			say "Can't touch this";]
+		
+		
+	[When Investigation begins:]
+		
+	
 
 [DEF ACTIONS]
 Understand the command "pwd" as "look".
@@ -48,6 +70,10 @@ Understand the command "dir" as "inventory".
  	 Understand the command "cd" as "go".
 Understand the command "echo" as "say".
  [Understand "cd .." as "up".]
+destroying is an action applying to one thing.
+	Understand "destroy" as destroying.
+	Understand "break" as destroying.
+	Understand "annihilate" as destroying.
 
 Being is an action applying to one thing.
 	Understand "be" as being.
@@ -131,6 +157,8 @@ Staging is a scene.
 	Staging begins when Murder ends.
 	
 The Current Scene is Investigation.
+[The Current Scene is Murder.]
+[The Current Scene is Staging.]
 
 When Investigation ends:
 	Now the Current Scene is Murder;
@@ -530,11 +558,13 @@ When Murder begins:
 		
 	[Living Room]		
 	The couch is an Evidence.
+		Understand "sofa" as the couch.
 		The couch is in the Living Room.
 		The description is "Just a couch".
 		After examining the couch, increase the score by 1.
 		
 	The TV is an Evidence.
+		Understand "Television" as the TV.
 		The TV is in the Living Room.
 		The description is "An old television. It doesn't seem to be working".
 		After examining the TV, increase the score by 1.
@@ -596,10 +626,27 @@ When Murder begins:
 	The power box is a thing.
 		The power box is in the Garage.
 		The power box is fixed in place.
+		The power box can be broken or not broken.
+		
 	When Investigation begins:	
-		Now the description of the power box is "It provides electricity to the house. It seems to have been smashed by something".
+		Now the description of the power box is "It provides electricity to the house. It seems to have been smashed by something";
+		Now the power box is broken;
 	When Investigation ends:
-		Now the description of the power box is "It provides electricity to the house".
+		Now the description of the power box is "It provides electricity to the house";
+		Now the power box is not broken;
+	Instead of attacking the power box:
+		if Investigation is the current scene
+		begin;
+			Say "It's already broken.";
+		otherwise if Murder is the current scene;
+			Say "It's probably not wise to do that right now.";
+		otherwise if Staging is the current scene;
+			if the second noun is the machete [figure out how to add hammer later]
+			begin;
+					Say "The power box gives off sparks in every direction, but it looks like [the second noun] did the trick.";
+					Now the power box is broken;
+			end if;
+		end if;
 											
 	[Kitchen]
 	The microwave is a container.
