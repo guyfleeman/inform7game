@@ -59,8 +59,7 @@ An Evidence is a kind of thing.
 		
 		
 	[When Investigation begins:]
-		
-	
+
 
 [DEF ACTIONS]
 Understand the command "pwd" as "look".
@@ -75,12 +74,20 @@ destroying is an action applying to one thing.
 	Understand "break" as destroying.
 	Understand "annihilate" as destroying.
 
+destroying is an action applying to one thing.
+	Understand "destroy" as destroying.
+	Understand "break" as destroying.
+	Understand "annihilate" as destroying.
+
 Being is an action applying to one thing.
 	Understand "be" as being.
 
+Using is an action applying to one thing.
+	Understand "use" as using.
+	
 Flying is an action applying to nothing.
 	Understand "fly" as flying.
-	Instead of flying, say "[if player is carrying antigravity]You slowly float up into the air like a ballon.[otherwise]You wish.[end if]"
+	Instead of flying, say "[if player is carrying antigravity]You slowly float up into the air like a balloon.[otherwise]You wish.[end if]"
 
 Understand "import [thing]" as taking.
 	antigravity is a thing. [The player is carrying antigravity.]
@@ -116,7 +123,7 @@ Killing is an action applying to one thing and one carried thing.
 Hiding is an action applying to one carried thing and a thing.
 	Understand "hide [something preferably held] under [thing]" as hiding.
 	Understand "hide [something preferably held] in [thing]" as hiding.
-	
+
 [wrap the default switch commands]
 Turning On is an action applying to one thing.
 	Understand "turning on [thing]" as switching on.
@@ -130,7 +137,11 @@ The Score is 0.
 Use scoring.
 
 The stageCount is a number that varies.
-The stageCount is 0. [todo: every staged item decrements stageCount and increments score. when it hits 0, you win]
+
+The stageCount is 0.
+
+The clueCount is a number that varies.
+The clueCount is 0.
 
 The clueFlag is a number that varies.
 The clueFlag is 0.
@@ -632,6 +643,18 @@ When Murder begins:
 		
 
 	[Garage]
+	The hood is a thing.
+		The hood is fixed in place.
+		The description is "The hood is slightly open. I wonder if there's anything underneath.".
+		The crystal meth is a thing.
+		Instead of looking under the hood for the first time:
+			Now the crystal meth is in Garage;
+			say "You lift the hood open. Underneath, you find a small compartment filled with crystal meth.".
+		The description of crystal meth is "Crystal meth is a heavy drug. Worth a lot of money too.".
+		After examining the crystal meth:
+			say "You have found a clue.";
+			increase the clueCount by 1.
+
 	The car is a container.
 		The car is in the Garage.
 		The car is fixed in place.
