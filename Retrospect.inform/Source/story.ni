@@ -107,6 +107,10 @@ Talking is an action applying to one thing.
 	
 Killing is an action applying to one thing and one carried thing.
 	Understand "kill [thing] with [something preferably held]" as killing.
+
+Hiding is an action applying to one carried thing and a thing.
+	Understand "hide [something preferably held] under [thing]" as hiding.
+	Understand "hide [something preferably held] in [thing]" as hiding.
 	
 [wrap the default switch commands]
 Turning On is an action applying to one thing.
@@ -156,9 +160,9 @@ Murder is a scene.
 Staging is a scene.
 	Staging begins when Murder ends.
 	
-The Current Scene is Investigation.
+[The Current Scene is Investigation.]
 [The Current Scene is Murder.]
-[The Current Scene is Staging.]
+The Current Scene is Staging.
 
 When Investigation ends:
 	Now the Current Scene is Murder;
@@ -562,6 +566,12 @@ When Murder begins:
 		The couch is in the Living Room.
 		The description is "Just a couch".
 		After examining the couch, increase the score by 1.
+		Instead of taking the couch:
+			If Staging is the current scene, say "Houses typically have couches";
+			otherwise;
+				continue the action;
+			end if;
+		
 		
 	The TV is an Evidence.
 		Understand "Television" as the TV.
@@ -595,6 +605,8 @@ When Murder begins:
 			say "You find a large bag of Ketamine. You pull it out from underneath the couch".
 		The description is "Ketamine is a heavy drug. Worth a lot of money too".
 		After examining Ketamine, increase the score by 1.
+		When the Investigation ends, now the Ketamine is carried by the player.
+		
 
 	[Garage]
 	The car is a container.
@@ -622,6 +634,7 @@ When Murder begins:
 			say "You find a small scale behind the TV. The units are currently set to measure in grams. You pull it out from under the tool bench.".
 		The description is "A small battery-powered measuring scale. You place your car keys on the scale and see that it has 3 decimal places of precision".
 		After examining the scale, increase the score by 1.
+	When Investigation ends, now the scale is carried by the player;
 		
 	The power box is a thing.
 		The power box is in the Garage.
@@ -641,10 +654,12 @@ When Murder begins:
 		otherwise if Murder is the current scene;
 			Say "It's probably not wise to do that right now.";
 		otherwise if Staging is the current scene;
-			if the second noun is the machete [figure out how to add hammer later]
+			if the second noun is the machete or the second noun is the hammer
 			begin;
-					Say "The power box gives off sparks in every direction, but it looks like [the second noun] did the trick.";
+					Say "The power box gives off a small burst of sparks, but it looks like [the second noun] did the trick.";
 					Now the power box is broken;
+			otherwise;
+				Say "You will need to find a stronger weapon";
 			end if;
 		end if;
 											
