@@ -83,7 +83,7 @@ Using is an action applying to one thing.
 	
 Flying is an action applying to nothing.
 	Understand "fly" as flying.
-	Instead of flying, say "[if player is carrying antigravity]You slowly float up into the air like a ballon.[otherwise]You wish.[end if]"
+	Instead of flying, say "[if player is carrying antigravity]You slowly float up into the air like a balloon.[otherwise]You wish.[end if]"
 
 Understand "import [thing]" as taking.
 	antigravity is a thing. [The player is carrying antigravity.]
