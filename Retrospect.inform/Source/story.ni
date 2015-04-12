@@ -9,33 +9,6 @@ Include Basic Help Menu by Emily Short.
 Include Basic Screen Effects by Emily Short.
 
 [DEF ABSTRACTIONS]
-An Evidence is a kind of container.
-	[An Evidence is usually fixed in place.]
-	Instead of taking evidence:
-		if Staging is the Current Scene
-		begin;
-			continue the action;
-		end if;
-		Say "[if Investigation is the Current Scene]You can't take evidence from the scene of the crime [otherwise if Murder is the Current Scene]You have bigger priorities right now[otherwise if Staging is the Current Scene]Taken.".
-		[if Investigation is the Current Scene
-		begin;
-			Say "You can't take evidence from the scene of the crime";
-		otherwise if Murder is the Current Scene;
-			Say "You have bigger priorities right now";
-		otherwise if Staging is the Current Scene;
-			carry out taking Evidence:
-				now evidence is carried by the player;
-		end if;]
-	[Instead of taking evidence:
-		while the current scene is not Staging:
-			say "Can't touch this";]
-		
-		
-	[When Investigation begins:]
-	
-[DEF EVIDENCE]
-
-
 
 [DEF ACTIONS]
 Destroying is an action applying to one thing.
@@ -128,9 +101,6 @@ A thing has some text called discoveredStatus.
 	The discoveredStatus of a thing is usually "false".
 A thing has some text called stagedStatus.
 	The stagedStatus of a thing is usually "false".
-	
-Brightness is a kind of value. 
-	The brightnesses are dim and bright.
 	
 [DEF SCENES]
 Current Scene is a scene that varies.
@@ -368,11 +338,6 @@ When Murder begins:
 		The desk is in the Master Bedroom.
 		The desk is openable.
 	
-	The desk contains a cell phone.
-		The cell phone is Evidence.
-		The description of the cell phone is "There appear to be the contacts of various drug dealers here.".
-		After examining the cell phone, increase score by 1.
-	
 	[Child's Bedroom]
 	The window is in the Child's Bedroom.
 		The window is scenery.
@@ -490,14 +455,6 @@ When Murder begins:
 		The description is "An old television. It doesn't seem to be working".
 		After examining the TV, increase the score by 1.
 		
-	The Ketamine is an Evidence.
-		Instead of looking under couch for the first time:
-			Now Ketamine is in Living Room;
-			say "You find a large bag of Ketamine. You pull it out from underneath the couch".
-		The description is "Ketamine is a heavy drug. Worth a lot of money too".
-		After examining Ketamine, increase the score by 1.
-		When the Investigation ends, now the Ketamine is carried by the player.
-		
 	[Garage]
 	The hood is a thing.
 		The hood is fixed in place.
@@ -574,11 +531,6 @@ When Murder begins:
 			say "Maybe that was a bad idea. This is a crime scene, not a buffet.";
 			decrease score by 1.
 	
-	The card is an Evidence.
-		The description is "This is evidence."
-		The card is in the Kitchen.
-		After examining the card, increase score by 1.
-	
 	The refrigerator is a container.
 		The refrigerator is fixed in place.
 		The refrigerator is in the Kitchen.
@@ -589,11 +541,8 @@ When Murder begins:
 		The refrigerator contains the milk.
 		Instead of drinking milk, say "Not with that expiration date you're not.".
 		After entering the refrigerator:
-			say "Your attempt to catch the door light as it turns off is a success. But now you're cold and it's dark in here.";
-			decrease score by 1.
-		Instead of looking under the refrigerator for the first time:
-			Now the card is in the Kitchen;
-			say "You see a card here."
+			Say "Your attempt to catch the door light as it turns off is a success. But now you're cold and it's dark in here.";
+			Decrease score by 1.
 				
 	The oven is a container.
 		The oven is in the Kitchen.
