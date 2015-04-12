@@ -37,9 +37,29 @@ ToggableThing is a kind of thing.
 	ToggableThing is usually off.
 ]
 An Evidence is a kind of thing.
-	An Evidence is always fixed in place.
-	Instead of taking an Evidence, say "You can't take evidence from the scene of the crime".
-
+	[An Evidence is usually fixed in place.]
+	Instead of taking evidence:
+		if Staging is the Current Scene
+		begin;
+			continue the action;
+		end if;
+		Say "[if Investigation is the Current Scene]You can't take evidence from the scene of the crime [otherwise if Murder is the Current Scene]You have bigger priorities right now[otherwise if Staging is the Current Scene]Taken.".
+		[if Investigation is the Current Scene
+		begin;
+			Say "You can't take evidence from the scene of the crime";
+		otherwise if Murder is the Current Scene;
+			Say "You have bigger priorities right now";
+		otherwise if Staging is the Current Scene;
+			carry out taking Evidence:
+				now evidence is carried by the player;
+		end if;]
+	[Instead of taking evidence:
+		while the current scene is not Staging:
+			say "Can't touch this";]
+		
+		
+	[When Investigation begins:]
+	
 [DEF ACTIONS]
 Understand the command "pwd" as "look".
 Understand the command "ls" as "inventory".
@@ -50,18 +70,20 @@ Understand the command "pockets" as "inventory".
 Understand the command "echo" as "say".
  [Understand "cd .." as "up".]
 
+destroying is an action applying to one thing.
+	Understand "destroy" as destroying.
+	Understand "break" as destroying.
+	Understand "annihilate" as destroying.
+
 Being is an action applying to one thing.
 	Understand "be" as being.
 
 Using is an action applying to one thing.
 	Understand "use" as using.
+	
 Flying is an action applying to nothing.
 	Understand "fly" as flying.
 	Instead of flying, say "[if player is carrying antigravity]You slowly float up into the air like a ballon.[otherwise]You wish.[end if]"
-	
-Pooping is an action applying to nothing.
-	Understand "poop" as pooping.
-	Instead of pooping, say "This is not the time to do that."
 
 Understand "import [thing]" as taking.
 	antigravity is a thing. [The player is carrying antigravity.]
@@ -92,7 +114,11 @@ Talking is an action applying to one thing.
 	
 Killing is an action applying to one thing and one carried thing.
 	Understand "kill [thing] with [something preferably held]" as killing.
-	
+
+Hiding is an action applying to one carried thing and a thing.
+	Understand "hide [something preferably held] under [thing]" as hiding.
+	Understand "hide [something preferably held] in [thing]" as hiding.
+
 [wrap the default switch commands]
 Turning On is an action applying to one thing.
 	Understand "turning on [thing]" as switching on.
@@ -108,7 +134,8 @@ Use scoring.
 The stageCount is a number that varies.
 The stageCount is 0.
 
-The clueCount is a number that varies. The clueCount is 0.
+The clueCount is a number that varies.
+The clueCount is 0.
 
 The clueFlag is a number that varies.
 The clueFlag is 0.
@@ -155,7 +182,7 @@ When Murder ends:
 
 [DEF ROOMS/DOORS]
 Front Yard is a room.
-Living Room  is a room.
+Living Room is a room.
 Garage is a room.
 Kitchen is a room.
 Back Yard is a room.
@@ -600,7 +627,7 @@ When Murder begins:
 			say "You have found a clue.".
 
 	[Garage]
-	The hood is a thing.
+	The hood is a thing. []
 		The hood is fixed in place.
 		The description is "The hood is slightly open. I wonder if there's anything underneath.".
 		The crystal meth is a thing.
