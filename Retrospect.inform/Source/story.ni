@@ -344,6 +344,92 @@ When Murder begins:
 		The description is "A pine forest can be seen. Just past the edge of the forest, you can see a duck blind.".
 		
 [DEF OBJECTS]
+
+[dynamic surroundings
+		tracks the location/scope of the player and updates its position
+		allowing the government to always 'examine surroundings'.]
+	The surroundings are a thing.
+	The indefinite article is "some".
+	After deciding the scope of the player:
+		Place the surroundings in scope;
+		[Place the surroundings in scope.]
+		if the player is in the Front Yard,
+			Move the surroundings to the Front Yard
+		instead;
+		if the player is in the Living Room,
+			Move the surroundings to the Living Room
+		instead;
+		if the player is in the Garage,
+			Move the surroundings to the Garage
+		instead;
+		if the player is in the Kitchen,
+			Move the surroundings to the Kitchen
+		instead;
+		if the player is in the Upstairs,
+			Move the surroundings to the Upstairs
+		instead;
+		if the player is in the Back Yard,
+			Move the surroundings to the Back Yard
+		instead;
+		if the player is in the Master Bedroom,
+			Move the surroundings to the Master Bedroom
+		instead;
+		if the player is in the Child's Bedroom,
+			Move the surroundings to the Child's Bedroom
+		instead;
+	Instead of examining the surroundings:
+		if the player is in the Front Yard,
+			Say "You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in a front yard."
+		instead;
+		if the player is in the Living Room,
+			Say "Living Room description"
+		instead;
+		if the player is in the Garage,
+			Say "Garage description"
+		instead;
+		if the player is in the Kitchen,
+			Say "Kitchen description"
+		instead;
+		if the player is in the Upstairs,
+			Say "Upstairs description"
+		instead;
+		if the player is in the Back Yard,
+			Say "Back Yard description"
+		instead;
+		if the player is in the Master Bedroom,
+			Say "Master Bedroom description"
+		instead;
+		if the player is in the Child's Bedroom,
+			Say "Child's Room description"
+		instead;
+	[list scenery for further examination]
+	Instead of listing the surroundings:
+		if the player is in the Front Yard,
+			Say "You see a forest, a house, a driveway, a porch, a path, a front door, a lawn, a mail box, and an apple tree in your surroundings."
+		instead;
+		if the player is in the Living Room,
+			Say "Living Room list"
+		instead;
+		if the player is in the Garage,
+			Say "Garage list"
+		instead;
+		if the player is in the Kitchen,
+			Say "Kitchen list"
+		instead;
+		if the player is in the Upstairs,
+			Say "Upstairs list"
+		instead;
+		if the player is in the Back Yard,
+			Say "You can see the house, its back door, a field, a swing set, a fence, a flower bed, and a pond."
+		instead;
+		if the player is in the Master Bedroom,
+			Say "Master Bedroom list"
+		instead;
+		if the player is in the Child's Bedroom,
+			Say "Child's Room list"
+		instead;
+	Instead of taking the surroundings:
+		Do nothing.
 	[Front Yard]	
 	The police officer is in the Front Yard.
 		The police officer is a person.
