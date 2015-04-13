@@ -66,13 +66,10 @@ Tying is an action applying to two things.
 	
 [DEF ACTION OVERRIDES]
 Instead of taking something:
-	if Investigation is the Current Scene
+	if Murder is the Current Scene
 	begin;
-		Say "You shouldn't remove anything from an active crime scene.";
-	otherwise if Murder is the Current Scene;
 		Say "You have a job to do. Now isn't the time.";
 	end if;
-		
 	
 [DEF GLOBAL VARS]
 The Maximum Score is 20. [2x num of clues (whatever that becomes)]
@@ -204,6 +201,8 @@ The fence gate is a door.
 			if stageCount > stagingPassedCutoff
 			begin;
 				End the story;
+			otherwise;
+				Say "You aren't ready to leave yet. Perhaps you should stage more clues.";
 			end if;
 		end if;
 
@@ -455,6 +454,8 @@ When Murder begins:
 					Say "You'd better keep looking for clues instead of chitchatting or the chief is gonna get pissed.";
 				end if;
 			end if;
+		When Murder begins:
+			Now the police officer is in the pond;
 	
 	The bushes are a container.
 		The bushes are in the Front Yard.
@@ -563,12 +564,16 @@ When Murder begins:
 	The keyring is a thing.
 		When Investigation begins:
 			Now the keyring is in the car;
+		Instead of taking the keyring:
+			Now the player has the keyring;
+			Say "You take the keyring.";
 
 	The car is a container.
 		The car is in the Garage.
 		The car is fixed in place.
 		The description is "A Toyota. Must be at least 20 years old".
 		The car is enterable.
+		The car is openable.
 		The car is closed.
 		After examining the car for the first time:
 			Now the hood is in the Garage;
@@ -679,6 +684,7 @@ When Murder begins:
 		The desk is in the Master Bedroom.
 		The description is "A wooden desk with drawers."
 		The desk is fixed in place.
+		The desk is openable.
 		The desk is closed.
 		The desk is locked.
 		When Investigation begins:
@@ -689,11 +695,13 @@ When Murder begins:
 	The left drawer is a container.
 		The left drawer is in the Master Bedroom.
 		The left drawer is fixed in place.
+		The left drawer is openable.
 		The left drawer is closed.
 	
 	The right drawer is a container.
 		The right drawer is in the Master Bedroom.
 		The right drawer is fixed in place.
+		The right drawer is openable.
 		The right drawer is closed.
 	
 	The guy is a person.
@@ -730,12 +738,15 @@ When Murder begins:
 			
 	When Investigation begins:
 		Now the deathStatus of the guy is "dead";
+		Now the guy is in the pond;
 		
 	When Murder begins:
 		Now the deathStatus of the guy is "alive";
+		Now the guy is in the Master Bedroom;
 		
 	When staging begins:
 		Now the deathStatus of the guy is "dead";
+		Now the guy is in the pond;
 																			
 	[Child's Bedroom]
 	The child's bed is a thing.
@@ -969,7 +980,7 @@ The cabinets are a thing.
 		Now the cabinets are broken;
 	When Murder begins:
 		Now the cabinets are not broken;
-	Instead of destroying the cabinets:
+	Instead of attacking the cabinets:
 		if Investigation is the Current Scene
 		begin;
 			Say "No need to beat a dead horse.";
@@ -1004,7 +1015,7 @@ The drawers are a thing.
 		Now the drawers are broken;
 	When Murder begins:
 		Now the drawers are not broken;
-	Instead of destroying the drawers:
+	Instead of attacking the drawers:
 		if Investigation is the Current Scene
 		begin;
 			Say "No need to beat a dead horse.";
