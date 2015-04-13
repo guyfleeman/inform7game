@@ -82,8 +82,14 @@ Use scoring.
 The stageCount is a number that varies.
 The stageCount is 0.
 
+The stagingPassedCutoff is a number that varies.
+The stagingPassedCutoff is 7;
+
 The clueCount is a number that varies.
 The clueCount is 0.
+
+The investigationPassedCutoff is a number that varies.
+The investigationPassedCutoff is 7;
 
 The clueFlag is a number that varies.
 The clueFlag is 0.
@@ -107,13 +113,13 @@ Current Scene is a scene that varies.
 
 Investigation is a scene.
 	Investigation begins when the player is in the Front Yard for the first time.
-	[Investigation ends when Investigation is the Current Scene AND the clueFlag is 1.]
-	Investigation ends when Investigation begins.
+	Investigation ends when Investigation is the Current Scene AND the clueFlag is 1.
+	[Investigation ends when Investigation begins.]
 	
 Murder is a scene.
 	Murder begins when Investigation ends.
-	[Murder ends when Murder is the Current Scene AND the deathFlag is 1.]
-	Murder ends when Murder begins.
+	Murder ends when Murder is the Current Scene AND the deathFlag is 1.
+	[Murder ends when Murder begins.]
 	
 Staging is a scene.
 	Staging begins when Murder ends.
@@ -195,7 +201,10 @@ The fence gate is a door.
 		otherwise if Murder is the Current Scene;
 			Say "You already entered from here. You aren't ready to go back.";
 		otherwise if Staging is the Current Scene;
-			Say "eval stg score";
+			if stageCount > stagingPassedCutoff
+			begin;
+				End the story;
+			end if;
 		end if;
 
 [DEF ROOM LOCATIONS]
@@ -438,7 +447,7 @@ When Murder begins:
 		Instead of talking the police officer:
 			if Investigation is the Current Scene
 			begin;
-				if score > 2
+				if clueCount > investigationPassedCutoff 
 				begin;
 					Say "Looks like this one is turning out to be pretty cut and dry. [if score > 4] Clearly t[otherwise]T[end if]his guy was offed by a local cartel. We'll get some more detectives down here to figure out which group was responsible for this butchery.";
 					Now the clueFlag is 1;
@@ -677,15 +686,15 @@ When Murder begins:
 		When Murder begins:
 			Now the desk is unlocked;
 		
-	The left desk drawer is a container.
-		The left desk drawer is in the Master Bedroom.
-		The left desk drawer is fixed in place.
-		The left desk drawer is closed.
+	The left drawer is a container.
+		The left drawer is in the Master Bedroom.
+		The left drawer is fixed in place.
+		The left drawer is closed.
 	
-	The right desk drawer is a container.
-		The right desk drawer is in the Master Bedroom.
-		The right desk drawer is fixed in place.
-		The right desk drawer is closed.
+	The right drawer is a container.
+		The right drawer is in the Master Bedroom.
+		The right drawer is fixed in place.
+		The right drawer is closed.
 	
 	The guy is a person.
 		The guy is in the Master Bedroom.
@@ -1197,10 +1206,10 @@ Instead of examining the desk:
 		if Investigation is the Current Scene
 		begin;
 			Say "You find a vial under some paperwork.";
-			if the discoveredStatus of the right desk drawer is "false"
+			if the discoveredStatus of the right drawer is "false"
 			begin;
 				Increase the clueCount by 3;
-				Now the discoveredStatus of the right desk drawer is "true";
+				Now the discoveredStatus of the right drawer is "true";
 			end if;
 		otherwise if Murder is the Current Scene;
 			Say "You have more important things to focus on right now.";
@@ -1213,13 +1222,13 @@ Before taking the vial:
 	begin;
 		Say "You shouldn't take evidence from an active crime scene.";
 	end if;
-Before inserting the vial into the left desk drawer:
+Before inserting the vial into the left drawer:
 	if Murder is the Current Scene
 	begin;
 		Say "You have more important things to focus on right now.";
 		Reject the Player's command;
 	end if;
-Before inserting the vial into the right desk drawer:
+Before inserting the vial into the right drawer:
 	if Murder is the Current Scene
 	begin;
 		Say "You have more important things to focus on right now.";
@@ -1252,18 +1261,18 @@ When Murder begins:
 	Now the desk is unlocked;
 
 [scale]
-Instead of examining the right desk drawer:
-	if the right desk drawer is closed
+Instead of examining the right drawer:
+	if the right drawer is closed
 	begin;
 		Say "The drawer is closed.";
 	otherwise;
 		if Investigation is the Current Scene
 		begin;
 			Say "You find a scale under some paperwork.";
-			if the discoveredStatus of the right desk drawer is "false"
+			if the discoveredStatus of the right drawer is "false"
 			begin;
 				Increase the clueCount by 1;
-				Now the discoveredStatus of the right desk drawer is "true";
+				Now the discoveredStatus of the right drawer is "true";
 			end if;
 		otherwise if Murder is the Current Scene;
 			Say "You have more important things to focus on right now.";
@@ -1276,13 +1285,13 @@ Before taking the scale:
 	begin;
 		Say "You shouldn't take evidence from an active crime scene.";
 	end if;
-Before inserting the scale into the left desk drawer:
+Before inserting the scale into the left drawer:
 	if Murder is the Current Scene
 	begin;
 		Say "You have more important things to focus on right now.";
 		Reject the Player's command;
 	end if;
-Before inserting the scale into the right desk drawer:
+Before inserting the scale into the right drawer:
 	if Murder is the Current Scene
 	begin;
 		Say "You have more important things to focus on right now.";
@@ -1294,37 +1303,37 @@ Before inserting the scale into the desk:
 		Say "You have more important things to focus on right now.";
 		Reject the Player's command;
 	end if;
-After inserting the scale into the right desk drawer:
+After inserting the scale into the right drawer:
 	if the stagedStatus of the scale is "false"
 	begin;
 		Increase the stageCount by 2;
 		Now the stagedStatus of the scale is "true";
 	end if;
-After removing the scale from the right desk drawer:
+After removing the scale from the right drawer:
 	if the stagedStatus of the scale is "true"
 	begin;
 		Decrease the stageCount by 2;
 		Now the stagedStatus of the scale is "false";
 	end if;
 When Investigation begins:
-	Now the scale is in the right desk drawer;
-	Now the right desk drawer is closed;
+	Now the scale is in the right drawer;
+	Now the right drawer is closed;
 When Murder begins:
-	Now the right desk drawer is closed;
+	Now the right drawer is closed;
 
 [needle]
-Instead of examining the left desk drawer:
-	if the left desk drawer is closed
+Instead of examining the left drawer:
+	if the left drawer is closed
 	begin;
 		Say "The drawer is closed.";
 	otherwise;
 		if Investigation is the Current Scene
 		begin;
 			Say "You find a needle under some paperwork.";
-			if the discoveredStatus of the left desk drawer is "false"
+			if the discoveredStatus of the left drawer is "false"
 			begin;
 				Increase the clueCount by 1;
-				Now the discoveredStatus of the left desk drawer is "true";
+				Now the discoveredStatus of the left drawer is "true";
 			end if;
 		otherwise if Murder is the Current Scene;
 			Say "You have more important things to focus on right now.";
@@ -1337,13 +1346,13 @@ Before taking the needle:
 	begin;
 		Say "You shouldn't take evidence from an active crime scene.";
 	end if;
-Before inserting the needle into the left desk drawer:
+Before inserting the needle into the left drawer:
 	if Murder is the Current Scene
 	begin;
 		Say "You have more important things to focus on right now.";
 		Reject the Player's command;
 	end if;
-Before inserting the needle into the right desk drawer:
+Before inserting the needle into the right drawer:
 	if Murder is the Current Scene
 	begin;
 		Say "You have more important things to focus on right now.";
@@ -1355,23 +1364,23 @@ Before inserting the needle into the desk:
 		Say "You have more important things to focus on right now.";
 		Reject the Player's command;
 	end if;
-After inserting the needle into the left desk drawer:
+After inserting the needle into the left drawer:
 	if the stagedStatus of the needle is "false"
 	begin;
 		Increase the stageCount by 2;
 		Now the stagedStatus of the needle is "true";
 	end if;
-After removing the needle from the left desk drawer:
+After removing the needle from the left drawer:
 	if the stagedStatus of the needle is "true"
 	begin;
 		Decrease the stageCount by 2;
 		Now the stagedStatus of the needle is "false";
 	end if;
 When Investigation begins:
-	Now the needle is in the left desk drawer;
-	Now the left desk drawer is closed;
+	Now the needle is in the left drawer;
+	Now the left drawer is closed;
 When Murder begins:
-	Now the left desk drawer is closed;
+	Now the left drawer is closed;
 
 																							
 								
