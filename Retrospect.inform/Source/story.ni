@@ -1,4 +1,4 @@
-[helpful links
+ [helpful links
 	-Action Syntax Guide: 		http://inform7.com/learn/documents/I7_syntax.txt
 	-Implied Object Structure: http://www.ifwiki.org/index.php/Inform_7_for_Programmers/Part_1
 ]
@@ -535,7 +535,6 @@ When Murder begins:
 		Understand "sofa" as the couch.
 		The couch is in the Living Room.
 		The description is "Just a couch".
-		After examining the couch, increase the score by 1.
 		Instead of taking the couch:
 			If Staging is the current scene
 			begin;
@@ -548,7 +547,6 @@ When Murder begins:
 		Understand "Television" as the TV.
 		The TV is in the Living Room.
 		The description is "An old television. It doesn't seem to be working".
-		After examining the TV, increase the score by 1.
 		
 	[Garage]
 	The hood is a thing.
@@ -573,6 +571,9 @@ When Murder begins:
 		The description is "A Toyota. Must be at least 20 years old".
 		The car is enterable.
 		The car is closed.
+		After examining the car for the first time:
+			Now the hood is in the Garage;
+			say "The hood of the car is slightly ajar.".
 		
 	The hand drill is a thing.
 		The description is "A common household tool.".
