@@ -156,7 +156,7 @@ The back door is a door.
 		begin;
 			Wait for any key;
 			Say "[if a random chance of 1 in 2 succeeds]*click*[otherwise]*clank*[end if][line break]";
-			if a random chance of 1 in 5 succeeds [this is the shittiest RND I've ever seen]
+			if a random chance of 1 in 5 succeeds [this is the best RND I've ever seen]
 			begin;
 				Say "Done.";
 				Now the back door is unlocked;
@@ -382,25 +382,25 @@ When Murder begins:
 			Say "You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in a front yard."
 		instead;
 		if the player is in the Living Room,
-			Say "Living Room description"
+			Say "Not many objects for a living room besides a couch and TV. The couch has some tears in it and parts of the wall are torn[if Investigation is the current scene]The couch seems to be positioned such that you could see the kitchen, garage door, and front door when you sit down.[otherwise]It would be hard to get through this room without being seen by someone sitting in the couch. You have a strange urge to avoid going between the couch and TV."
 		instead;
 		if the player is in the Garage,
-			Say "Garage description"
+			Say "A standard garage containing a car, some tools, and pipes. You notice some termite holes in the walls and ceiling.[if Murder is the current scene or Staging is the current scene]You immediately try to open the door, it's as if i you are used to it being locked."
 		instead;
 		if the player is in the Kitchen,
-			Say "Kitchen description"
+			Say "Your average kitchen with a refrigerator and refrigerator.[if Investigation is the current scene]You  can also see an old rusty dog bowl, but there are no other signs of a dog around here.[otherwise]You see a dog bowl, it's not too hard for you to beleive that it could serve as a bowl for a person. Maybe even a child."
 		instead;
 		if the player is in the Upstairs,
-			Say "Upstairs description"
+			Say "[if Investigation is the current scene]An average hallway with a few pictures hanging on the wall.[otherwise]You try to take a look at some of the pictures hanging on the wall. You clench your teeth looking at the man's smug grin. The child's face gives you a chill down your spine."
 		instead;
 		if the player is in the Back Yard,
-			Say "Back Yard description"
+			Say "You see a field of vibrant, unmowed grass surrounded by forest dense enough to shroud the yard from all other signs of civilization.  From there the house seems like a haven, hidden away from the rest of humanity."
 		instead;
 		if the player is in the Master Bedroom,
-			Say "Master Bedroom description"
+			Say "The large bed and desk are the only two significant furniture in here. [if Investigation is the current scene]Even working your whole life as P.I. you still can't get over the smell of dead corpes.[otherwise]The room feels small, or is that just you?"
 		instead;
 		if the player is in the Child's Bedroom,
-			Say "Child's Room description"
+			Say "[if Investigation is the current scene]There is a small bed and a bookshelf. No reason for any criminal activity in here.[otherwise]You look under the bed's pillow and see it's stained with blood. You shake your head and realize it's just your imagination."
 		instead;
 	[list scenery for further examination]
 	Instead of listing the surroundings:
