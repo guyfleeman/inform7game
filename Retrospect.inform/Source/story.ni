@@ -66,12 +66,18 @@ Tying is an action applying to two things.
 	
 [DEF ACTION OVERRIDES]
 Instead of taking something:
+	if Murder is the Current Scene
+	begin;
+		Say "You have a job to do. Now isn't the time.";
+	end if;
+	[
 	if Investigation is the Current Scene
 	begin;
 		Say "You shouldn't remove anything from an active crime scene.";
 	otherwise if Murder is the Current Scene;
 		Say "You have a job to do. Now isn't the time.";
 	end if;
+	]
 		
 	
 [DEF GLOBAL VARS]
@@ -204,6 +210,8 @@ The fence gate is a door.
 			if stageCount > stagingPassedCutoff
 			begin;
 				End the story;
+			otherwise;
+				Say "You aren't ready to leave yet. Perhaps you should stage some more clues.";
 			end if;
 		end if;
 
@@ -455,6 +463,8 @@ When Murder begins:
 					Say "You'd better keep looking for clues instead of chitchatting or the chief is gonna get pissed.";
 				end if;
 			end if;
+		When Murder begins:
+			Now the police officer is in the pond;
 	
 	The bushes are a container.
 		The bushes are in the Front Yard.
@@ -566,12 +576,16 @@ When Murder begins:
 	The keyring is a thing.
 		When Investigation begins:
 			Now the keyring is in the car;
+		Instead of taking the keyring:
+			Now the player has the keyring;
+			Say "You take the keyring.";
 
 	The car is a container.
 		The car is in the Garage.
 		The car is fixed in place.
 		The description is "A Toyota. Must be at least 20 years old".
 		The car is enterable.
+		The car is openable.
 		The car is closed.
 		
 	The hand drill is a thing.
@@ -689,15 +703,17 @@ When Murder begins:
 	The left drawer is a container.
 		The left drawer is in the Master Bedroom.
 		The left drawer is fixed in place.
+		The left drawer is openable.
 		The left drawer is closed.
 	
 	The right drawer is a container.
 		The right drawer is in the Master Bedroom.
 		The right drawer is fixed in place.
+		The right drawer is openable.
 		The right drawer is closed.
 	
 	The guy is a person.
-		The guy is in the Master Bedroom.
+		[The guy is in the Master Bedroom.]
 		The guy is fixed in place.
 		The deathStatus of the guy is "alive".
 		Instead of attacking the guy:
@@ -727,6 +743,12 @@ When Murder begins:
 			otherwise if Staging is the Current Scene;
 				Say "You couldn't talk before, why would you be able to do that now.";
 			end if;
+		When Investigation begins:
+			Now the guy is in the pond;
+		When Murder begins:
+			Now the guy is in the Master Bedroom;
+		When Staging begins:
+			Now the guy is in the pond;
 			
 	When Investigation begins:
 		Now the deathStatus of the guy is "dead";
@@ -969,7 +991,7 @@ The cabinets are a thing.
 		Now the cabinets are broken;
 	When Murder begins:
 		Now the cabinets are not broken;
-	Instead of destroying the cabinets:
+	Instead of attacking the cabinets:
 		if Investigation is the Current Scene
 		begin;
 			Say "No need to beat a dead horse.";
@@ -1004,7 +1026,7 @@ The drawers are a thing.
 		Now the drawers are broken;
 	When Murder begins:
 		Now the drawers are not broken;
-	Instead of destroying the drawers:
+	Instead of attacking the drawers:
 		if Investigation is the Current Scene
 		begin;
 			Say "No need to beat a dead horse.";
