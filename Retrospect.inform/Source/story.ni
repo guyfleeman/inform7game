@@ -5,10 +5,10 @@
 
 "Retrospect" by "GroopOfFore"
 
+Include Automap by Mark Tilford.
+Use automap static allocation.
 Include Basic Help Menu by Emily Short.
 Include Basic Screen Effects by Emily Short.
-
-After printing the banner text, say "[line break][line break]Another day, another crime to investigate. That's the life you chose as a detective. You've arrived at a house where a murder has taken place. The police are already here, but they've requested you to come and search for any clues that may help with the murder.".
 
 [DEF ABSTRACTIONS]
 
@@ -20,6 +20,8 @@ Destroying is an action applying to one thing.
 
 Being is an action applying to nothing.
 	Understand "be" as being.
+	Carry out being:
+		Say "Yup.".
 
 Using is an action applying to one thing.
 	Understand "use" as using.
@@ -213,7 +215,6 @@ The fence gate is a door.
 
 [DEF ROOM LOCATIONS]
 Living Room is north of front door.
-Garage is east of Living Room.
 Garage is west of Living Room.
 Kitchen is north of Living Room.
 Upstairs is above Kitchen.
