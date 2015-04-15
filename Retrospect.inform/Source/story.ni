@@ -8,7 +8,7 @@
 Include Basic Help Menu by Emily Short.
 Include Basic Screen Effects by Emily Short.
 
-After printing the banner text, say "[line break]Another day, another crime to investigate. That's the life you chose as a detective. You've arrived at a house where a murder has taken place. The police are already here, but they've requested you to come and search for any clues that may help with the murder.".
+After printing the banner text, say "[line break][line break]Another day, another crime to investigate. That's the life you chose as a detective. You've arrived at a house where a murder has taken place. The police are already here, but they've requested you to come and search for any clues that may help with the murder.".
 
 [DEF ABSTRACTIONS]
 
@@ -19,7 +19,7 @@ Destroying is an action applying to one thing.
 	Understand "annihilate" as destroying.
 
 Being is an action applying to nothing.
-	Understand "be" as being. Instead of being, end the story.
+	Understand "be" as being.
 
 Using is an action applying to one thing.
 	Understand "use" as using.
@@ -388,28 +388,28 @@ When Murder begins:
 		instead;
 	Instead of examining the surroundings:
 		if the player is in the Front Yard,
-			Say "You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in a front yard."
+			Say "You see an earthy house surrounded by a forest. There are several objects that would ordinarily belong in a front yard. You can see the front door to the house to the north."
 		instead;
 		if the player is in the Living Room,
-			Say "Not many objects for a living room besides a couch and TV. The couch has some tears in it and parts of the wall are torn[if Investigation is the current scene]The couch seems to be positioned such that you could see the kitchen, garage door, and front door when you sit down.[otherwise]It would be hard to get through this room without being seen by someone sitting in the couch. You have a strange urge to avoid going between the couch and TV."
+			Say "Not many objects for a living room besides a couch and TV. The couch has some tears in it and parts of the wall are torn[if Investigation is the current scene]The couch seems to be positioned such that you could see the kitchen, garage door, and front door when you sit down.[otherwise]It would be hard to get through this room without being seen by someone sitting in the couch. You have a strange urge to avoid going between the couch and TV. The front door of the house leading to the front yard is to the south. To the west is the garage and to the north is the kitchen."
 		instead;
 		if the player is in the Garage,
-			Say "A standard garage containing a car, some tools, and pipes. You notice some termite holes in the walls and ceiling.[if Murder is the current scene or Staging is the current scene]You immediately try to open the door, it's as if i you are used to it being locked."
+			Say "A standard garage containing a car, some tools, and pipes. You notice some termite holes in the walls and ceiling.[if Murder is the current scene or Staging is the current scene] You immediately try to open the door, it's as if you are used to it being locked.[end if] The living room is to the east."
 		instead;
 		if the player is in the Kitchen,
-			Say "Your average kitchen with a refrigerator and refrigerator.[if Investigation is the current scene]You can also see an old rusty dog bowl, but there are no other signs of a dog around here.[otherwise]You see a dog bowl, it's not too hard for you to beleive that it could serve as a bowl for a person. Maybe even a child.[end if] There are stairs leading upstairs and a living room to the south. To the north, the back door of the house separates you from the sunny outdoors."
+			Say "Your average kitchen with a refrigerator and refrigerator. There are stairs leading upstairs and a living room to the south. To the north, the back door of the house separates you from the sunny outdoors."
 		instead;
 		if the player is in the Upstairs,
-			Say "[if Investigation is the current scene]An average hallway with a few pictures hanging on the wall.[otherwise]You try to take a look at some of the pictures hanging on the wall. You clench your teeth looking at the man's smug grin. The child's face gives you a chill down your spine."
+			Say "[if Investigation is the current scene]An average hallway with a few pictures hanging on the wall.[otherwise]You try to take a look at some of the pictures hanging on the wall. You clench your teeth looking at the man's smug grin. The child's face gives you a chill down your spine.[end if] The kitchen is downstairs. The child's bedroom is to the south and the master bedroom is to the east."
 		instead;
 		if the player is in the Back Yard,
-			Say "You see a field of vibrant, unmowed grass surrounded by forest dense enough to shroud the yard from all other signs of civilization.  From there the house seems like a haven, hidden away from the rest of humanity."
+			Say "You see a field of vibrant, unmowed grass surrounded by forest dense enough to shroud the yard from all other signs of civilization.  From there the house seems like a haven, hidden away from the rest of humanity. To the south is the back door to the kitchen of the house."
 		instead;
 		if the player is in the Master Bedroom,
-			Say "The large bed and desk are the only two significant furniture in here. [if Investigation is the current scene]Even working your whole life as P.I. you still can't get over the smell of dead corpes.[otherwise]The room feels small, or is that just you?"
+			Say "The large bed and desk are the only two significant furniture in here. [if Investigation is the current scene]Even working your whole life as P.I. you still can't get over the smell of dead corpses.[otherwise]The room feels small, or is that just you? The upstairs hallway is to the west."
 		instead;
 		if the player is in the Child's Bedroom,
-			Say "[if Investigation is the current scene]There is a small bed and a bookshelf. No reason for any criminal activity in here.[otherwise]You look under the bed's pillow and see it's stained with blood. You shake your head and realize it's just your imagination."
+			Say "[if Investigation is the current scene]There is a small bed and a bookshelf. No reason for any criminal activity in here.[otherwise]You look under the bed's pillow and see it's stained with blood. You shake your head and realize it's just your imagination.[end if] The upstairs hallway is north of you."
 		instead;
 	[list scenery for further examination]
 	Instead of listing the surroundings:
