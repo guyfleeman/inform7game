@@ -396,7 +396,7 @@ When Murder begins:
 			Say "A standard garage containing a car, some tools, and pipes. You notice some termite holes in the walls and ceiling.[if Murder is the current scene or Staging is the current scene]You immediately try to open the door, it's as if i you are used to it being locked."
 		instead;
 		if the player is in the Kitchen,
-			Say "Your average kitchen with a refrigerator and refrigerator.[if Investigation is the current scene]You  can also see an old rusty dog bowl, but there are no other signs of a dog around here.[otherwise]You see a dog bowl, it's not too hard for you to beleive that it could serve as a bowl for a person. Maybe even a child."
+			Say "Your average kitchen with a refrigerator and refrigerator.[if Investigation is the current scene]You can also see an old rusty dog bowl, but there are no other signs of a dog around here.[otherwise]You see a dog bowl, it's not too hard for you to beleive that it could serve as a bowl for a person. Maybe even a child.[end if] There are stairs leading upstairs and a living room to the south. To the north, the back door of the house separates you from the sunny outdoors."
 		instead;
 		if the player is in the Upstairs,
 			Say "[if Investigation is the current scene]An average hallway with a few pictures hanging on the wall.[otherwise]You try to take a look at some of the pictures hanging on the wall. You clench your teeth looking at the man's smug grin. The child's face gives you a chill down your spine."
@@ -672,6 +672,7 @@ When Murder begins:
 			begin;
 				Say "You decide to swing on a swing. Unsurprisingly, it breaks under your weight. You give the other swing a try, and once again you fall to the ground.";
 				Now the swingset is broken;
+				Decrease score by 1;
 			otherwise;
 				Say "You already broke the swingset.";
 			end if;
