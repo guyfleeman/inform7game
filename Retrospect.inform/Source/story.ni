@@ -8,6 +8,8 @@
 Include Basic Help Menu by Emily Short.
 Include Basic Screen Effects by Emily Short.
 
+After printing the banner text, say "[line break]Another day, another crime to investigate. That's the life you chose as a detective. You've arrived at a house where a murder has taken place. The police are already here, but they've requested you to come and search for any clues that may help with the murder.".
+
 [DEF ABSTRACTIONS]
 
 [DEF ACTIONS]
@@ -16,8 +18,8 @@ Destroying is an action applying to one thing.
 	Understand "break" as destroying.
 	Understand "annihilate" as destroying.
 
-Being is an action applying to one thing.
-	Understand "be" as being.
+Being is an action applying to nothing.
+	Understand "be" as being. Instead of being, end the story.
 
 Using is an action applying to one thing.
 	Understand "use" as using.
@@ -69,6 +71,8 @@ Instead of taking something:
 	if Murder is the Current Scene
 	begin;
 		Say "You have a job to do. Now isn't the time.";
+	otherwise;
+		continue the action;
 	end if;
 	
 [DEF GLOBAL VARS]
@@ -88,10 +92,10 @@ The clueCount is 0.
 The investigationPassedCutoff is a number that varies.
 The investigationPassedCutoff is 7;
 
-The clueFlag is a number that varies.
+The clueFlag is a number that varies. [triggers murder scene]
 The clueFlag is 0.
 
-The deathFlag is a number that varies.
+The deathFlag is a number that varies. [triggers staging scene]
 The deathFlag is 0.
 
 [DEF PROPERTIES]
@@ -126,6 +130,7 @@ The Current Scene is Investigation.
 When Investigation ends:
 	Now the Current Scene is Murder;
 	Clear the screen;
+	Say "One day ago.[line break]You are now the murderer.";
 	
 When Murder begins:
 	Move the player to the Back Yard;
@@ -325,7 +330,6 @@ When Murder begins:
 		The back door is scenery.
 		The description is "The back door hangs on one hinge, its lock splintered. It swings slowly in the breeze, sometimes banging into the side of the house.".
 		
-		
 	The field is in the Back Yard.
 		The field is scenery.
 		The description is "The field is a display of vibrant, unmowed grass speckled with purple and yellow wildflowers. The landscape hazily reminds you of happier summers gone by.".
@@ -342,22 +346,13 @@ When Murder begins:
 	[Upstairs]
 	
 	[Master Bedroom]
-	The desk is a container.
-		The desk is in the Master Bedroom.
-		The desk is openable.
-	
+
 	[Child's Bedroom]
 	The window is in the Child's Bedroom.
 		The window is scenery.
 		The description is "A pine forest can be seen. Just past the edge of the forest, you can see a duck blind.".
 		
 [DEF OBJECTS]
-
-[DEF DEBUG]
-	The debugFlag is a number that varies.
-		The debugFlag is 1.
-	The tempScore is a number that varies.
-		The tempScore is 0.
 
 [dynamic surroundings
 		tracks the location/scope of the player and updates its position
@@ -366,6 +361,7 @@ When Murder begins:
 	The indefinite article is "some".
 	After deciding the scope of the player:
 		Place the surroundings in scope;
+		[Place the surroundings in scope.]
 		if the player is in the Front Yard,
 			Move the surroundings to the Front Yard
 		instead;
@@ -401,7 +397,7 @@ When Murder begins:
 			Say "A standard garage containing a car, some tools, and pipes. You notice some termite holes in the walls and ceiling.[if Murder is the current scene or Staging is the current scene]You immediately try to open the door, it's as if i you are used to it being locked."
 		instead;
 		if the player is in the Kitchen,
-			Say "Your average kitchen with a refrigerator and refrigerator.[if Investigation is the current scene]You  can also see an old rusty dog bowl, but there are no other signs of a dog around here.[otherwise]You see a dog bowl, it's not too hard for you to beleive that it could serve as a bowl for a person. Maybe even a child."
+			Say "Your average kitchen with a refrigerator and refrigerator.[if Investigation is the current scene]You can also see an old rusty dog bowl, but there are no other signs of a dog around here.[otherwise]You see a dog bowl, it's not too hard for you to beleive that it could serve as a bowl for a person. Maybe even a child.[end if] There are stairs leading upstairs and a living room to the south. To the north, the back door of the house separates you from the sunny outdoors."
 		instead;
 		if the player is in the Upstairs,
 			Say "[if Investigation is the current scene]An average hallway with a few pictures hanging on the wall.[otherwise]You try to take a look at some of the pictures hanging on the wall. You clench your teeth looking at the man's smug grin. The child's face gives you a chill down your spine."
@@ -443,7 +439,6 @@ When Murder begins:
 		instead;
 	Instead of taking the surroundings:
 		Do nothing.
-		
 	[Front Yard]	
 	The police officer is in the Front Yard.
 		The police officer is a person.
@@ -454,7 +449,7 @@ When Murder begins:
 			begin;
 				if clueCount > investigationPassedCutoff 
 				begin;
-					Say "Looks like this one is turning out to be pretty cut and dry. [if score > 4] Clearly t[otherwise]T[end if]his guy was offed by a local cartel. We'll get some more detectives down here to figure out which group was responsible for this butchery.";
+					Say "Looks like this one is turning out to be pretty cut and dry. [if score > 4] Clearly t[otherwise]T[end if]his guy was offed by a local cartel. We'll get some more detectives down here to figure out which group was responsible for this butchery. In the meantime, you should go see clues you can find.";
 					Now the clueFlag is 1;
 				otherwise;
 					Say "You'd better keep looking for clues instead of chitchatting or the chief is gonna get pissed.";
@@ -496,9 +491,6 @@ When Murder begins:
 			Say "The hose controls the nozzle.".
 		Instead of switching off the nozzle:
 			Say "The hose controls the nozzle.".
-		Instead of taking the nozzle:
-			Now the player has the nozzle;
-			Say "You take the nozzle.";
 		
 	The garden hose is a thing.
 		The garden hose is in the Front Yard.
@@ -568,7 +560,7 @@ When Murder begins:
 			say "You lift the hood open. Underneath, you find a small compartment filled with crystal meth.".
 		The description of crystal meth is "Crystal meth is a heavy drug. Worth a lot of money too.".
 		After examining the crystal meth:
-			increase the clueCount by 1.
+			increase the clueCount by 2.
 
 	The keyring is a thing.
 		When Investigation begins:
@@ -607,6 +599,11 @@ When Murder begins:
 		The power box is in the Garage.
 		The power box is fixed in place.
 		The power box can be broken or not broken.
+		After examining the power box for the first time:
+			if Investigation is the current scene
+			begin;
+				increase the clueCount by 2;
+			end if;
 		
 	When Investigation begins:	
 		Now the description of the power box is "It provides electricity to the house. It seems to have been smashed by something";
@@ -681,6 +678,7 @@ When Murder begins:
 			begin;
 				Say "You decide to swing on a swing. Unsurprisingly, it breaks under your weight. You give the other swing a try, and once again you fall to the ground.";
 				Now the swingset is broken;
+				Decrease score by 1;
 			otherwise;
 				Say "You already broke the swingset.";
 			end if;
@@ -691,7 +689,7 @@ When Murder begins:
 	[Master Bedroom]
 	The desk is a container.
 		The desk is in the Master Bedroom.
-		The description is "A wooden desk with drawers."
+		The description is "A wooden desk with left and right drawers."
 		The desk is fixed in place.
 		The desk is openable.
 		The desk is closed.
@@ -742,7 +740,7 @@ When Murder begins:
 			otherwise if Murder is the Current Scene;
 				Say "Despite your best efforts, you can't summon the courage to say something.";
 			otherwise if Staging is the Current Scene;
-				Say "You couldn't talk before, why would you be able to do that now.";
+				Say "You couldn't talk before, why would you be able to do that now?";
 			end if;
 			
 	When Investigation begins:
@@ -754,7 +752,7 @@ When Murder begins:
 		Now the guy is in the Master Bedroom;
 		
 	When staging begins:
-		Now the deathStatus of the guy is "dead";
+		Now the deathStatus of the guy is "dead"; [shouldn't he stay in the bedroom?]
 		Now the guy is in the pond;
 																			
 	[Child's Bedroom]
@@ -771,10 +769,13 @@ When Murder begins:
 		The alarm clock is fixed in place.
 		
 	The math textbook is a thing.
-		The description of the math textbook is "You flip through the textbook. There are some poorly drawn genitals on page 606."
+		The description of the math textbook is "You flip through the textbook. There are some poorly drawn genitals on page 606.".
 		Instead of reading the math textbook, say "Consider the function f(x) = 606. What kind of line would this make? Regardless of what values of x are inputed into the function, the only value of f(x) that ever comes out is 606. Therefore, this function would be graphed as a horizontal line, where each point on the line is at y = 606.".
 	The biology textbook is a thing.
+		The description of the biology textbook is "You see nothing interesting about the biology textbook. Since when has biology ever interested you?".
+		Instead of reading the biology textbook, say "Telomerase is an enzyme that exists in large amounts in regenerative cells."
 	The civics textbook is a thing.
+		The description of the civics textbook is "Ah. Another one of those books that pretends that our country is better than all the others.".
 	
 	The backpack is a container.
 		The backpack is in the Child's Bedroom.
@@ -1400,9 +1401,10 @@ When Investigation begins:
 	Now the needle is in the left drawer;
 	Now the left drawer is closed;
 When Murder begins:
-	Now the left drawer is closed.
+	Now the left drawer is closed;
 
-							
+																							
+								
 
 	
 	
