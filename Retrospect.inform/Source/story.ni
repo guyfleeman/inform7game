@@ -353,6 +353,12 @@ When Murder begins:
 		
 [DEF OBJECTS]
 
+[DEF DEBUG]
+	The debugFlag is a number that varies.
+		The debugFlag is 1.
+	The tempScore is a number that varies.
+		The tempScore is 0.
+
 [dynamic surroundings
 		tracks the location/scope of the player and updates its position
 		allowing the government to always 'examine surroundings'.]
@@ -360,7 +366,6 @@ When Murder begins:
 	The indefinite article is "some".
 	After deciding the scope of the player:
 		Place the surroundings in scope;
-		[Place the surroundings in scope.]
 		if the player is in the Front Yard,
 			Move the surroundings to the Front Yard
 		instead;
@@ -438,6 +443,7 @@ When Murder begins:
 		instead;
 	Instead of taking the surroundings:
 		Do nothing.
+		
 	[Front Yard]	
 	The police officer is in the Front Yard.
 		The police officer is a person.
@@ -490,6 +496,9 @@ When Murder begins:
 			Say "The hose controls the nozzle.".
 		Instead of switching off the nozzle:
 			Say "The hose controls the nozzle.".
+		Instead of taking the nozzle:
+			Now the player has the nozzle;
+			Say "You take the nozzle.";
 		
 	The garden hose is a thing.
 		The garden hose is in the Front Yard.
@@ -1391,10 +1400,9 @@ When Investigation begins:
 	Now the needle is in the left drawer;
 	Now the left drawer is closed;
 When Murder begins:
-	Now the left drawer is closed;
+	Now the left drawer is closed.
 
-																							
-								
+							
 
 	
 	
