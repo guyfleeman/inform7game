@@ -87,13 +87,13 @@ The stageCount is a number that varies.
 The stageCount is 0.
 
 The stagingPassedCutoff is a number that varies.
-The stagingPassedCutoff is 7;
+The stagingPassedCutoff is 3;
 
 The clueCount is a number that varies.
 The clueCount is 0.
 
 The investigationPassedCutoff is a number that varies.
-The investigationPassedCutoff is 7;
+The investigationPassedCutoff is 3;
 
 The clueFlag is a number that varies. [triggers murder scene]
 The clueFlag is 0.
@@ -451,7 +451,8 @@ When Murder begins:
 			begin;
 				if clueCount > investigationPassedCutoff 
 				begin;
-					Say "Looks like this one is turning out to be pretty cut and dry. [if score > 4] Clearly t[otherwise]T[end if]his guy was offed by a local cartel. We'll get some more detectives down here to figure out which group was responsible for this butchery. In the meantime, you should go see clues you can find.";
+					Say "Looks like this one is turning out to be pretty cut and dry. [if score > 4] Clearly t[otherwise]T[end if]his guy was offed by a local cartel. We'll get some more detectives down here to figure out which group was responsible for this butchery. Press any key to continue...";
+					Wait for any key;
 					Now the clueFlag is 1;
 				otherwise;
 					Say "You'd better keep looking for clues instead of chitchatting or the chief is gonna get pissed.";
