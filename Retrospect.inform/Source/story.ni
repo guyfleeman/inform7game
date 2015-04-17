@@ -10,6 +10,7 @@ Use automap static allocation.
 Include Basic Help Menu by Emily Short.
 Include Basic Screen Effects by Emily Short.
 
+After printing the banner text, say "[line break][line break]Another day, another crime to investigate. That's the life you chose as a detective. You've arrived at a house where a murder has taken place. The police are already here, but they've requested you to come and search for any clues that may help with the murder.".
 [DEF ABSTRACTIONS]
 
 [DEF ACTIONS]
@@ -753,8 +754,9 @@ When Murder begins:
 		Now the guy is in the Master Bedroom;
 		
 	When staging begins:
-		Now the deathStatus of the guy is "dead"; [shouldn't he stay in the bedroom?]
+		Now the deathStatus of the guy is "dead";
 		Now the guy is in the pond;
+		Say "Now you need to stage everything to make it look like he was killed by a drug cartel.";
 																			
 	[Child's Bedroom]
 	The child's bed is a thing.
